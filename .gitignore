@@ -9,3 +9,4 @@ backend/data/thumbnails/
 # Dev/exploration scripts — never commit real credentials
 backend/test-s3.js
 explore-s3.js
+.claude/
