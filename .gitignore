@@ -1,0 +1,11 @@
+node_modules/
+backend/.env
+backend/data/videos/
+backend/data/reel-temp/
+backend/data/thumbnails/
+*.mp4
+*.mp3
+
+# Dev/exploration scripts — never commit real credentials
+backend/test-s3.js
+explore-s3.js

@@ -1,0 +1,59 @@
+[
+  {
+    "id": "kiss-framework",
+    "title": "The KISS Framework",
+    "subtitle": "Simplicity as the Ultimate Strategy",
+    "description": "A practical guide to stripping complexity from systems, teams, and decisions — so execution becomes effortless.",
+    "coverColor": "#6750A4",
+    "coverAccent": "#E8DEF8",
+    "visible": true,
+    "chapters": [
+      {
+        "id": "ch1",
+        "number": 1,
+        "title": "The Paradox of Simplicity",
+        "summary": "Why the things we think make us look smart are often what slow us down.",
+        "baseContent": "There is a deeply seductive myth in professional life: that complexity signals expertise. The more intricate your system, the more processes your team follows, the more nuanced your strategy — the more serious you must be. This myth is costing organisations billions of dollars and millions of hours every year.\n\nThe KISS principle — Keep It Simple — is not a new idea. It has roots in engineering, military strategy, design, and philosophy. And yet, in practice, it remains one of the hardest principles to actually follow. Because simplicity requires courage. It requires you to cut features, remove processes, say no to clever ideas, and resist the urge to demonstrate sophistication.\n\nConsider how complexity enters organisations. It almost never arrives through one dramatic decision. Instead, it accumulates quietly — one extra approval step here, one additional reporting layer there, a feature added to avoid a difficult conversation with a stakeholder. Each addition seems reasonable in isolation. Collectively, they create systems so tangled that even the people who built them cannot explain them.\n\nThe paradox is this: the organisations that move fastest are almost always the ones that have ruthlessly simplified. They have fewer metrics, cleaner architectures, shorter meetings, and more direct communication. Their people understand the goal without needing a 40-slide deck to explain it.\n\nSimplicity is not the absence of thought — it is the presence of extreme clarity. It is the result of working harder to understand what actually matters, and having the discipline to ignore everything else. The chapters ahead will show you exactly how to apply this to your systems, your team, and your decisions."
+      },
+      {
+        "id": "ch2",
+        "number": 2,
+        "title": "Noise vs Signal",
+        "summary": "How to identify the 1% of information that drives 99% of outcomes.",
+        "baseContent": "Every day, professionals are buried under an avalanche of data, messages, reports, and requests. Most of it is noise. The critical skill of our era is not gathering more information — it is knowing which information actually changes decisions.\n\nSignal is the data point that shifts your understanding of what to do next. Noise is everything else. The challenge is that noise often dresses itself up as signal. A busy dashboard full of metrics can feel productive. A long report with detailed analysis can feel thorough. But if none of it changes the decision you were going to make anyway, it is noise.\n\nThe 1% framework is a practical tool for cutting through this. For any major decision, ask yourself: what is the single piece of information that, if it changed, would change my decision? That is your signal. Everything else is context at best, distraction at worst.\n\nThis applies equally to engineering systems. A well-designed system surfaces the one or two metrics that tell you whether it is healthy. Everything else is accessible on demand, not pushed to the surface. Teams that monitor fifty metrics are usually less responsive than teams that monitor five — because when everything is important, nothing is.\n\nThe discipline of noise distillation is not about being ignorant of complexity. It is about having a clear model of what drives outcomes in your domain, and focusing your attention there. Build that model. Revisit it regularly. And have the confidence to ignore the rest."
+      },
+      {
+        "id": "ch3",
+        "number": 3,
+        "title": "Tactical Deceleration",
+        "summary": "Why slowing down strategically is how you move faster overall.",
+        "baseContent": "In a culture obsessed with speed, the most counterintuitive leadership move is to slow down. Not permanently — tactically. Tactical deceleration is the deliberate choice to pause, consolidate, and rebuild before pushing for the next phase of growth.\n\nThe pattern is familiar to anyone who has scaled a product or organisation. In the early days, speed is everything. You build fast, ship fast, learn fast. But as the system grows, the accumulated shortcuts — the technical debt, the undocumented processes, the informal communication channels — begin to drag on velocity. What once took a day now takes a week. Teams spend more time managing complexity than creating value.\n\nThe instinctive response is to push harder. Hire more people, run more sprints, add more tooling. This rarely works. More people navigating a tangled system means more coordination overhead, not more output. The sustainable response is tactical deceleration: a defined period where the team stops adding new features and focuses entirely on reducing complexity.\n\nThis is not a retreat. It is an investment. Organisations that build this rhythm — periods of rapid building followed by deliberate consolidation — consistently outperform those that push at 100% all the time. They accumulate less debt, their people are less burnt out, and their systems remain comprehensible as they scale.\n\nThe leader's job during tactical deceleration is to protect the team from external pressure. Stakeholders will want new features. Business metrics may plateau. The temptation to resume building will be strong. The leader must hold the line, communicate clearly why this matters, and trust that the consolidation will pay dividends in the cycles ahead."
+      }
+    ]
+  },
+  {
+    "id": "engineering-leadership",
+    "title": "Engineering Leadership in the AI Age",
+    "subtitle": "Leading Technical Teams Through Transformation",
+    "description": "How engineering leaders can navigate the shift to AI-augmented development — without losing their teams or their minds.",
+    "coverColor": "#1B5E20",
+    "coverAccent": "#C8E6C9",
+    "visible": true,
+    "chapters": [
+      {
+        "id": "ch1",
+        "number": 1,
+        "title": "The Changing Contract",
+        "summary": "What engineering leadership meant before AI — and what it means now.",
+        "baseContent": "For most of the last three decades, engineering leadership was built on a relatively stable contract. The leader had deep technical expertise. They had been through the wars — they had debugged production systems at 3am, they had made the architectural calls that others could not, they had earned authority through demonstrated mastery. The team trusted their judgement because they had seen it validated repeatedly.\n\nAI is disrupting this contract in ways that are only beginning to become visible. When a junior engineer with access to powerful AI tools can produce code that would have taken a senior engineer days, the traditional markers of expertise start to blur. When architectural patterns can be generated in minutes rather than designed over weeks, the value of accumulated knowledge shifts.\n\nThis does not mean engineering leadership becomes less important — quite the opposite. But the nature of what matters changes significantly. The leaders who will thrive in the AI age are not those who know the most syntax or who have memorised the most design patterns. They are the ones who can define clear problems, evaluate solutions critically, make good judgements under uncertainty, and create the conditions for their teams to work effectively.\n\nThe contract is shifting from knowing to deciding. From technical authority to contextual clarity. From being the smartest person in the room to being the most effective shaper of the room. This chapter, and the ones that follow, are about how to make that transition deliberately — before the market forces you to make it reactively."
+      },
+      {
+        "id": "ch2",
+        "number": 2,
+        "title": "Context is the New Code",
+        "summary": "Why the quality of your team's shared understanding determines the quality of their output.",
+        "baseContent": "There is a concept in distributed systems called context propagation — the mechanism by which relevant information travels through a system so that each component can make informed decisions. When context propagation breaks down, components act on incomplete information and the system produces inconsistent results.\n\nThe same phenomenon plays out in engineering teams. When context is poor — when team members do not understand why they are building what they are building, what tradeoffs have already been made, what the user actually needs — the quality of their work degrades regardless of their individual skill level. They optimise for the wrong things. They build features that conflict with each other. They make architectural decisions that seem locally sensible but are globally incoherent.\n\nIn the AI age, this problem is amplified. AI tools can generate code extremely quickly. But the code they generate reflects the quality of the prompt and context they receive. A team with poor shared context will produce poor AI-augmented output at high speed — which is worse than producing poor output slowly, because the cost of the mistakes compounds.\n\nBuilding excellent shared context is therefore one of the highest-leverage activities an engineering leader can invest in. This means clear problem definitions, documented decision logs, explicit architectural principles, and regular alignment rituals. Not bureaucracy — but the deliberate investment in making sure that everyone working on a system has access to the same mental model of what the system is trying to do and why.\n\nThe leader who obsesses over context quality will see their team's AI-augmented output improve dramatically. The leader who ignores it will find themselves managing an increasingly fast-moving mess."
+      }
+    ]
+  }
+]

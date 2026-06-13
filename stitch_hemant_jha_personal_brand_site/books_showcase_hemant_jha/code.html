@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+
+<html class="scroll-smooth" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Books | Hemant Jha - Keep It Simple Synthesis</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&amp;family=Inter:wght@400;600;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+        body {
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+        }
+        .editorial-shadow {
+            box-shadow: 0 4px 30px rgba(5, 17, 37, 0.04);
+        }
+        .chat-panel-shadow {
+            box-shadow: 0 20px 50px rgba(0, 18, 36, 0.15);
+        }
+    </style>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    "colors": {
+                        "surface": "#f8f9fa",
+                        "tertiary": "#001224",
+                        "on-secondary-fixed-variant": "#5b430f",
+                        "on-tertiary": "#ffffff",
+                        "tertiary-fixed": "#d1e4ff",
+                        "primary-fixed-dim": "#bbc6e2",
+                        "on-tertiary-fixed-variant": "#2f4865",
+                        "on-background": "#191c1d",
+                        "surface-dim": "#d9dadb",
+                        "on-secondary-fixed": "#261900",
+                        "inverse-primary": "#bbc6e2",
+                        "error": "#ba1a1a",
+                        "background": "#f8f9fa",
+                        "on-secondary": "#ffffff",
+                        "outline-variant": "#c5c6cd",
+                        "secondary-container": "#fdd896",
+                        "tertiary-fixed-dim": "#afc9ea",
+                        "on-tertiary-container": "#768fae",
+                        "surface-bright": "#f8f9fa",
+                        "outline": "#75777d",
+                        "primary": "#051125",
+                        "tertiary-container": "#0a2742",
+                        "primary-fixed": "#d7e2ff",
+                        "on-surface": "#191c1d",
+                        "primary-container": "#1b263b",
+                        "on-primary-fixed": "#101b30",
+                        "surface-container-lowest": "#ffffff",
+                        "on-error": "#ffffff",
+                        "inverse-on-surface": "#f0f1f2",
+                        "inverse-surface": "#2e3132",
+                        "secondary-fixed-dim": "#e5c282",
+                        "on-primary-container": "#828da7",
+                        "on-error-container": "#93000a",
+                        "secondary-fixed": "#ffdea5",
+                        "on-secondary-container": "#775d27",
+                        "surface-variant": "#e1e3e4",
+                        "surface-container-low": "#f3f4f5",
+                        "on-primary-fixed-variant": "#3c475d",
+                        "surface-container-high": "#e7e8e9",
+                        "surface-container": "#edeeef",
+                        "surface-container-highest": "#e1e3e4",
+                        "on-surface-variant": "#45474d",
+                        "error-container": "#ffdad6",
+                        "secondary": "#755a25",
+                        "on-tertiary-fixed": "#001d36",
+                        "on-primary": "#ffffff",
+                        "surface-tint": "#545e76"
+                    },
+                    "borderRadius": {
+                        "DEFAULT": "0.125rem",
+                        "lg": "0.25rem",
+                        "xl": "0.5rem",
+                        "full": "0.75rem"
+                    },
+                    "spacing": {
+                        "gutter": "32px",
+                        "margin-mobile": "20px",
+                        "unit": "8px",
+                        "section-gap": "120px",
+                        "container-max": "1120px",
+                        "margin-desktop": "64px"
+                    },
+                    "fontFamily": {
+                        "headline-lg-mobile": ["Playfair Display"],
+                        "display-lg": ["Playfair Display"],
+                        "display-lg-mobile": ["Playfair Display"],
+                        "quote": ["Playfair Display"],
+                        "headline-lg": ["Playfair Display"],
+                        "body-lg": ["Inter"],
+                        "headline-md": ["Playfair Display"],
+                        "body-md": ["Inter"],
+                        "label-md": ["Inter"]
+                    },
+                    "fontSize": {
+                        "headline-lg-mobile": ["32px", { "lineHeight": "1.3", "fontWeight": "600" }],
+                        "display-lg": ["64px", { "lineHeight": "1.1", "letterSpacing": "-0.02em", "fontWeight": "700" }],
+                        "display-lg-mobile": ["40px", { "lineHeight": "1.2", "fontWeight": "700" }],
+                        "quote": ["28px", { "lineHeight": "1.5", "fontWeight": "400" }],
+                        "headline-lg": ["48px", { "lineHeight": "1.2", "fontWeight": "600" }],
+                        "body-lg": ["20px", { "lineHeight": "1.7", "fontWeight": "400" }],
+                        "headline-md": ["32px", { "lineHeight": "1.3", "fontWeight": "600" }],
+                        "body-md": ["16px", { "lineHeight": "1.6", "fontWeight": "400" }],
+                        "label-md": ["14px", { "lineHeight": "1.2", "letterSpacing": "0.05em", "fontWeight": "600" }]
+                    }
+                },
+            },
+        }
+    </script>
+</head>
+<body class="bg-background text-on-surface selection:bg-secondary-fixed-dim selection:text-on-secondary-fixed">
+<!-- TopNavBar -->
+<nav class="fixed top-0 w-full z-50 bg-surface/80 dark:bg-surface/80 backdrop-blur-md border-b border-outline-variant/30 shadow-sm opacity-4">
+<div class="flex justify-between items-center h-20 px-6 md:px-margin-desktop max-w-container-max mx-auto">
+<a class="font-headline-md text-headline-md font-bold text-primary dark:text-primary-fixed cursor-pointer transition-all duration-300" href="#">
+            Hemant Jha
+        </a>
+<div class="hidden md:flex items-center space-x-8">
+<a class="font-label-md text-label-md text-on-surface-variant dark:text-on-surface-variant hover:text-primary dark:hover:text-primary-fixed transition-colors cursor-pointer" href="#">Articles</a>
+<a class="font-label-md text-label-md text-primary dark:text-primary-fixed border-b-2 border-secondary font-bold pb-1 cursor-pointer" href="#">Books</a>
+<a class="font-label-md text-label-md text-on-surface-variant dark:text-on-surface-variant hover:text-primary dark:hover:text-primary-fixed transition-colors cursor-pointer" href="#">Reels</a>
+<button class="bg-primary text-on-primary px-6 py-2 rounded font-label-md text-label-md hover:opacity-80 transition-opacity cursor-pointer" onclick="toggleChat()">Chat</button>
+</div>
+<!-- Mobile Menu Toggle -->
+<button class="md:hidden text-primary">
+<span class="material-symbols-outlined">menu</span>
+</button>
+</div>
+</nav>
+<main class="pt-20">
+<!-- Hero Banner: KISS Philosophy -->
+<section class="relative min-h-[70vh] flex items-center bg-surface-container-lowest overflow-hidden">
+<!-- Decorative Elements -->
+<div class="absolute top-0 right-0 w-1/2 h-full bg-surface-container-low opacity-40 skew-x-12 translate-x-1/4"></div>
+<div class="container max-w-container-max mx-auto px-6 md:px-margin-desktop relative z-10 py-section-gap">
+<div class="max-w-3xl">
+<span class="font-label-md text-label-md text-secondary uppercase tracking-[0.2em] mb-6 block">Philosophy &amp; Strategy</span>
+<h1 class="font-display-lg-mobile md:font-display-lg text-display-lg-mobile md:text-display-lg text-primary mb-8">
+                    Keep It Simple Synthesis
+                </h1>
+<p class="font-body-lg text-body-lg text-on-surface-variant mb-12 leading-relaxed">
+                    The art of clarity in a complex world. We don't need more information; we need better synthesis. My KISS framework distills intricate professional strategies into actionable wisdom.
+                </p>
+<div class="flex flex-col sm:flex-row gap-6">
+<a class="inline-block bg-primary text-on-primary px-10 py-4 font-label-md text-label-md text-center hover:opacity-90 transition-all editorial-shadow" href="#book-grid">View the Library</a>
+<div class="flex items-center gap-4 text-on-surface-variant">
+<div class="w-12 h-[1px] bg-outline-variant"></div>
+<span class="font-label-md text-label-md italic">A New Standard in Thought Leadership</span>
+</div>
+</div>
+</div>
+</div>
+<!-- Side Floating Visual -->
+<div class="hidden lg:block absolute right-margin-desktop top-1/2 -translate-y-1/2 w-1/3">
+<div class="relative group">
+<div class="absolute inset-0 bg-secondary/5 blur-3xl rounded-full scale-150 group-hover:scale-125 transition-transform duration-1000"></div>
+<img alt="Keep It Simple Synthesis Book Cover" class="relative z-10 editorial-shadow rounded-sm transform -rotate-3 hover:rotate-0 transition-transform duration-700" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCiTYFTaUOZ5Tg6RjxwfDCFd9_ngl5BiQrYGNUXmMrts16Z0_erFDyGlnYpdbp-Uyw1XBMpXDdjdnIBF8qrEZIf95COXGSkvvSyX3vzESkSDzQyaAT76vLteDXlj4lOZJckZcHBlmFpZ-mLO9z7_yMlJ3xDsk9CzowNONX2LQXb3uFMv86lVEQE_PAcInepm-FdBTHYUIEN0DYrUeBm1WIW6RXhOR0ozwgMN-bbF5XjWqPAbzuHs6Aw5NtyolLZYGfDnmBKf7Y33xIl"/>
+</div>
+</div>
+</section>
+<!-- Book Grid Section -->
+<section class="py-section-gap bg-surface" id="book-grid">
+<div class="container max-w-container-max mx-auto px-6 md:px-margin-desktop">
+<div class="flex flex-col md:flex-row justify-between items-end mb-20 gap-8">
+<div class="max-w-xl">
+<h2 class="font-headline-lg-mobile md:font-headline-lg text-headline-lg-mobile md:text-headline-lg text-primary mb-4">The KISS Library</h2>
+<p class="font-body-md text-body-md text-on-surface-variant">Curated intellectual tools designed for high-performance leaders and strategic thinkers. Each volume focuses on a singular pillar of modern synthesis.</p>
+</div>
+<div class="flex items-center space-x-4">
+<span class="font-label-md text-label-md text-on-surface-variant italic">Filter by</span>
+<select class="bg-transparent border-0 border-b border-primary font-label-md text-label-md py-1 pr-8 focus:ring-0 focus:border-secondary cursor-pointer">
+<option>All Volumes</option>
+<option>Strategy</option>
+<option>Leadership</option>
+<option>Productivity</option>
+</select>
+</div>
+</div>
+<!-- Bento-inspired Asymmetric Grid -->
+<div class="grid grid-cols-1 md:grid-cols-12 gap-gutter">
+<!-- Main Feature Card -->
+<div class="md:col-span-8 group bg-surface-container-lowest overflow-hidden transition-all duration-500 hover:shadow-xl hover:-translate-y-1">
+<div class="flex flex-col lg:flex-row h-full">
+<div class="lg:w-1/2 overflow-hidden bg-surface-container-high relative">
+<img class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" data-alt="Close up of a premium book cover with minimalist typography, showcasing the texture of the high-quality paper. The lighting is soft and directional, highlighting the clean charcoal and navy design elements against a crisp white background. Professional, intellectual, and high-end aesthetic reflecting a prestigious publication style." src="https://lh3.googleusercontent.com/aida-public/AB6AXuCiTYFTaUOZ5Tg6RjxwfDCFd9_ngl5BiQrYGNUXmMrts16Z0_erFDyGlnYpdbp-Uyw1XBMpXDdjdnIBF8qrEZIf95COXGSkvvSyX3vzESkSDzQyaAT76vLteDXlj4lOZJckZcHBlmFpZ-mLO9z7_yMlJ3xDsk9CzowNONX2LQXb3uFMv86lVEQE_PAcInepm-FdBTHYUIEN0DYrUeBm1WIW6RXhOR0ozwgMN-bbF5XjWqPAbzuHs6Aw5NtyolLZYGfDnmBKf7Y33xIl"/>
+<div class="absolute top-6 left-6 bg-primary text-on-primary font-label-md text-[10px] px-3 py-1 tracking-widest uppercase">Best Seller</div>
+</div>
+<div class="lg:w-1/2 p-10 flex flex-col justify-center">
+<h3 class="font-headline-md text-headline-md text-primary mb-4">Volume I: The Foundation</h3>
+<p class="font-body-md text-body-md text-on-surface-variant mb-8">Master the primary mechanics of information filtering and mental modeling to navigate noise.</p>
+<div class="flex flex-wrap gap-4 mt-auto"><a class="text-secondary font-label-md text-label-md hover:underline decoration-2 underline-offset-4" href="#">Read More</a></div>
+</div>
+</div>
+</div>
+<!-- Secondary Card 1 -->
+<div class="md:col-span-4 group bg-surface-container-lowest p-8 flex flex-col transition-all duration-500 hover:shadow-xl hover:-translate-y-1">
+<div class="aspect-[3/4] mb-8 bg-surface-container-low overflow-hidden relative">
+<img class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105 grayscale opacity-80" data-alt="Elegant 3D book mockup titled KISS Volume II. The design is refined and minimalist, featuring soft grey and silver typography on a subtle off-white background. The lighting is cold and modern, emphasizing the sophisticated architectural lines of the book's construction within a clean, high-end studio setting." src="https://lh3.googleusercontent.com/aida-public/AB6AXuCiTYFTaUOZ5Tg6RjxwfDCFd9_ngl5BiQrYGNUXmMrts16Z0_erFDyGlnYpdbp-Uyw1XBMpXDdjdnIBF8qrEZIf95COXGSkvvSyX3vzESkSDzQyaAT76vLteDXlj4lOZJckZcHBlmFpZ-mLO9z7_yMlJ3xDsk9CzowNONX2LQXb3uFMv86lVEQE_PAcInepm-FdBTHYUIEN0DYrUeBm1WIW6RXhOR0ozwgMN-bbF5XjWqPAbzuHs6Aw5NtyolLZYGfDnmBKf7Y33xIl"/>
+</div>
+<h3 class="font-headline-md text-headline-md text-primary mb-3">Volume II: Execution</h3>
+<p class="font-body-md text-body-md text-on-surface-variant mb-8">Turning strategic synthesis into high-impact operational results without friction.</p>
+<div class="mt-auto border-t border-outline-variant pt-6 justify-between items-center"><a class="text-secondary font-label-md text-label-md hover:underline decoration-2 underline-offset-4" href="#">About this Book</a></div>
+</div>
+<!-- Secondary Card 2 -->
+<div class="md:col-span-4 group bg-surface-container-lowest p-8 flex flex-col transition-all duration-500 hover:shadow-xl hover:-translate-y-1">
+<div class="aspect-[3/4] mb-8 bg-surface-container-low overflow-hidden relative">
+<img class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105 contrast-125" data-alt="A premium publication cover titled KISS Volume III: Leadership. The visual style is highly graphic and minimalist, using bold navy blue shapes and thin muted gold lines. Set in a bright, ethereal environment that feels like a modern gallery, the overall mood is one of quiet power and intellectual authority." src="https://lh3.googleusercontent.com/aida-public/AB6AXuCiTYFTaUOZ5Tg6RjxwfDCFd9_ngl5BiQrYGNUXmMrts16Z0_erFDyGlnYpdbp-Uyw1XBMpXDdjdnIBF8qrEZIf95COXGSkvvSyX3vzESkSDzQyaAT76vLteDXlj4lOZJckZcHBlmFpZ-mLO9z7_yMlJ3xDsk9CzowNONX2LQXb3uFMv86lVEQE_PAcInepm-FdBTHYUIEN0DYrUeBm1WIW6RXhOR0ozwgMN-bbF5XjWqPAbzuHs6Aw5NtyolLZYGfDnmBKf7Y33xIl"/>
+</div>
+<h3 class="font-headline-md text-headline-md text-primary mb-3">Volume III: Leadership</h3>
+<p class="font-body-md text-body-md text-on-surface-variant mb-8">Communicating complex visions with the simplicity that inspires global teams.</p>
+<div class="mt-auto border-t border-outline-variant pt-6 justify-between items-center"><a class="text-secondary font-label-md text-label-md hover:underline decoration-2 underline-offset-4" href="#">About this Book</a></div>
+</div>
+<!-- Quote Card (Newsletter/Social) -->
+<div class="md:col-span-8 bg-tertiary text-on-tertiary p-12 flex flex-col justify-center items-center text-center relative overflow-hidden">
+<!-- Abstract Pattern -->
+<div class="absolute inset-0 opacity-10 pointer-events-none">
+<div class="absolute -top-24 -left-24 w-64 h-64 border border-on-tertiary rounded-full"></div>
+<div class="absolute -bottom-12 -right-12 w-96 h-96 border border-on-tertiary rounded-full"></div>
+</div>
+<span class="material-symbols-outlined text-secondary-fixed text-4xl mb-6">format_quote</span>
+<blockquote class="font-quote text-quote mb-8 max-w-2xl">
+                        "Simplicity is the ultimate sophistication. In an age of complexity, synthesis is the only competitive advantage."
+                    </blockquote>
+<div class="h-px w-16 bg-secondary-fixed-dim mb-6"></div>
+<p class="font-label-md text-label-md tracking-widest uppercase">The KISS Manifesto</p>
+</div>
+</div>
+</div>
+</section>
+<!-- Newsletter / Footer Call to Action -->
+<section class="py-section-gap bg-surface-container-high border-y border-outline-variant/30">
+<div class="container max-w-container-max mx-auto px-6 md:px-margin-desktop text-center">
+<h2 class="font-headline-lg-mobile md:font-headline-lg text-headline-lg-mobile md:text-headline-lg text-primary mb-6">Join the Synthesis Circle</h2>
+<p class="font-body-md text-body-md text-on-surface-variant mb-12 max-w-2xl mx-auto">Receive monthly distillations on strategy, philosophy, and the art of simple thinking directly in your inbox.</p>
+<form class="max-w-md mx-auto flex flex-col sm:flex-row gap-0 group">
+<input class="flex-grow bg-surface border-0 border-b-2 border-primary py-4 px-6 focus:ring-0 focus:border-secondary transition-colors outline-none font-body-md" placeholder="Email address" type="email"/>
+<button class="bg-primary text-on-primary px-8 py-4 font-label-md text-label-md hover:opacity-90 transition-opacity" type="submit">Subscribe</button>
+</form>
+</div>
+</section>
+</main>
+<!-- Footer -->
+<footer class="w-full py-section-gap bg-tertiary dark:bg-tertiary">
+<div class="grid grid-cols-1 md:grid-cols-3 gap-gutter px-6 md:px-margin-desktop max-w-container-max mx-auto">
+<div class="space-y-6">
+<a class="font-headline-md text-headline-md text-on-tertiary block" href="#">Hemant Jha</a>
+<p class="font-body-md text-body-md text-tertiary-fixed-dim max-w-xs">
+                Synthesizing complex worlds into clear strategies for the modern leader.
+            </p>
+</div>
+<div class="grid grid-cols-2 gap-8">
+<div class="flex flex-col space-y-4">
+<span class="font-label-md text-label-md text-on-tertiary uppercase tracking-widest mb-2">Content</span>
+<a class="font-body-md text-body-md text-tertiary-fixed-dim hover:text-on-tertiary transition-colors" href="#">Articles</a>
+<a class="font-body-md text-body-md text-secondary-fixed font-bold" href="#">Books</a>
+<a class="font-body-md text-body-md text-tertiary-fixed-dim hover:text-on-tertiary transition-colors" href="#">Reels</a>
+</div>
+<div class="flex flex-col space-y-4">
+<span class="font-label-md text-label-md text-on-tertiary uppercase tracking-widest mb-2">Legal</span>
+<a class="font-body-md text-body-md text-tertiary-fixed-dim hover:text-on-tertiary transition-colors" href="#">Privacy Policy</a>
+<a class="font-body-md text-body-md text-tertiary-fixed-dim hover:text-on-tertiary transition-colors" href="#">Terms</a>
+</div>
+</div>
+<div class="flex flex-col items-start md:items-end justify-between">
+<div class="flex space-x-6 mb-8 md:mb-0">
+<a class="text-tertiary-fixed-dim hover:text-secondary-fixed transition-colors" href="#">
+<svg class="w-6 h-6 fill-current" viewbox="0 0 24 24"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"></path></svg>
+</a>
+<a class="text-tertiary-fixed-dim hover:text-secondary-fixed transition-colors" href="#">
+<svg class="w-6 h-6 fill-current" viewbox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"></path></svg>
+</a>
+</div>
+<div class="font-body-md text-body-md text-tertiary-fixed-dim text-sm">
+                © 2024 Hemant Jha. All rights reserved.
+            </div>
+</div>
+</div>
+</footer>
+<!-- AI Chat Assistant UI -->
+<div class="fixed bottom-6 right-6 z-[60] flex flex-col items-end">
+<!-- Chat Panel -->
+<div class="hidden w-[360px] md:w-[400px] h-[500px] bg-surface-container-lowest flex flex-col chat-panel-shadow mb-4 border border-outline-variant/50 overflow-hidden transform transition-all duration-300 origin-bottom-right scale-95 opacity-0" id="chat-panel">
+<!-- Header -->
+<div class="p-6 bg-primary text-on-primary flex justify-between items-center">
+<div>
+<h4 class="font-headline-md text-[20px] leading-none mb-1">Synthesis AI</h4>
+<p class="font-label-md text-[10px] tracking-widest uppercase opacity-70">Focus: KISS Framework</p>
+</div>
+<button class="hover:opacity-60 transition-opacity" onclick="toggleChat()">
+<span class="material-symbols-outlined">close</span>
+</button>
+</div>
+<!-- Messages -->
+<div class="flex-grow overflow-y-auto p-6 space-y-6 font-body-md text-body-md scroll-smooth" id="chat-messages">
+<div class="flex flex-col items-start max-w-[85%]">
+<div class="bg-surface-container-high p-4 rounded-lg rounded-tl-none">
+<p class="text-on-surface">Greetings. I am an AI trained on Hemant's KISS philosophy. How can I help you synthesize complexity today?</p>
+</div>
+<span class="text-[10px] uppercase font-label-md mt-2 text-on-surface-variant/60">Assistant</span>
+</div>
+</div>
+<!-- Input Area -->
+<div class="p-6 border-t border-outline-variant/30">
+<form class="relative flex items-center" id="chat-form" onsubmit="handleChatSubmit(event)">
+<input class="w-full bg-transparent border-0 border-b-2 border-primary py-2 pr-10 focus:ring-0 focus:border-secondary transition-colors outline-none font-body-md placeholder:text-on-surface-variant/40" id="chat-input" placeholder="Ask about the KISS series..." type="text"/>
+<button class="absolute right-0 text-primary hover:text-secondary transition-colors" type="submit">
+<span class="material-symbols-outlined">send</span>
+</button>
+</form>
+</div>
+</div>
+<!-- Toggle Button -->
+<button class="flex items-center gap-3 bg-primary text-on-primary px-6 py-4 rounded shadow-xl hover:scale-105 transition-all duration-300 group" onclick="toggleChat()">
+<span class="material-symbols-outlined group-hover:rotate-12 transition-transform">smart_toy</span>
+<span class="font-label-md text-label-md">Ask Me</span>
+</button>
+</div>
+<script>
+    // Micro-interactions and subtle scroll effects
+    document.addEventListener('DOMContentLoaded', () => {
+        const observerOptions = {
+            threshold: 0.1
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('opacity-100', 'translate-y-0');
+                    entry.target.classList.remove('opacity-0', 'translate-y-10');
+                }
+            });
+        }, observerOptions);
+
+        document.querySelectorAll('#book-grid > div > div').forEach(card => {
+            card.classList.add('transition-all', 'duration-700', 'opacity-0', 'translate-y-10');
+            observer.observe(card);
+        });
+    });
+
+    // Chat Functionality
+    function toggleChat() {
+        const panel = document.getElementById('chat-panel');
+        if (panel.classList.contains('hidden')) {
+            panel.classList.remove('hidden');
+            setTimeout(() => {
+                panel.classList.add('scale-100', 'opacity-100');
+                panel.classList.remove('scale-95', 'opacity-0');
+            }, 10);
+        } else {
+            panel.classList.add('scale-95', 'opacity-0');
+            panel.classList.remove('scale-100', 'opacity-100');
+            setTimeout(() => {
+                panel.classList.add('hidden');
+            }, 300);
+        }
+    }
+
+    function handleChatSubmit(event) {
+        event.preventDefault();
+        const input = document.getElementById('chat-input');
+        const messagesContainer = document.getElementById('chat-messages');
+        const query = input.value.trim();
+        
+        if (!query) return;
+
+        // Add user message
+        const userMsg = document.createElement('div');
+        userMsg.className = 'flex flex-col items-end max-w-[85%] self-end ml-auto';
+        userMsg.innerHTML = `
+            <div class="bg-primary text-on-primary p-4 rounded-lg rounded-tr-none">
+                <p>${query}</p>
+            </div>
+            <span class="text-[10px] uppercase font-label-md mt-2 text-on-surface-variant/60">You</span>
+        `;
+        messagesContainer.appendChild(userMsg);
+        input.value = '';
+        
+        // Auto scroll
+        messagesContainer.scrollTop = messagesContainer.scrollHeight;
+
+        // Simulate AI thinking and response
+        setTimeout(() => {
+            const aiMsg = document.createElement('div');
+            aiMsg.className = 'flex flex-col items-start max-w-[85%] animate-pulse';
+            aiMsg.innerHTML = `
+                <div class="bg-surface-container-high p-4 rounded-lg rounded-tl-none">
+                    <p class="text-on-surface italic">Synthesizing response...</p>
+                </div>
+            `;
+            messagesContainer.appendChild(aiMsg);
+            messagesContainer.scrollTop = messagesContainer.scrollHeight;
+
+            setTimeout(() => {
+                aiMsg.classList.remove('animate-pulse');
+                aiMsg.innerHTML = `
+                    <div class="bg-surface-container-high p-4 rounded-lg rounded-tl-none">
+                        <p class="text-on-surface">In the context of Hemant's KISS philosophy, "${query}" can be distilled into the core principle of strategic clarity. Volume I: The Foundation explores how to filter this specific noise.</p>
+                    </div>
+                    <span class="text-[10px] uppercase font-label-md mt-2 text-on-surface-variant/60">Assistant</span>
+                `;
+                messagesContainer.scrollTop = messagesContainer.scrollHeight;
+            }, 1000);
+        }, 500);
+    }
+</script>
+</body></html>

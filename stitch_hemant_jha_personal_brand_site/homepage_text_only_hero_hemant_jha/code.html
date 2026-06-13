@@ -1,0 +1,427 @@
+<!DOCTYPE html><html class="scroll-smooth" lang="en" style=""><head>
+<meta charset="utf-8">
+<meta content="width=device-width, initial-scale=1.0" name="viewport">
+<title>Hemant Jha | Distilling complexity into clarity</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&amp;family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet">
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            "colors": {
+                    "surface": "#f8f9fa",
+                    "tertiary": "#001224",
+                    "on-secondary-fixed-variant": "#5b430f",
+                    "on-tertiary": "#ffffff",
+                    "tertiary-fixed": "#d1e4ff",
+                    "primary-fixed-dim": "#bbc6e2",
+                    "on-tertiary-fixed-variant": "#2f4865",
+                    "on-background": "#191c1d",
+                    "surface-dim": "#d9dadb",
+                    "on-secondary-fixed": "#261900",
+                    "inverse-primary": "#bbc6e2",
+                    "error": "#ba1a1a",
+                    "background": "#f8f9fa",
+                    "on-secondary": "#ffffff",
+                    "outline-variant": "#c5c6cd",
+                    "secondary-container": "#fdd896",
+                    "tertiary-fixed-dim": "#afc9ea",
+                    "on-tertiary-container": "#768fae",
+                    "surface-bright": "#f8f9fa",
+                    "outline": "#75777d",
+                    "primary": "#051125",
+                    "tertiary-container": "#0a2742",
+                    "primary-fixed": "#d7e2ff",
+                    "on-surface": "#191c1d",
+                    "primary-container": "#1b263b",
+                    "on-primary-fixed": "#101b30",
+                    "surface-container-lowest": "#ffffff",
+                    "on-error": "#ffffff",
+                    "inverse-on-surface": "#f0f1f2",
+                    "inverse-surface": "#2e3132",
+                    "secondary-fixed-dim": "#e5c282",
+                    "on-primary-container": "#828da7",
+                    "on-error-container": "#93000a",
+                    "secondary-fixed": "#ffdea5",
+                    "on-secondary-container": "#775d27",
+                    "surface-variant": "#e1e3e4",
+                    "surface-container-low": "#f3f4f5",
+                    "on-primary-fixed-variant": "#3c475d",
+                    "surface-container-high": "#e7e8e9",
+                    "surface-container": "#edeeef",
+                    "surface-container-highest": "#e1e3e4",
+                    "on-surface-variant": "#45474d",
+                    "error-container": "#ffdad6",
+                    "secondary": "#755a25",
+                    "on-tertiary-fixed": "#001d36",
+                    "on-primary": "#ffffff",
+                    "surface-tint": "#545e76"
+            },
+            "borderRadius": {
+                    "DEFAULT": "0.125rem",
+                    "lg": "0.25rem",
+                    "xl": "0.5rem",
+                    "full": "0.75rem"
+            },
+            "spacing": {
+                    "gutter": "32px",
+                    "margin-mobile": "20px",
+                    "unit": "8px",
+                    "section-gap": "120px",
+                    "container-max": "1120px",
+                    "margin-desktop": "64px"
+            },
+            "fontFamily": {
+                    "headline-lg-mobile": ["Playfair Display"],
+                    "display-lg": ["Playfair Display"],
+                    "display-lg-mobile": ["Playfair Display"],
+                    "quote": ["Playfair Display"],
+                    "headline-lg": ["Playfair Display"],
+                    "body-lg": ["Inter"],
+                    "headline-md": ["Playfair Display"],
+                    "body-md": ["Inter"],
+                    "label-md": ["Inter"]
+            },
+            "fontSize": {
+                    "headline-lg-mobile": ["32px", {"lineHeight": "1.3", "fontWeight": "600"}],
+                    "display-lg": ["64px", {"lineHeight": "1.1", "letterSpacing": "-0.02em", "fontWeight": "700"}],
+                    "display-lg-mobile": ["40px", {"lineHeight": "1.2", "fontWeight": "700"}],
+                    "quote": ["28px", {"lineHeight": "1.5", "fontWeight": "400"}],
+                    "headline-lg": ["48px", {"lineHeight": "1.2", "fontWeight": "600"}],
+                    "body-lg": ["20px", {"lineHeight": "1.7", "fontWeight": "400"}],
+                    "headline-md": ["32px", {"lineHeight": "1.3", "fontWeight": "600"}],
+                    "body-md": ["16px", {"lineHeight": "1.6", "fontWeight": "400"}],
+                    "label-md": ["14px", {"lineHeight": "1.2", "letterSpacing": "0.05em", "fontWeight": "600"}]
+            }
+          },
+        },
+      }
+    </script>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+        .editorial-shadow {
+            box-shadow: 0 4px 20px -4px rgba(5, 17, 37, 0.04);
+        }
+        .reveal {
+            opacity: 0;
+            transform: translateY(20px);
+            transition: all 0.8s ease-out;
+        }
+        .reveal.active {
+            opacity: 1;
+            transform: translateY(0);
+        }
+        #chat-panel {
+            transition: transform 0.4s cubic-bezier(0.165, 0.84, 0.44, 1), opacity 0.3s ease;
+        }
+        #chat-panel.hidden-panel {
+            transform: translateY(20px) scale(0.95);
+            opacity: 0;
+            pointer-events: none;
+        }
+    </style>
+</head>
+<body class="bg-surface text-on-surface selection:bg-secondary-fixed selection:text-on-secondary-fixed">
+<!-- TopNavBar -->
+<header class="fixed top-0 w-full z-50 bg-surface/80 dark:bg-surface/80 backdrop-blur-md border-b border-outline-variant/30 shadow-sm transition-all duration-300">
+<nav class="flex justify-between items-center h-20 px-margin-mobile md:px-margin-desktop max-w-container-max mx-auto">
+<div class="font-headline-md text-headline-md font-bold text-primary dark:text-primary-fixed cursor-pointer transition-all duration-300 hover:opacity-80">
+            Hemant Jha
+        </div>
+<!-- Desktop Links -->
+<div class="hidden md:flex items-center gap-10">
+<a class="font-label-md text-label-md text-on-surface-variant hover:text-primary transition-colors cursor-pointer" href="#">Articles</a>
+<a class="font-label-md text-label-md text-on-surface-variant hover:text-primary transition-colors cursor-pointer" href="#">Books</a>
+<a class="font-label-md text-label-md text-on-surface-variant hover:text-primary transition-colors cursor-pointer" href="#">Reels</a>
+<button class="bg-primary text-on-primary px-6 py-2 rounded-full font-label-md text-label-md hover:opacity-90 transition-all duration-300" onclick="toggleChat()">
+                Chat
+            </button>
+</div>
+<!-- Mobile Menu Toggle -->
+<button class="md:hidden text-primary" id="mobile-menu-btn">
+<span class="material-symbols-outlined">menu</span>
+</button>
+</nav>
+</header>
+<main class="pt-20">
+<!-- Hero Section: Text-Only Editorial -->
+<section class="min-h-[70vh] flex flex-col justify-center max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop py-24 md:py-32">
+<div class="max-w-4xl space-y-10 reveal active">
+<h1 class="font-display-lg-mobile md:font-display-lg text-display-lg-mobile md:text-display-lg text-primary leading-[1.1]">
+                Hemant Jha. <br>
+<span class="italic font-normal">Distilling complexity</span> into clarity.
+            </h1>
+<p class="font-body-lg text-body-lg text-on-surface-variant max-w-2xl leading-relaxed">Systems engineer, strategist, and author dedicated to refining the noise of modern business into actionable wisdom.
+            </p>
+<div class="pt-8 flex flex-wrap items-center gap-8">
+<button class="bg-primary text-on-primary px-10 py-5 rounded-lg font-label-md text-label-md hover:scale-[1.02] transition-transform editorial-shadow">
+                    Explore Insights
+                </button>
+<a class="text-secondary border-b-2 border-secondary/30 hover:border-secondary transition-colors font-label-md text-label-md py-1" href="#">
+                    View Portfolio
+                </a>
+</div>
+</div>
+</section>
+<!-- About Section -->
+<section class="bg-surface-container-lowest py-section-gap">
+<div class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop grid md:grid-cols-12 gap-gutter">
+<div class="md:col-span-4 reveal active">
+<span class="font-label-md text-label-md text-secondary uppercase tracking-widest">The Philosophy</span>
+<h2 class="font-headline-lg text-headline-lg text-primary mt-4">Engineering Clarity in a Complex World</h2>
+</div>
+<div class="md:col-span-7 md:col-start-6 space-y-8 reveal delay-100 active">
+<p class="font-body-lg text-body-lg text-on-surface-variant leading-relaxed">
+                    In an era defined by information overflow, Hemant Jha stands as a beacon of intellectual discipline. As an author and strategist, his work focuses on the intersection of systems thinking and human intuition. 
+                </p>
+<p class="font-body-lg text-body-lg text-on-surface-variant leading-relaxed">
+                    His publications serve as fundamental guides for global executives, distilling decades of industry evolution into clear, ethical frameworks for decision-making. Hemant believes that true leadership is found in the spaces between the data—the quiet clarity that follows rigorous analysis.
+                </p>
+<div class="flex gap-12 pt-8 border-t border-outline-variant/30">
+<div>
+<div class="font-headline-md text-headline-md text-primary">15+</div>
+<div class="font-label-md text-label-md text-on-surface-variant">Global Keynotes</div>
+</div>
+<div>
+<div class="font-headline-md text-headline-md text-primary">03</div>
+<div class="font-label-md text-label-md text-on-surface-variant">Best-selling Books</div>
+</div>
+<div>
+<div class="font-headline-md text-headline-md text-primary">500k+</div>
+<div class="font-label-md text-label-md text-on-surface-variant">Readers Monthly</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Latest Articles (Editorial Grid) -->
+<section class="py-section-gap">
+<div class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop">
+<div class="flex justify-between items-end mb-16">
+<div class="reveal active">
+<span class="font-label-md text-label-md text-secondary uppercase tracking-widest">Recent Writing</span>
+<h2 class="font-headline-lg text-headline-lg text-primary mt-4">Editorial Insights</h2>
+</div>
+<a class="font-label-md text-label-md text-primary group flex items-center gap-2 reveal delay-100 active" href="#">
+                    View All Articles <span class="material-symbols-outlined transition-transform group-hover:translate-x-1">arrow_forward</span>
+</a>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-12">
+<!-- Article Card 1 -->
+<article class="group cursor-pointer reveal active">
+<div class="aspect-video bg-surface-container overflow-hidden rounded-lg mb-6">
+<img alt="The Architecture of Stillness in Rapid Growth" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" src="https://lh3.googleusercontent.com/aida-public/AB6AXuClMdqbYE2pBTarR6lopy3ZUVRkQuz-0_GSjfBOW0mXOyKwbtQWNSbTTQiLcMv4gn8UGsi8KoSL-PyrHW2b2NTVWV7V4p8O4WxhmhNTHFHX5MafAwEXZAH5Mp30pHgG1wIuHQ88ZpgowWBGnpsdkeqdvseTBkAtLMVVCTCvzhRVyMyQQw3ZExt07bpBdmSA_KhKLXSkoJ5QMieRpZ-lm0g2|nVXVYiGvsSv-cZSqvB99Jv5YT2uYPGi41Uvb7fAzANxwsX4QMJkBWFPBD">
+</div>
+<span class="font-label-md text-label-md text-secondary">Leadership • Oct 2024</span>
+<h3 class="font-headline-md text-headline-md text-primary mt-2 group-hover:text-secondary transition-colors">The Architecture of Stillness in Rapid Growth</h3>
+<p class="font-body-md text-body-md text-on-surface-variant mt-4 line-clamp-2">How top-tier leaders maintain strategic focus during hyper-scaling phases through the lens of cognitive load theory.</p>
+</article>
+<!-- Article Card 2 -->
+<article class="group cursor-pointer reveal delay-100 active">
+<div class="aspect-video bg-surface-container overflow-hidden rounded-lg mb-6">
+<img alt="Ethical Paradigms in Autonomous Systems" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" src="https://lh3.googleusercontent.com/aida-public/AB6AXuC-9g5Hn0hAwgbDA90hB0Fa2MpSQh_uBezeyqTn0Jnwgv8ZA_CTyQ7RfGWyLpzEZnVgSjZ23irpgSJTAvl25fOWtrJmoKWEGKHdTL1RpHrnLuN4-dUWHY9IosfyJgUh42N8u2ZAUC9IaPn9vrcOmt9sieHdCfPQRMJ9-leajVQFq-OC5Hz1fCjx5AnByd88tF7WtbD8cfpw6b26W57Kawd4V9dLw0P6OT4Nf5EiNRjckac1hSPDkZQirRHPXmWu2O-jgJdND3nirkOq">
+</div>
+<span class="font-label-md text-label-md text-secondary">Ethics • Sep 2024</span>
+<h3 class="font-headline-md text-headline-md text-primary mt-2 group-hover:text-secondary transition-colors">Ethical Paradigms in Autonomous Systems</h3>
+<p class="font-body-md text-body-md text-on-surface-variant mt-4 line-clamp-2">Navigating the gray areas of AI integration without sacrificing corporate integrity or human agency.</p>
+</article>
+<!-- Article Card 3 -->
+<article class="group cursor-pointer reveal delay-200 active">
+<div class="aspect-video bg-surface-container overflow-hidden rounded-lg mb-6">
+<img alt="Distilling Noise: The Art of Essentialist Strategy" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" src="https://lh3.googleusercontent.com/aida-public/AB6AXuA90hN3YMaqO2-Hn9WyIBbogzHxLTxE1D9rVqfpjxbss8yeHbV5Aog1NHasBwtjOQs1ThSSvOz8UfyFCHJA0apxOEBxFuD_SHy-VZEnh7n6F_OeAIvGTKlupWG88CWnQLgfZp5Sa63gUHOSMOH73pyX9OY9kSunrsLX5tpkC2aGixbmsKlUCrTnyok8bMgkMNwzEPj5ts_n3_Tc3pkViYrYl0XCC4acBLnPsEnOKeWPkHqps83VjaJjlQ9fAslLHEHV9De5lAV54xMC">
+</div>
+<span class="font-label-md text-label-md text-secondary">Strategy • Aug 2024</span>
+<h3 class="font-headline-md text-headline-md text-primary mt-2 group-hover:text-secondary transition-colors">Distilling Noise: The Art of Essentialist Strategy</h3>
+<p class="font-body-md text-body-md text-on-surface-variant mt-4 line-clamp-2">A masterclass on identifying the 1% of data that actually dictates 99% of organizational outcomes.</p>
+</article>
+</div>
+</div>
+</section>
+<!-- Newsletter Section -->
+<section class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop pb-section-gap">
+<div class="bg-primary-container rounded-xl p-12 md:p-20 text-center reveal active">
+<span class="font-label-md text-label-md text-secondary-fixed uppercase tracking-widest">Bi-Weekly Dispatch</span>
+<h2 class="font-headline-lg text-headline-lg text-on-tertiary mt-6 mb-8 max-w-2xl mx-auto">Deep insights delivered to your inbox, without the clutter.</h2>
+<form class="max-w-md mx-auto flex flex-col md:flex-row gap-4">
+<input class="flex-1 bg-transparent border-b border-on-primary-container text-on-tertiary focus:border-secondary transition-colors px-4 py-3 outline-none font-body-md text-body-md" placeholder="Email address" type="email">
+<button class="bg-secondary-fixed text-on-secondary-fixed px-8 py-3 rounded font-label-md text-label-md hover:bg-secondary-fixed-dim transition-colors">Subscribe</button>
+</form>
+<p class="font-label-md text-label-md text-on-primary-container mt-6">Zero spam. Only distillation. Unsubscribe anytime.</p>
+</div>
+</section>
+</main>
+<!-- Footer -->
+<footer class="bg-tertiary text-on-tertiary w-full py-section-gap">
+<div class="grid grid-cols-1 md:grid-cols-3 gap-gutter px-margin-mobile md:px-margin-desktop max-w-container-max mx-auto">
+<div>
+<div class="font-headline-md text-headline-md text-on-tertiary font-bold mb-6">Hemant Jha</div>
+<p class="font-body-md text-body-md text-tertiary-fixed-dim max-w-xs mb-8">
+                Author and strategist helping modern leaders find clarity in complex systems.
+            </p>
+<div class="flex gap-4">
+<a class="w-10 h-10 flex items-center justify-center rounded-full border border-tertiary-fixed-dim/20 hover:border-secondary-fixed transition-colors" href="#">
+<span class="material-symbols-outlined text-[18px]">public</span>
+</a>
+<a class="w-10 h-10 flex items-center justify-center rounded-full border border-tertiary-fixed-dim/20 hover:border-secondary-fixed transition-colors" href="#">
+<span class="material-symbols-outlined text-[18px]">chat</span>
+</a>
+</div>
+</div>
+<div class="grid grid-cols-2 gap-8 md:col-span-2">
+<div>
+<h4 class="font-label-md text-label-md text-secondary-fixed uppercase mb-6">Navigation</h4>
+<ul class="space-y-4">
+<li class=""><a class="font-body-md text-body-md text-tertiary-fixed-dim hover:text-on-tertiary transition-colors" href="#">Articles</a></li>
+<li class=""><a class="font-body-md text-body-md text-tertiary-fixed-dim hover:text-on-tertiary transition-colors" href="#">Books</a></li>
+<li class=""><a class="font-body-md text-body-md text-tertiary-fixed-dim hover:text-on-tertiary transition-colors" href="#">Reels</a></li>
+</ul>
+</div>
+<div>
+<h4 class="font-label-md text-label-md text-secondary-fixed uppercase mb-6">Legal</h4>
+<ul class="space-y-4">
+<li class=""><a class="font-body-md text-body-md text-tertiary-fixed-dim hover:text-on-tertiary transition-colors" href="#">Privacy Policy</a></li>
+<li class=""><a class="font-body-md text-body-md text-tertiary-fixed-dim hover:text-on-tertiary transition-colors" href="#">Terms</a></li>
+</ul>
+</div>
+</div>
+</div>
+<div class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop mt-20 pt-8 border-t border-tertiary-fixed-dim/10">
+<p class="font-body-md text-body-md text-tertiary-fixed-dim opacity-60">
+            © 2026 Hemant Jha. All rights reserved.
+        </p>
+</div>
+</footer>
+<!-- Chat UI -->
+<div class="fixed bottom-8 right-8 z-[100] flex flex-col items-end gap-4">
+<!-- Chat Panel -->
+<div class="hidden-panel w-[350px] md:w-[400px] h-[500px] bg-white rounded-xl shadow-2xl flex flex-col overflow-hidden border border-outline-variant/30" id="chat-panel">
+<!-- Header -->
+<div class="bg-primary-container p-6 text-white">
+<div class="flex justify-between items-start">
+<div>
+<h3 class="font-headline-md text-[20px] leading-tight">Hemant Jha Assistant</h3>
+<p class="font-body-md text-sm text-on-primary-container/80 mt-1">Ask me about my work, books, or ideas.</p>
+</div>
+<button class="text-white/60 hover:text-white" onclick="toggleChat()">
+<span class="material-symbols-outlined text-[20px]">close</span>
+</button>
+</div>
+</div>
+<!-- Messages Area -->
+<div class="flex-1 overflow-y-auto p-6 space-y-4 bg-surface" id="chat-messages">
+<div class="flex justify-start">
+<div class="max-w-[85%] bg-surface-container text-on-surface-variant p-4 rounded-xl rounded-tl-none font-body-md text-sm">
+                    Hello. I am Hemant's digital assistant. How can I help you find clarity today?
+                </div>
+</div>
+</div>
+<!-- Input Area -->
+<div class="p-4 bg-white border-t border-outline-variant/30 flex gap-2 items-center">
+<input class="flex-1 bg-surface border-none rounded-lg px-4 py-2 font-body-md text-sm focus:ring-1 focus:ring-primary outline-none" id="chat-input" placeholder="Type your question..." type="text">
+<button class="w-10 h-10 bg-primary text-white rounded-lg flex items-center justify-center hover:opacity-90 transition-opacity" id="send-btn">
+<span class="material-symbols-outlined text-[18px]">send</span>
+</button>
+</div>
+</div>
+<!-- Floating Toggle Button -->
+<button class="bg-primary text-on-primary px-6 py-4 rounded-full flex items-center gap-3 shadow-lg hover:scale-105 transition-all duration-300 editorial-shadow group" onclick="toggleChat()">
+<span class="material-symbols-outlined group-hover:rotate-12 transition-transform">chat_bubble</span>
+<span class="font-label-md text-label-md">Ask Me</span>
+</button>
+</div>
+<!-- AI Context Meta -->
+<script id="ai-context" type="application/json">
+{
+  "role": "Assistant to Hemant Jha",
+  "identity": "You are Hemant Jha's assistant. Hemant is a thought leader, strategist, and author of the KISS — Keep It Simple Synthesis book series. Answer questions about his work, books, and ideas in a concise, professional tone."
+}
+</script>
+<script>
+    // Reveal animation on scroll
+    const observerOptions = {
+        threshold: 0.1
+    };
+
+    const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                entry.target.classList.add('active');
+            }
+        });
+    }, observerOptions);
+
+    document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
+
+    // Mobile Menu Toggle
+    const mobileBtn = document.getElementById('mobile-menu-btn');
+    mobileBtn.addEventListener('click', () => {
+        alert('Mobile navigation is under refinement for premium experience.');
+    });
+
+    // Smooth header shrinking
+    window.addEventListener('scroll', () => {
+        const header = document.querySelector('header');
+        if (window.scrollY > 50) {
+            header.classList.add('h-16');
+            header.classList.remove('h-20');
+        } else {
+            header.classList.add('h-20');
+            header.classList.remove('h-16');
+        }
+    });
+
+    // Chat Functionality
+    const chatPanel = document.getElementById('chat-panel');
+    const chatInput = document.getElementById('chat-input');
+    const sendBtn = document.getElementById('send-btn');
+    const chatMessages = document.getElementById('chat-messages');
+
+    function toggleChat() {
+        chatPanel.classList.toggle('hidden-panel');
+        if (!chatPanel.classList.contains('hidden-panel')) {
+            chatInput.focus();
+        }
+    }
+
+    function addMessage(text, isUser = false) {
+        const msgDiv = document.createElement('div');
+        msgDiv.className = `flex ${isUser ? 'justify-end' : 'justify-start'}`;
+        
+        const innerDiv = document.createElement('div');
+        innerDiv.className = `max-w-[85%] p-4 rounded-xl font-body-md text-sm ${
+            isUser 
+            ? 'bg-primary text-white rounded-tr-none' 
+            : 'bg-surface-container text-on-surface-variant rounded-tl-none'
+        }`;
+        innerDiv.textContent = text;
+        
+        msgDiv.appendChild(innerDiv);
+        chatMessages.appendChild(msgDiv);
+        chatMessages.scrollTop = chatMessages.scrollHeight;
+    }
+
+    function handleSend() {
+        const text = chatInput.value.trim();
+        if (text) {
+            addMessage(text, true);
+            chatInput.value = '';
+            
+            // Simulated AI Response
+            setTimeout(() => {
+                addMessage("Thank you for your question. As Hemant's assistant, I'm processing your inquiry about his synthesis frameworks. For now, please know that his work emphasizes distilling complexity into clarity.");
+            }, 1000);
+        }
+    }
+
+    sendBtn.addEventListener('click', handleSend);
+    chatInput.addEventListener('keypress', (e) => {
+        if (e.key === 'Enter') handleSend();
+    });
+</script>
+
+
+</body></html>

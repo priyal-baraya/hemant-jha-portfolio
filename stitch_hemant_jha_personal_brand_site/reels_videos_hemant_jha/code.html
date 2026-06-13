@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+
+<html class="scroll-smooth" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&amp;family=Inter:wght@400;600;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+            display: inline-block;
+            line-height: 1;
+            text-transform: none;
+            letter-spacing: normal;
+            word-wrap: normal;
+            white-space: nowrap;
+            direction: ltr;
+        }
+        .video-card-hover:hover .play-overlay {
+            opacity: 1;
+        }
+        .toggle-transition {
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+        .active-tab-glow {
+            box-shadow: 0 0 20px rgba(5, 17, 37, 0.05);
+        }
+        .chat-panel-transition {
+            transition: transform 0.4s cubic-bezier(0.4, 0, 0.2, 1), opacity 0.3s ease;
+        }
+    </style>
+<script id="tailwind-config">
+        tailwind.config = {
+          darkMode: "class",
+          theme: {
+            extend: {
+              "colors": {
+                      "surface": "#f8f9fa",
+                      "tertiary": "#001224",
+                      "on-secondary-fixed-variant": "#5b430f",
+                      "on-tertiary": "#ffffff",
+                      "tertiary-fixed": "#d1e4ff",
+                      "primary-fixed-dim": "#bbc6e2",
+                      "on-tertiary-fixed-variant": "#2f4865",
+                      "on-background": "#191c1d",
+                      "surface-dim": "#d9dadb",
+                      "on-secondary-fixed": "#261900",
+                      "inverse-primary": "#bbc6e2",
+                      "error": "#ba1a1a",
+                      "background": "#f8f9fa",
+                      "on-secondary": "#ffffff",
+                      "outline-variant": "#c5c6cd",
+                      "secondary-container": "#fdd896",
+                      "tertiary-fixed-dim": "#afc9ea",
+                      "on-tertiary-container": "#768fae",
+                      "surface-bright": "#f8f9fa",
+                      "outline": "#75777d",
+                      "primary": "#051125",
+                      "tertiary-container": "#0a2742",
+                      "primary-fixed": "#d7e2ff",
+                      "on-surface": "#191c1d",
+                      "primary-container": "#1b263b",
+                      "on-primary-fixed": "#101b30",
+                      "surface-container-lowest": "#ffffff",
+                      "on-error": "#ffffff",
+                      "inverse-on-surface": "#f0f1f2",
+                      "inverse-surface": "#2e3132",
+                      "secondary-fixed-dim": "#e5c282",
+                      "on-primary-container": "#828da7",
+                      "on-error-container": "#93000a",
+                      "secondary-fixed": "#ffdea5",
+                      "on-secondary-container": "#775d27",
+                      "surface-variant": "#e1e3e4",
+                      "surface-container-low": "#f3f4f5",
+                      "on-primary-fixed-variant": "#3c475d",
+                      "surface-container-high": "#e7e8e9",
+                      "surface-container": "#edeeef",
+                      "surface-container-highest": "#e1e3e4",
+                      "on-surface-variant": "#45474d",
+                      "error-container": "#ffdad6",
+                      "secondary": "#755a25",
+                      "on-tertiary-fixed": "#001d36",
+                      "on-primary": "#ffffff",
+                      "surface-tint": "#545e76"
+              },
+              "borderRadius": {
+                      "DEFAULT": "0.125rem",
+                      "lg": "0.25rem",
+                      "xl": "0.5rem",
+                      "full": "0.75rem"
+              },
+              "spacing": {
+                      "gutter": "32px",
+                      "margin-mobile": "20px",
+                      "unit": "8px",
+                      "section-gap": "120px",
+                      "container-max": "1120px",
+                      "margin-desktop": "64px"
+              },
+              "fontFamily": {
+                      "headline-lg-mobile": ["Playfair Display"],
+                      "display-lg": ["Playfair Display"],
+                      "display-lg-mobile": ["Playfair Display"],
+                      "quote": ["Playfair Display"],
+                      "headline-lg": ["Playfair Display"],
+                      "body-lg": ["Inter"],
+                      "headline-md": ["Playfair Display"],
+                      "body-md": ["Inter"],
+                      "label-md": ["Inter"]
+              },
+              "fontSize": {
+                      "headline-lg-mobile": ["32px", {"lineHeight": "1.3", "fontWeight": "600"}],
+                      "display-lg": ["64px", {"lineHeight": "1.1", "letterSpacing": "-0.02em", "fontWeight": "700"}],
+                      "display-lg-mobile": ["40px", {"lineHeight": "1.2", "fontWeight": "700"}],
+                      "quote": ["28px", {"lineHeight": "1.5", "fontWeight": "400"}],
+                      "headline-lg": ["48px", {"lineHeight": "1.2", "fontWeight": "600"}],
+                      "body-lg": ["20px", {"lineHeight": "1.7", "fontWeight": "400"}],
+                      "headline-md": ["32px", {"lineHeight": "1.3", "fontWeight": "600"}],
+                      "body-md": ["16px", {"lineHeight": "1.6", "fontWeight": "400"}],
+                      "label-md": ["14px", {"lineHeight": "1.2", "letterSpacing": "0.05em", "fontWeight": "600"}]
+              }
+            },
+          },
+        }
+    </script>
+</head>
+<body class="bg-background text-on-surface font-body-md selection:bg-secondary-container selection:text-on-secondary-container">
+<!-- TopNavBar -->
+<nav class="fixed top-0 w-full z-50 bg-surface/80 backdrop-blur-md border-b border-outline-variant/30 shadow-sm">
+<div class="flex justify-between items-center h-20 px-margin-mobile md:px-margin-desktop max-w-container-max mx-auto">
+<span class="font-headline-md text-headline-md font-bold text-primary">Hemant Jha</span>
+<div class="hidden md:flex items-center gap-8">
+<a class="font-label-md text-label-md text-on-surface-variant hover:text-primary transition-colors cursor-pointer" href="#">Articles</a>
+<a class="font-label-md text-label-md text-on-surface-variant hover:text-primary transition-colors cursor-pointer" href="#">Books</a>
+<a class="font-label-md text-label-md text-primary border-b-2 border-secondary font-bold pb-1 cursor-pointer" href="#">Reels</a>
+</div>
+<button class="bg-primary text-on-primary px-6 py-2 font-label-md text-label-md hover:opacity-80 transition-opacity cursor-pointer" onclick="toggleChat()">Chat</button>
+</div>
+</nav>
+<main class="pt-32 pb-section-gap">
+<div class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop">
+<!-- Header Section -->
+<header class="mb-16">
+<h1 class="font-headline-lg text-headline-lg-mobile md:text-headline-lg text-primary mb-4">Reels &amp; Videos</h1>
+<p class="font-body-lg text-body-lg text-on-surface-variant max-w-2xl">
+                    Strategic insights shared through short-form narratives and deep-dive technical explorations.
+                </p>
+</header>
+<!-- Toggle Switch -->
+<div class="flex items-center justify-center mb-12">
+<div class="bg-surface-container p-1 rounded-full flex gap-1 relative">
+<button class="relative z-10 px-8 py-2 font-label-md text-label-md rounded-full transition-all duration-300 text-primary font-bold" id="toggle-reels" onclick="switchView('reels')">
+                        Reels
+                    </button>
+<button class="relative z-10 px-8 py-2 font-label-md text-label-md rounded-full transition-all duration-300 text-on-surface-variant" id="toggle-videos" onclick="switchView('videos')">
+                        Full Videos
+                    </button>
+<div class="absolute top-1 bottom-1 left-1 w-[calc(50%-4px)] bg-surface-container-lowest shadow-sm rounded-full toggle-transition" id="toggle-indicator"></div>
+</div>
+</div>
+<!-- Content Grid: Reels -->
+<div class="grid grid-cols-2 md:grid-cols-4 gap-gutter transition-opacity duration-500" id="reels-grid">
+<!-- Reel Card 1 -->
+<div class="group cursor-pointer">
+<div class="aspect-[9/16] bg-surface-container-high relative overflow-hidden rounded-lg mb-4 video-card-hover">
+<img class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" data-alt="A focused professional in a minimalist, high-end home office setting, softly lit by desk lamps and moonlight. The aesthetic is editorial and premium, dominated by deep navy tones and clean lines. The composition is vertical, perfect for a high-quality cinematic reel that emphasizes strategic thinking and intellectual depth." src="https://lh3.googleusercontent.com/aida-public/AB6AXuBfKTtG-bFfYuAYn5gc0mqUIbKcRsf0Q5sTKVoTSQP51Aqc17-WivnIOZk8iax23bkJe9SE4390C55ZehrGyKhjeYTCFhC-LYfhAL3uAnmUYCIY046lN5-CRxmqOe-UgjTWH3ZPHwOIWM808sUipYvX3BorMSP4x7uBSRzSU80UO8p0q59tYgqwg_O31sdFxW65etmYsbU66osrTdJ8_uks1kf-Rw-QhZOzlF_mQNFM5kxylqJLJL4VIIg9eDfkCAwNq8dKovIlV7oL"/>
+<div class="absolute inset-0 bg-primary/20 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+<span class="material-symbols-outlined text-on-primary text-5xl" style="font-variation-settings: 'FILL' 1;">play_arrow</span>
+</div>
+<div class="absolute bottom-4 right-4 bg-primary/80 backdrop-blur-sm px-2 py-1 text-[10px] text-on-primary font-bold tracking-widest rounded-sm">0:45</div>
+</div>
+<h3 class="font-headline-md text-body-md text-primary line-clamp-2">The Future of Decentralized Identity</h3>
+</div>
+<!-- Reel Card 2 -->
+<div class="group cursor-pointer">
+<div class="aspect-[9/16] bg-surface-container-high relative overflow-hidden rounded-lg mb-4 video-card-hover">
+<img class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" data-alt="A striking minimalist workspace featuring an ultra-thin laptop on a dark wood desk. The lighting is cold and precise, highlighting the metallic textures and premium architectural lines. The scene conveys an atmosphere of focused, sophisticated work in a high-prestige executive environment." src="https://lh3.googleusercontent.com/aida-public/AB6AXuDYcRd2w7RIWlQ-HiVGOZZYv23gA1gxEb2Em2492gtRY0S_KE-47vOi1pKInyYYi8fchultf_LbTIn_qrXe8CoWUEVfb4owYdwyiTqxnNON4bXA6HeDj5L-UTMoNYo3Glmpj2gu17ZHrnZ6m4isarm9njlNFXqYz7fl5nE7TgJOiERWVZCNA-A4eaZaZ8OMYsAcUBBVOyfdHBPODC-J9kAHSVzs19gRxtd-xIZyMkmoU7sC8j-5oONndLZcS0_T9YCtVeN3_U_8-22G"/>
+<div class="absolute inset-0 bg-primary/20 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+<span class="material-symbols-outlined text-on-primary text-5xl" style="font-variation-settings: 'FILL' 1;">play_arrow</span>
+</div>
+<div class="absolute bottom-4 right-4 bg-primary/80 backdrop-blur-sm px-2 py-1 text-[10px] text-on-primary font-bold tracking-widest rounded-sm">0:58</div>
+</div>
+<h3 class="font-headline-md text-body-md text-primary line-clamp-2">Scaling Engineering Teams Efficiently</h3>
+</div>
+<!-- Reel Card 3 -->
+<div class="group cursor-pointer">
+<div class="aspect-[9/16] bg-surface-container-high relative overflow-hidden rounded-lg mb-4 video-card-hover">
+<img class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" data-alt="Close-up of high-contrast data visualizations on a dark screen, reflected in a polished glass surface. The lighting uses deep blues and muted gold accents. The style is futuristic and analytical, evoking the meticulous attention to detail required for strategic data-driven leadership." src="https://lh3.googleusercontent.com/aida-public/AB6AXuBtUeEI5yCijiVe58i6f-ZIP0831It9njr7S6Nt1CGuUKQwFTSyIXMXbwWuUjt6T5cq-8rfxzxCjA36bi4yx-Tp4g24EYPyJeDF1IpiNga3kTH2eD-gVz0sd6rCsvc7IvHdHR__y-rsUWMrAV8_qg8XQtnIhCw3izeAWV_1RGwjHKj_AQoFy5_zZTeyX1rOOalvDB7NyGSZepfhsRwb5gYHESatzSklMn2G9jbit_i-Lxo2BUc2IVQiYM7v_gAY40s-Tr8uUEn97maR"/>
+<div class="absolute inset-0 bg-primary/20 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+<span class="material-symbols-outlined text-on-primary text-5xl" style="font-variation-settings: 'FILL' 1;">play_arrow</span>
+</div>
+<div class="absolute bottom-4 right-4 bg-primary/80 backdrop-blur-sm px-2 py-1 text-[10px] text-on-primary font-bold tracking-widest rounded-sm">0:32</div>
+</div>
+<h3 class="font-headline-md text-body-md text-primary line-clamp-2">First Principles in Product Design</h3>
+</div>
+<!-- Reel Card 4 -->
+<div class="group cursor-pointer">
+<div class="aspect-[9/16] bg-surface-container-high relative overflow-hidden rounded-lg mb-4 video-card-hover">
+<img class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" data-alt="Architectural detail of a modern, brutalist-inspired library with high ceilings and rhythmic columns. Soft natural light streams through high windows, creating a serene and intellectual mood. The palette is neutral with deep shadows, emphasizing the weight and permanence of well-considered knowledge." src="https://lh3.googleusercontent.com/aida-public/AB6AXuCpUcZYF4RHBnzCT-YHgLsFjZYwN_DwbRQTArfqn9fpJTQOdWgJM7gYjxwWXzO83K3xqEyPpehk1VK-BbnegSpAMiyt6zsRsGG-nVU879inBWWP-93agIvv6ijnem-QkEvsTQ3X1osYRCrgMcyYIoAZ0kgnUGYF9dKqpr7zJ5sICHUzhQ6fHDQt0XxtsrMFyqfwjteY7p2_Bv_svzG4MdhrxrW_OzmVVEYb79OvFzUZmO6_Ds_ZR2QXI1-EmfY9l-b0tua-7lQ7fw-K"/>
+<div class="absolute inset-0 bg-primary/20 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+<span class="material-symbols-outlined text-on-primary text-5xl" style="font-variation-settings: 'FILL' 1;">play_arrow</span>
+</div>
+<div class="absolute bottom-4 right-4 bg-primary/80 backdrop-blur-sm px-2 py-1 text-[10px] text-on-primary font-bold tracking-widest rounded-sm">0:50</div>
+</div>
+<h3 class="font-headline-md text-body-md text-primary line-clamp-2">Continuous Learning as a Strategy</h3>
+</div>
+</div>
+<!-- Content Grid: Videos (Hidden by default) -->
+<div class="hidden grid-cols-1 md:grid-cols-2 gap-gutter transition-opacity duration-500" id="videos-grid">
+<!-- Video Card 1 -->
+<div class="group cursor-pointer">
+<div class="aspect-video bg-surface-container-high relative overflow-hidden rounded-lg mb-6 shadow-sm">
+<img class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" data-alt="A wide cinematic shot of a dark-themed boardroom with a single glowing screen showing complex network diagrams. The room is minimalist and high-end, featuring premium leather and dark wood. The atmosphere is one of high-stakes corporate strategy and technological dominance, rendered in a cold, editorial color palette." src="https://lh3.googleusercontent.com/aida-public/AB6AXuArMA-cdvM95hDA5A4TjPWMASK5BSViBK1QZjF3qucbm7svRsTS3D_J5Lg1mxxmSh4TvbiCsw4KMbkA-lKuPKIqEfWDoKn1pDVeT25PgSAqAbNGBzSlNgr2vrBUNrKOrT5mj-klTKd8LvopPfdfIFWNtmnR5QwWx11JiRDOhcCssDMOc3F9-EVolE_4gJrozKSVxFRx34lzV1444_NrPV0QzBb2klUFwFMo60gJ6vyDHdnA1kTiuJQBGGgMDMH8606XcMG2UM2xSH48"/>
+<div class="absolute inset-0 bg-primary/10 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+<div class="bg-primary/90 text-on-primary w-16 h-16 rounded-full flex items-center justify-center backdrop-blur-md">
+<span class="material-symbols-outlined text-3xl" style="font-variation-settings: 'FILL' 1;">play_arrow</span>
+</div>
+</div>
+<div class="absolute bottom-6 right-6 bg-primary/90 backdrop-blur-md px-3 py-1 text-xs text-on-primary font-bold tracking-widest">14:20</div>
+</div>
+<div class="flex justify-between items-start">
+<h3 class="font-headline-md text-headline-md text-primary max-w-lg">Designing Scalable Technical Architectures for the Modern Web</h3>
+</div>
+</div>
+<!-- Video Card 2 -->
+<div class="group cursor-pointer">
+<div class="aspect-video bg-surface-container-high relative overflow-hidden rounded-lg mb-6 shadow-sm">
+<img class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" data-alt="A bright, high-key office space with floor-to-ceiling windows overlooking a modern skyline. A single minimalist workstation is positioned in the foreground. The lighting is airy and optimistic, utilizing a palette of whites and soft grays with deep navy accents, suggesting a clear and professional vision for the future." src="https://lh3.googleusercontent.com/aida-public/AB6AXuBby4pFnantS4FGCpMgUq7sSYbQ8euuFoM4WkyuFijbRDbnMu1JYjLjHc3t0k4FTQoEhJDY2_UKuRs1vzaO2GATRZ50ixj4Qn5DBSD9htx12xUPLBL-28N7SHos2_NrhO1c9yPW3UsHl39jqe_0BGJWpfTnfOtiIwM47ryQmwZ1R4vi5yXx37z6Jvnr08aF4KaWzYLV1RTZ81MVMg6mJ0NYyjGzWs4cykJ-W51uKjaupbN_5Q6oXO6y5o4b8Nu2SgPusK7xOvL9be6M"/>
+<div class="absolute inset-0 bg-primary/10 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+<div class="bg-primary/90 text-on-primary w-16 h-16 rounded-full flex items-center justify-center backdrop-blur-md">
+<span class="material-symbols-outlined text-3xl" style="font-variation-settings: 'FILL' 1;">play_arrow</span>
+</div>
+</div>
+<div class="absolute bottom-6 right-6 bg-primary/90 backdrop-blur-md px-3 py-1 text-xs text-on-primary font-bold tracking-widest">22:45</div>
+</div>
+<div class="flex justify-between items-start">
+<h3 class="font-headline-md text-headline-md text-primary max-w-lg">The Philosophy of Engineering Leadership in Distributed Teams</h3>
+</div>
+</div>
+</div>
+</div>
+</main>
+<!-- Footer -->
+<footer class="bg-tertiary text-on-tertiary w-full py-section-gap">
+<div class="grid grid-cols-1 md:grid-cols-3 gap-gutter px-margin-mobile md:px-margin-desktop max-w-container-max mx-auto">
+<div class="flex flex-col gap-6">
+<span class="font-headline-md text-headline-md text-on-tertiary">Hemant Jha</span>
+<p class="font-body-md text-tertiary-fixed-dim max-w-xs">Building the next generation of technical leadership through clarity and focus.</p>
+</div>
+<div class="flex flex-col gap-4">
+<h4 class="font-label-md text-label-md text-on-tertiary uppercase tracking-widest">Navigation</h4>
+<div class="flex flex-col gap-2">
+<a class="text-tertiary-fixed-dim hover:text-on-tertiary transition-colors" href="#">Articles</a>
+<a class="text-tertiary-fixed-dim hover:text-on-tertiary transition-colors" href="#">Books</a>
+<a class="text-secondary-fixed font-bold" href="#">Reels</a>
+</div>
+</div>
+<div class="flex flex-col gap-4">
+<h4 class="font-label-md text-label-md text-on-tertiary uppercase tracking-widest">Legal</h4>
+<div class="flex flex-col gap-2">
+<a class="text-tertiary-fixed-dim hover:text-on-tertiary transition-colors" href="#">Privacy Policy</a>
+<a class="text-tertiary-fixed-dim hover:text-on-tertiary transition-colors" href="#">Terms</a>
+<p class="text-tertiary-fixed-dim mt-4">© 2026 Hemant Jha. All rights reserved.</p>
+</div>
+</div>
+</div>
+</footer>
+<!-- AI Chatbot Widget -->
+<div class="fixed bottom-8 right-8 z-[60] flex flex-col items-end gap-4">
+<!-- Chat Panel -->
+<div class="w-80 md:w-96 bg-surface-container-lowest border border-outline-variant shadow-2xl rounded-xl flex flex-col overflow-hidden chat-panel-transition opacity-0 scale-95 pointer-events-none translate-y-4" id="chat-panel">
+<!-- Panel Header -->
+<div class="bg-primary text-on-primary p-4 flex justify-between items-center">
+<div class="flex items-center gap-3">
+<div class="w-8 h-8 rounded-full bg-secondary flex items-center justify-center">
+<span class="material-symbols-outlined text-sm" style="font-variation-settings: 'FILL' 1;">smart_toy</span>
+</div>
+<div>
+<h4 class="font-label-md text-label-md leading-tight">Hemant's AI Assistant</h4>
+<p class="text-[10px] opacity-70 uppercase tracking-widest">Always active</p>
+</div>
+</div>
+<button class="hover:bg-on-primary/10 p-1 rounded-full transition-colors" onclick="toggleChat()">
+<span class="material-symbols-outlined">close</span>
+</button>
+</div>
+<!-- Chat Area -->
+<div class="h-96 overflow-y-auto p-4 flex flex-col gap-4 bg-surface" id="chat-messages">
+<div class="flex gap-2 max-w-[85%]">
+<div class="flex-shrink-0 w-8 h-8 rounded-full bg-primary-container flex items-center justify-center">
+<span class="material-symbols-outlined text-xs text-on-primary-container" style="font-variation-settings: 'FILL' 1;">smart_toy</span>
+</div>
+<div class="bg-surface-container-high text-on-surface p-3 rounded-xl rounded-tl-none shadow-sm">
+<p class="text-sm">Hello. I am Hemant's technical advisor AI. How can I assist you with strategic engineering or product insights today?</p>
+</div>
+</div>
+</div>
+<!-- Input Area -->
+<div class="p-4 border-t border-outline-variant bg-surface-container-lowest">
+<form class="flex gap-2" onsubmit="handleChatSubmit(event)">
+<input class="flex-grow bg-surface-container-low border-none rounded-lg px-4 py-2 text-sm focus:ring-1 focus:ring-primary placeholder:text-on-surface-variant/50" id="chat-input" placeholder="Type your message..." type="text"/>
+<button class="bg-primary text-on-primary w-10 h-10 rounded-lg flex items-center justify-center hover:opacity-90 transition-opacity" type="submit">
+<span class="material-symbols-outlined text-xl">send</span>
+</button>
+</form>
+</div>
+</div>
+<!-- Floating Button -->
+<div class="relative group">
+<div class="absolute -top-1 -right-1 w-4 h-4 bg-secondary border-2 border-surface rounded-full z-10 animate-pulse" id="chat-notif"></div>
+<button class="bg-primary text-on-primary px-6 h-14 rounded-full flex items-center gap-3 shadow-lg hover:scale-105 transition-all active:scale-95 group" id="chat-toggle-btn" onclick="toggleChat()">
+<span class="material-symbols-outlined text-2xl" style="font-variation-settings: 'FILL' 1;">chat_bubble</span>
+<span class="font-label-md text-label-md pr-2">Ask Me</span>
+</button>
+<div class="absolute bottom-full right-0 mb-4 opacity-0 group-hover:opacity-100 transition-opacity bg-surface-container-highest px-4 py-2 rounded-xl text-label-md font-label-md shadow-sm pointer-events-none whitespace-nowrap text-primary">
+                Immediate Strategic Guidance
+            </div>
+</div>
+</div>
+<script>
+        const SYSTEM_CONTEXT = "You are a specialized AI assistant representing Hemant Jha, a technical leader and strategic engineer. Your tone is professional, analytical, concise, and visionary. You focus on first principles, engineering leadership, decentralized systems, and scalable technical architectures. Never use casual slang. Provide deep, considered responses as if mentored by Hemant himself.";
+
+        function toggleChat() {
+            const panel = document.getElementById('chat-panel');
+            const notif = document.getElementById('chat-notif');
+            const isOpen = !panel.classList.contains('pointer-events-none');
+
+            if (isOpen) {
+                panel.classList.add('opacity-0', 'scale-95', 'pointer-events-none', 'translate-y-4');
+            } else {
+                panel.classList.remove('opacity-0', 'scale-95', 'pointer-events-none', 'translate-y-4');
+                if (notif) notif.style.display = 'none';
+                document.getElementById('chat-input').focus();
+            }
+        }
+
+        function handleChatSubmit(event) {
+            event.preventDefault();
+            const input = document.getElementById('chat-input');
+            const message = input.value.trim();
+            if (!message) return;
+
+            appendMessage('user', message);
+            input.value = '';
+
+            // Simulated AI Response
+            setTimeout(() => {
+                const responses = [
+                    "Analyzing from first principles, this challenge requires a decoupling of the identity layer from the primary data stream.",
+                    "The strategic play here is to optimize for team velocity over granular feature control.",
+                    "Interesting perspective. If we look at the architecture through a lens of extreme scalability, we see that state management is the true bottleneck.",
+                    "Leadership in distributed teams isn't about oversight; it's about establishing clear cultural guardrails."
+                ];
+                const randomResponse = responses[Math.floor(Math.random() * responses.length)];
+                appendMessage('ai', randomResponse);
+            }, 1000);
+        }
+
+        function appendMessage(type, text) {
+            const container = document.getElementById('chat-messages');
+            const wrapper = document.createElement('div');
+            wrapper.className = type === 'user' ? 'flex justify-end' : 'flex gap-2 max-w-[85%]';
+            
+            if (type === 'user') {
+                wrapper.innerHTML = `
+                    <div class="bg-primary text-on-primary p-3 rounded-xl rounded-tr-none shadow-sm max-w-[85%]">
+                        <p class="text-sm">${text}</p>
+                    </div>
+                `;
+            } else {
+                wrapper.innerHTML = `
+                    <div class="flex-shrink-0 w-8 h-8 rounded-full bg-primary-container flex items-center justify-center">
+                        <span class="material-symbols-outlined text-xs text-on-primary-container" style="font-variation-settings: 'FILL' 1;">smart_toy</span>
+                    </div>
+                    <div class="bg-surface-container-high text-on-surface p-3 rounded-xl rounded-tl-none shadow-sm">
+                        <p class="text-sm">${text}</p>
+                    </div>
+                `;
+            }
+            
+            container.appendChild(wrapper);
+            container.scrollTop = container.scrollHeight;
+        }
+
+        function switchView(view) {
+            const reelsGrid = document.getElementById('reels-grid');
+            const videosGrid = document.getElementById('videos-grid');
+            const toggleReels = document.getElementById('toggle-reels');
+            const toggleVideos = document.getElementById('toggle-videos');
+            const indicator = document.getElementById('toggle-indicator');
+
+            if (view === 'reels') {
+                reelsGrid.classList.remove('hidden');
+                setTimeout(() => reelsGrid.classList.remove('opacity-0'), 10);
+                videosGrid.classList.add('hidden');
+                
+                toggleReels.classList.add('text-primary', 'font-bold');
+                toggleReels.classList.remove('text-on-surface-variant');
+                toggleVideos.classList.remove('text-primary', 'font-bold');
+                toggleVideos.classList.add('text-on-surface-variant');
+                
+                indicator.style.left = '4px';
+            } else {
+                videosGrid.classList.remove('hidden');
+                setTimeout(() => videosGrid.classList.remove('opacity-0'), 10);
+                reelsGrid.classList.add('hidden');
+                
+                toggleVideos.classList.add('text-primary', 'font-bold');
+                toggleVideos.classList.remove('text-on-surface-variant');
+                toggleReels.classList.remove('text-primary', 'font-bold');
+                toggleReels.classList.add('text-on-surface-variant');
+                
+                indicator.style.left = 'calc(50%)';
+            }
+        }
+    </script>
+</body></html>

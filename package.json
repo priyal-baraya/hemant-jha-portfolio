@@ -1,0 +1,17 @@
+{
+  "name": "stitch-hemant-jha",
+  "private": true,
+  "workspaces": [
+    "portfolio-react"
+  ],
+  "scripts": {
+    "dev": "npm run dev --workspace=portfolio-react",
+    "build": "npm run build --workspace=portfolio-react",
+    "lint": "npm run lint --workspace=portfolio-react"
+  },
+  "dependencies": {
+    "@aws-sdk/client-s3": "^3.1061.0",
+    "@tailwindcss/vite": "^4.3.0",
+    "tailwindcss": "^4.3.0"
+  }
+}
