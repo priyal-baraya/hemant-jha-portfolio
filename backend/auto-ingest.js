@@ -14,6 +14,7 @@
 
 import AWS from 'aws-sdk';
 import fs from 'fs';
+import crypto from 'crypto';
 import path from 'path';
 import { fileURLToPath } from 'url';
 import FormData from 'form-data';
@@ -158,26 +159,39 @@ async function upsertNeo4j(node) {
  * Process a single S3 key (e.g. "folder/REEL_AI_001_en.mp4")
  * Returns { skipped: true } if already processed, or the new wiki node.
  */
-export async function processNewVideo(s3Key) {
-  const base    = path.basename(s3Key);
-  const videoId = path.parse(base).name;
+// Build a unique, filesystem-safe id from the FULL S3 key.
+// Many reels share the basename "final.mp4" across different folders, so keying
+// by basename collides. We derive: <REEL_NAME>_<lang>_<6-char hash of full key>.
+export function uniqueBaseFromKey(s3Key) {
+  const reelMatch = s3Key.match(/REEL_[A-Za-z0-9_]+/);
+  const reel = reelMatch ? reelMatch[0] : path.parse(path.basename(s3Key)).name;
+  const langMatch = s3Key.match(/\/(en|hi)\//i);
+  const lang = langMatch ? langMatch[1].toLowerCase() : '';
+  const hash = crypto.createHash('md5').update(s3Key).digest('hex').slice(0, 6);
+  return [reel, lang, hash].filter(Boolean).join('_');
+}
 
-  // 1. Idempotency — skip if already in content.json
+export async function processNewVideo(s3Key) {
+  const uniqueBase = uniqueBaseFromKey(s3Key);
+  const fileName   = `${uniqueBase}.mp4`;
+  const videoId    = uniqueBase;
+
+  // 1. Idempotency — skip if this exact S3 key is already ingested.
   const content = readJson(CONTENT_PATH) || { reels: [], articles: [], books: [] };
-  const alreadyExists = content.reels?.some(r => r.videoFile?.includes(base));
+  const alreadyExists = content.reels?.some(r => r.s3Key === s3Key);
   if (alreadyExists) {
-    console.log(`[auto-ingest] Skipping ${base} — already in content.json`);
+    console.log(`[auto-ingest] Skipping ${s3Key} — already in content.json`);
     return { skipped: true, videoId };
   }
 
-  console.log(`[auto-ingest] Processing new video: ${base}`);
+  console.log(`[auto-ingest] Processing new video: ${s3Key}`);
 
   fs.mkdirSync(VIDEOS_DIR, { recursive: true });
   fs.mkdirSync(THUMBS_DIR, { recursive: true });
 
-  const videoPath = path.join(VIDEOS_DIR, base);
+  const videoPath = path.join(VIDEOS_DIR, fileName);
   const audioPath = path.join(VIDEOS_DIR, `${videoId}.wav`);
-  const thumbPath = path.join(THUMBS_DIR, `${base}.jpg`);
+  const thumbPath = path.join(THUMBS_DIR, `${fileName}.jpg`);
 
   // 2. Download
   if (!fs.existsSync(videoPath)) {
@@ -210,7 +224,8 @@ export async function processNewVideo(s3Key) {
   const newReel = {
     id: `r${Date.now()}`,
     title: node.title,
-    videoFile: `/videos/${base}`,
+    videoFile: `/videos/${fileName}`,
+    s3Key,
     visible: true,
   };
   content.reels = [...(content.reels || []), newReel];
@@ -228,7 +243,7 @@ export async function processNewVideo(s3Key) {
   // 8. Qdrant — transcript chunks + wiki vector
   try {
     await upsertTranscriptChunks(videoId, transcript, {
-      title: node.title, videoPath: `/videos/${base}`, thumb: `/thumbnails/${base}.jpg`,
+      title: node.title, videoPath: `/videos/${fileName}`, thumb: `/thumbnails/${fileName}.jpg`,
     });
     const wikiNumericId = wikiNodes.length; // stable enough for a new node
     await upsertWikiVector(node, wikiNumericId);

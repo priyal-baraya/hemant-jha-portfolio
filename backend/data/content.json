@@ -4,119 +4,313 @@
       "id": "r1",
       "title": "Gamers in the AI Era",
       "videoFile": "/videos/REEL_AI_001_GAMERS_AI_ERA_en.mp4",
-      "visible": true
+      "visible": true,
+      "s3Key": "gold-supportive-care/general/reels/REEL_AI_001_GAMERS_AI_ERA/en/job_mptlu0s6_defce5/REEL_AI_001_GAMERS_AI_ERA_en.mp4"
     },
     {
       "id": "r2",
       "title": "Gaming Skills in the AI Age",
       "videoFile": "/videos/REEL_AI_002_GAMERS_SKILLS_en.mp4",
-      "visible": true
+      "visible": true,
+      "s3Key": "gold-supportive-care/general/reels/REEL_AI_002_GAMERS_SKILLS/en/job_mptkiljb_fa9655/REEL_AI_002_GAMERS_SKILLS_en.mp4"
     },
     {
       "id": "r3",
       "title": "Learning AI as Gaming",
       "videoFile": "/videos/REEL_AI_003_GAMERS_AI_LEARNING_en.mp4",
-      "visible": true
+      "visible": true,
+      "s3Key": "gold-supportive-care/general/reels/REEL_AI_003_GAMERS_AI_LEARNING/en/job_mptli7lo_f78b24/REEL_AI_003_GAMERS_AI_LEARNING_en.mp4"
     },
     {
       "id": "r4",
       "title": "Future of Engineering",
       "videoFile": "/videos/REEL_AI_004_FUTURE_ENGINEERING_GAME_en.mp4",
-      "visible": true
+      "visible": true,
+      "s3Key": "gold-supportive-care/general/reels/REEL_AI_004_FUTURE_ENGINEERING_GAME/en/job_mptqwjw9_95fd08/REEL_AI_004_FUTURE_ENGINEERING_GAME_en.mp4"
     },
     {
       "id": "r5",
       "title": "AI and Freshers",
       "videoFile": "/videos/REEL_AI_005_AI_AND_FRESHERS_en.mp4",
-      "visible": true
+      "visible": true,
+      "s3Key": "gold-supportive-care/general/reels/REEL_AI_005_AI_AND_FRESHERS/en/job_mptrhbp9_ddab19/REEL_AI_005_AI_AND_FRESHERS_en.mp4"
     },
     {
       "id": "r6",
       "title": "Definition of Expertise",
       "videoFile": "/videos/REEL_AI_006_DEFINITION_OF_EXPERTISE_en.mp4",
-      "visible": true
+      "visible": true,
+      "s3Key": "gold-supportive-care/general/reels/REEL_AI_006_DEFINITION_OF_EXPERTISE/en/job_mptsi8he_5d53ee/REEL_AI_006_DEFINITION_OF_EXPERTISE_en.mp4"
     },
     {
       "id": "r7",
       "title": "Learning Velocity",
       "videoFile": "/videos/REEL_AI_007_LEARNING_VELOCITY_en.mp4",
-      "visible": true
+      "visible": true,
+      "s3Key": "gold-supportive-care/general/reels/REEL_AI_007_LEARNING_VELOCITY/en/job_mptsyvy7_e5393b/REEL_AI_007_LEARNING_VELOCITY_en.mp4"
     },
     {
       "id": "r8",
       "title": "Engineering Excellence in the AI Era",
       "videoFile": "/videos/REEL_AI_ENG_001_CHANGING_RULES_en.mp4",
-      "visible": true
+      "visible": true,
+      "s3Key": "gold-supportive-care/general/reels/REEL_AI_ENG_001_CHANGING_RULES/en/job_mpu1etks_7367f8/REEL_AI_ENG_001_CHANGING_RULES_en.mp4"
     },
     {
       "id": "r9",
       "title": "The Future Engineer",
       "videoFile": "/videos/REEL_AI_ENG_002_FUTURE_ENGINEER_en.mp4",
-      "visible": true
+      "visible": true,
+      "s3Key": "gold-supportive-care/general/reels/REEL_AI_ENG_002_FUTURE_ENGINEER/en/job_mpu2atnm_12c00d/REEL_AI_ENG_002_FUTURE_ENGINEER_en.mp4"
     },
     {
       "id": "r10",
       "title": "Evolving Experience",
       "videoFile": "/videos/REEL_AI_ENG_003_EXPERIENCE_ALONE_en.mp4",
-      "visible": true
+      "visible": true,
+      "s3Key": "gold-supportive-care/general/reels/REEL_AI_ENG_003_EXPERIENCE_ALONE/en/job_mpu2p9rp_7854d4/REEL_AI_ENG_003_EXPERIENCE_ALONE_en.mp4"
     },
     {
       "id": "r11",
       "title": "Gaming as Learning",
       "videoFile": "/videos/REEL_AI_GAMERS_TO_ENGINEERS_MASTER_en.mp4",
-      "visible": true
+      "visible": true,
+      "s3Key": "gold-supportive-care/general/reels/REEL_AI_GAMERS_TO_ENGINEERS_MASTER/en/job_mptzsds4_c4e3ec/REEL_AI_GAMERS_TO_ENGINEERS_MASTER_en.mp4"
     },
     {
       "id": "r12",
       "title": "The Learning Game",
       "videoFile": "/videos/REEL_AI_WB_001_EXPERIENCE_ALONE_en.mp4",
-      "visible": true
+      "visible": true,
+      "s3Key": "gold-supportive-care/general/reels/REEL_AI_WB_001_EXPERIENCE_ALONE/en/job_mpulmg6k_c9c3ed/REEL_AI_WB_001_EXPERIENCE_ALONE_en.mp4"
     },
     {
       "id": "r13",
       "title": "Traits of Success in Hiring",
       "videoFile": "/videos/REEL_CXO_001_HIRING_TRAITS_en.mp4",
-      "visible": true
+      "visible": true,
+      "s3Key": "gold-supportive-care/general/reels/REEL_CXO_001_HIRING_TRAITS/en/job_mpukztk3_2e0c1b/REEL_CXO_001_HIRING_TRAITS_en.mp4"
     },
     {
       "id": "r14",
       "title": "AI Transformation Begins at Home",
       "videoFile": "/videos/REEL_CXO_002_AI_BEGINS_AT_HOME_en.mp4",
-      "visible": true
+      "visible": true,
+      "s3Key": "gold-supportive-care/general/reels/REEL_CXO_002_AI_BEGINS_AT_HOME/en/job_mpumft8h_804f71/REEL_CXO_002_AI_BEGINS_AT_HOME_en.mp4"
     },
     {
       "id": "r15",
       "title": "Structured Business Context",
       "videoFile": "/videos/REEL_CXO_003_PIPELINE_WITHOUT_WATER_en.mp4",
-      "visible": true
+      "visible": true,
+      "s3Key": "gold-supportive-care/general/reels/REEL_CXO_003_PIPELINE_WITHOUT_WATER/en/job_mpvcwvrl_a29a9f/REEL_CXO_003_PIPELINE_WITHOUT_WATER_en.mp4"
     },
     {
       "id": "r16",
       "title": "Unlocking Hidden Knowledge",
       "videoFile": "/videos/REEL_CXO_004_TRAPPED_CONTEXT_en.mp4",
-      "visible": true
+      "visible": true,
+      "s3Key": "gold-supportive-care/general/reels/REEL_CXO_004_TRAPPED_CONTEXT/en/job_mpvfci87_385dce/REEL_CXO_004_TRAPPED_CONTEXT_en.mp4"
     },
     {
       "id": "r17",
       "title": "Gaming Skills Development",
       "videoFile": "/videos/REEL_EDU_010_GAMING_en.mp4",
-      "visible": true
+      "visible": true,
+      "s3Key": "gold-supportive-care/general/reels/REEL_EDU_010_GAMING/en/job_mpsmznqf_2b8684/REEL_EDU_010_GAMING_en.mp4"
     },
     {
       "id": "r18",
       "title": "Fitness, Discipline, Resilience",
       "videoFile": "/videos/REEL_SURV_010_BREAST_en.mp4",
-      "visible": true
+      "visible": true,
+      "s3Key": "gold-supportive-care/general/reels/REEL_SURV_010_BREAST/en/job_mpsln3xu_962300/REEL_SURV_010_BREAST_en.mp4"
     },
     {
       "id": "r19",
       "title": "Mindful Pause",
       "videoFile": "/videos/REEL_WELL_1001_GENERAL_en.mp4",
+      "visible": true,
+      "s3Key": "gold-supportive-care/general/reels/REEL_WELL_1001_GENERAL/en/job_mpxu4ew7_836dd1/REEL_WELL_1001_GENERAL_en.mp4"
+    },
+    {
+      "id": "r1781504961969",
+      "title": "AI Transformation Begins at Home",
+      "videoFile": "/videos/REEL_CXO_002_AI_BEGINS_AT_HOME_en_5781af.mp4",
+      "s3Key": "gold-supportive-care/general/reels/REEL_CXO_002_AI_BEGINS_AT_HOME/en/job_mpunbrh6_5cf995/REEL_CXO_002_AI_BEGINS_AT_HOME_en.mp4",
+      "visible": false
+    },
+    {
+      "id": "r1781505040046",
+      "title": "Agentic SDLC Transformation",
+      "videoFile": "/videos/REEL_CXO_007_TREADMILL_ANALOGY_en_dd615f.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/REEL_CXO_007_TREADMILL_ANALOGY/studio2_mq7hw7w2_0f0b25/en/final.mp4",
       "visible": true
     },
     {
-      "id": "r1780917100422",
-      "title": "Recharging Your Battery",
+      "id": "r1781505870654",
+      "title": "Context Engineering as People Transformation",
+      "videoFile": "/videos/REEL_CXO_010_HUMANS_ARE_THE_BOTTLENECK_en_acc231.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/REEL_CXO_010_HUMANS_ARE_THE_BOTTLENECK/studio2_mq7gihk2_b56351/en/final.mp4",
+      "visible": true
+    },
+    {
+      "id": "r1781505930053",
+      "title": "Transform Yourself First",
+      "videoFile": "/videos/REEL_CXO_011_TRANSFORM_YOURSELF_FIRST_en_6dace9.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/REEL_CXO_011_TRANSFORM_YOURSELF_FIRST/studio2_mq7gam9r_a26f40/en/final.mp4",
+      "visible": true
+    },
+    {
+      "id": "r1781506054143",
+      "title": "Non-Deterministic Systems",
+      "videoFile": "/videos/REEL_CXO_021_NON_DETERMINISTIC_SYSTEMS_en_4638b1.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/REEL_CXO_021_NON_DETERMINISTIC_SYSTEMS/studio2_mq40q83w_21bf1a/en/final.mp4",
+      "visible": true
+    },
+    {
+      "id": "r1781506425149",
+      "title": "The Human Battery Concept (Hindi)",
+      "videoFile": "/videos/REEL_KISS_001_HUMAN_BATTERY_hi_8dd46e.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/REEL_KISS_001_HUMAN_BATTERY/studio2_mq3v62xx_a4533a/hi/final.mp4",
+      "visible": true
+    },
+    {
+      "id": "r1781506611928",
+      "title": "The Human Battery Concept",
+      "videoFile": "/videos/REEL_KISS_001_HUMAN_BATTERY_en_946325.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/REEL_KISS_001_HUMAN_BATTERY/studio2_mq6lu9su_553cac/en/final.mp4",
+      "visible": true
+    },
+    {
+      "id": "r1781506792200",
+      "title": "Life Simplified (Hindi)",
+      "videoFile": "/videos/REEL_KISS_002_LIFE_WITH_KISS_hi_677226.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/REEL_KISS_002_LIFE_WITH_KISS/studio2_mq9b95zg_d6d2cc/hi/final.mp4",
+      "visible": true
+    },
+    {
+      "id": "r1781506820335",
+      "title": "Life with KISS",
+      "videoFile": "/videos/REEL_KISS_002_LIFE_WITH_KISS_en_b0ec05.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/REEL_KISS_002_LIFE_WITH_KISS/studio2_mq9bzvf4_8145c3/en/final.mp4",
+      "visible": true
+    },
+    {
+      "id": "r1781506909107",
+      "title": "Self-Image and Health",
+      "videoFile": "/videos/REEL_KISS_004_THE_FAT_KID_NOBODY_UNDERSTOOD_en_e36c86.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/REEL_KISS_004_THE_FAT_KID_NOBODY_UNDERSTOOD/studio2_mq9cuu8l_c80197/en/final.mp4",
+      "visible": true
+    },
+    {
+      "id": "r1781506972155",
+      "title": "Transformation Through Movement",
+      "videoFile": "/videos/REEL_KISS_005_THE_WEIGHT_I_LOST_BY_ACCIDENT_en_54c1aa.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/REEL_KISS_005_THE_WEIGHT_I_LOST_BY_ACCIDENT/studio2_mq9e9p89_a43386/en/final.mp4",
+      "visible": true
+    },
+    {
+      "id": "r1781507168918",
+      "title": "Weight Gain and Sedentary Lifestyle",
+      "videoFile": "/videos/REEL_KISS_006_I_DIDNT_GET_FAT_EATING_JUNK_FOOD_en_61ba9f.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/REEL_KISS_006_I_DIDNT_GET_FAT_EATING_JUNK_FOOD/studio2_mq9llbiw_362513/en/final.mp4",
+      "visible": true
+    },
+    {
+      "id": "r1781507337223",
+      "title": "Running for Self-Discovery",
+      "videoFile": "/videos/REEL_KISS_007_THE_RUN_THAT_BROUGHT_ME_BACK_en_a85d89.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/REEL_KISS_007_THE_RUN_THAT_BROUGHT_ME_BACK/studio2_mqack0p3_68521d/en/final.mp4",
+      "visible": true
+    },
+    {
+      "id": "r1781507549481",
+      "title": "Running for Self-Discovery (Hindi)",
+      "videoFile": "/videos/REEL_KISS_007_THE_RUN_THAT_BROUGHT_ME_BACK_hi_747162.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/REEL_KISS_007_THE_RUN_THAT_BROUGHT_ME_BACK/studio2_mqack0p3_68521d/hi/final.mp4",
+      "visible": true
+    },
+    {
+      "id": "r1781507750684",
+      "title": "The Impact of Borrowed Fear",
+      "videoFile": "/videos/REEL_KISS_009_THE_DAY_FEAR_MADE_ME_QUIT_en_989e1f.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/REEL_KISS_009_THE_DAY_FEAR_MADE_ME_QUIT/studio2_mqadg0e9_73f67c/en/final.mp4",
+      "visible": true
+    },
+    {
+      "id": "r1781507990119",
+      "title": "Running and Fear (Hindi)",
+      "videoFile": "/videos/REEL_KISS_009_THE_DAY_FEAR_MADE_ME_QUIT_hi_a66802.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/REEL_KISS_009_THE_DAY_FEAR_MADE_ME_QUIT/studio2_mqadg0e9_73f67c/hi/final.mp4",
+      "visible": true
+    },
+    {
+      "id": "r1781508698301",
+      "title": "Unprocessed Stress",
+      "videoFile": "/videos/REEL_KISS_010_THE_REAL_REASON_I_WAS_FALLING_APART_en_4fd182.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/REEL_KISS_010_THE_REAL_REASON_I_WAS_FALLING_APART/studio2_mqbqvy7t_304c5e/en/final.mp4",
+      "visible": true
+    },
+    {
+      "id": "r1781508890908",
+      "title": "Silent Stress and Health (Hindi)",
+      "videoFile": "/videos/REEL_KISS_010_THE_REAL_REASON_I_WAS_FALLING_APART_hi_1e5439.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/REEL_KISS_010_THE_REAL_REASON_I_WAS_FALLING_APART/studio2_mqbqvy7t_304c5e/hi/final.mp4",
+      "visible": true
+    },
+    {
+      "id": "r1781509056192",
+      "title": "Sugar and Cancer (Hindi)",
+      "videoFile": "/videos/REEL_ONCO_NUTRITION_001_SUGAR_AND_CANCER_hi_a8a516.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/REEL_ONCO_NUTRITION_001_SUGAR_AND_CANCER/studio2_mq3yigiu_df9085/hi/final.mp4",
+      "visible": true
+    },
+    {
+      "id": "r1781509214604",
+      "title": "Lessons from a Street Dog",
+      "videoFile": "/videos/REEL_PT_001_LESSONS_FROM_A_STREET_DOG_en_d82ce2.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/REEL_PT_001_LESSONS_FROM_A_STREET_DOG/studio2_mqdk5tiy_6974dd/en/final.mp4",
+      "visible": true
+    },
+    {
+      "id": "r1781509386855",
+      "title": "Lessons from a Street Dog (Hindi)",
+      "videoFile": "/videos/REEL_PT_001_LESSONS_FROM_A_STREET_DOG_hi_594d95.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/REEL_PT_001_LESSONS_FROM_A_STREET_DOG/studio2_mqdk5tiy_6974dd/hi/final.mp4",
+      "visible": true
+    },
+    {
+      "id": "r1781509469267",
+      "title": "AI and Human Connection in Healthcare",
+      "videoFile": "/videos/REEL_CXO_013_DOCTORS_AI_HUMAN_CONNECTION_1bc0ac.mp4",
+      "s3Key": "supportive-care/reel-studio/REEL_CXO_013_DOCTORS_AI_HUMAN_CONNECTION/studio_mq3ejb2s_df37fc/final.mp4",
+      "visible": true
+    },
+    {
+      "id": "r1781509550371",
+      "title": "Doctor Identity in Modern Medicine",
+      "videoFile": "/videos/REEL_HC_001_DOCTOR_IDENTITY_543780.mp4",
+      "s3Key": "supportive-care/reel-studio/REEL_HC_001_DOCTOR_IDENTITY/studio_mq3b25gz_3ac8b0/final.mp4",
+      "visible": true
+    },
+    {
+      "id": "r1781510118178",
+      "title": "Multimeter vs Stethoscope",
+      "videoFile": "/videos/REEL_HC_002_STETHOSCOPE_MULTIMETER_4760ff.mp4",
+      "s3Key": "supportive-care/reel-studio/REEL_HC_002_STETHOSCOPE_MULTIMETER/studio_mq3ce81q_aa9a60/final.mp4",
+      "visible": true
+    },
+    {
+      "id": "r1781510223846",
+      "title": "Future Medical Roles with AI",
+      "videoFile": "/videos/REEL_HC_003_MEDICAL_ROLES_AI_12b44e.mp4",
+      "s3Key": "supportive-care/reel-studio/REEL_HC_003_MEDICAL_ROLES_AI/studio_mq3d9l34_ccb246/final.mp4",
+      "visible": true
+    },
+    {
+      "id": "r1781510955489",
+      "title": "Agentic SDLC Transformation",
       "videoFile": "/videos/final.mp4",
       "visible": true
     }
