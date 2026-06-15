@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import { useAuth } from '../context/AuthContext';
+import { useAuth } from '../store/useAuth';
 
 const SECTIONS = [
   { key: 'reels',  label: 'Reels (Short-form)',  nameKey: 'title' },

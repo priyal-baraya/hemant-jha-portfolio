@@ -1,14 +1,60 @@
-import { useState } from 'react';
-import { useAuth } from '../context/AuthContext';
+import { useState, useEffect, useRef } from 'react';
+import { useAuth } from '../store/useAuth';
+
+const GOOGLE_CLIENT_ID = import.meta.env.VITE_GOOGLE_CLIENT_ID;
 
 export default function AuthModal({ onClose, onSuccess }) {
-  const { login, register } = useAuth();
+  const { login, register, googleLogin } = useAuth();
   const [mode, setMode] = useState('login'); // 'login' | 'register'
   const [form, setForm] = useState({ username: '', email: '', password: '' });
   const [error, setError] = useState('');
   const [loading, setLoading] = useState(false);
+  const googleBtnRef = useRef(null);
 
   const set = (field) => (e) => setForm(prev => ({ ...prev, [field]: e.target.value }));
+
+  // Load Google Identity Services and render the "Sign in with Google" button.
+  useEffect(() => {
+    if (!GOOGLE_CLIENT_ID) return; // not configured — button just won't show
+
+    const handleCredential = async (response) => {
+      setError('');
+      setLoading(true);
+      try {
+        const user = await googleLogin(response.credential);
+        onSuccess(user);
+      } catch (err) {
+        setError(err.message);
+      } finally {
+        setLoading(false);
+      }
+    };
+
+    const init = () => {
+      if (!window.google || !googleBtnRef.current) return;
+      window.google.accounts.id.initialize({
+        client_id: GOOGLE_CLIENT_ID,
+        callback: handleCredential,
+      });
+      window.google.accounts.id.renderButton(googleBtnRef.current, {
+        theme: 'outline',
+        size: 'large',
+        width: 320,
+        text: 'signin_with',
+      });
+    };
+
+    if (window.google) {
+      init();
+    } else {
+      const script = document.createElement('script');
+      script.src = 'https://accounts.google.com/gsi/client';
+      script.async = true;
+      script.defer = true;
+      script.onload = init;
+      document.body.appendChild(script);
+    }
+  }, []); // eslint-disable-line react-hooks/exhaustive-deps
 
   const handleSubmit = async (e) => {
     e.preventDefault();
@@ -52,6 +98,18 @@ export default function AuthModal({ onClose, onSuccess }) {
             <span className="material-symbols-outlined">close</span>
           </button>
         </div>
+
+        {/* Google sign-in (admin) */}
+        {GOOGLE_CLIENT_ID && (
+          <div className="mb-5">
+            <div ref={googleBtnRef} className="flex justify-center"></div>
+            <div className="flex items-center gap-3 mt-5">
+              <div className="flex-1 h-px bg-outline-variant/40"></div>
+              <span className="text-xs text-on-surface-variant/70">or use email</span>
+              <div className="flex-1 h-px bg-outline-variant/40"></div>
+            </div>
+          </div>
+        )}
 
         {/* Form */}
         <form onSubmit={handleSubmit} className="space-y-4">

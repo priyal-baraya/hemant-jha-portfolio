@@ -8,6 +8,7 @@ import OpenAI, { AzureOpenAI } from 'openai';
 import axios from 'axios';
 import bcrypt from 'bcryptjs';
 import jwt from 'jsonwebtoken';
+import { OAuth2Client } from 'google-auth-library';
 import qdrantClient from './qdrantClient.js';
 import neo4jDriver from './neo4jClient.js';
 
@@ -602,6 +603,67 @@ app.post('/api/auth/login', async (req, res) => {
 
   const valid = await bcrypt.compare(password, user.passwordHash);
   if (!valid) return res.status(401).json({ error: 'Invalid email or password' });
+
+  const token = jwt.sign({ id: user.id, username: user.username, role: user.role }, JWT_SECRET, { expiresIn: '7d' });
+  res.json({ ok: true, token, user: { id: user.id, username: user.username, email: user.email, role: user.role } });
+});
+
+// ─── Google OAuth login (admin only) ──────────────────────────────────────────
+// Verifies a Google ID token from the frontend, checks the email against the
+// ADMIN_EMAILS allowlist, and issues our own JWT. Only allowlisted emails get in.
+const googleClient = process.env.GOOGLE_CLIENT_ID
+  ? new OAuth2Client(process.env.GOOGLE_CLIENT_ID)
+  : null;
+
+const ADMIN_EMAILS = (process.env.ADMIN_EMAILS || '')
+  .split(',')
+  .map(e => e.trim().toLowerCase())
+  .filter(Boolean);
+
+app.post('/api/auth/google', async (req, res) => {
+  if (!googleClient)
+    return res.status(503).json({ error: 'Google login not configured. Set GOOGLE_CLIENT_ID in .env' });
+
+  const { credential } = req.body; // the ID token from Google Identity Services
+  if (!credential) return res.status(400).json({ error: 'Missing Google credential' });
+
+  let payload;
+  try {
+    const ticket = await googleClient.verifyIdToken({
+      idToken: credential,
+      audience: process.env.GOOGLE_CLIENT_ID,
+    });
+    payload = ticket.getPayload();
+  } catch {
+    return res.status(401).json({ error: 'Invalid Google credential' });
+  }
+
+  const email = (payload.email || '').toLowerCase();
+  if (!payload.email_verified)
+    return res.status(401).json({ error: 'Google email not verified' });
+
+  // Allowlist check — only these emails may sign in as admin
+  if (!ADMIN_EMAILS.includes(email))
+    return res.status(403).json({ error: 'This Google account is not authorized for admin access' });
+
+  // Find or create the admin user record keyed by email
+  const users = getUsers();
+  let user = users.find(u => u.email.toLowerCase() === email);
+  if (!user) {
+    user = {
+      id: Date.now().toString(),
+      username: payload.name || email.split('@')[0],
+      email,
+      passwordHash: null,    // Google-only account, no local password
+      role: 'admin',
+      authProvider: 'google',
+      createdAt: new Date().toISOString(),
+    };
+    users.push(user);
+  } else {
+    user.role = 'admin';     // ensure allowlisted email is admin
+  }
+  saveUsers(users);
 
   const token = jwt.sign({ id: user.id, username: user.username, role: user.role }, JWT_SECRET, { expiresIn: '7d' });
   res.json({ ok: true, token, user: { id: user.id, username: user.username, email: user.email, role: user.role } });

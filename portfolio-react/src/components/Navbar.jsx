@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { useAuth } from '../context/AuthContext';
+import { useAuth } from '../store/useAuth';
 import AuthModal from './AuthModal';
 
 export default function Navbar({ currentPage, setCurrentPage, toggleChat }) {
@@ -15,7 +15,6 @@ export default function Navbar({ currentPage, setCurrentPage, toggleChat }) {
   const handleNavClick = (pageId) => {
     setCurrentPage(pageId);
     setIsMobileMenuOpen(false);
-    setShowUserMenu(false);
   };
 
   const handleAuthSuccess = (loggedInUser) => {
@@ -25,7 +24,6 @@ export default function Navbar({ currentPage, setCurrentPage, toggleChat }) {
 
   const handleLogout = () => {
     logout();
-    setShowUserMenu(false);
     setCurrentPage('home');
   };
 
