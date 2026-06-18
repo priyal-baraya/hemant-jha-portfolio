@@ -11,6 +11,7 @@ import jwt from 'jsonwebtoken';
 import { OAuth2Client } from 'google-auth-library';
 import qdrantClient from './qdrantClient.js';
 import neo4jDriver from './neo4jClient.js';
+import * as relations from './relations.js';
 
 dotenv.config();
 const __filename = fileURLToPath(import.meta.url);
@@ -511,8 +512,8 @@ app.post('/api/admin/reel-studio/render', requireAdmin, async (req, res) => {
 });
 
 // Step 3: Publish reel — add to content.json so it appears on the site
-app.post('/api/admin/reel-studio/publish', requireAdmin, (req, res) => {
-  const { videoId, title } = req.body;
+app.post('/api/admin/reel-studio/publish', requireAdmin, async (req, res) => {
+  const { videoId, title, related } = req.body;
   if (!videoId || !title) return res.status(400).json({ error: 'videoId and title are required' });
 
   const videoPath = path.join(REEL_OUT_DIR, `${videoId}.mp4`);
@@ -532,6 +533,16 @@ app.post('/api/admin/reel-studio/publish', requireAdmin, (req, res) => {
   };
   content.reels.unshift(reel);
   saveContent(content);
+
+  // Mirror the reel node into Neo4j, plus any related content supplied at publish.
+  try {
+    await relations.upsertEntity('reel', reel.id, reel.title);
+    if (Array.isArray(related) && related.length) {
+      await relations.setRelationsFor('reel', reel.id, related);
+    }
+  } catch (e) {
+    console.warn('[relations] reel publish sync failed:', e.message);
+  }
   res.json({ ok: true, reel });
 });
 
@@ -724,20 +735,25 @@ app.get('/api/admin/thoughts', requireAdmin, (req, res) => {
 });
 
 // Save a new thought
-app.post('/api/admin/thoughts', requireAdmin, (req, res) => {
+app.post('/api/admin/thoughts', requireAdmin, async (req, res) => {
   const { text } = req.body;
   if (!text?.trim()) return res.status(400).json({ error: 'text is required' });
   const thought = { id: Date.now().toString(), text: text.trim(), createdAt: new Date().toISOString(), expansions: [] };
   const thoughts = getThoughts();
   thoughts.unshift(thought);
   saveThoughts(thoughts);
+  // Mirror into Neo4j as part of the same workflow
+  try { await relations.upsertEntity('thought', thought.id, thought.text.slice(0, 80)); }
+  catch (e) { console.warn('[relations] thought node sync failed:', e.message); }
   res.json(thought);
 });
 
-// Delete a thought
-app.delete('/api/admin/thoughts/:id', requireAdmin, (req, res) => {
+// Delete a thought — also remove its node + relationships from Neo4j
+app.delete('/api/admin/thoughts/:id', requireAdmin, async (req, res) => {
   const thoughts = getThoughts().filter(t => t.id !== req.params.id);
   saveThoughts(thoughts);
+  try { await relations.deleteEntity('thought', req.params.id); }
+  catch (e) { console.warn('[relations] thought delete sync failed:', e.message); }
   res.json({ ok: true });
 });
 
@@ -799,9 +815,10 @@ Thought: "${thought.text}"`;
 
     // If article, also add to content.json so it shows on the site
     if (type === 'article') {
+      const articleId = `a${result.id}`;
       const content = getContent();
       content.articles.unshift({
-        id: `a${result.id}`,
+        id: articleId,
         title: result.title,
         category: result.category,
         date: result.date || new Date().toLocaleDateString('en-US', { month: 'short', day: '2-digit', year: 'numeric' }).toUpperCase(),
@@ -813,6 +830,15 @@ Thought: "${thought.text}"`;
         sourceThoughtId: thought.id,
       });
       saveContent(content);
+
+      // Article was created WITH related content (its source thought) → mirror the
+      // node + RELATED_TO edge into Neo4j as part of the same workflow.
+      try {
+        await relations.upsertEntity('thought', thought.id, thought.text.slice(0, 80));
+        await relations.linkEntities('article', articleId, 'thought', thought.id);
+      } catch (e) {
+        console.warn('[relations] article↔thought sync failed:', e.message);
+      }
     }
 
     // Store expansion on the thought
@@ -843,6 +869,41 @@ app.patch('/api/admin/content/:type/:id', requireAdmin, (req, res) => {
   item.visible = visible;
   saveContent(content);
   res.json({ ok: true, id, visible });
+});
+
+// ─── Relationships (many-to-many: reel | article | thought) ──────────────────
+// Admin: read all relations for an entity (with titles + visibility)
+app.get('/api/admin/relations/:type/:id', requireAdmin, (req, res) => {
+  const { type, id } = req.params;
+  if (!relations.ENTITY_TYPES.includes(type)) return res.status(400).json({ error: 'Invalid entity type' });
+  res.json(relations.getRelatedDetailed(type, id));
+});
+
+// Admin: replace the full set of relations for an entity (create/update workflow).
+// Body: { related: [{ type, id }, ...] } — Neo4j is diffed & synced in the same call.
+app.put('/api/admin/relations/:type/:id', requireAdmin, async (req, res) => {
+  const { type, id } = req.params;
+  const { related } = req.body;
+  if (!relations.ENTITY_TYPES.includes(type)) return res.status(400).json({ error: 'Invalid entity type' });
+  if (!Array.isArray(related)) return res.status(400).json({ error: 'related must be an array of { type, id }' });
+  for (const n of related) {
+    if (!relations.ENTITY_TYPES.includes(n.type) || !n.id)
+      return res.status(400).json({ error: 'each related item needs a valid type and id' });
+  }
+  try {
+    const diff = await relations.setRelationsFor(type, id, related);
+    res.json({ ok: true, ...diff, related: relations.getRelatedDetailed(type, id) });
+  } catch (e) {
+    console.error('[relations] set failed:', e.message);
+    res.status(500).json({ error: e.message });
+  }
+});
+
+// Public: related VISIBLE content for an entity (for "Related" sections on the site)
+app.get('/api/relations/:type/:id', (req, res) => {
+  const { type, id } = req.params;
+  if (!relations.ENTITY_TYPES.includes(type)) return res.status(400).json({ error: 'Invalid entity type' });
+  res.json(relations.getRelatedDetailed(type, id, { visibleOnly: true }));
 });
 
 // Load wiki nodes helper

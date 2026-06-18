@@ -313,6 +313,188 @@
       "title": "Agentic SDLC Transformation",
       "videoFile": "/videos/final.mp4",
       "visible": true
+    },
+    {
+      "id": "r1781768444440",
+      "title": "Emotional Response to Cancer",
+      "videoFile": "/videos/REEL_PSYCHO_ONCOLOGY_001_DIAGNOSIS_EMOTIONAL_SHOCK_en_206338.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/REEL_PSYCHO_ONCOLOGY_001_DIAGNOSIS_EMOTIONAL_SHOCK/studio2_mqf9dk74_c26e7d/en/final.mp4",
+      "visible": true
+    },
+    {
+      "id": "r1781768490861",
+      "title": "Cancer Diagnosis Emotional Shock",
+      "videoFile": "/videos/REEL_PSYCHO_ONCOLOGY_001_DIAGNOSIS_EMOTIONAL_SHOCK_hi_b50b0e.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/REEL_PSYCHO_ONCOLOGY_001_DIAGNOSIS_EMOTIONAL_SHOCK/studio2_mqf9dk74_c26e7d/hi/final.mp4",
+      "visible": true
+    },
+    {
+      "id": "r1781768524842",
+      "title": "Emotional Response to Cancer Diagnosis",
+      "videoFile": "/videos/REEL_PSYCHO_ONCOLOGY_001_DIAGNOSIS_EMOTIONAL_SHOCK_en_8a17e2.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/REEL_PSYCHO_ONCOLOGY_001_DIAGNOSIS_EMOTIONAL_SHOCK/studio2_mqfz82lk_d028b6/en/final.mp4",
+      "visible": true
+    },
+    {
+      "id": "r1781768568147",
+      "title": "Emotional Shock of Cancer Diagnosis",
+      "videoFile": "/videos/REEL_PSYCHO_ONCOLOGY_001_DIAGNOSIS_EMOTIONAL_SHOCK_hi_1c68ac.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/REEL_PSYCHO_ONCOLOGY_001_DIAGNOSIS_EMOTIONAL_SHOCK/studio2_mqfz82lk_d028b6/hi/final.mp4",
+      "visible": true
+    },
+    {
+      "id": "r1781768641311",
+      "title": "Emotional Numbness After Diagnosis",
+      "videoFile": "/videos/REEL_PSYCHO_ONCOLOGY_002_EMOTIONAL_NUMBNESS_en_30b05f.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/REEL_PSYCHO_ONCOLOGY_002_EMOTIONAL_NUMBNESS/studio2_mqfzgqvz_8c503e/en/final.mp4",
+      "visible": true
+    },
+    {
+      "id": "r1781768676745",
+      "title": "Emotional Numbness After Diagnosis",
+      "videoFile": "/videos/REEL_PSYCHO_ONCOLOGY_002_EMOTIONAL_NUMBNESS_hi_f7f94c.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/REEL_PSYCHO_ONCOLOGY_002_EMOTIONAL_NUMBNESS/studio2_mqfzgqvz_8c503e/hi/final.mp4",
+      "visible": true
+    },
+    {
+      "id": "r1781768708278",
+      "title": "Emotional Changes During Treatment",
+      "videoFile": "/videos/REEL_PSYCHO_ONCOLOGY_003_EMOTIONAL_ROLLERCOASTER_en_3218f3.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/REEL_PSYCHO_ONCOLOGY_003_EMOTIONAL_ROLLERCOASTER/studio2_mqfzpkun_1b9c0c/en/final.mp4",
+      "visible": true
+    },
+    {
+      "id": "r1781768768104",
+      "title": "Emotional Rollercoaster in Cancer",
+      "videoFile": "/videos/REEL_PSYCHO_ONCOLOGY_003_EMOTIONAL_ROLLERCOASTER_hi_501104.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/REEL_PSYCHO_ONCOLOGY_003_EMOTIONAL_ROLLERCOASTER/studio2_mqfzpkun_1b9c0c/hi/final.mp4",
+      "visible": true
+    },
+    {
+      "id": "r1781768807108",
+      "title": "First Month After Diagnosis",
+      "videoFile": "/videos/REEL_PSYCHO_ONCOLOGY_004_FIRST_30_DAYS_en_02f313.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/REEL_PSYCHO_ONCOLOGY_004_FIRST_30_DAYS/studio2_mqfzy2tv_554874/en/final.mp4",
+      "visible": true
+    },
+    {
+      "id": "r1781768862244",
+      "title": "Coping with Uncertainty",
+      "videoFile": "/videos/REEL_PSYCHO_ONCOLOGY_005_UNCERTAINTY_en_3f5d76.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/REEL_PSYCHO_ONCOLOGY_005_UNCERTAINTY/studio2_mqg06q25_87c8a2/en/final.mp4",
+      "visible": true
+    },
+    {
+      "id": "r1781768900459",
+      "title": "Cancer and Uncertainty",
+      "videoFile": "/videos/REEL_PSYCHO_ONCOLOGY_005_UNCERTAINTY_hi_900369.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/REEL_PSYCHO_ONCOLOGY_005_UNCERTAINTY/studio2_mqg06q25_87c8a2/hi/final.mp4",
+      "visible": true
+    },
+    {
+      "id": "r1781768922602",
+      "title": "Fear of Death in Cancer Patients",
+      "videoFile": "/videos/REEL_PSYCHO_ONCOLOGY_006_DEATH_ANXIETY_en_b04931.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/REEL_PSYCHO_ONCOLOGY_006_DEATH_ANXIETY/studio2_mqg0fs8p_18388e/en/final.mp4",
+      "visible": true
+    },
+    {
+      "id": "r1781768964738",
+      "title": "Fear After Cancer Diagnosis",
+      "videoFile": "/videos/REEL_PSYCHO_ONCOLOGY_006_DEATH_ANXIETY_hi_b92d58.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/REEL_PSYCHO_ONCOLOGY_006_DEATH_ANXIETY/studio2_mqg0fs8p_18388e/hi/final.mp4",
+      "visible": true
+    },
+    {
+      "id": "r1781769008696",
+      "title": "Understanding Scanxiety",
+      "videoFile": "/videos/REEL_PSYCHO_ONCOLOGY_007_SCANXIETY_en_b68899.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/REEL_PSYCHO_ONCOLOGY_007_SCANXIETY/studio2_mqg0oqw5_ccf562/en/final.mp4",
+      "visible": true
+    },
+    {
+      "id": "r1781769044594",
+      "title": "Understanding Scanxiety",
+      "videoFile": "/videos/REEL_PSYCHO_ONCOLOGY_007_SCANXIETY_hi_d47362.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/REEL_PSYCHO_ONCOLOGY_007_SCANXIETY/studio2_mqg0oqw5_ccf562/hi/final.mp4",
+      "visible": true
+    },
+    {
+      "id": "r1781769085052",
+      "title": "Fear of Recurrence",
+      "videoFile": "/videos/REEL_PSYCHO_ONCOLOGY_008_FEAR_OF_RECURRENCE_en_21aad4.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/REEL_PSYCHO_ONCOLOGY_008_FEAR_OF_RECURRENCE/studio2_mqg0yvej_12b060/en/final.mp4",
+      "visible": true
+    },
+    {
+      "id": "r1781769139811",
+      "title": "Fear of Recurrence",
+      "videoFile": "/videos/REEL_PSYCHO_ONCOLOGY_008_FEAR_OF_RECURRENCE_hi_196e52.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/REEL_PSYCHO_ONCOLOGY_008_FEAR_OF_RECURRENCE/studio2_mqg0yvej_12b060/hi/final.mp4",
+      "visible": true
+    },
+    {
+      "id": "r1781769207314",
+      "title": "Cancer Pain Management",
+      "videoFile": "/videos/REEL_PSYCHO_ONCOLOGY_009_CANCER_PAIN_en_28f92f.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/REEL_PSYCHO_ONCOLOGY_009_CANCER_PAIN/studio2_mqg18639_7ab6a0/en/final.mp4",
+      "visible": true
+    },
+    {
+      "id": "r1781769218992",
+      "title": "Cancer Pain Management",
+      "videoFile": "/videos/REEL_PSYCHO_ONCOLOGY_009_CANCER_PAIN_hi_bb8be6.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/REEL_PSYCHO_ONCOLOGY_009_CANCER_PAIN/studio2_mqg18639_7ab6a0/hi/final.mp4",
+      "visible": true
+    },
+    {
+      "id": "r1781769249979",
+      "title": "Understanding Morphine Myths",
+      "videoFile": "/videos/REEL_PSYCHO_ONCOLOGY_010_MORPHINE_MYTHS_en_872af5.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/REEL_PSYCHO_ONCOLOGY_010_MORPHINE_MYTHS/studio2_mqg1i32t_3963b8/en/final.mp4",
+      "visible": true
+    },
+    {
+      "id": "r1781769295082",
+      "title": "Myths About Morphine",
+      "videoFile": "/videos/REEL_PSYCHO_ONCOLOGY_010_MORPHINE_MYTHS_hi_6876ba.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/REEL_PSYCHO_ONCOLOGY_010_MORPHINE_MYTHS/studio2_mqg1i32t_3963b8/hi/final.mp4",
+      "visible": true
+    },
+    {
+      "id": "r1781769325626",
+      "title": "Cancer Diagnosis Emotional Journey",
+      "videoFile": "/videos/REEL_PSYCHO_ONCOLOGY_004_FIRST_30_DAYS_hi_dbefe4.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/REEL_PSYCHO_ONCOLOGY_004_FIRST_30_DAYS/studio2_mqfzy2tv_554874/hi/final.mp4",
+      "visible": true
+    },
+    {
+      "id": "r1781769348395",
+      "title": "Fear and Freedom",
+      "videoFile": "/videos/REEL_PT_003_THE_DAY_I_STOPPED_FEARING_LOSS_en_7fdb75.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/REEL_PT_003_THE_DAY_I_STOPPED_FEARING_LOSS/studio2_mqdkvpmq_e73baa/en/final.mp4",
+      "visible": true
+    },
+    {
+      "id": "r1781769441791",
+      "title": "Freedom from Fear of Loss",
+      "videoFile": "/videos/REEL_PT_003_THE_DAY_I_STOPPED_FEARING_LOSS_hi_fe212d.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/REEL_PT_003_THE_DAY_I_STOPPED_FEARING_LOSS/studio2_mqdkvpmq_e73baa/hi/final.mp4",
+      "visible": true
+    },
+    {
+      "id": "r1781769551324",
+      "title": "Investing Time in Kids",
+      "videoFile": "/videos/REEL_PT_004_COMPOUNDING_RETURNS_FOR_KIDS_en_4dd963.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/REEL_PT_004_COMPOUNDING_RETURNS_FOR_KIDS/studio2_mqdl93s1_ce6a82/en/final.mp4",
+      "visible": true
+    },
+    {
+      "id": "r1781769580231",
+      "title": "Investment in Healthy Habits",
+      "videoFile": "/videos/REEL_PT_004_COMPOUNDING_RETURNS_FOR_KIDS_hi_f6896c.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/REEL_PT_004_COMPOUNDING_RETURNS_FOR_KIDS/studio2_mqdl93s1_ce6a82/hi/final.mp4",
+      "visible": true
     }
   ],
   "articles": [
@@ -337,8 +519,7 @@
       "content": "In today's rapidly evolving tech landscape, the intersection of gaming and artificial intelligence (AI) is not just a coincidence; itâ€™s a convergence of **skills** that can drive innovation. Gamers possess a unique set of competencies that often translate seamlessly into the world of AI engineering. From problem-solving to systems thinking, the attributes honed in the virtual world can significantly enhance real-world applications of AI.\n\nFirst and foremost, **problem-solving** is at the core of both gaming and AI. Gamers are accustomed to facing complex challenges and must quickly devise strategies to overcome them. This ability to dissect a problem into manageable parts and develop effective solutions is crucial in AI development, where engineers must navigate vast datasets and intricate algorithms. The iterative nature of gamingâ€”where players learn from failure and refine their approachesâ€”mirrors the iterative processes in AI, such as model training and optimization.\n\nMoreover, the concept of **systems thinking** is inherently embedded in many games. Players often engage with intricate systems, understanding how various components interact within a gameâ€™s environment. This understanding is vital for AI engineers who must consider how different models, data inputs, and algorithms will interact in a broader system. Gamers are trained to foresee consequences and evaluate trade-offs, a perspective that is invaluable when designing AI solutions that need to operate efficiently within real-world constraints.\n\nCollaboration is another critical skill that gamers bring to the table. Many modern games require players to work in teams, fostering an environment where communication and cooperation are essential. AI projects, particularly those in larger organizations, often demand cross-functional teamwork. Gamers are adept at navigating diverse perspectives and leveraging each team member's strengths, making them well-suited for the collaborative nature of AI engineering.\n\nLastly, the **passion for technology** that drives gamers can lead to a profound engagement with AI. This enthusiasm often translates into a commitment to continuous learningâ€”a necessity in the fast-paced world of AI, where new techniques and technologies emerge regularly. Gamers are not merely consumers of technology; they are explorers, eager to understand the underlying mechanics and push the boundaries of what is possible.\n\nIn conclusion, the skills developed through gamingâ€”problem-solving, systems thinking, collaboration, and a passion for technologyâ€”create a robust foundation for a career in AI engineering. As industries increasingly seek to harness the power of AI, recognizing and nurturing the potential of gamers could unlock innovative solutions and drive the future of technology. By bridging the gap between gaming and engineering, we can cultivate a new generation of AI leaders who are not only technically proficient but also adept at understanding the complexities of the systems they work with.",
       "image": "",
       "isFeatured": false,
-      "visible": false,
-      "sourceThoughtId": "1780922828919"
+      "visible": false
     },
     {
       "id": "a1",

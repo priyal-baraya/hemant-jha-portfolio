@@ -54,22 +54,7 @@ export default function Navbar({ currentPage, setCurrentPage, toggleChat }) {
               </a>
             ))}
 
-            {/* Admin link — only visible to admins */}
-            {user?.role === 'admin' && (
-              <a
-                className={`font-label-md text-label-md cursor-pointer transition-all duration-300 pb-1 flex items-center gap-1 ${
-                  currentPage === 'admin'
-                    ? 'text-primary border-b-2 border-secondary font-bold'
-                    : 'text-on-surface-variant hover:text-primary'
-                }`}
-                onClick={() => handleNavClick('admin')}
-              >
-                <span className="material-symbols-outlined text-sm" style={{ fontVariationSettings: "'FILL' 1" }}>
-                  admin_panel_settings
-                </span>
-                Admin
-              </a>
-            )}
+            {/* Admin is reachable only via the #admin URL, not the nav */}
 
             <button
               className="bg-primary text-on-primary px-6 py-2 rounded-lg font-label-md hover:opacity-80 transition-opacity cursor-pointer border-0"
@@ -135,19 +120,6 @@ export default function Navbar({ currentPage, setCurrentPage, toggleChat }) {
                 </a>
               ))}
 
-              {user?.role === 'admin' && (
-                <a
-                  className={`font-label-md text-label-md cursor-pointer py-2 transition-colors flex items-center gap-2 ${
-                    currentPage === 'admin'
-                      ? 'text-primary font-bold border-l-4 border-secondary pl-3'
-                      : 'text-on-surface-variant hover:text-primary pl-3'
-                  }`}
-                  onClick={() => handleNavClick('admin')}
-                >
-                  <span className="material-symbols-outlined text-sm" style={{ fontVariationSettings: "'FILL' 1" }}>admin_panel_settings</span>
-                  Admin
-                </a>
-              )}
 
               <button
                 className="bg-primary text-on-primary w-full py-3 rounded-lg font-label-md hover:opacity-80 transition-opacity cursor-pointer mt-2 border-0"
