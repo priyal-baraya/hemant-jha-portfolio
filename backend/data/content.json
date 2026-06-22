@@ -495,6 +495,1406 @@
       "videoFile": "/videos/REEL_PT_004_COMPOUNDING_RETURNS_FOR_KIDS_hi_f6896c.mp4",
       "s3Key": "supportive-care/reel-studio-v2/REEL_PT_004_COMPOUNDING_RETURNS_FOR_KIDS/studio2_mqdl93s1_ce6a82/hi/final.mp4",
       "visible": true
+    },
+    {
+      "id": "r1781943796003",
+      "title": "CharuCare Oncology Intelligence",
+      "videoFile": "/videos/final_en_d9ef22.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/CHARUCARE_HOSPITAL_PLATFORM_001/studio2_mqjg0x8k_be735a/en/final.mp4",
+      "visible": true
+    },
+    {
+      "id": "r1781943914272",
+      "title": "CharuCare Cancer Support",
+      "videoFile": "/videos/final_en_e7c98f.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/CHARUCARE_MAIN_APP_INVESTOR_001/studio2_mqjaq6hi_32ef15/en/final.mp4",
+      "visible": true
+    },
+    {
+      "id": "r1781943952219",
+      "title": "Cancer Caregiving Essentials",
+      "videoFile": "/videos/REEL_CAREGIVER_001_SURVIVAL_KIT_en_1c59cb.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/REEL_CAREGIVER_001_SURVIVAL_KIT/studio2_mqgd8zeo_2d94ae/en/final.mp4",
+      "visible": true
+    },
+    {
+      "id": "r1781943982434",
+      "title": "Cancer Caregiver Kit",
+      "videoFile": "/videos/REEL_CAREGIVER_001_SURVIVAL_KIT_hi_95b6cd.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/REEL_CAREGIVER_001_SURVIVAL_KIT/studio2_mqgd8zeo_2d94ae/hi/final.mp4",
+      "visible": true
+    },
+    {
+      "id": "r1781944016971",
+      "title": "Essential Appointment Questions",
+      "videoFile": "/videos/REEL_CAREGIVER_002_APPOINTMENT_QUESTIONS_en_53ed13.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/REEL_CAREGIVER_002_APPOINTMENT_QUESTIONS/studio2_mqgdgexk_df8de9/en/final.mp4",
+      "visible": true
+    },
+    {
+      "id": "r1781944043947",
+      "title": "Cancer Appointment Questions",
+      "videoFile": "/videos/REEL_CAREGIVER_002_APPOINTMENT_QUESTIONS_hi_f2f402.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/REEL_CAREGIVER_002_APPOINTMENT_QUESTIONS/studio2_mqgdgexk_df8de9/hi/final.mp4",
+      "visible": true
+    },
+    {
+      "id": "r1781944078017",
+      "title": "Medication Management System",
+      "videoFile": "/videos/REEL_CAREGIVER_003_MEDICATION_TRACKING_en_99ea34.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/REEL_CAREGIVER_003_MEDICATION_TRACKING/studio2_mqgdo0vf_55bf9d/en/final.mp4",
+      "visible": true
+    },
+    {
+      "id": "r1781944102676",
+      "title": "Medication Tracking System",
+      "videoFile": "/videos/REEL_CAREGIVER_003_MEDICATION_TRACKING_hi_2917ed.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/REEL_CAREGIVER_003_MEDICATION_TRACKING/studio2_mqgdo0vf_55bf9d/hi/final.mp4",
+      "visible": true
+    },
+    {
+      "id": "r1781944140071",
+      "title": "Cancer Treatment Red Flags",
+      "videoFile": "/videos/REEL_CAREGIVER_004_RED_FLAGS_en_b23970.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/REEL_CAREGIVER_004_RED_FLAGS/studio2_mqgdvlql_5cebf3/en/final.mp4",
+      "visible": true
+    },
+    {
+      "id": "r1781944244675",
+      "title": "Cancer Treatment Red Flags",
+      "videoFile": "/videos/REEL_CAREGIVER_004_RED_FLAGS_hi_d66dad.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/REEL_CAREGIVER_004_RED_FLAGS/studio2_mqgdvlql_5cebf3/hi/final.mp4",
+      "visible": true
+    },
+    {
+      "id": "r1781944272160",
+      "title": "Caregiver Burnout",
+      "videoFile": "/videos/REEL_CAREGIVER_005_BURNOUT_PREVENTION_hi_cd6459.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/REEL_CAREGIVER_005_BURNOUT_PREVENTION/studio2_mqge33oz_d79a4c/hi/final.mp4",
+      "visible": true
+    },
+    {
+      "id": "r1781944299188",
+      "title": "Organizing Medical Records",
+      "videoFile": "/videos/REEL_CAREGIVER_006_MEDICAL_RECORDS_en_49858f.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/REEL_CAREGIVER_006_MEDICAL_RECORDS/studio2_mqge9t69_22b786/en/final.mp4",
+      "visible": true
+    },
+    {
+      "id": "r1781944343673",
+      "title": "Organizing Important Documents",
+      "videoFile": "/videos/REEL_CAREGIVER_006_MEDICAL_RECORDS_hi_d6d0e2.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/REEL_CAREGIVER_006_MEDICAL_RECORDS/studio2_mqge9t69_22b786/hi/final.mp4",
+      "visible": true
+    },
+    {
+      "id": "r1781944352524",
+      "title": "Cancer Treatment Bag Preparation",
+      "videoFile": "/videos/REEL_CAREGIVER_007_TREATMENT_DAY_BAG_en_7b9561.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/REEL_CAREGIVER_007_TREATMENT_DAY_BAG/studio2_mqgehdtt_4adb66/en/final.mp4",
+      "visible": true
+    },
+    {
+      "id": "r1781944399047",
+      "title": "Emotional Support in Cancer",
+      "videoFile": "/videos/REEL_CAREGIVER_008_EMOTIONAL_SUPPORT_en_a7b16b.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/REEL_CAREGIVER_008_EMOTIONAL_SUPPORT/studio2_mqgeo7mn_eae649/en/final.mp4",
+      "visible": true
+    },
+    {
+      "id": "r1781944422052",
+      "title": "Emotional Support in Cancer",
+      "videoFile": "/videos/REEL_CAREGIVER_008_EMOTIONAL_SUPPORT_hi_ff8401.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/REEL_CAREGIVER_008_EMOTIONAL_SUPPORT/studio2_mqgeo7mn_eae649/hi/final.mp4",
+      "visible": true
+    },
+    {
+      "id": "r1781944439006",
+      "title": "Nutrition Support During Treatment",
+      "videoFile": "/videos/REEL_CAREGIVER_009_NUTRITION_SUPPORT_en_e801bc.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/REEL_CAREGIVER_009_NUTRITION_SUPPORT/studio2_mqgevbmz_410a07/en/final.mp4",
+      "visible": true
+    },
+    {
+      "id": "r1781944466618",
+      "title": "Nutrition Support During Cancer Treatment",
+      "videoFile": "/videos/REEL_CAREGIVER_009_NUTRITION_SUPPORT_hi_95ed9e.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/REEL_CAREGIVER_009_NUTRITION_SUPPORT/studio2_mqgevbmz_410a07/hi/final.mp4",
+      "visible": true
+    },
+    {
+      "id": "r1781947462558",
+      "title": "Cancer-Related Fatigue",
+      "videoFile": "/videos/REEL_CAREGIVER_010_FATIGUE_MANAGEMENT_en_8b4c1e.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/REEL_CAREGIVER_010_FATIGUE_MANAGEMENT/studio2_mqkexfab_16a2a0/en/final.mp4",
+      "visible": true
+    },
+    {
+      "id": "r1781947478237",
+      "title": "Cancer-Related Fatigue Management",
+      "videoFile": "/videos/REEL_CAREGIVER_010_FATIGUE_MANAGEMENT_hi_005cc8.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/REEL_CAREGIVER_010_FATIGUE_MANAGEMENT/studio2_mqkexfab_16a2a0/hi/final.mp4",
+      "visible": true
+    },
+    {
+      "id": "r1781947486465",
+      "title": "Sugar and Cancer Nutrition",
+      "videoFile": "/videos/REEL_ONCO_NUTRITION_001_SUGAR_AND_CANCER_en_cf3035.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/REEL_ONCO_NUTRITION_001_SUGAR_AND_CANCER/studio2_mq67ji0h_a439d1/en/final.mp4",
+      "visible": true
+    },
+    {
+      "id": "r1781947505572",
+      "title": "Sugar and Cancer",
+      "videoFile": "/videos/REEL_ONCO_NUTRITION_001_SUGAR_AND_CANCER_hi_edb761.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/REEL_ONCO_NUTRITION_001_SUGAR_AND_CANCER/studio2_mq67ji0h_a439d1/hi/final.mp4",
+      "visible": true
+    },
+    {
+      "id": "r1781947515963",
+      "title": "Chemotherapy Nutrition Tips",
+      "videoFile": "/videos/REEL_ONCO_NUTRITION_002_CHEMOTHERAPY_DAY_MEALS_en_facc7d.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/REEL_ONCO_NUTRITION_002_CHEMOTHERAPY_DAY_MEALS/studio2_mqgm7wfp_7141b4/en/final.mp4",
+      "visible": true
+    },
+    {
+      "id": "r1781947537972",
+      "title": "Meals on Chemotherapy Day",
+      "videoFile": "/videos/REEL_ONCO_NUTRITION_002_CHEMOTHERAPY_DAY_MEALS_hi_a1446e.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/REEL_ONCO_NUTRITION_002_CHEMOTHERAPY_DAY_MEALS/studio2_mqgm7wfp_7141b4/hi/final.mp4",
+      "visible": true
+    },
+    {
+      "id": "r1781947551855",
+      "title": "Protein Requirements in Cancer",
+      "videoFile": "/videos/REEL_ONCO_NUTRITION_003_PROTEIN_REQUIREMENTS_en_87bf11.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/REEL_ONCO_NUTRITION_003_PROTEIN_REQUIREMENTS/studio2_mqgmhvbo_853a4a/en/final.mp4",
+      "visible": true
+    },
+    {
+      "id": "r1781947571622",
+      "title": "Protein Requirements in Cancer Treatment",
+      "videoFile": "/videos/REEL_ONCO_NUTRITION_003_PROTEIN_REQUIREMENTS_hi_5d9228.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/REEL_ONCO_NUTRITION_003_PROTEIN_REQUIREMENTS/studio2_mqgmhvbo_853a4a/hi/final.mp4",
+      "visible": true
+    },
+    {
+      "id": "r1781986011955",
+      "title": "Caregiver Burnout",
+      "videoFile": "/videos/REEL_CAREGIVER_005_BURNOUT_PREVENTION_en_fa4284.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/REEL_CAREGIVER_005_BURNOUT_PREVENTION/studio2_mqge33oz_d79a4c/en/final.mp4",
+      "visible": true
+    },
+    {
+      "id": "r1781986054702",
+      "title": "Cancer Treatment Day Bag",
+      "videoFile": "/videos/REEL_CAREGIVER_007_TREATMENT_DAY_BAG_hi_96b31d.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/REEL_CAREGIVER_007_TREATMENT_DAY_BAG/studio2_mqgehdtt_4adb66/hi/final.mp4",
+      "visible": true
+    },
+    {
+      "id": "r1781986245371",
+      "title": "Nausea Management Tips",
+      "videoFile": "/videos/REEL_ONCO_NUTRITION_004_NAUSEA_MANAGEMENT_en_bb27f1.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/REEL_ONCO_NUTRITION_004_NAUSEA_MANAGEMENT/studio2_mqgmqve7_2b85e0/en/final.mp4",
+      "visible": true
+    },
+    {
+      "id": "r1781986478265",
+      "title": "Nausea Management Tips",
+      "videoFile": "/videos/REEL_ONCO_NUTRITION_004_NAUSEA_MANAGEMENT_hi_c3ddb0.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/REEL_ONCO_NUTRITION_004_NAUSEA_MANAGEMENT/studio2_mqgmqve7_2b85e0/hi/final.mp4",
+      "visible": true
+    },
+    {
+      "id": "r1781986577470",
+      "title": "Taste Changes During Cancer Treatment",
+      "videoFile": "/videos/REEL_ONCO_NUTRITION_005_TASTE_CHANGES_en_a332ee.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/REEL_ONCO_NUTRITION_005_TASTE_CHANGES/studio2_mqgmzx2n_ce906b/en/final.mp4",
+      "visible": true
+    },
+    {
+      "id": "r1781986681990",
+      "title": "Taste Changes in Cancer Treatment",
+      "videoFile": "/videos/REEL_ONCO_NUTRITION_005_TASTE_CHANGES_hi_50ba1c.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/REEL_ONCO_NUTRITION_005_TASTE_CHANGES/studio2_mqgmzx2n_ce906b/hi/final.mp4",
+      "visible": true
+    },
+    {
+      "id": "r1781986763713",
+      "title": "Managing Mouth Sores",
+      "videoFile": "/videos/REEL_ONCO_NUTRITION_006_MOUTH_SORES_en_4638cd.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/REEL_ONCO_NUTRITION_006_MOUTH_SORES/studio2_mqislvg3_5790ad/en/final.mp4",
+      "visible": true
+    },
+    {
+      "id": "r1781986904222",
+      "title": "Nutrition for Mouth Sores",
+      "videoFile": "/videos/REEL_ONCO_NUTRITION_006_MOUTH_SORES_hi_7b8a68.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/REEL_ONCO_NUTRITION_006_MOUTH_SORES/studio2_mqislvg3_5790ad/hi/final.mp4",
+      "visible": true
+    },
+    {
+      "id": "r1781987027121",
+      "title": "Weight Loss Management in Cancer",
+      "videoFile": "/videos/REEL_ONCO_NUTRITION_007_WEIGHT_LOSS_MANAGEMENT_en_3fa683.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/REEL_ONCO_NUTRITION_007_WEIGHT_LOSS_MANAGEMENT/studio2_mqisvbq8_64b1da/en/final.mp4",
+      "visible": true
+    },
+    {
+      "id": "r1781987453946",
+      "title": "Weight Loss Management in Cancer",
+      "videoFile": "/videos/REEL_ONCO_NUTRITION_007_WEIGHT_LOSS_MANAGEMENT_hi_73ded4.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/REEL_ONCO_NUTRITION_007_WEIGHT_LOSS_MANAGEMENT/studio2_mqisvbq8_64b1da/hi/final.mp4",
+      "visible": true
+    },
+    {
+      "id": "r1781987758189",
+      "title": "Investing Time in Kids",
+      "videoFile": "/videos/REEL_PT_004_COMPOUNDING_RETURNS_FOR_KIDS_en_44ee9f.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/REEL_PT_004_COMPOUNDING_RETURNS_FOR_KIDS/studio2_mqkzyss2_6dfa81/en/final.mp4",
+      "visible": true
+    },
+    {
+      "id": "r1781988155674",
+      "title": "Investment in Children",
+      "videoFile": "/videos/REEL_PT_004_COMPOUNDING_RETURNS_FOR_KIDS_hi_f502d2.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/REEL_PT_004_COMPOUNDING_RETURNS_FOR_KIDS/studio2_mqkzyss2_6dfa81/hi/final.mp4",
+      "visible": true
+    },
+    {
+      "id": "r1781988603780",
+      "title": "From Personal Bests to People Returns",
+      "videoFile": "/videos/REEL_PT_005_FROM_PERSONAL_BESTS_TO_PEOPLE_RETURNS_en_eb8a13.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/REEL_PT_005_FROM_PERSONAL_BESTS_TO_PEOPLE_RETURNS/studio2_mqdlpnji_ed8cb4/en/final.mp4",
+      "visible": true
+    },
+    {
+      "id": "r1781988757729",
+      "title": "Running for Others",
+      "videoFile": "/videos/REEL_PT_005_FROM_PERSONAL_BESTS_TO_PEOPLE_RETURNS_hi_17e872.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/REEL_PT_005_FROM_PERSONAL_BESTS_TO_PEOPLE_RETURNS/studio2_mqdlpnji_ed8cb4/hi/final.mp4",
+      "visible": true
+    },
+    {
+      "id": "r1782024810623",
+      "title": "The Multifaceted Power of Running",
+      "videoFile": "/videos/REEL_PT_006_THE_MULTIFACETED_POWER_OF_RUNNING_en_f156f2.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/REEL_PT_006_THE_MULTIFACETED_POWER_OF_RUNNING/studio2_mqdmpqz2_adacc9/en/final.mp4",
+      "visible": true
+    },
+    {
+      "id": "r1782024833759",
+      "title": "The Power of Running",
+      "videoFile": "/videos/REEL_PT_006_THE_MULTIFACETED_POWER_OF_RUNNING_hi_8bffa8.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/REEL_PT_006_THE_MULTIFACETED_POWER_OF_RUNNING/studio2_mqdmpqz2_adacc9/hi/final.mp4",
+      "visible": true
+    },
+    {
+      "id": "r1782059484110",
+      "title": "Emotional Shock of Cancer Diagnosis",
+      "videoFile": "/videos/REEL_PSYCHO_ONCOLOGY_001_DIAGNOSIS_EMOTIONAL_SHOCK_fb55fb.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/REEL_PSYCHO_ONCOLOGY_001_DIAGNOSIS_EMOTIONAL_SHOCK/studio2_mqfz82lk_d028b6/kn/final.mp4",
+      "visible": true
+    },
+    {
+      "id": "r1782059904111",
+      "title": "Cancer Patients and Burden",
+      "videoFile": "/videos/REEL_PSYCHO_ONCOLOGY_015_BURDEN_en_6b1786.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/REEL_PSYCHO_ONCOLOGY_015_BURDEN/studio2_mqg82662_86d80c/en/final.mp4",
+      "visible": true
+    },
+    {
+      "id": "r1782060115698",
+      "title": "Emotional Numbness in Cancer",
+      "videoFile": "/videos/REEL_PSYCHO_ONCOLOGY_002_EMOTIONAL_NUMBNESS_150f13.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/REEL_PSYCHO_ONCOLOGY_002_EMOTIONAL_NUMBNESS/studio2_mqfzgqvz_8c503e/kn/final.mp4",
+      "visible": true
+    },
+    {
+      "id": "r1782060252705",
+      "title": "Financial Stress in Cancer Treatment",
+      "videoFile": "/videos/REEL_PSYCHO_ONCOLOGY_011_FINANCIAL_STRESS_en_20a40c.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/REEL_PSYCHO_ONCOLOGY_011_FINANCIAL_STRESS/studio2_mqnkvuom_279036/en/final.mp4",
+      "visible": true
+    },
+    {
+      "id": "r1782060406210",
+      "title": "Financial Stress in Cancer Care",
+      "videoFile": "/videos/REEL_PSYCHO_ONCOLOGY_011_FINANCIAL_STRESS_hi_3868d6.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/REEL_PSYCHO_ONCOLOGY_011_FINANCIAL_STRESS/studio2_mqnkvuom_279036/hi/final.mp4",
+      "visible": true
+    },
+    {
+      "id": "r1782060615209",
+      "title": "Caregiver Burnout",
+      "videoFile": "/videos/REEL_PSYCHO_ONCOLOGY_012_CAREGIVER_BURNOUT_en_8da893.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/REEL_PSYCHO_ONCOLOGY_012_CAREGIVER_BURNOUT/studio2_mqg6sic3_f152f5/en/final.mp4",
+      "visible": true
+    },
+    {
+      "id": "r1782060853612",
+      "title": "Caregiver Burnout",
+      "videoFile": "/videos/REEL_PSYCHO_ONCOLOGY_012_CAREGIVER_BURNOUT_en_1508f8.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/REEL_PSYCHO_ONCOLOGY_012_CAREGIVER_BURNOUT/studio2_mqnwwclb_f29ce9/en/final.mp4",
+      "visible": true
+    },
+    {
+      "id": "r1782061067948",
+      "title": "Caregiver Burnout",
+      "videoFile": "/videos/REEL_PSYCHO_ONCOLOGY_012_CAREGIVER_BURNOUT_hi_4a3649.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/REEL_PSYCHO_ONCOLOGY_012_CAREGIVER_BURNOUT/studio2_mqnwwclb_f29ce9/hi/final.mp4",
+      "visible": true
+    },
+    {
+      "id": "r1782061495294",
+      "title": "Caregiver Balance",
+      "videoFile": "/videos/REEL_PSYCHO_ONCOLOGY_013_CAREGIVER_BALANCE_en_2f8312.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/REEL_PSYCHO_ONCOLOGY_013_CAREGIVER_BALANCE/studio2_mqg70vjt_c33e7c/en/final.mp4",
+      "visible": true
+    },
+    {
+      "id": "r1782061502595",
+      "title": "Caregiver Balance",
+      "videoFile": "/videos/REEL_PSYCHO_ONCOLOGY_013_CAREGIVER_BALANCE_en_2e9b16.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/REEL_PSYCHO_ONCOLOGY_013_CAREGIVER_BALANCE/studio2_mqnx514k_48fa02/en/final.mp4",
+      "visible": true
+    },
+    {
+      "id": "r1782061756870",
+      "title": "Caregiver Self-Care",
+      "videoFile": "/videos/REEL_PSYCHO_ONCOLOGY_013_CAREGIVER_BALANCE_hi_4f5883.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/REEL_PSYCHO_ONCOLOGY_013_CAREGIVER_BALANCE/studio2_mqnx514k_48fa02/hi/final.mp4",
+      "visible": true
+    },
+    {
+      "id": "r1782061767766",
+      "title": "Anger and Irritability in Cancer Patients",
+      "videoFile": "/videos/REEL_PSYCHO_ONCOLOGY_014_ANGER_AND_IRRITABILITY_en_a0a9a5.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/REEL_PSYCHO_ONCOLOGY_014_ANGER_AND_IRRITABILITY/studio2_mqg79avv_2a521c/en/final.mp4",
+      "visible": true
+    },
+    {
+      "id": "r1782061889481",
+      "title": "Anger and Irritability in Cancer",
+      "videoFile": "/videos/REEL_PSYCHO_ONCOLOGY_014_ANGER_AND_IRRITABILITY_hi_ce65e1.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/REEL_PSYCHO_ONCOLOGY_014_ANGER_AND_IRRITABILITY/studio2_mqg79avv_2a521c/hi/final.mp4",
+      "visible": true
+    },
+    {
+      "id": "r1782061905168",
+      "title": "Cancer Patient Support",
+      "videoFile": "/videos/REEL_PSYCHO_ONCOLOGY_015_BURDEN_hi_af7812.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/REEL_PSYCHO_ONCOLOGY_015_BURDEN/studio2_mqg82662_86d80c/hi/final.mp4",
+      "visible": true
+    },
+    {
+      "id": "r1782062027663",
+      "title": "Talking to Children About Cancer",
+      "videoFile": "/videos/REEL_PSYCHO_ONCOLOGY_016_CHILDREN_AND_CANCER_en_12a617.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/REEL_PSYCHO_ONCOLOGY_016_CHILDREN_AND_CANCER/studio2_mqg8cjgj_89d617/en/final.mp4",
+      "visible": true
+    },
+    {
+      "id": "r1782062080277",
+      "title": "Communicating Cancer to Children",
+      "videoFile": "/videos/REEL_PSYCHO_ONCOLOGY_016_CHILDREN_AND_CANCER_hi_978c80.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/REEL_PSYCHO_ONCOLOGY_016_CHILDREN_AND_CANCER/studio2_mqg8cjgj_89d617/hi/final.mp4",
+      "visible": true
+    },
+    {
+      "id": "r1782062106423",
+      "title": "Family Roles in Cancer",
+      "videoFile": "/videos/REEL_PSYCHO_ONCOLOGY_017_FAMILY_ROLES_en_dc869f.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/REEL_PSYCHO_ONCOLOGY_017_FAMILY_ROLES/studio2_mqg8medc_22b750/en/final.mp4",
+      "visible": true
+    },
+    {
+      "id": "r1782062144833",
+      "title": "Cancer and Family Roles",
+      "videoFile": "/videos/REEL_PSYCHO_ONCOLOGY_017_FAMILY_ROLES_hi_293bb5.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/REEL_PSYCHO_ONCOLOGY_017_FAMILY_ROLES/studio2_mqg8medc_22b750/hi/final.mp4",
+      "visible": true
+    },
+    {
+      "id": "r1782062173386",
+      "title": "Understanding Anticipatory Grief",
+      "videoFile": "/videos/REEL_PSYCHO_ONCOLOGY_018_ANTICIPATORY_GRIEF_en_977f32.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/REEL_PSYCHO_ONCOLOGY_018_ANTICIPATORY_GRIEF/studio2_mqg8w2cm_ee7c9e/en/final.mp4",
+      "visible": true
+    },
+    {
+      "id": "r1782062204621",
+      "title": "Anticipatory Grief",
+      "videoFile": "/videos/REEL_PSYCHO_ONCOLOGY_018_ANTICIPATORY_GRIEF_hi_713842.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/REEL_PSYCHO_ONCOLOGY_018_ANTICIPATORY_GRIEF/studio2_mqg8w2cm_ee7c9e/hi/final.mp4",
+      "visible": true
+    },
+    {
+      "id": "r1782062238843",
+      "title": "Hope and Reality in Cancer Care",
+      "videoFile": "/videos/REEL_PSYCHO_ONCOLOGY_019_HOPE_AND_REALITY_en_fd749c.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/REEL_PSYCHO_ONCOLOGY_019_HOPE_AND_REALITY/studio2_mqg95li2_12d3d9/en/final.mp4",
+      "visible": true
+    },
+    {
+      "id": "r1782062271110",
+      "title": "Hope and Reality in Cancer Care",
+      "videoFile": "/videos/REEL_PSYCHO_ONCOLOGY_019_HOPE_AND_REALITY_hi_a288f6.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/REEL_PSYCHO_ONCOLOGY_019_HOPE_AND_REALITY/studio2_mqg95li2_12d3d9/hi/final.mp4",
+      "visible": true
+    },
+    {
+      "id": "r1782062295763",
+      "title": "Supportive Communication for Cancer",
+      "videoFile": "/videos/REEL_PSYCHO_ONCOLOGY_020_COMMUNICATION_en_efbe44.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/REEL_PSYCHO_ONCOLOGY_020_COMMUNICATION/studio2_mqg9fsqo_573807/en/final.mp4",
+      "visible": true
+    },
+    {
+      "id": "r1782062328488",
+      "title": "Supporting Cancer Patients",
+      "videoFile": "/videos/REEL_PSYCHO_ONCOLOGY_020_COMMUNICATION_hi_5a676d.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/REEL_PSYCHO_ONCOLOGY_020_COMMUNICATION/studio2_mqg9fsqo_573807/hi/final.mp4",
+      "visible": true
+    },
+    {
+      "id": "r1782062386421",
+      "title": "Understanding Toxic Positivity",
+      "videoFile": "/videos/REEL_PSYCHO_ONCOLOGY_021_TOXIC_POSITIVITY_en_af54d0.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/REEL_PSYCHO_ONCOLOGY_021_TOXIC_POSITIVITY/studio2_mqltpp6t_8cd453/en/final.mp4",
+      "visible": true
+    },
+    {
+      "id": "r1782062436921",
+      "title": "Toxic Positivity",
+      "videoFile": "/videos/REEL_PSYCHO_ONCOLOGY_021_TOXIC_POSITIVITY_hi_dfe8db.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/REEL_PSYCHO_ONCOLOGY_021_TOXIC_POSITIVITY/studio2_mqltpp6t_8cd453/hi/final.mp4",
+      "visible": true
+    },
+    {
+      "id": "r1782062524106",
+      "title": "Accepting Help",
+      "videoFile": "/videos/REEL_PSYCHO_ONCOLOGY_022_ASKING_FOR_HELP_hi_e04562.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/REEL_PSYCHO_ONCOLOGY_022_ASKING_FOR_HELP/studio2_mqlty10k_81344b/hi/final.mp4",
+      "visible": true
+    },
+    {
+      "id": "r1782062571986",
+      "title": "Loneliness in Cancer",
+      "videoFile": "/videos/REEL_PSYCHO_ONCOLOGY_023_LONELINESS_en_8e3193.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/REEL_PSYCHO_ONCOLOGY_023_LONELINESS/studio2_mqlu6kbi_ce2ca0/en/final.mp4",
+      "visible": true
+    },
+    {
+      "id": "r1782062619174",
+      "title": "Feeling Lonely While Surrounded",
+      "videoFile": "/videos/REEL_PSYCHO_ONCOLOGY_023_LONELINESS_hi_95bcc2.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/REEL_PSYCHO_ONCOLOGY_023_LONELINESS/studio2_mqlu6kbi_ce2ca0/hi/final.mp4",
+      "visible": true
+    },
+    {
+      "id": "r1782062646797",
+      "title": "Social Withdrawal in Cancer",
+      "videoFile": "/videos/REEL_PSYCHO_ONCOLOGY_024_SOCIAL_WITHDRAWAL_en_e87d4e.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/REEL_PSYCHO_ONCOLOGY_024_SOCIAL_WITHDRAWAL/studio2_mqluejan_1d426a/en/final.mp4",
+      "visible": true
+    },
+    {
+      "id": "r1782062696032",
+      "title": "Cancer Support Relationships",
+      "videoFile": "/videos/REEL_PSYCHO_ONCOLOGY_024_SOCIAL_WITHDRAWAL_hi_c542b5.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/REEL_PSYCHO_ONCOLOGY_024_SOCIAL_WITHDRAWAL/studio2_mqluejan_1d426a/hi/final.mp4",
+      "visible": true
+    },
+    {
+      "id": "r1782062760266",
+      "title": "Returning to Work After Cancer",
+      "videoFile": "/videos/REEL_PSYCHO_ONCOLOGY_025_RETURN_TO_WORK_en_41b422.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/REEL_PSYCHO_ONCOLOGY_025_RETURN_TO_WORK/studio2_mqlun694_f80ed7/en/final.mp4",
+      "visible": true
+    },
+    {
+      "id": "r1782062873819",
+      "title": "Return to Work After Cancer",
+      "videoFile": "/videos/REEL_PSYCHO_ONCOLOGY_025_RETURN_TO_WORK_hi_d636af.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/REEL_PSYCHO_ONCOLOGY_025_RETURN_TO_WORK/studio2_mqlun694_f80ed7/hi/final.mp4",
+      "visible": true
+    },
+    {
+      "id": "r1782063059838",
+      "title": "Understanding Scansiety",
+      "videoFile": "/videos/REEL_PSYCHO_ONCOLOGY_026_SCANXIETY_en_12310e.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/REEL_PSYCHO_ONCOLOGY_026_SCANXIETY/studio2_mqluv6v2_a41aca/en/final.mp4",
+      "visible": true
+    },
+    {
+      "id": "r1782063434822",
+      "title": "Scan Anxiety Management",
+      "videoFile": "/videos/REEL_PSYCHO_ONCOLOGY_026_SCANXIETY_hi_d7f513.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/REEL_PSYCHO_ONCOLOGY_026_SCANXIETY/studio2_mqluv6v2_a41aca/hi/final.mp4",
+      "visible": true
+    },
+    {
+      "id": "r1782063460963",
+      "title": "Understanding Survivor's Guilt",
+      "videoFile": "/videos/REEL_PSYCHO_ONCOLOGY_028_SURVIVORS_GUILT_en_6e4149.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/REEL_PSYCHO_ONCOLOGY_028_SURVIVORS_GUILT/studio2_mqlvbs7a_d62de5/en/final.mp4",
+      "visible": true
+    },
+    {
+      "id": "r1782063727400",
+      "title": "Survivor's Guilt",
+      "videoFile": "/videos/REEL_PSYCHO_ONCOLOGY_028_SURVIVORS_GUILT_hi_b25669.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/REEL_PSYCHO_ONCOLOGY_028_SURVIVORS_GUILT/studio2_mqlvbs7a_d62de5/hi/final.mp4",
+      "visible": true
+    },
+    {
+      "id": "r1782064890199",
+      "title": "Finding Meaning After Cancer",
+      "videoFile": "/videos/REEL_PSYCHO_ONCOLOGY_032_FINDING_MEANING_hi_e8d875.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/REEL_PSYCHO_ONCOLOGY_032_FINDING_MEANING/studio2_mqncwexb_33dc78/hi/final.mp4",
+      "visible": true
+    },
+    {
+      "id": "r1782064994083",
+      "title": "Caregiver Emotional Recovery",
+      "videoFile": "/videos/REEL_PSYCHO_ONCOLOGY_033_CAREGIVER_REBUILDING_en_8aebcc.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/REEL_PSYCHO_ONCOLOGY_033_CAREGIVER_REBUILDING/studio2_mqnd441v_ca2ee5/en/final.mp4",
+      "visible": true
+    },
+    {
+      "id": "r1782065007167",
+      "title": "Caregiver Recovery",
+      "videoFile": "/videos/REEL_PSYCHO_ONCOLOGY_033_CAREGIVER_REBUILDING_hi_83a6dc.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/REEL_PSYCHO_ONCOLOGY_033_CAREGIVER_REBUILDING/studio2_mqnd441v_ca2ee5/hi/final.mp4",
+      "visible": true
+    },
+    {
+      "id": "r1782067374200",
+      "title": "Sibling Support in Family Crisis",
+      "videoFile": "/videos/REEL_PSYCHO_ONCOLOGY_034_SIBLING_SUPPORT_hi_e3a2bf.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/REEL_PSYCHO_ONCOLOGY_034_SIBLING_SUPPORT/studio2_mqndc7wq_02e362/hi/final.mp4",
+      "visible": true
+    },
+    {
+      "id": "r1782067383584",
+      "title": "Talking to Children About Cancer",
+      "videoFile": "/videos/REEL_PSYCHO_ONCOLOGY_035_CHILDREN_PARENT_CANCER_en_5d5d9e.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/REEL_PSYCHO_ONCOLOGY_035_CHILDREN_PARENT_CANCER/studio2_mqndjw7e_2b9204/en/final.mp4",
+      "visible": true
+    },
+    {
+      "id": "r1782067404047",
+      "title": "Asking for Help",
+      "videoFile": "/videos/REEL_PSYCHO_ONCOLOGY_022_ASKING_FOR_HELP_en_d55059.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/REEL_PSYCHO_ONCOLOGY_022_ASKING_FOR_HELP/studio2_mqlty10k_81344b/en/final.mp4",
+      "visible": true
+    },
+    {
+      "id": "r1782067415126",
+      "title": "Understanding Fear of Recurrence",
+      "videoFile": "/videos/REEL_PSYCHO_ONCOLOGY_027_FEAR_OF_RECURRENCE_en_2483a7.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/REEL_PSYCHO_ONCOLOGY_027_FEAR_OF_RECURRENCE/studio2_mqlv3el9_5ebfce/en/final.mp4",
+      "visible": true
+    },
+    {
+      "id": "r1782067429424",
+      "title": "Fear of Recurrence",
+      "videoFile": "/videos/REEL_PSYCHO_ONCOLOGY_027_FEAR_OF_RECURRENCE_hi_4f745b.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/REEL_PSYCHO_ONCOLOGY_027_FEAR_OF_RECURRENCE/studio2_mqlv3el9_5ebfce/hi/final.mp4",
+      "visible": true
+    },
+    {
+      "id": "r1782067438323",
+      "title": "Body Image After Cancer",
+      "videoFile": "/videos/REEL_PSYCHO_ONCOLOGY_029_BODY_IMAGE_en_c2d80f.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/REEL_PSYCHO_ONCOLOGY_029_BODY_IMAGE/studio2_mqlvk1j0_17aaf9/en/final.mp4",
+      "visible": true
+    },
+    {
+      "id": "r1782067453146",
+      "title": "Body Image After Cancer Treatment",
+      "videoFile": "/videos/REEL_PSYCHO_ONCOLOGY_029_BODY_IMAGE_hi_2b1af3.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/REEL_PSYCHO_ONCOLOGY_029_BODY_IMAGE/studio2_mqlvk1j0_17aaf9/hi/final.mp4",
+      "visible": true
+    },
+    {
+      "id": "r1782067461581",
+      "title": "Intimacy in Relationships During Cancer",
+      "videoFile": "/videos/REEL_PSYCHO_ONCOLOGY_030_INTIMACY_RELATIONSHIPS_en_eabb81.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/REEL_PSYCHO_ONCOLOGY_030_INTIMACY_RELATIONSHIPS/studio2_mqlvst2b_a01823/en/final.mp4",
+      "visible": true
+    },
+    {
+      "id": "r1782067481966",
+      "title": "Intimacy in Cancer Relationships",
+      "videoFile": "/videos/REEL_PSYCHO_ONCOLOGY_030_INTIMACY_RELATIONSHIPS_hi_81abd9.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/REEL_PSYCHO_ONCOLOGY_030_INTIMACY_RELATIONSHIPS/studio2_mqlvst2b_a01823/hi/final.mp4",
+      "visible": true
+    },
+    {
+      "id": "r1782067490836",
+      "title": "Living with Uncertainty",
+      "videoFile": "/videos/REEL_PSYCHO_ONCOLOGY_031_LIVING_WITH_UNCERTAINTY_en_98b8bd.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/REEL_PSYCHO_ONCOLOGY_031_LIVING_WITH_UNCERTAINTY/studio2_mqncohjk_f42d7c/en/final.mp4",
+      "visible": true
+    },
+    {
+      "id": "r1782067504926",
+      "title": "Living with Uncertainty",
+      "videoFile": "/videos/REEL_PSYCHO_ONCOLOGY_031_LIVING_WITH_UNCERTAINTY_hi_1e4092.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/REEL_PSYCHO_ONCOLOGY_031_LIVING_WITH_UNCERTAINTY/studio2_mqncohjk_f42d7c/hi/final.mp4",
+      "visible": true
+    },
+    {
+      "id": "r1782067612321",
+      "title": "Finding Meaning After Cancer",
+      "videoFile": "/videos/REEL_PSYCHO_ONCOLOGY_032_FINDING_MEANING_en_bf3b65.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/REEL_PSYCHO_ONCOLOGY_032_FINDING_MEANING/studio2_mqncwexb_33dc78/en/final.mp4",
+      "visible": true
+    },
+    {
+      "id": "r1782067620712",
+      "title": "Sibling Support in Health Crisis",
+      "videoFile": "/videos/REEL_PSYCHO_ONCOLOGY_034_SIBLING_SUPPORT_en_030dd9.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/REEL_PSYCHO_ONCOLOGY_034_SIBLING_SUPPORT/studio2_mqndc7wq_02e362/en/final.mp4",
+      "visible": true
+    },
+    {
+      "id": "r1782067687291",
+      "title": "Parental Support in Cancer",
+      "videoFile": "/videos/REEL_PSYCHO_ONCOLOGY_037_PARENT_CAREGIVER_en_f233d9.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/REEL_PSYCHO_ONCOLOGY_037_PARENT_CAREGIVER/studio2_mqne03j6_fc5d4a/en/final.mp4",
+      "visible": true
+    },
+    {
+      "id": "r1782067751645",
+      "title": "Parental Support in Child Illness",
+      "videoFile": "/videos/REEL_PSYCHO_ONCOLOGY_037_PARENT_CAREGIVER_hi_76c77d.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/REEL_PSYCHO_ONCOLOGY_037_PARENT_CAREGIVER/studio2_mqne03j6_fc5d4a/hi/final.mp4",
+      "visible": true
+    },
+    {
+      "id": "r1782067835525",
+      "title": "Financial Distress in Cancer Care",
+      "videoFile": "/videos/REEL_PSYCHO_ONCOLOGY_038_FINANCIAL_DISTRESS_en_68d646.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/REEL_PSYCHO_ONCOLOGY_038_FINANCIAL_DISTRESS/studio2_mqne87nf_7d1ad4/en/final.mp4",
+      "visible": true
+    },
+    {
+      "id": "r1782067900734",
+      "title": "Financial Distress in Cancer Treatment",
+      "videoFile": "/videos/REEL_PSYCHO_ONCOLOGY_038_FINANCIAL_DISTRESS_hi_aef559.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/REEL_PSYCHO_ONCOLOGY_038_FINANCIAL_DISTRESS/studio2_mqne87nf_7d1ad4/hi/final.mp4",
+      "visible": true
+    },
+    {
+      "id": "r1782068017889",
+      "title": "Understanding Death Anxiety",
+      "videoFile": "/videos/REEL_PSYCHO_ONCOLOGY_039_DEATH_ANXIETY_en_47d589.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/REEL_PSYCHO_ONCOLOGY_039_DEATH_ANXIETY/studio2_mqneg9ml_a25992/en/final.mp4",
+      "visible": true
+    },
+    {
+      "id": "r1782068135048",
+      "title": "Understanding Death Anxiety",
+      "videoFile": "/videos/REEL_PSYCHO_ONCOLOGY_039_DEATH_ANXIETY_hi_9d0f40.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/REEL_PSYCHO_ONCOLOGY_039_DEATH_ANXIETY/studio2_mqneg9ml_a25992/hi/final.mp4",
+      "visible": true
+    },
+    {
+      "id": "r1782069184817",
+      "title": "Cancer Pain Management",
+      "videoFile": "/videos/REEL_PSYCHO_ONCOLOGY_040_CANCER_PAIN_EMOTIONAL_SUFFERING_en_39290b.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/REEL_PSYCHO_ONCOLOGY_040_CANCER_PAIN_EMOTIONAL_SUFFERING/studio2_mqneo7pu_baba53/en/final.mp4",
+      "visible": true
+    },
+    {
+      "id": "r1782069216161",
+      "title": "Communicating Cancer to Children",
+      "videoFile": "/videos/REEL_PSYCHO_ONCOLOGY_035_CHILDREN_PARENT_CANCER_hi_914d19.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/REEL_PSYCHO_ONCOLOGY_035_CHILDREN_PARENT_CANCER/studio2_mqndjw7e_2b9204/hi/final.mp4",
+      "visible": true
+    },
+    {
+      "id": "r1782069228184",
+      "title": "Parents' Cancer Impact on Teenagers",
+      "videoFile": "/videos/REEL_PSYCHO_ONCOLOGY_036_TEENAGERS_PARENT_CANCER_en_a28137.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/REEL_PSYCHO_ONCOLOGY_036_TEENAGERS_PARENT_CANCER/studio2_mqndrw2n_6fa2e1/en/final.mp4",
+      "visible": true
+    },
+    {
+      "id": "r1782069252735",
+      "title": "Teenagers' Behavior Post-Cancer Diagnosis",
+      "videoFile": "/videos/REEL_PSYCHO_ONCOLOGY_036_TEENAGERS_PARENT_CANCER_hi_5e8445.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/REEL_PSYCHO_ONCOLOGY_036_TEENAGERS_PARENT_CANCER/studio2_mqndrw2n_6fa2e1/hi/final.mp4",
+      "visible": true
+    },
+    {
+      "id": "r1782069778342",
+      "title": "Palliative Care Myths",
+      "videoFile": "/videos/REEL_PSYCHO_ONCOLOGY_041_PALLIATIVE_CARE_MYTHS_hi_dca9b2.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/REEL_PSYCHO_ONCOLOGY_041_PALLIATIVE_CARE_MYTHS/studio2_mqnew1kb_422ecf/hi/final.mp4",
+      "visible": true
+    },
+    {
+      "id": "r1782069803285",
+      "title": "Cancer Pain Management",
+      "videoFile": "/videos/REEL_PSYCHO_ONCOLOGY_040_CANCER_PAIN_EMOTIONAL_SUFFERING_hi_016cae.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/REEL_PSYCHO_ONCOLOGY_040_CANCER_PAIN_EMOTIONAL_SUFFERING/studio2_mqneo7pu_baba53/hi/final.mp4",
+      "visible": true
+    },
+    {
+      "id": "r1782069813849",
+      "title": "Palliative Care Myths",
+      "videoFile": "/videos/REEL_PSYCHO_ONCOLOGY_041_PALLIATIVE_CARE_MYTHS_en_9603cd.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/REEL_PSYCHO_ONCOLOGY_041_PALLIATIVE_CARE_MYTHS/studio2_mqnew1kb_422ecf/en/final.mp4",
+      "visible": true
+    },
+    {
+      "id": "r1782069821767",
+      "title": "Advance Care Planning",
+      "videoFile": "/videos/REEL_PSYCHO_ONCOLOGY_042_ADVANCE_CARE_PLANNING_en_b7dc58.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/REEL_PSYCHO_ONCOLOGY_042_ADVANCE_CARE_PLANNING/studio2_mqnf3z39_672b9b/en/final.mp4",
+      "visible": true
+    },
+    {
+      "id": "r1782070120821",
+      "title": "Prognosis Conversations",
+      "videoFile": "/videos/REEL_PSYCHO_ONCOLOGY_043_PROGNOSIS_CONVERSATIONS_en_790ef5.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/REEL_PSYCHO_ONCOLOGY_043_PROGNOSIS_CONVERSATIONS/studio2_mqnfc81m_343b30/en/final.mp4",
+      "visible": true
+    },
+    {
+      "id": "r1782070488376",
+      "title": "Prognosis Conversations",
+      "videoFile": "/videos/REEL_PSYCHO_ONCOLOGY_043_PROGNOSIS_CONVERSATIONS_hi_4cca9e.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/REEL_PSYCHO_ONCOLOGY_043_PROGNOSIS_CONVERSATIONS/studio2_mqnfc81m_343b30/hi/final.mp4",
+      "visible": true
+    },
+    {
+      "id": "r1782070497417",
+      "title": "Caregiver Burnout",
+      "videoFile": "/videos/REEL_PSYCHO_ONCOLOGY_044_CAREGIVER_BURNOUT_en_df3ccf.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/REEL_PSYCHO_ONCOLOGY_044_CAREGIVER_BURNOUT/studio2_mqnfkhft_cdf6dd/en/final.mp4",
+      "visible": true
+    },
+    {
+      "id": "r1782070802691",
+      "title": "Caregiver Burnout",
+      "videoFile": "/videos/REEL_PSYCHO_ONCOLOGY_044_CAREGIVER_BURNOUT_hi_a62431.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/REEL_PSYCHO_ONCOLOGY_044_CAREGIVER_BURNOUT/studio2_mqnfkhft_cdf6dd/hi/final.mp4",
+      "visible": true
+    },
+    {
+      "id": "r1782071138712",
+      "title": "Cancer and Social Isolation",
+      "videoFile": "/videos/REEL_PSYCHO_ONCOLOGY_045_SOCIAL_ISOLATION_en_622869.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/REEL_PSYCHO_ONCOLOGY_045_SOCIAL_ISOLATION/studio2_mqnfsjlr_8df0f5/en/final.mp4",
+      "visible": true
+    },
+    {
+      "id": "r1782071152317",
+      "title": "Cancer Support System",
+      "videoFile": "/videos/REEL_PSYCHO_ONCOLOGY_045_SOCIAL_ISOLATION_hi_bf2ea6.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/REEL_PSYCHO_ONCOLOGY_045_SOCIAL_ISOLATION/studio2_mqnfsjlr_8df0f5/hi/final.mp4",
+      "visible": true
+    },
+    {
+      "id": "r1782071161131",
+      "title": "Returning to Work After Cancer",
+      "videoFile": "/videos/REEL_PSYCHO_ONCOLOGY_046_RETURNING_TO_WORK_en_fc5ccc.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/REEL_PSYCHO_ONCOLOGY_046_RETURNING_TO_WORK/studio2_mqng0is1_f74336/en/final.mp4",
+      "visible": true
+    },
+    {
+      "id": "r1782130627310",
+      "title": "Cancer Treatment Infection Prevention",
+      "videoFile": "/videos/REEL_CAREGIVER_011_INFECTION_PREVENTION_en_6c245b.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/REEL_CAREGIVER_011_INFECTION_PREVENTION/studio2_mqkf36l7_f5b0d3/en/final.mp4",
+      "visible": true
+    },
+    {
+      "id": "r1782130654394",
+      "title": "Infection Prevention in Cancer Treatment",
+      "videoFile": "/videos/REEL_CAREGIVER_011_INFECTION_PREVENTION_hi_f771ae.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/REEL_CAREGIVER_011_INFECTION_PREVENTION/studio2_mqkf36l7_f5b0d3/hi/final.mp4",
+      "visible": true
+    },
+    {
+      "id": "r1782130688712",
+      "title": "Infection Prevention in Cancer Treatment",
+      "videoFile": "/videos/REEL_CAREGIVER_011_INFECTION_PREVENTION_en_65ce9e.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/REEL_CAREGIVER_011_INFECTION_PREVENTION/studio2_mqotex5j_e39d0b/en/final.mp4",
+      "visible": true
+    },
+    {
+      "id": "r1782130716065",
+      "title": "Infection Prevention in Cancer Treatments",
+      "videoFile": "/videos/REEL_CAREGIVER_011_INFECTION_PREVENTION_hi_ecc4b5.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/REEL_CAREGIVER_011_INFECTION_PREVENTION/studio2_mqotex5j_e39d0b/hi/final.mp4",
+      "visible": true
+    },
+    {
+      "id": "r1782130738714",
+      "title": "Accepting Help as a Caregiver",
+      "videoFile": "/videos/REEL_CAREGIVER_012_ACCEPTING_HELP_en_81fca3.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/REEL_CAREGIVER_012_ACCEPTING_HELP/studio2_mqkf8vyt_48a04a/en/final.mp4",
+      "visible": true
+    },
+    {
+      "id": "r1782130764161",
+      "title": "Accepting Help",
+      "videoFile": "/videos/REEL_CAREGIVER_012_ACCEPTING_HELP_hi_e6148b.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/REEL_CAREGIVER_012_ACCEPTING_HELP/studio2_mqkf8vyt_48a04a/hi/final.mp4",
+      "visible": true
+    },
+    {
+      "id": "r1782130792549",
+      "title": "Accepting Help as a Caregiver",
+      "videoFile": "/videos/REEL_CAREGIVER_012_ACCEPTING_HELP_en_dd9eaf.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/REEL_CAREGIVER_012_ACCEPTING_HELP/studio2_mqotex7j_605f45/en/final.mp4",
+      "visible": true
+    },
+    {
+      "id": "r1782130816007",
+      "title": "Accepting Help as a Caregiver",
+      "videoFile": "/videos/REEL_CAREGIVER_012_ACCEPTING_HELP_hi_4a2f8b.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/REEL_CAREGIVER_012_ACCEPTING_HELP/studio2_mqotex7j_605f45/hi/final.mp4",
+      "visible": true
+    },
+    {
+      "id": "r1782130834536",
+      "title": "Coping with Scan Anxiety",
+      "videoFile": "/videos/REEL_CAREGIVER_013_SCANXIETY_en_994dc5.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/REEL_CAREGIVER_013_SCANXIETY/studio2_mqkfernz_d04116/en/final.mp4",
+      "visible": true
+    },
+    {
+      "id": "r1782130885446",
+      "title": "Coping with Scan Anxiety",
+      "videoFile": "/videos/REEL_CAREGIVER_013_SCANXIETY_en_4632c8.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/REEL_CAREGIVER_013_SCANXIETY/studio2_mqotex91_391cb3/en/final.mp4",
+      "visible": true
+    },
+    {
+      "id": "r1782130928862",
+      "title": "Scan Anxiety Management",
+      "videoFile": "/videos/REEL_CAREGIVER_013_SCANXIETY_hi_68fe7b.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/REEL_CAREGIVER_013_SCANXIETY/studio2_mqotex91_391cb3/hi/final.mp4",
+      "visible": true
+    },
+    {
+      "id": "r1782130936164",
+      "title": "Self-Care for Caregivers",
+      "videoFile": "/videos/REEL_CAREGIVER_014_SELFCARE_10_MINUTES_en_723d2b.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/REEL_CAREGIVER_014_SELFCARE_10_MINUTES/studio2_mqkfkn78_5e6cae/en/final.mp4",
+      "visible": true
+    },
+    {
+      "id": "r1782130969053",
+      "title": "Self-Care in Caregiving",
+      "videoFile": "/videos/REEL_CAREGIVER_014_SELFCARE_10_MINUTES_hi_74609e.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/REEL_CAREGIVER_014_SELFCARE_10_MINUTES/studio2_mqkfkn78_5e6cae/hi/final.mp4",
+      "visible": true
+    },
+    {
+      "id": "r1782131010681",
+      "title": "Self-Care for Caregivers",
+      "videoFile": "/videos/REEL_CAREGIVER_014_SELFCARE_10_MINUTES_en_bf5882.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/REEL_CAREGIVER_014_SELFCARE_10_MINUTES/studio2_mqotexaj_aed018/en/final.mp4",
+      "visible": true
+    },
+    {
+      "id": "r1782131035901",
+      "title": "Self-Care in Caregiving",
+      "videoFile": "/videos/REEL_CAREGIVER_014_SELFCARE_10_MINUTES_hi_a80567.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/REEL_CAREGIVER_014_SELFCARE_10_MINUTES/studio2_mqotexaj_aed018/hi/final.mp4",
+      "visible": true
+    },
+    {
+      "id": "r1782131072108",
+      "title": "Honest Conversations",
+      "videoFile": "/videos/REEL_CAREGIVER_015_HARD_CONVERSATIONS_en_3b9f90.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/REEL_CAREGIVER_015_HARD_CONVERSATIONS/studio2_mqotexc4_25c7e2/en/final.mp4",
+      "visible": true
+    },
+    {
+      "id": "r1782131085415",
+      "title": "Hard Conversations",
+      "videoFile": "/videos/REEL_CAREGIVER_015_HARD_CONVERSATIONS_hi_5a93b6.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/REEL_CAREGIVER_015_HARD_CONVERSATIONS/studio2_mqotexc4_25c7e2/hi/final.mp4",
+      "visible": true
+    },
+    {
+      "id": "r1782131120464",
+      "title": "Medication Management Tips",
+      "videoFile": "/videos/REEL_CAREGIVER_016_MEDICATION_MANAGEMENT_hi_7fdef7.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/REEL_CAREGIVER_016_MEDICATION_MANAGEMENT/studio2_mqotexdn_baf2f0/hi/final.mp4",
+      "visible": true
+    },
+    {
+      "id": "r1782131140564",
+      "title": "Doctor Appointment Preparation",
+      "videoFile": "/videos/REEL_CAREGIVER_017_APPOINTMENT_PREPARATION_en_285e25.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/REEL_CAREGIVER_017_APPOINTMENT_PREPARATION/studio2_mqotexey_94b550/en/final.mp4",
+      "visible": true
+    },
+    {
+      "id": "r1782131172582",
+      "title": "Doctor Appointment Preparation",
+      "videoFile": "/videos/REEL_CAREGIVER_017_APPOINTMENT_PREPARATION_hi_38a04e.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/REEL_CAREGIVER_017_APPOINTMENT_PREPARATION/studio2_mqotexey_94b550/hi/final.mp4",
+      "visible": true
+    },
+    {
+      "id": "r1782131180426",
+      "title": "Medication Management Tips",
+      "videoFile": "/videos/REEL_CAREGIVER_016_MEDICATION_MANAGEMENT_en_e99fb9.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/REEL_CAREGIVER_016_MEDICATION_MANAGEMENT/studio2_mqotexdn_baf2f0/en/final.mp4",
+      "visible": true
+    },
+    {
+      "id": "r1782131209849",
+      "title": "Caregiver Sleep Needs",
+      "videoFile": "/videos/REEL_CAREGIVER_018_SLEEP_AND_REST_en_bf5715.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/REEL_CAREGIVER_018_SLEEP_AND_REST/studio2_mqotexgf_086897/en/final.mp4",
+      "visible": true
+    },
+    {
+      "id": "r1782131236271",
+      "title": "Importance of Sleep for Caregivers",
+      "videoFile": "/videos/REEL_CAREGIVER_018_SLEEP_AND_REST_hi_c3c237.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/REEL_CAREGIVER_018_SLEEP_AND_REST/studio2_mqotexgf_086897/hi/final.mp4",
+      "visible": true
+    },
+    {
+      "id": "r1782131264200",
+      "title": "Cancer Care Financial Planning",
+      "videoFile": "/videos/REEL_CAREGIVER_019_FINANCIAL_STRESS_en_0876bb.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/REEL_CAREGIVER_019_FINANCIAL_STRESS/studio2_mqotexhq_5a112b/en/final.mp4",
+      "visible": true
+    },
+    {
+      "id": "r1782131295597",
+      "title": "Cancer Care Financial Planning",
+      "videoFile": "/videos/REEL_CAREGIVER_019_FINANCIAL_STRESS_hi_6f5b4e.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/REEL_CAREGIVER_019_FINANCIAL_STRESS/studio2_mqotexhq_5a112b/hi/final.mp4",
+      "visible": true
+    },
+    {
+      "id": "r1782131319787",
+      "title": "Celebrating Small Wins",
+      "videoFile": "/videos/REEL_CAREGIVER_020_CELEBRATING_SMALL_WINS_en_b50108.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/REEL_CAREGIVER_020_CELEBRATING_SMALL_WINS/studio2_mqotexj0_a01efa/en/final.mp4",
+      "visible": true
+    },
+    {
+      "id": "r1782131375710",
+      "title": "Celebrating Small Wins",
+      "videoFile": "/videos/REEL_CAREGIVER_020_CELEBRATING_SMALL_WINS_hi_104429.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/REEL_CAREGIVER_020_CELEBRATING_SMALL_WINS/studio2_mqotexj0_a01efa/hi/final.mp4",
+      "visible": true
+    },
+    {
+      "id": "r1782131413029",
+      "title": "Caregiver Burnout Signs",
+      "videoFile": "/videos/REEL_CAREGIVER_021_BURNOUT_SIGNS_hi_e150cd.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/REEL_CAREGIVER_021_BURNOUT_SIGNS/studio2_mqotexkd_0528f5/hi/final.mp4",
+      "visible": true
+    },
+    {
+      "id": "r1782131449404",
+      "title": "Understanding Caregiver Guilt",
+      "videoFile": "/videos/REEL_CAREGIVER_022_CAREGIVER_GUILT_en_8a65d3.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/REEL_CAREGIVER_022_CAREGIVER_GUILT/studio2_mqotexlm_4c390a/en/final.mp4",
+      "visible": true
+    },
+    {
+      "id": "r1782131530493",
+      "title": "Caregiver Guilt",
+      "videoFile": "/videos/REEL_CAREGIVER_022_CAREGIVER_GUILT_hi_f99eff.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/REEL_CAREGIVER_022_CAREGIVER_GUILT/studio2_mqotexlm_4c390a/hi/final.mp4",
+      "visible": true
+    },
+    {
+      "id": "r1782131542432",
+      "title": "Understanding Decision Fatigue",
+      "videoFile": "/videos/REEL_CAREGIVER_023_DECISION_FATIGUE_en_488f52.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/REEL_CAREGIVER_023_DECISION_FATIGUE/studio2_mqotexmy_e3e4a1/en/final.mp4",
+      "visible": true
+    },
+    {
+      "id": "r1782132979922",
+      "title": "Cancer and Relationships",
+      "videoFile": "/videos/REEL_CAREGIVER_024_INTIMACY_AND_RELATIONSHIPS_en_21b5a2.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/REEL_CAREGIVER_024_INTIMACY_AND_RELATIONSHIPS/studio2_mqotexoi_307c28/en/final.mp4",
+      "visible": true
+    },
+    {
+      "id": "r1782133026301",
+      "title": "Cancer's Impact on Relationships",
+      "videoFile": "/videos/REEL_CAREGIVER_024_INTIMACY_AND_RELATIONSHIPS_hi_4a3f02.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/REEL_CAREGIVER_024_INTIMACY_AND_RELATIONSHIPS/studio2_mqotexoi_307c28/hi/final.mp4",
+      "visible": true
+    },
+    {
+      "id": "r1782133039005",
+      "title": "Accepting Help as a Caregiver",
+      "videoFile": "/videos/REEL_CAREGIVER_025_ACCEPTING_HELP_en_d0ee7c.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/REEL_CAREGIVER_025_ACCEPTING_HELP/studio2_mqotexpz_9f8799/en/final.mp4",
+      "visible": true
+    },
+    {
+      "id": "r1782133086959",
+      "title": "Accepting Help in Caregiving",
+      "videoFile": "/videos/REEL_CAREGIVER_025_ACCEPTING_HELP_hi_593ce0.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/REEL_CAREGIVER_025_ACCEPTING_HELP/studio2_mqotexpz_9f8799/hi/final.mp4",
+      "visible": true
+    },
+    {
+      "id": "r1782133123184",
+      "title": "Caregiver Identity",
+      "videoFile": "/videos/REEL_CAREGIVER_026_CAREGIVER_IDENTITY_hi_a6deaf.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/REEL_CAREGIVER_026_CAREGIVER_IDENTITY/studio2_mqotexrb_aeb072/hi/final.mp4",
+      "visible": true
+    },
+    {
+      "id": "r1782133158854",
+      "title": "Caregiver Transition After Treatment",
+      "videoFile": "/videos/REEL_CAREGIVER_027_AFTER_TREATMENT_TRANSITION_en_757897.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/REEL_CAREGIVER_027_AFTER_TREATMENT_TRANSITION/studio2_mqotexsr_fab82d/en/final.mp4",
+      "visible": true
+    },
+    {
+      "id": "r1782133238695",
+      "title": "Caregiver Transition After Treatment",
+      "videoFile": "/videos/REEL_CAREGIVER_027_AFTER_TREATMENT_TRANSITION_hi_f1460f.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/REEL_CAREGIVER_027_AFTER_TREATMENT_TRANSITION/studio2_mqotexsr_fab82d/hi/final.mp4",
+      "visible": true
+    },
+    {
+      "id": "r1782133292400",
+      "title": "Appetite Support During Cancer Treatment",
+      "videoFile": "/videos/REEL_AYURVEDA_003_APPETITE_SUPPORT_hi_24a3a7.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/REEL_AYURVEDA_003_APPETITE_SUPPORT/studio2_mqp71qt4_19a17e/hi/final.mp4",
+      "visible": true
+    },
+    {
+      "id": "r1782133353468",
+      "title": "The Caregiving Journey",
+      "videoFile": "/videos/REEL_CAREGIVER_029_MEANING_AND_PURPOSE_hi_597750.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/REEL_CAREGIVER_029_MEANING_AND_PURPOSE/studio2_mqotexvh_3efe12/hi/final.mp4",
+      "visible": true
+    },
+    {
+      "id": "r1782133394157",
+      "title": "Caregiver Support",
+      "videoFile": "/videos/REEL_CAREGIVER_030_YOU_ARE_NOT_ALONE_en_228b62.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/REEL_CAREGIVER_030_YOU_ARE_NOT_ALONE/studio2_mqotexwt_72f66b/en/final.mp4",
+      "visible": true
+    },
+    {
+      "id": "r1782133423134",
+      "title": "Caregiver Support",
+      "videoFile": "/videos/REEL_CAREGIVER_030_YOU_ARE_NOT_ALONE_hi_e6cdea.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/REEL_CAREGIVER_030_YOU_ARE_NOT_ALONE/studio2_mqotexwt_72f66b/hi/final.mp4",
+      "visible": true
+    },
+    {
+      "id": "r1782133451614",
+      "title": "Ayurveda Support in Cancer",
+      "videoFile": "/videos/REEL_AYURVEDA_001_CHEMO_SIDE_EFFECT_SUPPORT_en_8b1bdb.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/REEL_AYURVEDA_001_CHEMO_SIDE_EFFECT_SUPPORT/studio2_mqp71qk2_fc803a/en/final.mp4",
+      "visible": true
+    },
+    {
+      "id": "r1782133467284",
+      "title": "Ayurveda Support During Chemotherapy",
+      "videoFile": "/videos/REEL_AYURVEDA_001_CHEMO_SIDE_EFFECT_SUPPORT_hi_44e81b.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/REEL_AYURVEDA_001_CHEMO_SIDE_EFFECT_SUPPORT/studio2_mqp71qk2_fc803a/hi/final.mp4",
+      "visible": true
+    },
+    {
+      "id": "r1782133477323",
+      "title": "Cancer-Related Fatigue",
+      "videoFile": "/videos/REEL_AYURVEDA_002_CANCER_FATIGUE_SUPPORT_en_7fc5d0.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/REEL_AYURVEDA_002_CANCER_FATIGUE_SUPPORT/studio2_mqp71qmp_f7cb48/en/final.mp4",
+      "visible": true
+    },
+    {
+      "id": "r1782133495950",
+      "title": "Cancer Fatigue Management",
+      "videoFile": "/videos/REEL_AYURVEDA_002_CANCER_FATIGUE_SUPPORT_hi_9e4739.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/REEL_AYURVEDA_002_CANCER_FATIGUE_SUPPORT/studio2_mqp71qmp_f7cb48/hi/final.mp4",
+      "visible": true
+    },
+    {
+      "id": "r1782133505542",
+      "title": "Appetite Support During Cancer Treatment",
+      "videoFile": "/videos/REEL_AYURVEDA_003_APPETITE_SUPPORT_en_6a0321.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/REEL_AYURVEDA_003_APPETITE_SUPPORT/studio2_mqp71qt4_19a17e/en/final.mp4",
+      "visible": true
+    },
+    {
+      "id": "r1782133549374",
+      "title": "Hope and Uncertainty",
+      "videoFile": "/videos/REEL_CAREGIVER_032_HOPE_AND_UNCERTAINTY_en_9db61c.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/REEL_CAREGIVER_032_HOPE_AND_UNCERTAINTY/studio2_mqoxmkf3_853961/en/final.mp4",
+      "visible": true
+    },
+    {
+      "id": "r1782133575596",
+      "title": "Hope and Uncertainty",
+      "videoFile": "/videos/REEL_CAREGIVER_032_HOPE_AND_UNCERTAINTY_hi_3d9643.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/REEL_CAREGIVER_032_HOPE_AND_UNCERTAINTY/studio2_mqoxmkf3_853961/hi/final.mp4",
+      "visible": true
+    },
+    {
+      "id": "r1782142750811",
+      "title": "Nausea Management in Cancer",
+      "videoFile": "/videos/REEL_AYURVEDA_004_NAUSEA_SUPPORT_en_3d2101.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/REEL_AYURVEDA_004_NAUSEA_SUPPORT/studio2_mqp71qp2_1d599a/en/final.mp4",
+      "visible": true
+    },
+    {
+      "id": "r1782142771634",
+      "title": "Cancer Treatment Nausea Support",
+      "videoFile": "/videos/REEL_AYURVEDA_004_NAUSEA_SUPPORT_hi_eabea0.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/REEL_AYURVEDA_004_NAUSEA_SUPPORT/studio2_mqp71qp2_1d599a/hi/final.mp4",
+      "visible": true
+    },
+    {
+      "id": "r1782142783805",
+      "title": "Managing Mouth Sores",
+      "videoFile": "/videos/REEL_AYURVEDA_005_MOUTH_SORES_SUPPORT_en_9dab5b.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/REEL_AYURVEDA_005_MOUTH_SORES_SUPPORT/studio2_mqp71qr9_daad98/en/final.mp4",
+      "visible": true
+    },
+    {
+      "id": "r1782142819666",
+      "title": "Mouth Sores Management",
+      "videoFile": "/videos/REEL_AYURVEDA_005_MOUTH_SORES_SUPPORT_hi_d09542.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/REEL_AYURVEDA_005_MOUTH_SORES_SUPPORT/studio2_mqp71qr9_daad98/hi/final.mp4",
+      "visible": true
+    },
+    {
+      "id": "r1782142831372",
+      "title": "Rishyana Practices for Recovery",
+      "videoFile": "/videos/REEL_AYURVEDA_006_RASAYANA_EXPLAINED_en_868399.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/REEL_AYURVEDA_006_RASAYANA_EXPLAINED/studio2_mqp71quu_751b37/en/final.mp4",
+      "visible": true
+    },
+    {
+      "id": "r1782142884962",
+      "title": "Rasayana Practices",
+      "videoFile": "/videos/REEL_AYURVEDA_006_RASAYANA_EXPLAINED_hi_84b607.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/REEL_AYURVEDA_006_RASAYANA_EXPLAINED/studio2_mqp71quu_751b37/hi/final.mp4",
+      "visible": true
+    },
+    {
+      "id": "r1782142910189",
+      "title": "Recovery After Chemotherapy",
+      "videoFile": "/videos/REEL_AYURVEDA_007_POST_CHEMO_RECOVERY_en_c852f3.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/REEL_AYURVEDA_007_POST_CHEMO_RECOVERY/studio2_mqp71qx1_d45990/en/final.mp4",
+      "visible": true
+    },
+    {
+      "id": "r1782142958140",
+      "title": "Chemotherapy Recovery",
+      "videoFile": "/videos/REEL_AYURVEDA_007_POST_CHEMO_RECOVERY_hi_a00335.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/REEL_AYURVEDA_007_POST_CHEMO_RECOVERY/studio2_mqp71qx1_d45990/hi/final.mp4",
+      "visible": true
+    },
+    {
+      "id": "r1782142982901",
+      "title": "Rebuilding Strength After Cancer",
+      "videoFile": "/videos/REEL_AYURVEDA_008_REBUILDING_STRENGTH_en_910b66.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/REEL_AYURVEDA_008_REBUILDING_STRENGTH/studio2_mqp71qyq_e444ab/en/final.mp4",
+      "visible": true
+    },
+    {
+      "id": "r1782143023012",
+      "title": "Rebuilding Strength After Cancer Treatment",
+      "videoFile": "/videos/REEL_AYURVEDA_008_REBUILDING_STRENGTH_hi_6d5e93.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/REEL_AYURVEDA_008_REBUILDING_STRENGTH/studio2_mqp71qyq_e444ab/hi/final.mp4",
+      "visible": true
+    },
+    {
+      "id": "r1782143033420",
+      "title": "Scan Anxiety Management",
+      "videoFile": "/videos/REEL_CAREGIVER_013_SCANXIETY_hi_93a978.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/REEL_CAREGIVER_013_SCANXIETY/studio2_mqkfernz_d04116/hi/final.mp4",
+      "visible": true
+    },
+    {
+      "id": "r1782143043105",
+      "title": "Caregiver Burnout Signs",
+      "videoFile": "/videos/REEL_CAREGIVER_021_BURNOUT_SIGNS_en_7c3d44.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/REEL_CAREGIVER_021_BURNOUT_SIGNS/studio2_mqotexkd_0528f5/en/final.mp4",
+      "visible": true
+    },
+    {
+      "id": "r1782143052918",
+      "title": "Understanding Decision Fatigue",
+      "videoFile": "/videos/REEL_CAREGIVER_023_DECISION_FATIGUE_hi_cb04dd.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/REEL_CAREGIVER_023_DECISION_FATIGUE/studio2_mqotexmy_e3e4a1/hi/final.mp4",
+      "visible": true
+    },
+    {
+      "id": "r1782143060710",
+      "title": "Caregiver Identity",
+      "videoFile": "/videos/REEL_CAREGIVER_026_CAREGIVER_IDENTITY_en_1ffb5a.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/REEL_CAREGIVER_026_CAREGIVER_IDENTITY/studio2_mqotexrb_aeb072/en/final.mp4",
+      "visible": true
+    },
+    {
+      "id": "r1782143072488",
+      "title": "Grief in Caregiving",
+      "videoFile": "/videos/REEL_CAREGIVER_028_CAREGIVER_GRIEF_en_705977.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/REEL_CAREGIVER_028_CAREGIVER_GRIEF/studio2_mqotexu6_2f22fd/en/final.mp4",
+      "visible": true
+    },
+    {
+      "id": "r1782143084018",
+      "title": "Caregiver Grief",
+      "videoFile": "/videos/REEL_CAREGIVER_028_CAREGIVER_GRIEF_hi_60352f.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/REEL_CAREGIVER_028_CAREGIVER_GRIEF/studio2_mqotexu6_2f22fd/hi/final.mp4",
+      "visible": true
+    },
+    {
+      "id": "r1782143091210",
+      "title": "Caregiving Meaning and Purpose",
+      "videoFile": "/videos/REEL_CAREGIVER_029_MEANING_AND_PURPOSE_en_3484fa.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/REEL_CAREGIVER_029_MEANING_AND_PURPOSE/studio2_mqotexvh_3efe12/en/final.mp4",
+      "visible": true
+    },
+    {
+      "id": "r1782143100538",
+      "title": "Self-Compassion for Caregivers",
+      "videoFile": "/videos/REEL_CAREGIVER_031_SELF_COMPASSION_en_6a332a.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/REEL_CAREGIVER_031_SELF_COMPASSION/studio2_mqoxmkde_af6288/en/final.mp4",
+      "visible": true
+    },
+    {
+      "id": "r1782143149280",
+      "title": "Mindful Breathing for Caregivers",
+      "videoFile": "/videos/REEL_CAREGIVER_033_MINDFUL_MOMENTS_en_d179e6.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/REEL_CAREGIVER_033_MINDFUL_MOMENTS/studio2_mqoxmkgl_d75d61/en/final.mp4",
+      "visible": true
+    },
+    {
+      "id": "r1782143199866",
+      "title": "Mindful Moments",
+      "videoFile": "/videos/REEL_CAREGIVER_033_MINDFUL_MOMENTS_hi_d66642.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/REEL_CAREGIVER_033_MINDFUL_MOMENTS/studio2_mqoxmkgl_d75d61/hi/final.mp4",
+      "visible": true
+    },
+    {
+      "id": "r1782143208273",
+      "title": "Cancer Appointment Questions",
+      "videoFile": "/videos/REEL_CAREGIVER_034_ASKING_THE_RIGHT_QUESTIONS_en_57b119.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/REEL_CAREGIVER_034_ASKING_THE_RIGHT_QUESTIONS/studio2_mqoxmkic_839dab/en/final.mp4",
+      "visible": true
+    },
+    {
+      "id": "r1782143231855",
+      "title": "Asking the Right Questions",
+      "videoFile": "/videos/REEL_CAREGIVER_034_ASKING_THE_RIGHT_QUESTIONS_hi_825c14.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/REEL_CAREGIVER_034_ASKING_THE_RIGHT_QUESTIONS/studio2_mqoxmkic_839dab/hi/final.mp4",
+      "visible": true
+    },
+    {
+      "id": "r1782143252189",
+      "title": "Celebrating Small Wins",
+      "videoFile": "/videos/REEL_CAREGIVER_035_CELEBRATING_SMALL_WINS_en_9efa39.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/REEL_CAREGIVER_035_CELEBRATING_SMALL_WINS/studio2_mqoxmkk1_89befe/en/final.mp4",
+      "visible": true
+    },
+    {
+      "id": "r1782143288972",
+      "title": "Celebrating Small Wins",
+      "videoFile": "/videos/REEL_CAREGIVER_035_CELEBRATING_SMALL_WINS_hi_36f665.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/REEL_CAREGIVER_035_CELEBRATING_SMALL_WINS/studio2_mqoxmkk1_89befe/hi/final.mp4",
+      "visible": true
+    },
+    {
+      "id": "r1782143311085",
+      "title": "Caregiver Legacy",
+      "videoFile": "/videos/REEL_CAREGIVER_036_CAREGIVER_LEGACY_en_cecfb2.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/REEL_CAREGIVER_036_CAREGIVER_LEGACY/studio2_mqoxmklk_195a26/en/final.mp4",
+      "visible": true
+    },
+    {
+      "id": "r1782143337991",
+      "title": "Caregiver Legacy",
+      "videoFile": "/videos/REEL_CAREGIVER_036_CAREGIVER_LEGACY_hi_8032af.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/REEL_CAREGIVER_036_CAREGIVER_LEGACY/studio2_mqoxmklk_195a26/hi/final.mp4",
+      "visible": true
+    },
+    {
+      "id": "r1782143382308",
+      "title": "Caregiver Boundaries",
+      "videoFile": "/videos/REEL_CAREGIVER_037_CAREGIVER_BOUNDARIES_en_46eddc.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/REEL_CAREGIVER_037_CAREGIVER_BOUNDARIES/studio2_mqoxmkmv_759780/en/final.mp4",
+      "visible": true
+    },
+    {
+      "id": "r1782143413009",
+      "title": "Healthy Boundaries",
+      "videoFile": "/videos/REEL_CAREGIVER_037_CAREGIVER_BOUNDARIES_hi_cef22e.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/REEL_CAREGIVER_037_CAREGIVER_BOUNDARIES/studio2_mqoxmkmv_759780/hi/final.mp4",
+      "visible": true
+    },
+    {
+      "id": "r1782143442626",
+      "title": "Rebuilding Life After Caregiving",
+      "videoFile": "/videos/REEL_CAREGIVER_038_REBUILDING_LIFE_en_8a08ee.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/REEL_CAREGIVER_038_REBUILDING_LIFE/studio2_mqoxmko7_5b3c39/en/final.mp4",
+      "visible": true
+    },
+    {
+      "id": "r1782143479465",
+      "title": "Rebuilding Life After Caregiving",
+      "videoFile": "/videos/REEL_CAREGIVER_038_REBUILDING_LIFE_hi_b0e6d9.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/REEL_CAREGIVER_038_REBUILDING_LIFE/studio2_mqoxmko7_5b3c39/hi/final.mp4",
+      "visible": true
+    },
+    {
+      "id": "r1782143508031",
+      "title": "Caregiver Advocacy",
+      "videoFile": "/videos/REEL_CAREGIVER_039_CAREGIVER_ADVOCACY_en_25e712.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/REEL_CAREGIVER_039_CAREGIVER_ADVOCACY/studio2_mqoxmkps_6f193b/en/final.mp4",
+      "visible": true
+    },
+    {
+      "id": "r1782143539078",
+      "title": "Caregiver Advocacy",
+      "videoFile": "/videos/REEL_CAREGIVER_039_CAREGIVER_ADVOCACY_hi_5abaab.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/REEL_CAREGIVER_039_CAREGIVER_ADVOCACY/studio2_mqoxmkps_6f193b/hi/final.mp4",
+      "visible": true
+    },
+    {
+      "id": "r1782143576079",
+      "title": "Your Strength Matters",
+      "videoFile": "/videos/REEL_CAREGIVER_040_YOUR_STRENGTH_MATTERS_en_4f705e.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/REEL_CAREGIVER_040_YOUR_STRENGTH_MATTERS/studio2_mqoxmkre_15918c/en/final.mp4",
+      "visible": true
+    },
+    {
+      "id": "r1782143628229",
+      "title": "Cancer Care Financial Navigation",
+      "videoFile": "/videos/REEL_CAREGIVER_041_FINANCIAL_NAVIGATION_en_cd5c1d.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/REEL_CAREGIVER_041_FINANCIAL_NAVIGATION/studio2_mqoxmkst_91c152/en/final.mp4",
+      "visible": true
+    },
+    {
+      "id": "r1782143641926",
+      "title": "Cancer Care Financial Navigation",
+      "videoFile": "/videos/REEL_CAREGIVER_041_FINANCIAL_NAVIGATION_hi_13e1f4.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/REEL_CAREGIVER_041_FINANCIAL_NAVIGATION/studio2_mqoxmkst_91c152/hi/final.mp4",
+      "visible": true
     }
   ],
   "articles": [

@@ -8,7 +8,7 @@
  */
 import fs from 'fs';
 import neo4jDriver from './neo4jClient.js';
-import * as relations from './relations.js';
+import * as relations from './src/services/relationsService.js';
 
 const content  = JSON.parse(fs.readFileSync('./data/content.json', 'utf-8'));
 const thoughts = JSON.parse(fs.readFileSync('./data/thoughts.json', 'utf-8'));

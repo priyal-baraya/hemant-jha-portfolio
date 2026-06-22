@@ -10,6 +10,7 @@ export default function Navbar({ currentPage, setCurrentPage, toggleChat }) {
   const navItems = [
     { id: 'books', label: 'Books' },
     { id: 'reels', label: 'Videos' },
+    { id: 'articles', label: 'Articles' },
   ];
 
   const handleNavClick = (pageId) => {

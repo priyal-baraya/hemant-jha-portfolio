@@ -232,6 +232,17 @@ export async function processNewVideo(s3Key) {
   writeJson(CONTENT_PATH, content);
   console.log(`[auto-ingest]  Added to content.json`);
 
+  // 6b. Write the reel into MySQL (authoritative for reads) + Neo4j node
+  try {
+    const contentSvc = await import('./src/services/contentService.js');
+    const relations  = await import('./src/services/relationsService.js');
+    await contentSvc.upsertReel(newReel);
+    await relations.upsertEntity('reel', newReel.id, newReel.title);
+    console.log('[auto-ingest]  Reel written to MySQL + Neo4j');
+  } catch (e) {
+    console.warn('[auto-ingest]  MySQL/Neo4j reel sync skipped:', e.message);
+  }
+
   // 7. Append to wikiNodes.json
   const wikiNodes = readJson(WIKI_PATH) || [];
   const existing = wikiNodes.findIndex(n => n.id === node.id);

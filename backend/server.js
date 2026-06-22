@@ -11,7 +11,9 @@ import jwt from 'jsonwebtoken';
 import { OAuth2Client } from 'google-auth-library';
 import qdrantClient from './qdrantClient.js';
 import neo4jDriver from './neo4jClient.js';
-import * as relations from './relations.js';
+import * as relations from './src/services/relationsService.js';
+import * as contentSvc from './src/services/contentService.js';
+import buildRouter from './src/routes/index.js';
 
 dotenv.config();
 const __filename = fileURLToPath(import.meta.url);
@@ -534,14 +536,15 @@ app.post('/api/admin/reel-studio/publish', requireAdmin, async (req, res) => {
   content.reels.unshift(reel);
   saveContent(content);
 
-  // Mirror the reel node into Neo4j, plus any related content supplied at publish.
+  // Write the reel into MySQL (authoritative for reads) + mirror node/edges to Neo4j.
   try {
+    await contentSvc.upsertReel(reel);
     await relations.upsertEntity('reel', reel.id, reel.title);
     if (Array.isArray(related) && related.length) {
       await relations.setRelationsFor('reel', reel.id, related);
     }
   } catch (e) {
-    console.warn('[relations] reel publish sync failed:', e.message);
+    console.warn('[content/relations] reel publish sync failed:', e.message);
   }
   res.json({ ok: true, reel });
 });
@@ -716,13 +719,8 @@ app.delete('/api/admin/users/:id', requireAdmin, (req, res) => {
   res.json({ ok: true });
 });
 
-// ─── Public content endpoints (only visible items) ───────────────────────────
-app.get('/api/content/:type', (req, res) => {
-  const { type } = req.params;
-  const content = getContent();
-  if (!content[type]) return res.status(404).json({ error: 'Unknown content type' });
-  res.json(content[type].filter(item => item.visible !== false));
-});
+// ─── Public content endpoint moved to src/routes → contentController (MySQL) ──
+// (reels/articles served from MySQL; books/long-form videos still from JSON)
 
 // ─── Thoughts ─────────────────────────────────────────────────────────────────
 const THOUGHTS_PATH = path.join(__dirname, 'data', 'thoughts.json');
@@ -831,13 +829,18 @@ Thought: "${thought.text}"`;
       });
       saveContent(content);
 
-      // Article was created WITH related content (its source thought) → mirror the
+      // Write the article into MySQL (authoritative for reads), then mirror the
       // node + RELATED_TO edge into Neo4j as part of the same workflow.
       try {
+        await contentSvc.upsertArticle({
+          id: articleId, title: result.title, content: result.content,
+          category: result.category, description: result.description,
+          image: '', date: result.date, visible: false,
+        });
         await relations.upsertEntity('thought', thought.id, thought.text.slice(0, 80));
         await relations.linkEntities('article', articleId, 'thought', thought.id);
       } catch (e) {
-        console.warn('[relations] article↔thought sync failed:', e.message);
+        console.warn('[content/relations] article↔thought sync failed:', e.message);
       }
     }
 
@@ -853,58 +856,41 @@ Thought: "${thought.text}"`;
   }
 });
 
-// ─── Admin: get all content with visibility state ────────────────────────────
-app.get('/api/admin/content', requireAdmin, (req, res) => {
-  res.json(getContent());
-});
-
-// ─── Admin: toggle visibility for a single item ──────────────────────────────
-app.patch('/api/admin/content/:type/:id', requireAdmin, (req, res) => {
-  const { type, id } = req.params;
-  const { visible } = req.body;
-  const content = getContent();
-  if (!content[type]) return res.status(404).json({ error: 'Unknown content type' });
-  const item = content[type].find(i => i.id === id);
-  if (!item) return res.status(404).json({ error: 'Item not found' });
-  item.visible = visible;
-  saveContent(content);
-  res.json({ ok: true, id, visible });
-});
-
-// ─── Relationships (many-to-many: reel | article | thought) ──────────────────
-// Admin: read all relations for an entity (with titles + visibility)
-app.get('/api/admin/relations/:type/:id', requireAdmin, (req, res) => {
-  const { type, id } = req.params;
-  if (!relations.ENTITY_TYPES.includes(type)) return res.status(400).json({ error: 'Invalid entity type' });
-  res.json(relations.getRelatedDetailed(type, id));
-});
-
-// Admin: replace the full set of relations for an entity (create/update workflow).
-// Body: { related: [{ type, id }, ...] } — Neo4j is diffed & synced in the same call.
-app.put('/api/admin/relations/:type/:id', requireAdmin, async (req, res) => {
-  const { type, id } = req.params;
-  const { related } = req.body;
-  if (!relations.ENTITY_TYPES.includes(type)) return res.status(400).json({ error: 'Invalid entity type' });
-  if (!Array.isArray(related)) return res.status(400).json({ error: 'related must be an array of { type, id }' });
-  for (const n of related) {
-    if (!relations.ENTITY_TYPES.includes(n.type) || !n.id)
-      return res.status(400).json({ error: 'each related item needs a valid type and id' });
-  }
+// ─── Admin: get all content with visibility state (reels/articles from MySQL) ─
+app.get('/api/admin/content', requireAdmin, async (req, res) => {
   try {
-    const diff = await relations.setRelationsFor(type, id, related);
-    res.json({ ok: true, ...diff, related: relations.getRelatedDetailed(type, id) });
+    res.json(await contentSvc.getAdminContent());
   } catch (e) {
-    console.error('[relations] set failed:', e.message);
+    console.error('[content] admin list failed:', e.message);
     res.status(500).json({ error: e.message });
   }
 });
 
-// Public: related VISIBLE content for an entity (for "Related" sections on the site)
-app.get('/api/relations/:type/:id', (req, res) => {
+// ─── Admin: toggle visibility for a single item ──────────────────────────────
+// MySQL is authoritative for reels/articles; books/long-form videos stay in JSON.
+// Dual-write keeps content.json in sync as a fallback.
+app.patch('/api/admin/content/:type/:id', requireAdmin, async (req, res) => {
   const { type, id } = req.params;
-  if (!relations.ENTITY_TYPES.includes(type)) return res.status(400).json({ error: 'Invalid entity type' });
-  res.json(relations.getRelatedDetailed(type, id, { visibleOnly: true }));
+  const { visible } = req.body;
+  try {
+    const handledByDb = await contentSvc.setVisibility(type, id, visible);
+    // Keep content.json in sync too (and the source of truth for non-migrated types)
+    const content = getContent();
+    if (!content[type] && !handledByDb) return res.status(404).json({ error: 'Unknown content type' });
+    const item = content[type]?.find(i => i.id === id);
+    if (item) { item.visible = visible; saveContent(content); }
+    else if (!handledByDb) return res.status(404).json({ error: 'Item not found' });
+    res.json({ ok: true, id, visible });
+  } catch (e) {
+    console.error('[content] visibility update failed:', e.message);
+    res.status(500).json({ error: e.message });
+  }
 });
+
+// ─── Relationships domain (layered: routes → controller → service → SQLite) ───
+// Migrated out of server.js into src/{routes,controllers,services}. The router
+// receives requireAdmin since that middleware still lives here.
+app.use(buildRouter({ requireAdmin }));
 
 // Load wiki nodes helper
 const WIKI_PATH = path.join(__dirname, 'data', 'wikiNodes.json');
@@ -1328,3 +1314,8 @@ if (process.env.ENABLE_POLLING === 'true') {
 // ─── Start server ─────────────────────────────────────────────────────────────
 const port = process.env.PORT || 4000;
 app.listen(port, () => console.log(`Backend listening on http://localhost:${port}`));
+
+// Verify MySQL connectivity at startup (logs only — does not block the server)
+import('./src/config/db.js')
+  .then(({ verifyConnection }) => verifyConnection())
+  .catch(err => console.warn('[mysql] connection check failed:', err.message));
