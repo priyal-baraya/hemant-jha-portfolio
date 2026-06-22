@@ -31,13 +31,22 @@ export default function Home({ setCurrentPage }) {
   const [email, setEmail] = useState('');
   const [subscribed, setSubscribed] = useState(false);
   const [reels, setReels] = useState([]);
+  const [articles, setArticles] = useState([]);
 
   useEffect(() => {
-    fetch('/api/content/reels')
-      .then(r => r.json())
-      .then(data => setReels(Array.isArray(data) ? data.slice(0, 8) : []))
-      .catch(() => {});
+    fetch('/api/content/reels').then(r => r.json())
+      .then(data => setReels(Array.isArray(data) ? data : [])).catch(() => {});
+    fetch('/api/content/articles').then(r => r.json())
+      .then(data => setArticles(Array.isArray(data) ? data : [])).catch(() => {});
   }, []);
+
+  // Real stats derived from the published content
+  const topics = Array.from(new Set(articles.map(a => a.category).filter(Boolean)));
+  const stats = [
+    { value: articles.length, label: 'Articles' },
+    { value: reels.length,    label: 'Reels' },
+    { value: topics.length,   label: 'Topics' },
+  ];
 
   const handleSubscribe = (e) => {
     e.preventDefault();
@@ -58,20 +67,21 @@ export default function Home({ setCurrentPage }) {
             <span className="italic font-normal">Distilling complexity</span> into clarity.
           </h1>
           <p className="font-body-lg text-body-lg text-on-surface-variant max-w-2xl leading-relaxed">
-            Systems engineer, strategist, and author dedicated to refining the noise of modern business into actionable wisdom.
+            Engineering leader and writer on how AI is reshaping software and the
+            workplace — with field notes on health, fitness, and learning for the long run.
           </p>
           <div className="pt-8 flex flex-wrap items-center gap-8">
             <button
               className="bg-primary text-on-primary px-10 py-5 rounded-lg font-label-md text-label-md hover:scale-[1.02] transition-transform editorial-shadow cursor-pointer"
-              onClick={() => setCurrentPage('books')}
+              onClick={() => setCurrentPage('articles')}
             >
-              Explore Books
+              Read Articles
             </button>
-            <a 
+            <a
               className="text-secondary border-b-2 border-secondary/30 hover:border-secondary transition-colors font-label-md text-label-md py-1 cursor-pointer"
               onClick={() => setCurrentPage('books')}
             >
-              View the Library
+              Explore Books
             </a>
           </div>
         </div>
@@ -86,24 +96,22 @@ export default function Home({ setCurrentPage }) {
           </div>
           <div className="md:col-span-7 md:col-start-6 space-y-8">
             <p className="font-body-lg text-body-lg text-on-surface-variant leading-relaxed">
-              In an era defined by information overflow, Hemant Jha stands as a beacon of intellectual discipline. As an author and strategist, his work focuses on the intersection of systems thinking and human intuition. 
+              Hemant Jha writes from the front lines of engineering leadership — on the
+              agentic-AI shift, the changing nature of software work, and what it takes for
+              teams and individuals to adapt without losing their craft.
             </p>
             <p className="font-body-lg text-body-lg text-on-surface-variant leading-relaxed">
-              His publications serve as fundamental guides for global executives, distilling decades of industry evolution into clear, ethical frameworks for decision-making. Hemant believes that true leadership is found in the spaces between the data—the quiet clarity that follows rigorous analysis.
+              Beyond the keyboard, his writing draws on running, health, and lifelong
+              learning — the disciplines that compound quietly over time. The throughline:
+              clear thinking, applied consistently, in work and in life.
             </p>
             <div className="flex flex-wrap gap-8 pt-8 border-t border-outline-variant/30">
-              <div>
-                <div className="font-headline-md text-headline-md text-primary">15+</div>
-                <div className="font-label-md text-label-md text-on-surface-variant">Global Keynotes</div>
-              </div>
-              <div>
-                <div className="font-headline-md text-headline-md text-primary">03</div>
-                <div className="font-label-md text-label-md text-on-surface-variant">Best-selling Books</div>
-              </div>
-              <div>
-                <div className="font-headline-md text-headline-md text-primary">500k+</div>
-                <div className="font-label-md text-label-md text-on-surface-variant">Readers Monthly</div>
-              </div>
+              {stats.map(s => (
+                <div key={s.label}>
+                  <div className="font-headline-md text-headline-md text-primary">{s.value}</div>
+                  <div className="font-label-md text-label-md text-on-surface-variant">{s.label}</div>
+                </div>
+              ))}
             </div>
           </div>
         </div>
@@ -125,7 +133,7 @@ export default function Home({ setCurrentPage }) {
             </a>
           </div>
           <div className="flex gap-gutter overflow-x-auto pb-4 -mx-margin-mobile px-margin-mobile md:mx-0 md:px-0 snap-x">
-            {reels.map(reel => (
+            {reels.slice(0, 8).map(reel => (
               <div key={reel.id} className="snap-start">
                 <ReelPreviewCard reel={reel} onClick={() => setCurrentPage('reels')} />
               </div>

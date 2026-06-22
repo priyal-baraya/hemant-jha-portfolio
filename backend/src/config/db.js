@@ -20,6 +20,11 @@ const pool = mysql.createPool({
   waitForConnections: true,
   connectionLimit: 10,
   queueLimit: 0,
+  // Resilience: RDS drops idle connections, which otherwise causes the first
+  // query after a quiet spell to fail until the server is restarted.
+  enableKeepAlive: true,        // send TCP keepalive so RDS doesn't reap idle conns
+  keepAliveInitialDelay: 10000,
+  idleTimeout: 60000,           // recycle pooled conns after 60s idle (before RDS kills them)
 });
 
 // Verify connectivity once at startup (logs, does not crash the app)

@@ -19,6 +19,7 @@ export default function buildRouter({ requireAdmin }) {
 
   // Public content (reels/articles from MySQL; books/long-form from JSON)
   router.get('/api/content/:type', contentController.getContent);
+  router.get('/api/article/:id', contentController.getArticle);
 
   // Relationships domain
   router.get('/api/admin/relations/:type/:id', requireAdmin, relationsController.getRelations);

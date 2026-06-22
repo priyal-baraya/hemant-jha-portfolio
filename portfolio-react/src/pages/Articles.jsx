@@ -44,20 +44,38 @@ function generatedCover(article) {
   return `data:image/svg+xml,${encodeURIComponent(svg)}`;
 }
 
-// Final image src: real banner if present, else generated cover
-const coverSrc = (article) => (article.image && article.image.trim() ? article.image : generatedCover(article));
+// A banner is only usable if it's an absolute URL (or a root-absolute path served
+// by this site). Many source rows store relative paths from another app
+// (e.g. "assets/images/x.png") that 404 here — treat those as missing.
+const isUsableImage = (img) => !!img && (/^https?:\/\//i.test(img.trim()) || img.trim().startsWith('/'));
+
+// Final image src: real banner if usable, else generated cover
+const coverSrc = (article) => (isUsableImage(article.image) ? article.image.trim() : generatedCover(article));
 
 export default function Articles() {
   const [activeFilter, setActiveFilter] = useState('All');
   const [searchQuery, setSearchQuery] = useState('');
-  const [visibleCount, setVisibleCount] = useState(4);
   const [articles, setArticles] = useState([]);
+  const [selected, setSelected] = useState(null);   // full article being read
+  const [loadingArticle, setLoadingArticle] = useState(false);
 
   useEffect(() => {
     fetch('/api/content/articles').then(r => r.json()).then(setArticles).catch(() => {});
   }, []);
 
-  const categories = ['All', 'Strategy', 'Leadership', 'Synthesis'];
+  // Open the reader: fetch the full article (with content) by id
+  const openArticle = (id) => {
+    setLoadingArticle(true);
+    setSelected({ loading: true });
+    fetch(`/api/article/${id}`)
+      .then(r => r.json())
+      .then(a => setSelected(a))
+      .catch(() => setSelected(null))
+      .finally(() => setLoadingArticle(false));
+  };
+
+  // Categories derived from the articles actually present
+  const categories = ['All', ...Array.from(new Set(articles.map(a => a.category).filter(Boolean))).sort()];
 
   // Filter articles based on active category and search query
   const filteredArticles = articles.filter(article => {
@@ -72,8 +90,8 @@ export default function Articles() {
   const featuredArticle = filteredArticles.find(a => a.isFeatured);
   const gridArticles = filteredArticles.filter(a => !a.isFeatured || activeFilter !== 'All');
 
-  // Slice articles for "load more" functionality
-  const visibleGridArticles = gridArticles.slice(0, visibleCount);
+  // Show all matching articles (no pagination)
+  const visibleGridArticles = gridArticles;
 
   return (
     <div className="pt-20 pb-section-gap max-w-container-max mx-auto px-4 md:px-margin-desktop reveal-entry overflow-x-hidden">
@@ -118,7 +136,7 @@ export default function Articles() {
       <div className="grid grid-cols-1 md:grid-cols-12 gap-y-10 md:gap-x-gutter">
         {/* Featured Article (Only show when filtering is 'All' or matches the featured category, and matching search) */}
         {featuredArticle && activeFilter === 'All' && searchQuery === '' && (
-          <article className="md:col-span-12 group cursor-pointer">
+          <article className="md:col-span-12 group cursor-pointer" onClick={() => openArticle(featuredArticle.id)}>
             <div className="grid grid-cols-1 md:grid-cols-12 gap-gutter items-center">
               <div className="md:col-span-7 overflow-hidden rounded">
                 <img
@@ -149,7 +167,7 @@ export default function Articles() {
 
         {/* Grid Items */}
         {visibleGridArticles.map(article => (
-          <article key={article.id} className="col-span-1 md:col-span-4 group cursor-pointer space-y-6">
+          <article key={article.id} className="col-span-1 md:col-span-4 group cursor-pointer space-y-6" onClick={() => openArticle(article.id)}>
             <div className="overflow-hidden bg-surface-container-low aspect-[4/3] relative rounded">
               <img
                 alt={article.title}
@@ -180,18 +198,58 @@ export default function Articles() {
         </div>
       )}
 
-      {/* Pagination Load More */}
-      {gridArticles.length > visibleCount && (
-        <div className="mt-24 text-center">
-          <button 
-            className="group inline-flex items-center gap-4 px-12 py-4 bg-tertiary text-on-tertiary font-label-md uppercase tracking-widest hover:bg-primary transition-all cursor-pointer rounded"
-            onClick={() => setVisibleCount((prev) => prev + 3)}
+      {/* Article Reader Modal */}
+      {selected && (
+        <div
+          className="fixed inset-0 z-[10000] flex items-start justify-center p-4 md:p-8 bg-black/70 backdrop-blur-sm overflow-y-auto"
+          onClick={() => setSelected(null)}
+        >
+          <div
+            className="relative bg-surface-container-lowest w-full max-w-3xl my-8 rounded-2xl shadow-2xl border border-outline-variant/30"
+            onClick={e => e.stopPropagation()}
           >
-            Load More Articles
-            <span className="material-symbols-outlined group-hover:translate-y-1 transition-transform">expand_more</span>
-          </button>
+            <button
+              type="button"
+              onClick={() => setSelected(null)}
+              className="absolute top-4 right-4 z-10 w-9 h-9 rounded-full bg-surface-container flex items-center justify-center text-on-surface-variant hover:text-primary transition-colors cursor-pointer border-0"
+            >
+              <span className="material-symbols-outlined">close</span>
+            </button>
+
+            {selected.loading ? (
+              <div className="py-24 text-center text-on-surface-variant font-body-lg">Loading article…</div>
+            ) : (
+              <div className="p-6 md:p-12">
+                <img
+                  src={coverSrc(selected)}
+                  alt={selected.title}
+                  className="w-full aspect-[16/9] object-cover rounded-xl mb-8"
+                  onError={(e) => { e.currentTarget.src = generatedCover(selected); }}
+                />
+                <div className="flex items-center gap-4 mb-4">
+                  {selected.category && (
+                    <span className="bg-secondary-container text-on-secondary-container px-3 py-1 rounded-sm font-label-md text-[12px] uppercase tracking-tighter">
+                      {selected.category}
+                    </span>
+                  )}
+                  {selected.date && <time className="font-label-md text-on-surface-variant text-[12px]">{selected.date}</time>}
+                </div>
+                <h1 className="font-headline-lg-mobile md:text-headline-lg text-headline-lg-mobile text-primary leading-tight mb-3">
+                  {selected.title}
+                </h1>
+                {selected.author && (
+                  <p className="font-label-md text-on-surface-variant text-sm mb-8">By {selected.author}</p>
+                )}
+                <div
+                  className="article-body font-body-lg text-body-lg text-on-surface leading-relaxed space-y-4"
+                  dangerouslySetInnerHTML={{ __html: selected.content || '<p>No content available.</p>' }}
+                />
+              </div>
+            )}
+          </div>
         </div>
       )}
+
     </div>
   );
 }

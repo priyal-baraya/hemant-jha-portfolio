@@ -30,7 +30,7 @@ export const ENTITY_TYPES = ['reel', 'article', 'thought'];
 // external_id (the portfolio's string id); thoughts use their own id as PK.
 const TITLE_QUERY = {
   reel:    'SELECT name  AS title FROM videos    WHERE external_id = ? LIMIT 1',
-  article: 'SELECT title AS title FROM articlesn WHERE external_id = ? LIMIT 1',
+  article: 'SELECT title AS title FROM articlesn WHERE id = ? LIMIT 1',
   thought: 'SELECT text  AS title FROM thoughts  WHERE id = ? LIMIT 1',
 };
 

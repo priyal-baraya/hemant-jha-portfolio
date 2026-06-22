@@ -17,3 +17,15 @@ export async function getContent(req, res) {
     res.status(500).json({ error: e.message });
   }
 }
+
+// GET /api/article/:id  — a single article with full content (the reader view)
+export async function getArticle(req, res) {
+  try {
+    const article = await contentService.getArticleById(req.params.id);
+    if (!article) return res.status(404).json({ error: 'Article not found' });
+    res.json(article);
+  } catch (e) {
+    console.error('[content] get article failed:', e.message);
+    res.status(500).json({ error: e.message });
+  }
+}
