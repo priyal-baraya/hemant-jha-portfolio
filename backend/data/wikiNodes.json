@@ -813,11 +813,11 @@
     "id": "scanxiety",
     "title": "Understanding Scanxiety",
     "category": "Philosophy",
-    "summary": "Scanxiety refers to the anxiety and fear experienced before medical scans or reports.",
-    "content": "Scanxiety is a common phenomenon that many individuals face when awaiting medical scans, blood tests, or follow-up appointments. It often manifests as racing thoughts about worst-case scenarios, leading to decreased sleep and concentration. Importantly, experiencing scanxiety does not imply weakness or negative thinking; it is a natural response to uncertainty and fear regarding health outcomes.\n\nTo manage scanxiety effectively, it is crucial to share your fears with family, friends, or your oncology team. You do not have to handle everything alone, and open communication can provide much-needed support. Additionally, avoid endless searching on Google, as it can exacerbate anxiety. On the day of your report, consider bringing a companion for emotional support, and prepare a list of questions for your doctors in advance. Remember, feeling anxious while waiting for results is completely normal, and you are not alone in this journey.",
+    "summary": "Scanxiety refers to the anxiety experienced by patients and caregivers before medical scans or tests.",
+    "content": "Many patients and caregivers feel anxious long before scan day arrives. This anxiety, known as [[scanxiety|Scanxiety]], can evoke memories, fears, and uncertainty about the future. It is a normal response to the uncertainty that comes with waiting for medical results.\n\nTo cope with scanxiety, it is beneficial to talk to loved ones, join support groups, or engage with your care team. Planning calming activities before your appointment, limiting online searches, and focusing on what you can control today can also help alleviate the emotional burden. Remember, you are not alone, and seeking support can make a significant difference during the waiting period.",
     "relatedNodes": [],
     "videoReferences": [
-      "REEL_PSYCHO_ONCOLOGY_007_SCANXIETY_hi_d47362"
+      "REEL_PSYCHO_ONCOLOGY_049_SCANXIETY_en_5a5d68"
     ],
     "bookReferences": []
   },
@@ -849,11 +849,11 @@
     "id": "cancer-pain-management",
     "title": "Cancer Pain Management",
     "category": "Health",
-    "summary": "Understanding and managing pain is a crucial aspect of cancer care.",
-    "content": "Many patients do not report their pain because they do not want to burden their families. There is a common misconception that enduring pain is a part of cancer and that seeking help is a sign of weakness. However, pain can significantly affect sleep, mood, appetite, relationships, and daily life. Reporting pain does not mean you are complaining or that the treatment is ineffective. It is essential to communicate openly about your pain to receive the necessary support and care.\n\nPain management can involve a combination of medications, physiotherapy, relaxation techniques, counseling, and palliative care. Keeping a record of your pain, noting when and how it occurs, and informing your oncology team promptly can lead to better pain control. Understanding and addressing pain is a vital part of cancer care, and you do not have to carry this burden alone.",
+    "summary": "Cancer pain management extends beyond medications to include various supportive therapies.",
+    "content": "Cancer pain management is not limited to medications alone; many patients and caregivers seek to understand what additional methods can enhance comfort. Techniques such as deep breathing, relaxation exercises, gentle movement, music, and mindfulness can assist individuals in managing pain and stress. These approaches are intended to support your treatment plan and should not be viewed as replacements for prescribed medications.\n\nBefore starting any complementary therapies like massage or yoga, it is crucial to consult with your care team. They can provide guidance on whether techniques such as guided breathing, relaxation, or gentle stretching are appropriate for your specific situation. Effective pain management often incorporates not only medications but also supportive therapies and emotional support to improve overall well-being.",
     "relatedNodes": [],
     "videoReferences": [
-      "REEL_PSYCHO_ONCOLOGY_040_CANCER_PAIN_EMOTIONAL_SUFFERING_hi_016cae"
+      "REEL_PALLIATIVE_CARE_013_NON_DRUG_PAIN_RELIEF_hi_25d5d9"
     ],
     "bookReferences": []
   },
@@ -1363,13 +1363,13 @@
   },
   {
     "id": "nausea-management",
-    "title": "Nausea Management Tips",
+    "title": "Nausea Management",
     "category": "Health",
-    "summary": "Effective food choices can help manage nausea during treatment.",
-    "content": "जब मटली होती है, तो खाना खानी का मन नहीं करता, लेकिन सही फूडस आपको बहतर फिल करने में मदद कर सकते हैं। कीमोथेरपी, रेडियेशन या कुछ मेडिसंस के दोरान मटली होना बहुत आम है। एक साथ ज़्यादा खानी की जगए हर दो तीन घंटे में थोड़ा थोड़ा खाये। टोस्ट, क्राकर्स, खिचडी, केले, दही, चावल और अदरग जैसे फूडस ज़्यादा आसानी से टॉलरिट हो सकते हैं।\n\nतेज स्मेल वाले बहुत मसाले दार या ओईली फूडस कुछ लोगों में मटली को बहुत बढ़ा सकते हैं। छोटी-छोटे मिल लीजिये, दिन बर थोड़ा-थोड़ा पानी पीते रहिये और मटली की दवा डॉक्टर के कहने पर लीजिये। अगर मटली की वज़े से आप खा या पी नहीं रहे हैं, तो अपनी ओंकोलोजी टीम को जरूर बताएं।",
+    "summary": "Effective strategies for managing nausea during treatment.",
+    "content": "Nausea can be a challenging symptom to manage during treatment, making it difficult to even think about eating. Factors such as chemotherapy, medications, anxiety, pain, and changes in digestion can contribute to feelings of nausea. Persistent nausea can lead to dehydration, weakness, nutritional deficiencies, and weight loss. It's important to identify foods that can help alleviate nausea, such as plain biscuits, toast, bananas, rice, oats, curd rice, and ginger.\n\nCertain triggers can exacerbate nausea, including strong food odors, oily foods, spicy dishes, and large meals. To manage nausea effectively, it is advisable to follow your doctor's recommendations regarding anti-nausea medications, consume smaller meals, and stay hydrated by drinking fluids throughout the day. With the right foods, medications, and support from your care team, nausea can often be managed more effectively.",
     "relatedNodes": [],
     "videoReferences": [
-      "REEL_ONCO_NUTRITION_004_NAUSEA_MANAGEMENT_hi_c3ddb0"
+      "REEL_ONCO_NUTRITION_038_NAUSEA_MANAGEMENT_hi_fda068"
     ],
     "bookReferences": []
   },
@@ -1425,11 +1425,11 @@
     "id": "mouth-sores-nutrition",
     "title": "Nutrition for Mouth Sores",
     "category": "Health",
-    "summary": "Managing nutrition during mouth sores can alleviate discomfort while eating.",
-    "content": "Mouth sores can make eating painful, especially for those undergoing treatments like chemotherapy and radiation. It's important to know that you're not alone in this experience. Choosing soft, moist, and easily consumable foods can significantly ease the discomfort. Options like dal, smoothies, khichdi, soups, oats, and mashed foods are generally easier to eat compared to harder or spicier foods that can exacerbate pain.\n\nIn addition to selecting the right foods, staying hydrated by sipping water throughout the day is crucial. It's also advisable to consult with your oncology team for personalized mouth care recommendations. If you're struggling to eat or drink due to mouth sores, don't hesitate to reach out to your healthcare providers for support and guidance.",
+    "summary": "Managing nutrition during cancer treatment can alleviate the pain of mouth sores.",
+    "content": "Mouth sores can be a painful side effect of cancer treatments, making it difficult to eat and drink. It's important to address these sores early to maintain proper nutrition and hydration. Soft foods like yogurt, smoothies, and soups are often easier to consume, while spicy or acidic foods should be avoided to prevent further irritation.\n\nFollowing a proper mouth care routine and staying hydrated are crucial steps in managing mouth sores. If you find eating or drinking increasingly difficult, reach out to your oncology team for support. With the right dietary choices and care, you can continue to nourish your body effectively during treatment.",
     "relatedNodes": [],
     "videoReferences": [
-      "REEL_ONCO_NUTRITION_006_MOUTH_SORES_hi_7b8a68"
+      "REEL_ONCO_NUTRITION_033_MOUTH_SORES_NUTRITION_en_794026"
     ],
     "bookReferences": []
   },
@@ -1951,11 +1951,11 @@
     "id": "returning-to-work-after-cancer",
     "title": "Returning to Work After Cancer",
     "category": "Leadership",
-    "summary": "Navigating the transition back to work post-cancer treatment requires understanding and adjustments.",
-    "content": "Many cancer survivors experience a mix of excitement and anxiety when returning to work. It's common to have concerns about fatigue, concentration, and how colleagues might react. Recovery is a gradual process, and it's important to recognize that your energy levels, priorities, and abilities may have changed since your treatment. It's perfectly acceptable to not work at the same pace as before.\n\nTo facilitate a smoother transition, communicate openly with your employer about your needs. Discuss options for flexible schedules, workload adjustments, and any additional support that may help you. Starting gradually, focusing on essential tasks, and incorporating regular breaks into your routine can make a significant difference. Ultimately, it's about moving forward and establishing a new normal that aligns with your current capabilities and lifestyle.",
+    "summary": "Navigating the transition back to work after cancer treatment involves managing expectations and prioritizing self-care.",
+    "content": "Returning to work after a cancer diagnosis can bring both joy and anxiety. It's common to experience fatigue, focus issues, physical limitations, and concerns about how others will react. Recovery takes time, and it's important to understand that your energy levels and priorities may have shifted. If you're not able to work at your previous pace, know that this is completely normal.\n\nOpen communication with your employer or manager is crucial. Discuss flexible timings, workload adjustments, and the support you need to ease back into your role. Start gradually, focusing on essential tasks, and remember to take regular breaks throughout the day. Returning to work is not about going back to your old life, but rather about creating a new normal that accommodates your current needs and circumstances.",
     "relatedNodes": [],
     "videoReferences": [
-      "REEL_PSYCHO_ONCOLOGY_046_RETURNING_TO_WORK_en_fc5ccc"
+      "REEL_PSYCHO_ONCOLOGY_046_RETURNING_TO_WORK_hi_f23da9"
     ],
     "bookReferences": []
   },
@@ -2011,11 +2011,11 @@
     "id": "finding-meaning-after-cancer",
     "title": "Finding Meaning After Cancer",
     "category": "Philosophy",
-    "summary": "Survivors often seek new meaning in life after cancer treatment.",
-    "content": "Many cancer survivors experience a sense of loss once treatment concludes. This period can lead to significant changes in priorities, relationships, and overall perspectives on life. While some individuals may uncover new strengths or deepen their connections with others, it's important to recognize that healing is a personal journey and can manifest in various ways. You do not need to feel grateful or transformed all the time; healing looks different for everyone.\n\nFinding meaning after cancer can stem from various sources, including relationships, hobbies, spirituality, work, creativity, or acts of service. It's essential to reflect on your values and reconnect with activities that bring you joy. Setting small, meaningful goals can also aid in the healing process, allowing you to rediscover what makes life fulfilling for you. Embracing this journey can lead to a renewed sense of purpose and a deeper understanding of what truly matters in your life.",
+    "summary": "Survivors often reassess their lives and priorities after a cancer diagnosis.",
+    "content": "Many cancer survivors find that life post-diagnosis is not simply a return to normalcy. Instead, it often prompts a profound reevaluation of priorities, relationships, work, and future aspirations. This significant life event can alter one's self-perception and worldview, leading to a natural evolution of goals and values. It's important to recognize that it's perfectly acceptable for these elements to change over time.\n\nPurpose can emerge from various sources, including relationships, acts of service, personal growth, creativity, spirituality, or even the simple joys of daily life. Reflecting on questions such as \"What brings me joy?\" and \"What matters most to me now?\" can guide survivors in rediscovering their passions and intentions. Ultimately, healing is not about reverting to a previous self but rather about embracing the journey of becoming a new version of oneself.",
     "relatedNodes": [],
     "videoReferences": [
-      "REEL_PSYCHO_ONCOLOGY_032_FINDING_MEANING_en_bf3b65"
+      "REEL_PSYCHO_ONCOLOGY_050_FINDING_MEANING_en_6deb3c"
     ],
     "bookReferences": []
   },
@@ -2320,12 +2320,12 @@
   {
     "id": "palliative-care-myths",
     "title": "Palliative Care Myths",
-    "category": "Health",
-    "summary": "Palliative care is often misunderstood as a sign of giving up, but it plays a crucial role in improving quality of life for patients.",
-    "content": "Many families mistakenly believe that palliative care signifies the end of hope. In reality, palliative care is designed to enhance the quality of life for patients by managing pain, symptoms, emotional stress, and practical concerns alongside ongoing cancer treatments. It is essential to understand that seeking help to improve comfort and well-being does not equate to surrendering to the illness.\n\nEarly intervention in palliative care can lead to better symptom control, improved communication with healthcare providers, and a more meaningful life for both patients and their families. It is important to engage with your care team by asking how symptoms can be better managed, what support is available for caregivers, and how overall quality of life can be enhanced. Supportive care is about living comfortably and meaningfully throughout the cancer journey, rather than a last resort when hope seems lost.",
+    "category": "Philosophy",
+    "summary": "Palliative care is often misunderstood as a last resort in treatment options.",
+    "content": "जब लोग पहली बार [[palliative-care-myths|Palliative Care]] का नाम सुनते हैं, तो अक्सर लगता है कि Treatment Options खतम हो गई हैं। बहुत से Patients और Caregivers सोचते हैं कि Palliative Care सिर्फ लाइफ के आखरी स्टेज में दी जाती हैं। पालियटव केर का फोकस पेण, फटीग, नॉसिया, अंजाइटी और इमोशनल स्ट्रेज जैसे सिम्टम्स को मैनेज करके Quality of Life को बहतर बनाना है।\n\nकीमो थेरपी, रेडियेशन, सरजरी या इम्यून थेरपी के साथ पालियटव केर भी शुरू की जा सकती है। पालियटव केर टीम पेंट और कैगिवर दोनों की फिजिकल, इमोशनल और प्राक्टिकल नीज में सपोर्ट करती हैं। अपनी अंकॉलजी टीम से पूछ ये। क्या पालियटव केर मेरे सिम्टम्स को मैनेज करने में मदद कर सकती हैं? क्या इससे मेरी क्वालिटी अफ लाइफ बेहतर हो सकती हैं? पालियटव केर हार मान लेना नहीं है। ये कैंसर जर्नी के दोरान आपको बेहतर क्वालिटी अफ लाइफ और ज्यादा सपोर्ट देने के लिए होती हैं।",
     "relatedNodes": [],
     "videoReferences": [
-      "REEL_PSYCHO_ONCOLOGY_041_PALLIATIVE_CARE_MYTHS_en_9603cd"
+      "REEL_PALLIATIVE_CARE_001_MYTH_BUSTING_hi_f085bf"
     ],
     "bookReferences": []
   },
@@ -2333,11 +2333,11 @@
     "id": "palliative-care-misconceptions",
     "title": "Palliative Care Misconceptions",
     "category": "Philosophy",
-    "summary": "Many families misunderstand the purpose of palliative care, equating it with a lack of hope.",
-    "content": "Palliative care is often misconceived as a final option when hope is lost, leading to fear and hopelessness among families. In reality, palliative care is designed to enhance the quality of life for patients dealing with serious illnesses, such as cancer. It focuses on managing pain, alleviating symptoms, and providing emotional support, which can coexist with curative treatments. Early engagement with palliative care can significantly improve communication and symptom management, fostering a more comfortable experience for both patients and their families.\n\nIt's essential to shift the narrative around palliative care. Instead of viewing it as a sign of giving up, families should recognize it as a proactive approach to living well during challenging times. By asking their care team about symptom management and available support for caregivers, families can ensure that they are making the most of the resources available to them. Supportive care is not just about end-of-life; it is about enhancing the journey through cancer, allowing individuals to live more comfortably and meaningfully throughout their treatment.",
+    "summary": "Palliative care is often misunderstood as a sign of giving up, but it plays a crucial role in improving quality of life during cancer treatment.",
+    "content": "Many people associate palliative care with the end of life, leading to misconceptions that it is only for those in their final days. However, this perspective overlooks the true purpose of palliative care, which is to manage symptoms such as pain, fatigue, and emotional stress throughout the cancer journey. It is essential to understand that palliative care can be integrated with other treatments like chemotherapy and radiation, enhancing the overall patient experience.\n\nPalliative care teams are dedicated to supporting not just the physical aspects of illness but also the emotional and practical needs of patients and their caregivers. By addressing these multifaceted challenges, palliative care aims to improve quality of life, allowing individuals to live as fully as possible during and after treatment. If you or a loved one are facing cancer, consider asking your oncology team how palliative care can assist with symptom management and overall well-being.",
     "relatedNodes": [],
     "videoReferences": [
-      "REEL_PSYCHO_ONCOLOGY_041_PALLIATIVE_CARE_MYTHS_en_9603cd"
+      "REEL_PALLIATIVE_CARE_001_MYTH_BUSTING_en_da2040"
     ],
     "bookReferences": []
   },
@@ -2346,7 +2346,7 @@
     "title": "Advance Care Planning",
     "category": "Philosophy",
     "summary": "Advance care planning helps families discuss future care preferences to reduce uncertainty and stress.",
-    "content": "Many families avoid discussing advance care planning because it can feel difficult and emotional. However, planning for future care means sharing your priorities, preferences, and wishes regarding care in a timely manner. By discussing these matters in advance, families can alleviate uncertainty and stress related to future decisions.\n\nThinking about the future does not mean giving up hope; rather, it allows individuals to reflect on what is most important in their lives. Consider what quality of life means to you, who will make decisions on your behalf when necessary, and how you want your care to be handled. Sharing your wishes today can help your loved ones understand your choices tomorrow, making the process smoother for everyone involved.",
+    "content": "Many families avoid discussions about future care because they seem difficult and emotional. However, advance care planning is crucial as it involves sharing your priorities, preferences, and wishes regarding care in a timely manner. By discussing these matters beforehand, families can alleviate future uncertainties and reduce stress during challenging times.\n\nPlanning for the future and maintaining hope can coexist. Consider what is most important to you in life, who will make decisions on your behalf when needed, and what quality of life means to you. Sharing your wishes today can help your loved ones understand your choices tomorrow, ensuring that your care aligns with your values and desires.",
     "relatedNodes": [],
     "videoReferences": [
       "REEL_PSYCHO_ONCOLOGY_042_ADVANCE_CARE_PLANNING_hi_7826de"
@@ -3329,11 +3329,11 @@
     "id": "hydration-during-treatment",
     "title": "Hydration During Treatment",
     "category": "Health",
-    "summary": "Staying hydrated during cancer treatment is as crucial as eating well.",
-    "content": "Maintaining hydration during cancer treatment is essential for overall health and recovery. Dehydration can occur due to various factors such as nausea, vomiting, fever, and reduced appetite. Symptoms of dehydration include dark yellow urine, dizziness, dry mouth, fatigue, and decreased urination. It is important to consume fluids gradually throughout the day rather than drinking large amounts at once.\n\nIncorporating water, soups, smoothies, juices, yogurt, and water-rich fruits can significantly aid in hydration. Keeping a water bottle handy and monitoring the color of your urine can help you stay on track. If you find it challenging to maintain fluid intake, it is advisable to consult your oncology team. Staying hydrated can support your energy levels, comfort, and recovery during treatment.",
+    "summary": "Staying hydrated is crucial during cancer treatment to support overall health and recovery.",
+    "content": "During cancer treatment, maintaining proper hydration is essential as individual fluid needs can vary significantly. Adequate hydration plays a vital role in supporting kidney function, digestion, and energy levels, which are all critical during treatment. Signs of dehydration, such as dry mouth, dizziness, dark urine, fatigue, and reduced urination, should be closely monitored to ensure optimal health.\n\nWhile water is a primary source of hydration, other options like soups, milk, yogurt, oral rehydration solutions, and water-rich foods can also contribute significantly. If consuming large quantities of fluids is challenging, it's advisable to take small sips regularly rather than waiting until thirst sets in. Keeping track of fluid intake and discussing personal hydration goals with your care team can foster better health outcomes. Small, consistent hydration habits can greatly enhance energy levels, comfort, and recovery during the treatment process.",
     "relatedNodes": [],
     "videoReferences": [
-      "REEL_ONCO_NUTRITION_020_HYDRATION_DURING_TREATMENT_hi_5c6a3e"
+      "REEL_ONCO_NUTRITION_045_HYDRATION_DURING_TREATMENT_en_55ab79"
     ],
     "bookReferences": []
   },
@@ -3353,11 +3353,11 @@
     "id": "constipation-management",
     "title": "Constipation Management",
     "category": "Health",
-    "summary": "Constipation is a common issue during cancer treatment that requires attention and management.",
-    "content": "During cancer treatment, constipation can be a frequent concern for patients, yet many hesitate to discuss it. Factors such as pain medications, nausea drugs, dehydration, reduced activity, and decreased food intake can contribute to this condition. It's important to note that simply increasing fiber intake is not sufficient; adequate hydration is also crucial. Foods like oats, papaya, pears, prunes, vegetables, whole grains, and flaxseeds can aid in alleviating constipation.\n\nRegular water consumption and light physical activity, such as short walks, can significantly assist in managing constipation. Patients are encouraged to gradually increase their fiber intake and maintain hydration. If constipation persists, it’s advisable to consult with your oncology team. While constipation can be bothersome, it is essential to remember that you do not have to manage it alone. Seeking prompt assistance can be beneficial for your overall well-being.",
+    "summary": "Effective management strategies for constipation.",
+    "content": "Constipation can be a troublesome issue, but simple changes can provide relief. Pain medications, certain cancer treatments, inadequate water intake, and low physical activity can contribute to constipation. Symptoms may include bloating, nausea, abdominal pain, and reduced appetite. If advised by your care team, incorporating fruits, vegetables, oats, whole grains, beans, and adequate water can be beneficial.\n\nEngaging in light physical activity, ensuring proper hydration, and maintaining a regular eating schedule can help manage constipation effectively. It's important to track your bowel movements, discuss medications with your care team, and consult before taking laxatives. With the right foods, hydration, physical activity, and support from your care team, constipation can be managed more effectively.",
     "relatedNodes": [],
     "videoReferences": [
-      "REEL_ONCO_NUTRITION_010_CONSTIPATION_MANAGEMENT_hi_e8c7f2"
+      "REEL_ONCO_NUTRITION_037_CONSTIPATION_MANAGEMENT_hi_7da9b1"
     ],
     "bookReferences": []
   },
@@ -3437,35 +3437,35 @@
     "id": "taste-changes-during-treatment",
     "title": "Taste Changes During Treatment",
     "category": "Health",
-    "summary": "Chemotherapy and radiation can alter taste perception, making food seem bland or metallic.",
-    "content": "अगर आपके पसंदीदा फूड्स अब फीके, कड़वे या मेटालिक लगने लगे हैं, तो ये आपकी कल्पना नहीं हैं. कीमो तेरपी, रेडियेशन, ड्राइ माथ और स्मैल में चेंजेज की वज़े से खाने का स्वाद बदल सकता है. जो फूड्स आज अच्छे नहीं लग रहे, वो कल्पसंद आ सकते हैं. ऐसे में, अलग फ्लेवर्स और टेक्स्चिस ट्राइ करना महत्वपूर्ण है। [[taste-changes-during-treatment|Taste Changes During Treatment]]\n\nआप हर्ब्स, मसाले, चिल्ड फूड्स और प्लास्टिक या वुडिन कटलरी का उपयोग करके मेटालिक टेस्ट को कम कर सकते हैं। स्मूधीज, दही, फ्रूड्स, चिल्ड सूप्स और हलके फ्लेवर्स वाले फूड्स ज्यादा अच्छे लग सकते हैं। मोह की सफाय का ध्यान रखना और नए फूड्स ट्राइ करना भी फायदेमंद हो सकता है। अगर खाना मुश्किल हो रहा है, तो न्यूट्रिशन सपोर्ट मांगना एक अच्छा विकल्प है। [[taste-changes-during-treatment|Taste Changes During Treatment]]\n\nखाने का स्वाद बदलना परेशान कर सकता है, लेकिन ये अक्सर टेमपरि होता है। जो फूड्स आपके लिए काम करते हैं उन्हें ढूंढिये और अपने आहार में विविधता लाने का प्रयास करें।",
+    "summary": "Taste alterations can occur due to treatments like chemotherapy and radiation.",
+    "content": "If your favorite foods suddenly taste metallic, bitter, or bland, it's not just in your head. Treatments such as chemotherapy, radiation, and certain medications can significantly affect your sense of taste and smell. Foods that you once enjoyed may not appeal to you during treatment, leading to frustration and dietary challenges.\n\nTo cope with these changes, consider experimenting with herbs, spices, lemon, or marinades to enhance flavors. Some individuals find that they prefer cold foods over hot ones during this time. If food tastes metallic, using plastic cutlery, opting for cold dishes, or incorporating sour flavors like lemon can help improve your eating experience. Regular oral hygiene and following your doctor's advice can also mitigate some of these taste issues, allowing you to discover new foods that you enjoy during your treatment journey.",
     "relatedNodes": [],
     "videoReferences": [
-      "REEL_ONCO_NUTRITION_015_TASTE_CHANGES_hi_3c5f7c"
+      "REEL_ONCO_NUTRITION_032_TASTE_CHANGES_hi_4b95a6"
     ],
     "bookReferences": []
   },
   {
     "id": "difficulty-swallowing",
-    "title": "Difficulty Swallowing Solutions",
+    "title": "Difficulty Swallowing During Treatment",
     "category": "Health",
-    "summary": "Difficulty swallowing can arise from various medical conditions and requires attention to maintain nutrition.",
-    "content": "अगर ट्रीप्मिंट के दोरान निगलने में दर्द या दिक्कत हो रही हैं, तो आप अकेले नहीं हैं। मोल के छले, ड्राइ माऊथ, सुजन, सर्जरी, कीमोथिरपी और रेडियेशन निगलने में दिक्कत पैदा कर सकते हैं। गोल न्यूट्रिशन को बनाए रखना हैं। [[difficulty-swallowing|Difficulty Swallowing Solutions]]\n\nकभी-कभी फूद्स की टेक्स्चर बदलने से खाना आसान हो जाता हैं। स्मूधीज, दही, सूप्स, खिचरी, डाल, मैश्ट फूद्स और कस्टर निगलने में आसान हो सकते हैं। सूखे, क्रंची, चिप-चिपे या सक्त फूद्स निगलने में मुश्किल पैदा कर सकते हैं। चोटे निवाले लीजिये, खाना खाते वक्त सीधा बैठिये। अगर दिक्कत बनी रहें तो ओंकॉलजी टीम से बात कीजिये। निगलने में दिक्कत को नजर अंदाज मत कीजिये। [[difficulty-swallowing|Difficulty Swallowing Solutions]]",
+    "summary": "Difficulty swallowing during treatment can be managed with the right strategies and support.",
+    "content": "अगर ट्रीप्मिंट के दोरान निगलने में दिक्कत या दर्ध हो रहा है, तो आप अकेले नहीं हैं। सर्जरी, कीमोथेरपी, रेडियेशन, मो के छले और ड्राइ माउथ निगलने की क्षमता को प्रभावित कर सकते हैं। निगलने में दिक्कत से चोकिंग, डिहाइडरेशन और खाना सांस की नाली में जाने का रिस्क बढ़ सकता हैं।\n\nसौफ्ट, गीले और पुरी किये हुए फूद सूखी या सख्त फूद से ज्यादा आसानी से निगले जा सकते हैं। चोटे निवाले लीजिये, दीरे खाई, खाते समय सीधे बैठिये और केर टीन की सलाह मानिये। खाते समय खानसी आये तो बताये, अपना वजन ट्रेक कीजिये और स्वालोइंग अस्सेस्मेंट के बारे में पूछिये। सही फूर्ट टेक्श्चर्ज और केर टीन के सपोर्ट से आप ट्रीट्मेंट के दोरान सुरक्षित तरीके से पोषण बना सकते हैं।",
     "relatedNodes": [],
     "videoReferences": [
-      "REEL_ONCO_NUTRITION_016_DIFFICULTY_SWALLOWING_hi_2cc0df"
+      "REEL_ONCO_NUTRITION_035_DIFFICULTY_SWALLOWING_hi_6d0810"
     ],
     "bookReferences": []
   },
   {
     "id": "dry-mouth-management",
-    "title": "Managing Dry Mouth",
+    "title": "Dry Mouth Management",
     "category": "Health",
-    "summary": "Dry mouth can significantly affect comfort and nutrition but can be managed with the right support.",
-    "content": "Dry mouth, or xerostomia, is a common issue that can arise from various factors such as chemotherapy, head and neck radiation, certain medications, and dehydration. Saliva plays a crucial role in chewing, swallowing, tasting, and protecting the mouth from infections. To alleviate symptoms, it is recommended to include moist foods like gravies, soups, yogurt, and sauces in meals. Soft and moist foods are easier to consume and can help mitigate discomfort.\n\nAdditionally, it's important to stay hydrated by drinking small amounts of water throughout the day. Maintaining oral hygiene is also essential in managing dry mouth. Avoiding alcohol, tobacco, overly dry foods, and excessive caffeine can help reduce the severity of dry mouth symptoms. If necessary, consider asking about saliva substitutes for additional relief. With the right support and strategies, managing dry mouth can lead to improved comfort and nutrition.",
+    "summary": "Effective strategies to manage dry mouth during treatment.",
+    "content": "Dry mouth, often a side effect of treatments like chemotherapy and radiation, can significantly impact your ability to eat and stay hydrated. It's important to recognize that you're not alone in this experience. Conditions such as dehydration and certain medications can lead to reduced saliva production, making eating and swallowing challenging. To combat this, incorporating foods like soups, yogurt, smoothies, oatmeal, dal, and curd rice can be beneficial. Additionally, opting for foods with extra sauces or gravies can help ease the discomfort.\n\nTo further alleviate dry mouth symptoms, it's advisable to avoid dry foods, alcohol, tobacco, and excessive caffeine. Staying hydrated by sipping fluids regularly is crucial. You might also want to consult your care team about the use of sugar-free gum or saliva substitutes. Maintaining a consistent oral care routine is essential. By following these guidelines and making thoughtful dietary choices, you can enhance your eating experience and overall comfort during treatment.",
     "relatedNodes": [],
     "videoReferences": [
-      "REEL_ONCO_NUTRITION_017_DRY_MOUTH_hi_8076b9"
+      "REEL_ONCO_NUTRITION_034_DRY_MOUTH_MANAGEMENT_en_2072ab"
     ],
     "bookReferences": []
   },
@@ -3507,13 +3507,13 @@
   },
   {
     "id": "nutrition-supplements",
-    "title": "Nutrition Supplements",
+    "title": "Nutrition Supplements Overview",
     "category": "Health",
-    "summary": "Nutrition supplements can aid in providing essential nutrients when food intake is challenging.",
-    "content": "अगर खाना मुश्किल हो गया है, तो शायद आप सोच रहे होंगे कि [[nutrition-supplements|nutrition supplements]] मदद कर सकते हैं या नहीं। ये ready to drink या powder products होते हैं जो extra calories, protein, vitamins और minerals देने के लिए बनाए जाते हैं। अगर आपका वजन कम हो रहा है, भूग कम है, निगलने में दिक्कत है या nutrition पूरा नहीं हो रहा, तो supplements मदद कर सकते हैं।\n\nअक्सर supplements regular meals और snacks के साथ ज्यादा फायदे मंध होते हैं, उनकी जगह नहीं। Supplements को meals के बीच लीजिये, smoothies में मिलाये या जब solid foods मुश्किल लग रहे हूं तब उस कीजिये। अपना वजन monitor कीजिये, protein और ingredients चेक कीजिये। अपनी Oncology टीम से पूछिये कि कौनसा supplement आपके लिए सही है? Nutrition supplements मदद कर सकते हैं, लेकिन सबसे अच्छा supplement वही है जो आपकी जरूरतों के हिसाब से चुना गया हो.",
+    "summary": "Nutrition supplements can aid in increasing calorie and protein intake for those struggling with food consumption.",
+    "content": "Nutrition supplements are designed to help individuals who may be facing challenges with their dietary intake, such as weight loss, difficulty eating, or insufficient calorie and protein consumption. They are not meant to replace regular meals but rather to complement them. Options like high protein drinks, calorie-dense shakes, clear supplements, and powder forms can provide additional nutrients throughout the day.\n\nIncorporating these supplements between meals can significantly enhance your daily calorie and protein intake. It's crucial to monitor your weight and discuss any symptoms with your care team. Consulting with an oncology dietician can help determine which supplement is most suitable for your specific needs. Properly utilized, nutrition supplements can be a valuable part of your treatment plan.",
     "relatedNodes": [],
     "videoReferences": [
-      "REEL_ONCO_NUTRITION_019_ORAL_NUTRITION_SUPPLEMENTS_hi_d61318"
+      "REEL_ONCO_NUTRITION_044_ORAL_NUTRITION_SUPPLEMENTS_hi_fc5c62"
     ],
     "bookReferences": []
   },
@@ -3521,11 +3521,11 @@
     "id": "hydration-during-cancer-treatment",
     "title": "Hydration During Treatment",
     "category": "Health",
-    "summary": "Staying hydrated is crucial during cancer treatment to support recovery and comfort.",
-    "content": "During cancer treatment, maintaining proper hydration is essential, as it can significantly impact overall well-being. Symptoms such as nausea, vomiting, and dry mouth can make it challenging to drink enough fluids. It's important to recognize signs of dehydration, which may include dark urine, dizziness, and fatigue. Instead of consuming large amounts of water at once, aim for small sips throughout the day to ensure consistent hydration.\n\nIncorporating various hydration sources can also be beneficial. Options like soups, smoothies, and water-rich fruits can contribute to your fluid intake. Carrying a water bottle and monitoring urine color can help you stay aware of your hydration status. If you find it difficult to keep fluids down, it's crucial to reach out to your care team for support. Staying hydrated not only aids in energy levels but also enhances comfort and promotes recovery during treatment.",
+    "summary": "Hydration is crucial during cancer treatment, with individual fluid needs varying.",
+    "content": "Hydration plays a vital role in supporting kidney function, digestion, energy levels, and treatment tolerance during cancer treatment. Each person's fluid needs can differ, making it essential to monitor hydration closely. Signs of dehydration may include dry mouth, dizziness, dark yellow urine, weakness, and reduced urination. To maintain adequate hydration, incorporating fluids such as soups, milk, yogurt, and water-rich foods can be beneficial.\n\nIf drinking large amounts at once feels challenging, it's advisable to sip fluids throughout the day. Keeping track of your fluid intake, being aware of dehydration symptoms, and consulting with your healthcare provider about your fluid needs can significantly enhance your comfort and recovery. Regular hydration can support your energy levels and overall well-being during this critical time.",
     "relatedNodes": [],
     "videoReferences": [
-      "REEL_ONCO_NUTRITION_020_HYDRATION_DURING_TREATMENT_en_ea4bf7"
+      "REEL_ONCO_NUTRITION_045_HYDRATION_DURING_TREATMENT_hi_d1f04b"
     ],
     "bookReferences": []
   },
@@ -3533,8 +3533,8 @@
     "id": "managing-nausea",
     "title": "Managing Nausea Effectively",
     "category": "Health",
-    "summary": "Effective strategies can help manage nausea during treatment.",
-    "content": "Nausea can be a distressing experience, especially when triggered by food smells or thoughts. It's important to recognize that you're not alone in this struggle. Various factors, including treatments, medications, and even anxiety, can exacerbate feelings of nausea. To mitigate these effects, it's advisable to eat small amounts of food every 2-3 hours, focusing on bland options such as plain biscuits, toast, bananas, rice, yogurt, khichdi, and ginger-based drinks.\n\nAvoiding oily and spicy foods, strong smells, and large meals can significantly help in reducing nausea. Additionally, taking anti-nausea medications on time and staying hydrated by sipping fluids slowly are crucial steps in managing this condition. Whenever possible, try to get fresh air, as it can also alleviate symptoms. Remember, nausea can often be effectively managed, and if you're unable to eat or drink, it's essential to inform your oncology team for further assistance.",
+    "summary": "Effective management strategies can help alleviate nausea during treatment.",
+    "content": "Nausea can be a common and distressing symptom for many individuals, especially those undergoing treatment. If the smell of food or even the thought of eating makes you feel nauseous, you're not alone. Various factors, including medications, anxiety, and strong food odors, can exacerbate nausea. It's important to recognize that sometimes an empty stomach can worsen the feeling, so eating small amounts every 2-3 hours can be beneficial.\n\nCertain foods like plain biscuits, toast, bananas, rice, yogurt, khichdi, and ginger-based drinks have been reported to help reduce nausea for some people. On the other hand, oily foods, spicy dishes, strong smells, and large meals can increase feelings of nausea. It's crucial to take your anti-nausea medications on time and to sip fluids slowly. Whenever possible, try to get some fresh air, as it can also help ease nausea. Remember, nausea can often be managed effectively, so if you're struggling to eat or drink, don't hesitate to inform your oncology team.",
     "relatedNodes": [],
     "videoReferences": [
       "REEL_ONCO_NUTRITION_021_MANAGING_NAUSEA_hi_2d0fe4"
@@ -3545,8 +3545,8 @@
     "id": "managing-vomiting-cancer-treatment",
     "title": "Managing Vomiting in Cancer",
     "category": "Health",
-    "summary": "Effective strategies for managing vomiting during cancer treatment.",
-    "content": "Vomiting during cancer treatment can be a daunting experience, but it's important to remember that you don't have to face it alone. Various factors such as treatment, medications, infections, pain, anxiety, and constipation can contribute to this distressing symptom. It's crucial to address these underlying causes to manage vomiting effectively. Repeated vomiting can lead to significant fluid and electrolyte loss, resulting in dizziness, weakness, and dehydration.\n\nTo alleviate vomiting, consider taking small sips of water, oral rehydration solutions, or clear fluids every few minutes instead of consuming large amounts at once. When you feel ready to eat, start with small portions of bland foods like toast, rice, bananas, khichdi, yogurt, or clear soups. Additionally, ensure that you take anti-nausea medications exactly as prescribed. Keeping a symptom diary can be beneficial in tracking your condition. If vomiting persists, do not hesitate to contact your oncology team for support, as early intervention can prevent dehydration and reduce the need for hospital visits.",
+    "summary": "Effective strategies can help manage vomiting during cancer treatment.",
+    "content": "Vomiting during cancer treatment can feel overwhelming, but you don't have to manage it alone. Various factors such as treatment, medications, infections, pain, anxiety, and constipation can all contribute to this distressing symptom. It's essential to understand that repeated vomiting can lead to fluid and electrolyte loss, which may result in dizziness, weakness, and dehydration. Therefore, managing this symptom is crucial for maintaining overall health during treatment.\n\nTo alleviate vomiting, consider taking small sips of water, oral rehydration solutions, or clear fluids every few minutes instead of consuming large amounts at once. When you're ready to eat, start with small portions of bland foods like toast, rice, bananas, khichdi, yogurt, or clear soups. Additionally, ensure that you take anti-nausea medications exactly as prescribed. It's also important to track your symptoms and communicate with your oncology team if vomiting persists. Early support can prevent dehydration and unnecessary hospital visits.",
     "relatedNodes": [],
     "videoReferences": [
       "REEL_ONCO_NUTRITION_022_MANAGING_VOMITING_en_af4880"
@@ -3555,13 +3555,793 @@
   },
   {
     "id": "managing-vomiting-during-cancer-treatment",
-    "title": "Managing Vomiting During Cancer Treatment",
+    "title": "Managing Vomiting During Treatment",
     "category": "Health",
-    "summary": "Managing vomiting during cancer treatment is crucial for maintaining hydration and nutrition.",
-    "content": "Vomiting can be a distressing side effect during cancer treatment, but it's important to know that you don't have to face it alone. Various factors such as medications, infections, pain, anxiety, and constipation can trigger vomiting. Frequent vomiting can lead to dehydration and electrolyte imbalances, resulting in weakness and dizziness. It's essential to take small sips of water, juices, or clear fluids frequently, rather than consuming large amounts at once.\n\nWhen you're ready to eat, start with light foods such as toast, rice, bananas, khichdi, yogurt, or clear soups. It's also advisable to take anti-nausea medications on time and keep track of your symptoms. If vomiting persists, reach out to your oncology team for assistance. If you're unable to keep food or fluids down, contact your oncology team immediately, as prompt help can prevent dehydration.",
+    "summary": "Managing vomiting during cancer treatment is crucial for maintaining hydration and health.",
+    "content": "Vomiting can be a distressing symptom during cancer treatment, often caused by medications, infections, pain, anxiety, or constipation. It's important to understand that you are not alone in this experience. Frequent vomiting can lead to dehydration and electrolyte imbalances, resulting in weakness and dizziness. To combat this, it's advisable to sip on water, clear fluids, or oral rehydration solutions in small amounts rather than drinking large quantities at once.\n\nWhen you feel ready to eat, start with light foods such as toast, rice, bananas, khichdi, yogurt, or clear soups. It's also essential to take anti-nausea medications on time and keep track of your symptoms. If vomiting persists, reach out to your oncology team for guidance. If you are unable to keep food or fluids down, contact your oncology team immediately, as prompt assistance can prevent dehydration.",
     "relatedNodes": [],
     "videoReferences": [
       "REEL_ONCO_NUTRITION_022_MANAGING_VOMITING_hi_39445e"
+    ],
+    "bookReferences": []
+  },
+  {
+    "id": "managing-diarrhea-during-cancer",
+    "title": "Managing Diarrhea During Cancer",
+    "category": "Health",
+    "summary": "Effective management of diarrhea during cancer treatment is crucial for maintaining quality of life.",
+    "content": "Diarrhea can be a common and exhausting side effect of cancer treatments such as chemotherapy, immunotherapy, and radiation. It can lead to serious complications like dehydration and electrolyte imbalance, making it essential to address this issue promptly. Patients should be aware of the potential causes, including certain medications and infections, and take proactive steps to manage their symptoms.\n\nTo alleviate diarrhea, it is recommended to consume small, frequent sips of fluids like water, oral rehydration solutions, and clear soups. Foods that are gentle on the stomach, such as bananas, rice, toast, and khichdi, can also be beneficial. It's important to avoid greasy, spicy, and high-fiber foods that may exacerbate the condition. Keeping a symptom diary can help track the severity and frequency of diarrhea, and patients should not hesitate to contact their oncology team if symptoms persist. Early intervention is key to preventing dehydration and enhancing overall well-being.",
+    "relatedNodes": [],
+    "videoReferences": [
+      "REEL_ONCO_NUTRITION_023_MANAGING_DIARRHEA_en_3b5819"
+    ],
+    "bookReferences": []
+  },
+  {
+    "id": "managing-diarrhea-during-cancer-treatment",
+    "title": "Managing Diarrhea During Cancer Treatment",
+    "category": "Health",
+    "summary": "Effective management of diarrhea during cancer treatment is crucial for overall well-being.",
+    "content": "Diarrhea can be a significant side effect of cancer treatments such as chemotherapy, immunotherapy, and radiation. It can lead to fatigue, weakness, and dehydration, making it essential to address the symptoms promptly. Common causes include antibiotics, infections, and certain medications. To mitigate these effects, patients should stay hydrated by consuming water, juices, soups, and clear fluids throughout the day.\n\nIn addition to hydration, dietary choices play a vital role in managing diarrhea. Foods that are easy to digest, such as bananas, rice, toast, khichdi, yogurt rice, potatoes, and clear soups, can help maintain nutrition without exacerbating symptoms. It is advisable to avoid oily, spicy, and high-fiber foods that may irritate the digestive system. Keeping track of symptoms is important, and if diarrhea persists, it is crucial to consult the oncology team for further guidance. Early intervention can prevent dehydration and improve overall comfort during treatment.",
+    "relatedNodes": [],
+    "videoReferences": [
+      "REEL_ONCO_NUTRITION_023_MANAGING_DIARRHEA_hi_8bec8f"
+    ],
+    "bookReferences": []
+  },
+  {
+    "id": "managing-constipation",
+    "title": "Managing Constipation",
+    "category": "Health",
+    "summary": "Constipation is a common issue during treatment that can be managed with proper strategies.",
+    "content": "If you're struggling with constipation during treatment, you're not alone. Pain medications, chemotherapy, dehydration, reduced activity, and eating less can all contribute to constipation. It's important to recognize that increasing fiber without adequate fluids may exacerbate the issue. Both fiber and hydration are crucial for maintaining bowel health. Foods such as fruits, vegetables, oats, whole grains, prunes, soaked raisins, and legumes can be beneficial in relieving constipation.\n\nIn addition to dietary changes, light activity, such as short walks, and regular fluid intake can help keep your bowels moving. It's also advisable to track your bowel movements and communicate with your oncology team about your medications, as some may contribute to constipation. Remember, while constipation is common during treatment, it shouldn't be ignored. Early support and intervention can significantly improve your comfort and overall quality of life.",
+    "relatedNodes": [],
+    "videoReferences": [
+      "REEL_ONCO_NUTRITION_024_MANAGING_CONSTIPATION_en_c041b6"
+    ],
+    "bookReferences": []
+  },
+  {
+    "id": "managing-constipation-during-treatment",
+    "title": "Managing Constipation During Treatment",
+    "category": "Health",
+    "summary": "Constipation is a common issue during treatment that can be managed effectively.",
+    "content": "During treatment, experiencing constipation is not uncommon, and you are not alone in this struggle. Factors such as pain medications, chemotherapy, dehydration, reduced activity, and decreased food intake can all contribute to constipation. It's important to note that simply increasing fiber intake may not be sufficient; adequate fluid intake is also crucial. Foods like fruits, vegetables, oats, whole grains, prunes, and soaked raisins can aid in alleviating constipation. Light physical activity and sufficient hydration can further support regular bowel movements.\n\nIt's advisable to keep track of your bowel movements and ensure you are consuming regular fluids. If you suspect that your medications might be causing constipation, consult with your oncology team for guidance. While constipation is common, it should not be overlooked, as seeking prompt assistance can provide significant relief. Remember, early intervention can lead to a more comfortable experience during your treatment journey.",
+    "relatedNodes": [],
+    "videoReferences": [
+      "REEL_ONCO_NUTRITION_024_MANAGING_CONSTIPATION_hi_d5c99a"
+    ],
+    "bookReferences": []
+  },
+  {
+    "id": "low-hemoglobin-nutrition",
+    "title": "Low Hemoglobin Nutrition",
+    "category": "Health",
+    "summary": "Low hemoglobin can lead to fatigue and weakness, especially in cancer patients.",
+    "content": "Low hemoglobin levels can cause significant fatigue, weakness, and shortness of breath. This condition is particularly common among cancer patients due to the effects of cancer and its treatments, which can reduce red blood cell counts, leading to decreased oxygen supply in the body. While nutrition plays a vital role in managing these symptoms, some patients may also require medications, iron therapy, or blood transfusions to address their low hemoglobin levels.\n\nIncorporating iron-rich foods along with folate, vitamins, and vitamin C can aid in the production of red blood cells. Foods such as lentils, kidney beans, spinach, eggs, and lean meats, paired with citrus fruits like oranges, guavas, or lemons, can be beneficial. It's essential to monitor your energy levels and regularly check blood reports. If symptoms worsen, consulting with your oncology team is crucial. While low hemoglobin is common during cancer treatment, with the right support, you can improve your energy and quality of life.",
+    "relatedNodes": [],
+    "videoReferences": [
+      "REEL_ONCO_NUTRITION_026_LOW_HEMOGLOBIN_NUTRITION_hi_bd0b7e"
+    ],
+    "bookReferences": []
+  },
+  {
+    "id": "low-platelet-nutrition",
+    "title": "Nutrition for Low Platelets",
+    "category": "Health",
+    "summary": "Balanced nutrition is crucial for managing low platelet counts during cancer treatment.",
+    "content": "If you are dealing with low platelet counts, it's essential to focus on a balanced diet that supports your recovery. Platelets play a critical role in blood clotting, and cancer treatments can often lead to decreased platelet levels. While there is no specific food or supplement that can quickly boost platelet counts, a diet rich in protein, fruits, vegetables, whole grains, and adequate fluids can help your body recover effectively.\n\nIncorporating a variety of foods that are high in protein, iron, folate, vitamin B12, and vitamin C is vital for maintaining overall blood health. It's also important to practice good oral hygiene, such as using a soft toothbrush, and to be vigilant for any unusual bruising or bleeding. Always consult with your oncology team before introducing any supplements into your diet to ensure they align with your treatment plan. By focusing on safe, balanced nutrition and adhering to professional advice, low platelet counts can be managed effectively.",
+    "relatedNodes": [],
+    "videoReferences": [
+      "REEL_ONCO_NUTRITION_027_LOW_PLATELETS_NUTRITION_en_debd3e"
+    ],
+    "bookReferences": []
+  },
+  {
+    "id": "nutrition-for-low-platelets",
+    "title": "Nutrition for Low Platelets",
+    "category": "Health",
+    "summary": "A balanced diet is crucial for managing low platelet counts during cancer treatment.",
+    "content": "If you have a low platelet count, you might be wondering what to eat for recovery. Platelets help in blood clotting and preventing bleeding, and certain cancer treatments can lower platelet counts. While no single food, juice, or supplement has been proven to quickly increase platelets during cancer treatment, a balanced diet is essential. Incorporate proteins, fruits, vegetables, whole grains, and adequate fluids into your meals. Foods rich in protein, iron, folate, vitamins, and vitamin C should be included in your diet.\n\nAdditionally, it is important to use a soft toothbrush and pay attention to any unusual bleeding or bruising. Always consult with your oncology team before taking any supplements. With the right support, platelet levels can be managed effectively. Focus on balanced nutrition and follow the advice of your oncology team to help maintain your health during treatment.",
+    "relatedNodes": [],
+    "videoReferences": [
+      "REEL_ONCO_NUTRITION_027_LOW_PLATELETS_NUTRITION_hi_c61896"
+    ],
+    "bookReferences": []
+  },
+  {
+    "id": "protein-importance-during-treatment",
+    "title": "Importance of Protein During Treatment",
+    "category": "Health",
+    "summary": "Protein is crucial for maintaining strength and supporting recovery during treatment.",
+    "content": "During treatment, many individuals may experience weakness or weight loss, making protein intake more important than ever. Protein plays a vital role in maintaining muscle mass, repairing tissues, and supporting the immune system. Without sufficient protein, the body may lose muscle more rapidly, which can hinder strength and recovery. Therefore, it is essential to include protein in every meal and snack to optimize its benefits.\n\nSources of protein are diverse and include eggs, dairy products, dal, beans, paneer, tofu, fish, chicken, nuts, and nutrition supplements when necessary. For those who find it challenging to eat, incorporating protein into snacks or trying smoothies can be effective strategies. Consulting with an oncology dietitian can help establish personalized protein goals, ensuring that individuals receive adequate support for healing and quality of life during their treatment journey.",
+    "relatedNodes": [],
+    "videoReferences": [
+      "REEL_ONCO_NUTRITION_028_PROTEIN_IMPORTANCE_en_b976e9"
+    ],
+    "bookReferences": []
+  },
+  {
+    "id": "importance-of-protein",
+    "title": "Importance of Protein",
+    "category": "Health",
+    "summary": "Protein is crucial for maintaining strength and supporting recovery during treatment.",
+    "content": "During treatment, experiencing weakness or weight loss can be common, making protein intake essential. Protein helps maintain muscle mass, repair tissues, and supports recovery and immunity. Insufficient protein can lead to rapid muscle loss, negatively impacting strength and recovery. Including protein in every meal and snack allows the body to utilize it more effectively.\n\nGood sources of protein include eggs, yogurt, lentils, beans, paneer, tofu, fish, chicken, nuts, and nutritional supplements when necessary. It's advisable to incorporate protein into snacks as well. If eating solid food is challenging, trying smoothies can be a beneficial alternative. Consult your Oncology Dietician about your protein goals, as adequate protein can help maintain strength, support recovery, and enhance your quality of life.",
+    "relatedNodes": [],
+    "videoReferences": [
+      "REEL_ONCO_NUTRITION_028_PROTEIN_IMPORTANCE_hi_52b296"
+    ],
+    "bookReferences": []
+  },
+  {
+    "id": "importance-of-protein-during-treatment",
+    "title": "Importance of Protein During Treatment",
+    "category": "Health",
+    "summary": "Protein is crucial for maintaining strength and supporting recovery during treatment.",
+    "content": "During treatment, experiencing weakness or weight loss can be common, making protein intake very important. Protein helps in maintaining muscle mass, repairing tissues, and supporting recovery and immunity. Without adequate protein, muscle loss can occur quickly, negatively impacting strength and recovery. Including protein in every meal and snack allows the body to utilize it more effectively.\n\nGood sources of protein include eggs, yogurt, lentils, beans, paneer, tofu, fish, chicken, nuts, and nutritional supplements when necessary. It's advisable to incorporate protein into snacks as well. If eating solid food is challenging, smoothies can be a great alternative. Consult with your Oncology Dietician about your protein goals, as sufficient protein can help maintain strength, support recovery, and improve quality of life.",
+    "relatedNodes": [],
+    "videoReferences": [
+      "REEL_ONCO_NUTRITION_028_PROTEIN_IMPORTANCE_hi_52b296"
+    ],
+    "bookReferences": []
+  },
+  {
+    "id": "healthy-fats-during-treatment",
+    "title": "Healthy Fats During Treatment",
+    "category": "Health",
+    "summary": "Incorporating healthy fats can help maintain weight during treatment.",
+    "content": "During treatment, side effects may lead to reduced appetite, making it challenging to maintain weight. The body requires extra energy for recovery, muscle maintenance, and immunity, which can be supported by healthy fats. Foods like nut butters, olive oil, avocados, full-fat dairy products, nuts, seeds, and cheese can provide concentrated calories in smaller portions.\n\nIncorporating these healthy fats into your diet can be beneficial, especially when appetite is low. Options such as smoothies, yogurt drinks, cheese sandwiches, trail mix, and fortified snacks can help you consume calories more easily. It is advisable to eat small amounts every two to three hours and keep healthy snacks on hand. For personalized advice, consult an oncology dietitian, as nutrient-rich foods can play a crucial role in maintaining weight and energy levels during treatment.",
+    "relatedNodes": [],
+    "videoReferences": [
+      "REEL_ONCO_NUTRITION_029_HEALTHY_FATS_DURING_TREATMENT_hi_b73b78"
+    ],
+    "bookReferences": []
+  },
+  {
+    "id": "nutrition-supplements-for-cancer",
+    "title": "Nutrition Supplements for Cancer",
+    "category": "Health",
+    "summary": "Nutrition supplements can aid in maintaining strength and weight during cancer treatment.",
+    "content": "During cancer treatment, side effects can significantly impact your ability to eat enough. In such cases, nutrition supplements, which include specially designed drinks or powders, can provide essential calories, protein, vitamins, and minerals. These supplements are particularly beneficial for individuals experiencing poor appetite, weight loss, mouth sores, difficulty swallowing, or increased nutritional needs. It's important to remember that these supplements are intended to complement your meals rather than replace them, unless advised otherwise by your care team.\n\nOptions such as ready-to-drink shakes, protein powders, and homemade smoothies can effectively increase your calorie and protein intake. Regularly tracking your weight and carefully reading nutrition labels are crucial steps in managing your nutritional health. Consulting with your oncology dietician can help you determine the most suitable supplement for your specific situation. When eating becomes challenging, the right nutrition supplement can play a vital role in supporting your strength, weight, and overall recovery.",
+    "relatedNodes": [],
+    "videoReferences": [
+      "REEL_ONCO_NUTRITION_030_ORAL_NUTRITION_SUPPLEMENTS_en_96ff42"
+    ],
+    "bookReferences": []
+  },
+  {
+    "id": "nutrition-supplements-for-treatment-side-effects",
+    "title": "Nutrition Supplements for Treatment Side Effects",
+    "category": "Health",
+    "summary": "Nutrition supplements can aid in maintaining strength and weight during treatment side effects.",
+    "content": "When treatment side effects make it challenging to consume enough food, nutrition supplements can be a valuable resource. These specially designed drinks or powders provide essential calories, protein, vitamins, and minerals that may be beneficial for individuals experiencing poor appetite, weight loss, mouth sores, difficulty swallowing, or increased nutritional needs. It's important to understand that these supplements are intended to complement meals rather than replace them unless advised by your care team.\n\nOptions such as ready-to-drink shakes, protein powders, and homemade smoothies can significantly enhance your caloric and protein intake. Regularly tracking your weight and reading nutrition labels carefully can help you make informed choices. Consulting with your oncology dietician is crucial to determine which supplement is best suited for your specific situation. Ultimately, when eating becomes difficult, the right nutrition supplement can play a critical role in helping you maintain your strength, weight, and overall recovery.",
+    "relatedNodes": [],
+    "videoReferences": [
+      "REEL_ONCO_NUTRITION_030_ORAL_NUTRITION_SUPPLEMENTS_en_96ff42"
+    ],
+    "bookReferences": []
+  },
+  {
+    "id": "nutrition-supplements-for-treatment",
+    "title": "Nutrition Supplements for Treatment",
+    "category": "Health",
+    "summary": "Nutrition supplements can support individuals struggling to eat due to treatment side effects.",
+    "content": "अगर treatment के side effects की वज़े से आप पूरा खाना नहीं खा पा रहे हैं, तो [[nutrition-supplements-for-treatment|nutrition supplements]] मदद कर सकते हैं. ये specially designed drinks या powders होते हैं जो extra calories, protein, vitamins और minerals देते हैं. अगर भूग कम हो, वजन घट रहा हो, मोम में छले हो या निगलने में दिक्कत हो, तो supplements मदद कर सकते हैं.\n\nNutrition supplements आपके खाने को support करते हैं, लेकिन आमतोर पर उसका पूरा replacement नहीं होते. Ready to drink shakes, protein powders और homemade smoothies, calories और protein बढ़ाने में मदद कर सकते हैं. अपना वजन regularly check कीजिये, nutrition labels पढ़िये, अपने oncology dietician से पूछिये कि कौन सा supplement आपके लिए सही हैं. जब खाना मुश्किल हो जाए, तो सही nutrition supplements आपकी ताकत, वजन और recovery को support कर सकता हैं.",
+    "relatedNodes": [],
+    "videoReferences": [
+      "REEL_ONCO_NUTRITION_030_ORAL_NUTRITION_SUPPLEMENTS_hi_cc1205"
+    ],
+    "bookReferences": []
+  },
+  {
+    "id": "nutrition-supplements-support",
+    "title": "Nutrition Supplements Support",
+    "category": "Health",
+    "summary": "Nutrition supplements can aid in meeting calorie and protein needs during treatment.",
+    "content": "If you find it challenging to consume enough food, nutrition supplements may be a beneficial addition to your diet. These supplements are particularly useful if you are experiencing weight loss, reduced appetite, or difficulties with swallowing. They are designed to provide extra calories and protein, complementing your regular meals rather than replacing them. Options include high-protein drinks, calorie-dense shakes, and powdered products that can be mixed into foods.\n\nTo maximize the benefits of nutrition supplements, consider using them between meals to enhance your overall calorie and protein intake. It's essential to monitor your weight and discuss any symptoms with your care team. Consulting with an oncology dietician can help you choose the right supplement tailored to your needs. When used correctly, nutrition supplements can significantly support your strength, energy, and recovery during treatment.",
+    "relatedNodes": [],
+    "videoReferences": [
+      "REEL_ONCO_NUTRITION_044_ORAL_NUTRITION_SUPPLEMENTS_en_5c45c3"
+    ],
+    "bookReferences": []
+  },
+  {
+    "id": "cancer-treatment-mouth-sores",
+    "title": "Cancer Treatment Mouth Sores",
+    "category": "Health",
+    "summary": "Mouth sores can be a painful side effect of cancer treatments, but managing them is essential for maintaining nutrition and hydration.",
+    "content": "Mouth sores can significantly impact your ability to eat and drink, especially during cancer treatments. These sores can arise due to the delicate lining of the mouth being affected by various therapies. It's important to address these sores promptly to ensure that you can maintain your nutrition and hydration levels. Soft foods such as yogurt, smoothies, soups, and khichdi can provide comfort and ease during this challenging time.\n\nAvoiding spicy, sour, overly salty, hard, or very hot foods and drinks is crucial, as they can exacerbate the pain caused by mouth sores. Establishing a routine for oral care and staying hydrated by sipping water regularly can help manage discomfort. If you experience significant difficulties with eating or drinking, it's advisable to reach out to your oncology team for support. With the right foods, mouth care, and the backing of your oncology team, you can nourish your body even during treatment.",
+    "relatedNodes": [],
+    "videoReferences": [
+      "REEL_ONCO_NUTRITION_033_MOUTH_SORES_NUTRITION_hi_55d69d"
+    ],
+    "bookReferences": []
+  },
+  {
+    "id": "difficulty-swallowing-during-treatment",
+    "title": "Difficulty Swallowing During Treatment",
+    "category": "Health",
+    "summary": "Many patients experience difficulty swallowing during treatment due to various medical interventions.",
+    "content": "Difficulty swallowing, also known as dysphagia, can be a common issue for patients undergoing treatments like surgery, chemotherapy, or radiation. These treatments can lead to side effects such as mouth sores and dry mouth, which significantly impact the ability to swallow safely. It's important to recognize that you're not alone in this experience, as many face similar challenges during their treatment journey.\n\nTo manage difficulty swallowing, consider adjusting your diet to include soft, moist, and pureed foods, which are generally easier to consume than dry or crumbly options. Additionally, adopting strategies such as taking small bites, eating slowly, and maintaining an upright position during meals can help mitigate risks associated with swallowing difficulties. It's also crucial to communicate with your care team about any symptoms like coughing while eating, and to inquire about a swallowing assessment or speech therapy referral if needed. With the right support and dietary adjustments, you can continue to nourish your body safely during treatment.",
+    "relatedNodes": [],
+    "videoReferences": [
+      "REEL_ONCO_NUTRITION_035_DIFFICULTY_SWALLOWING_en_9dfb48"
+    ],
+    "bookReferences": []
+  },
+  {
+    "id": "diarrhea-management-during-treatment",
+    "title": "Diarrhea Management During Treatment",
+    "category": "Health",
+    "summary": "Effective management of diarrhea during treatment involves hydration and dietary choices.",
+    "content": "Diarrhea can be a challenging side effect of various treatments such as chemotherapy and radiation. It can lead to dehydration, electrolyte imbalances, and fatigue, making it crucial to address this issue promptly. To manage diarrhea effectively, it is essential to stay hydrated and choose foods that are gentle on the digestive system. Foods like bananas, rice, oatmeal, boiled potatoes, and curd rice can be beneficial, while spicy and fried foods should be avoided.\n\nIn addition to dietary adjustments, it is important to eat small, frequent meals and drink fluids regularly. Consulting with your care team about the use of oral rehydration solutions can also provide additional support. By implementing these strategies, you can better manage diarrhea during treatment and maintain your overall health and well-being. For more insights, refer to [[diarrhea-management-during-treatment|Diarrhea Management During Treatment]].",
+    "relatedNodes": [],
+    "videoReferences": [
+      "REEL_ONCO_NUTRITION_036_DIARRHEA_MANAGEMENT_en_fe921c"
+    ],
+    "bookReferences": []
+  },
+  {
+    "id": "managing-diarrhea-during-treatment",
+    "title": "Managing Diarrhea During Treatment",
+    "category": "Health",
+    "summary": "Effective management of diarrhea during treatment involves hydration and dietary choices.",
+    "content": "Diarrhea can be a challenging side effect of various treatments such as chemotherapy and radiation. It is essential to stay hydrated and choose the right foods to mitigate its effects. Frequent diarrhea can lead to dehydration, electrolyte imbalances, fatigue, and unintentional weight loss. Therefore, understanding how to manage this symptom is crucial for maintaining overall health during treatment.\n\nTo manage diarrhea effectively, consider incorporating bland foods into your diet, such as bananas, rice, oatmeal, boiled potatoes, curd rice, and khichdi. These foods are gentle on the stomach and can help ease digestive distress. Conversely, it is advisable to avoid spicy foods, fried foods, alcohol, excess caffeine, and some high-fiber foods, as they may exacerbate diarrhea. Additionally, taking small, frequent meals and sipping fluids regularly can contribute to better hydration and overall well-being. Don't hesitate to consult your care team about the appropriateness of oral rehydration solutions for your situation. With the right approach, you can manage diarrhea effectively during your treatment journey.",
+    "relatedNodes": [],
+    "videoReferences": [
+      "REEL_ONCO_NUTRITION_036_DIARRHEA_MANAGEMENT_en_fe921c"
+    ],
+    "bookReferences": []
+  },
+  {
+    "id": "diarrhea-management",
+    "title": "Diarrhea Management",
+    "category": "Health",
+    "summary": "Effective management of diarrhea during treatment involves hydration and appropriate food choices.",
+    "content": "During treatment, diarrhea can be a significant concern, leading to dehydration, weakness, electrolyte imbalance, and weight loss. Factors such as chemotherapy, radiation, medications, infections, and changes in the digestive system can contribute to this issue. It is crucial to focus on hydration and consume light foods that are easy on the stomach, such as bananas, rice, oats, boiled potatoes, curd rice, and khichdi.\n\nAvoiding spicy foods, fried items, alcohol, excessive caffeine, and certain high-fiber foods can help prevent worsening diarrhea. It is advisable to eat smaller, more frequent meals and to sip fluids throughout the day. Consulting your care team about including oats in your diet can also be beneficial. With the right foods, proper hydration, and support from your care team, you can manage diarrhea more effectively.",
+    "relatedNodes": [],
+    "videoReferences": [
+      "REEL_ONCO_NUTRITION_036_DIARRHEA_MANAGEMENT_hi_87aeb5"
+    ],
+    "bookReferences": []
+  },
+  {
+    "id": "vomiting-management",
+    "title": "Vomiting Management During Treatment",
+    "category": "Health",
+    "summary": "Effective management of vomiting during treatment is crucial for patient care.",
+    "content": "Vomiting can occur during treatment due to various factors such as chemotherapy, medications, infections, anxiety, and changes in digestion. It is essential to prioritize fluids and hydration to prevent dehydration, electrolyte imbalance, dizziness, and weakness. Initially, patients should consume small amounts of water, clear liquids, or oral rehydration solutions before gradually reintroducing solid foods.\n\nOnce fluids are tolerated, it is advisable to start with light foods such as crackers, toast, rice, bananas, oats, or curd rice in small quantities. Patients should also follow their doctor's recommendations regarding anti-nausea medications. Continuous hydration is important, and if fluids cannot be retained, immediate contact with a healthcare provider is necessary. With prompt treatment, proper hydration, and support from the care team, vomiting can often be managed more effectively.",
+    "relatedNodes": [],
+    "videoReferences": [
+      "REEL_ONCO_NUTRITION_039_VOMITING_MANAGEMENT_hi_e17b1d"
+    ],
+    "bookReferences": []
+  },
+  {
+    "id": "appetite-loss-management",
+    "title": "Appetite Loss Management",
+    "category": "Health",
+    "summary": "Managing appetite loss during treatment is crucial for maintaining nutrition and strength.",
+    "content": "अगर ट्रीप्मिंट के दौरान भूँग कम लग रही है, तो यह एक सामान्य समस्या है। मतली, स्वाद में बदलाव, दर्द, ठकान, और emotional stress जैसे कारक भूँग को कम कर सकते हैं। लंबे समय तक कम खाने से वजन कम हो सकता है, मास पेशियां कम हो सकती हैं, और कमजोरी बढ़ सकती है। इसलिए, यह महत्वपूर्ण है कि आप अपने खाने की आदतों पर ध्यान दें और सही खाद्य पदार्थों का चयन करें।\n\nदही, आंडी, पनीर, डाल, स्मूधीज और नट बटर जैसे केलूरी और प्रोटीन से भर्पूर फूद्स चुनिए। भूँग लगने का इंतजार मत कीजिए; हर दो से पीन घंटे में चोटे मील्स या स्नैक्स लीजिए। इसके अलावा, अपना वजन ट्रेक करना और भूँग में बदलाव के बारे में केर टीम से बात करना भी महत्वपूर्ण है। ओंकॉलोजी डायेटिशन से मिलने के बारे में पूछने से आपको सही मार्गदर्शन मिल सकता है।\n\nथोड़ा सा खाना भी आपके शरीर को पोषण दे सकता है। सही सपोर्ट के साथ भूँग कम लगने को मैनेज किया जा सकता है। यह न केवल आपकी सेहत के लिए फायदेमंद है, बल्कि यह आपके उपचार के दौरान आपकी ताकत को बनाए रखने में भी मदद करता है।",
+    "relatedNodes": [],
+    "videoReferences": [
+      "REEL_ONCO_NUTRITION_040_APPETITE_LOSS_hi_7c5fc3"
+    ],
+    "bookReferences": []
+  },
+  {
+    "id": "unintentional-weight-loss-during-treatment",
+    "title": "Unintentional Weight Loss",
+    "category": "Health",
+    "summary": "Understanding and managing unintentional weight loss during treatment is crucial for maintaining strength and recovery.",
+    "content": "Unintentional weight loss during treatment can be a significant concern, often stemming from reduced appetite, nausea, taste changes, and the side effects of treatment. It's essential to recognize that losing muscle can negatively impact strength, energy levels, recovery, and the overall ability to tolerate treatment. Therefore, paying attention to these changes is vital for anyone undergoing treatment.\n\nTo mitigate the effects of weight loss, it is recommended to choose foods that are rich in protein and calories, such as eggs, paneer, yogurt, lentils, nuts, and smoothies. Eating small meals every 2-3 hours can also help, even if hunger is not present. Regularly checking your weight and discussing any changes with your care team is important, and seeking advice from an oncology dietitian early on can provide tailored nutritional support. With the right nutrition plan and support, you can help protect your strength during treatment.",
+    "relatedNodes": [],
+    "videoReferences": [
+      "REEL_ONCO_NUTRITION_041_UNINTENTIONAL_WEIGHT_LOSS_en_b8322d"
+    ],
+    "bookReferences": []
+  },
+  {
+    "id": "protein-rich-foods-for-recovery",
+    "title": "Protein-Rich Foods for Recovery",
+    "category": "Health",
+    "summary": "Incorporating protein-rich foods can aid in strength and recovery during treatment.",
+    "content": "When eating feels difficult, choosing protein-rich foods can significantly support your strength and recovery. Protein is essential for maintaining muscle, supporting healing, and strengthening immunity. It plays a crucial role in helping your body recover during treatment. Instead of focusing on large meals, small amounts of protein eaten regularly throughout the day can be easier to manage and more beneficial.\n\nConsider incorporating options like yogurt, paneer cubes, boiled eggs, roasted chickpeas, nut butter, milk, soy milk, or protein smoothies into your diet. If you find chewing or swallowing challenging, opt for softer options such as smoothies, yogurt drinks, blended soups, or soft paneer. Keeping protein snacks within reach and adding protein to every meal can help you meet your nutritional goals. Remember, you don't need perfect meals; small, regular amounts of protein can effectively help protect your strength during treatment.",
+    "relatedNodes": [],
+    "videoReferences": [
+      "REEL_ONCO_NUTRITION_042_HIGH_PROTEIN_SNACKS_en_45512d"
+    ],
+    "bookReferences": []
+  },
+  {
+    "id": "high-protein-snacks",
+    "title": "High Protein Snacks",
+    "category": "Nutrition",
+    "summary": "High protein snacks can support strength and recovery.",
+    "content": "When food becomes challenging, high-protein foods can support your strength and recovery. Protein helps preserve muscle mass, supports recovery, and strengthens immunity. Incorporating small amounts of protein throughout the day can be easier than consuming large meals. Consider trying yogurt, paneer cubes, boiled eggs, roasted chickpeas, nut butter, milk, soy milk, and protein smoothies.\n\nIf chewing or swallowing is difficult, opt for smoothies, yogurt drinks, blended soups, or soft paneer. Keep protein snacks handy and include protein in every meal. Consult with a dietitian about your protein needs. You don't need perfect meals; regular protein in small amounts can help maintain your strength.",
+    "relatedNodes": [],
+    "videoReferences": [
+      "REEL_ONCO_NUTRITION_042_HIGH_PROTEIN_SNACKS_hi_7b2054"
+    ],
+    "bookReferences": []
+  },
+  {
+    "id": "high-calorie-foods",
+    "title": "High Calorie Foods",
+    "category": "Nutrition",
+    "summary": "Incorporating high-calorie foods can aid recovery during treatment.",
+    "content": "When undergoing treatment, it is crucial to ensure that your body receives enough energy to heal and recover. If you're struggling with appetite, consider focusing on adding more nutrition and calories to every bite instead of increasing portion sizes. Foods like nut butter, olive oil, ghee, avocado, cheese, full-fat yogurt, seeds, and nuts can be excellent additions to your meals and snacks to boost calorie intake without overwhelming your appetite.\n\nSmoothies, milkshakes, and other nourishing drinks can also be a more manageable way to consume calories when your appetite is low. It's important to track your weight and plan your snacks in advance. Additionally, consulting with your care team about the possibility of oral nutrition supplements can provide further support. Remember, you don't need to eat larger volumes; small, calorie-rich additions can significantly help support your energy levels and recovery process.",
+    "relatedNodes": [],
+    "videoReferences": [
+      "REEL_ONCO_NUTRITION_043_HIGH_CALORIE_FOODS_en_ef9c8b"
+    ],
+    "bookReferences": []
+  },
+  {
+    "id": "high-calorie-foods-for-recovery",
+    "title": "High Calorie Foods for Recovery",
+    "category": "Nutrition",
+    "summary": "Incorporating high-calorie foods can aid recovery during treatment.",
+    "content": "During treatment, it can be challenging to consume enough food, making it beneficial to increase calories without enlarging meal sizes. Your body may require additional energy to combat the side effects of treatment and to support recovery and healing. Focus on adding more nutrients and calories to each bite when appetite is low. Incorporate nut butters, olive oil, ghee, avocado, cheese, full-fat yogurt, seeds, and nuts into your meals.\n\nWhen appetite diminishes, smoothies, milkshakes, and nourishing drinks can be easier to consume than larger meals. Keep track of your weight, prepare snacks in advance, and consult your team about nutrition supplements. You do not need to eat in larger quantities; small calorie-rich additions can significantly aid in recovery.",
+    "relatedNodes": [],
+    "videoReferences": [
+      "REEL_ONCO_NUTRITION_043_HIGH_CALORIE_FOODS_hi_3f0072"
+    ],
+    "bookReferences": []
+  },
+  {
+    "id": "nutrition-supplements-for-health",
+    "title": "Nutrition Supplements for Health",
+    "category": "Health",
+    "summary": "Nutrition supplements can support individuals struggling to meet their dietary needs.",
+    "content": "If you find it challenging to consume enough food, nutrition supplements may be a beneficial addition to your diet. These supplements are particularly useful for individuals who are losing weight, eating less, or experiencing difficulties with swallowing. They are designed to add essential calories and protein to your diet, complementing regular meals rather than replacing them. Options include high-protein drinks, calorie-dense shakes, and powdered products that can be mixed into foods.\n\nUsing nutrition supplements strategically, such as between meals, can enhance your overall calorie and protein intake. It's crucial to monitor your weight and discuss any symptoms with your care team. Consulting an oncology dietician can help you determine which supplement is most suitable for your needs. When used correctly, nutrition supplements can play a vital role in supporting your strength, energy, and recovery during treatment.",
+    "relatedNodes": [],
+    "videoReferences": [
+      "REEL_ONCO_NUTRITION_044_ORAL_NUTRITION_SUPPLEMENTS_en_5c45c3"
+    ],
+    "bookReferences": []
+  },
+  {
+    "id": "high-calorie-nutrition-strategies",
+    "title": "High-Calorie Nutrition Strategies",
+    "category": "Nutrition",
+    "summary": "Strategies for increasing calorie intake during treatment.",
+    "content": "When undergoing treatment, it is crucial to ensure that your body receives enough energy to heal and cope with side effects. If you find it challenging to eat sufficient amounts, consider focusing on increasing calories without enlarging portion sizes. This approach allows you to add more nutrition to every bite, which can be particularly beneficial when your appetite is low.\n\nIncorporating calorie-dense foods such as nut butter, olive oil, ghee, avocado, cheese, full-fat yogurt, seeds, and nuts into your meals and snacks can significantly enhance your caloric intake. Additionally, smoothies, milkshakes, and other nourishing drinks may be easier to consume than large meals, making them a practical option when appetite is diminished. Remember to track your weight and plan snacks in advance, and consult your care team about the potential benefits of oral nutrition supplements. Small, calorie-rich additions can effectively support your energy levels and recovery during this challenging time.",
+    "relatedNodes": [],
+    "videoReferences": [
+      "REEL_ONCO_NUTRITION_043_HIGH_CALORIE_FOODS_en_ef9c8b"
+    ],
+    "bookReferences": []
+  },
+  {
+    "id": "nutrition-supplements-for-weight-management",
+    "title": "Nutrition Supplements for Weight Management",
+    "category": "Health",
+    "summary": "Nutrition supplements can aid in weight management by increasing calorie and protein intake.",
+    "content": "If you're struggling to consume enough food, you might be wondering if nutrition supplements could help. These supplements are designed to increase your calorie and protein intake, especially if you're experiencing weight loss, difficulty eating, or trouble swallowing. They are typically used alongside regular meals and not as a replacement. Options like high protein drinks, calorie-dense shakes, clear supplements, and powder forms are available to help meet your nutritional needs.\n\nTaking supplements between meals can effectively boost your daily calorie and protein intake. It's essential to track your weight, discuss any symptoms with your care team, and consult with an oncology dietician to determine which supplement is right for you. When used correctly, nutrition supplements can be a valuable part of your treatment plan, supporting your overall health and weight management goals.",
+    "relatedNodes": [],
+    "videoReferences": [
+      "REEL_ONCO_NUTRITION_044_ORAL_NUTRITION_SUPPLEMENTS_hi_fc5c62"
+    ],
+    "bookReferences": []
+  },
+  {
+    "id": "protein-rich-foods",
+    "title": "Protein Rich Foods",
+    "category": "Nutrition",
+    "summary": "Protein-rich foods support strength and recovery.",
+    "content": "जब खाना मुश्किल लगे, प्रोटीन से भर्पूर फूड्ज आपकी ताक्त और रिकवरी को सपोर्ट कर सकते हैं। प्रोटीन मानस्पेशियों को बचाने, रिकवरी को सपोर्ट करने और इम्यूनिटी को मजबूद बनाने में मदद करता है। दिन भर में थोड़ी थोड़ी मातर में प्रोटीन लेना बड़े मील्स से ज़्यादा आसान हो सकता है।\n\nदही, पनीर क्यूब्स, उबले अंडे, भुना चना, नट बटर, दूद, सोय मिल्क और प्रोटीन स्मूधीस ट्राइ कीजिए। अगर चबाने या निगलने में दिक्कत हो, तो स्मूधीस, योगट ड्रिंक्स, ब्लेंडट सूप्स या सौफ्ट पनीर चुनिए। प्रोटीन स्नाक्स पास रखिए। हर मील में प्रोटीन शामिल कीजिए और अपनी प्रोटीन नीज के बारे में केटीन से पूछिए।\n\nपरफेक्ट मील्स की ज़रूरत नहीं है। चोटी मातर में नियमित प्रोटीन आपकी ताक बनाय रखने में मदद कर सकता है।",
+    "relatedNodes": [],
+    "videoReferences": [
+      "REEL_ONCO_NUTRITION_042_HIGH_PROTEIN_SNACKS_hi_7b2054"
+    ],
+    "bookReferences": []
+  },
+  {
+    "id": "palliative-care-early-integration",
+    "title": "Early Integration of Palliative Care",
+    "category": "Health",
+    "summary": "Palliative care can and should begin at the time of diagnosis, not just at the end of treatment.",
+    "content": "Many families mistakenly believe that palliative care should only commence when symptoms become severe or near the end of treatment. However, the reality is that palliative care can begin at any stage of cancer, even from the time of diagnosis. Starting palliative care early can significantly help in managing symptoms, reducing stress, and improving overall quality of life for patients.\n\nIt is crucial to understand that patients do not have to choose between cancer treatment and palliative care; these two approaches can work together harmoniously. Engaging in a conversation with your oncology team about the potential benefits of palliative care can be invaluable. Consider asking, 'Would palliative care help me manage symptoms and improve my daily life?' The best time to discuss palliative care may be earlier than you think.",
+    "relatedNodes": [],
+    "videoReferences": [
+      "REEL_PALLIATIVE_CARE_002_EARLY_INTEGRATION_en_e2ca2f"
+    ],
+    "bookReferences": []
+  },
+  {
+    "id": "early-integration-palliative-care",
+    "title": "Early Integration of Palliative Care",
+    "category": "Health",
+    "summary": "Palliative care can and should begin at any stage of cancer treatment, not just at the end.",
+    "content": "Many families mistakenly believe that palliative care is only appropriate when symptoms become severe or near the end of treatment. However, palliative care can actually begin at any stage of cancer, even from the time of diagnosis. Starting palliative care early is crucial as it can help manage symptoms, reduce stress, and significantly improve the quality of life for patients.\n\nIt is important to understand that palliative care does not replace cancer treatment; rather, it complements it. Patients do not have to choose between aggressive cancer treatments and palliative care. They can work together to enhance the patient's overall well-being. Therefore, it is advisable to ask your oncology team about the potential benefits of palliative care early in the treatment process. The best time to discuss palliative care may be earlier than you think.",
+    "relatedNodes": [],
+    "videoReferences": [
+      "REEL_PALLIATIVE_CARE_002_EARLY_INTEGRATION_en_e2ca2f"
+    ],
+    "bookReferences": []
+  },
+  {
+    "id": "early-integration-of-palliative-care",
+    "title": "Early Integration of Palliative Care",
+    "category": "Philosophy",
+    "summary": "Palliative care can and should begin at any stage of cancer treatment, not just at the end.",
+    "content": "Many families mistakenly believe that palliative care should only be initiated when symptoms become severe or near the end of treatment. However, the reality is that palliative care can start from the time of diagnosis. This early integration is crucial as it can help manage symptoms, reduce stress, and significantly improve the quality of life for patients. It is essential to understand that palliative care does not replace cancer treatment; rather, it complements it.\n\nPatients and families are encouraged to have open discussions with their oncology teams about the potential benefits of palliative care. Asking questions like, 'Would palliative care help me manage symptoms and improve my daily life?' can lead to a better understanding of how these services can be integrated into the overall treatment plan. The best time to discuss palliative care may indeed be earlier than one might expect, allowing for a more holistic approach to cancer care.",
+    "relatedNodes": [],
+    "videoReferences": [
+      "REEL_PALLIATIVE_CARE_002_EARLY_INTEGRATION_en_e2ca2f"
+    ],
+    "bookReferences": []
+  },
+  {
+    "id": "palliative-care-timing",
+    "title": "Timing of Palliative Care",
+    "category": "Philosophy",
+    "summary": "Palliative care can and should begin at any stage of cancer treatment, not just the advanced stages.",
+    "content": "Palliative care is often misunderstood as a service reserved for the advanced stages of cancer. Many patients and caregivers believe that it only becomes relevant when symptoms are severe. However, this perception is misleading. Palliative care can be integrated from the moment of diagnosis, providing support throughout the entire treatment journey. Early initiation of palliative care can significantly improve symptom management, reduce stress, and enhance the overall quality of life for patients.\n\nIt is crucial to understand that choosing palliative care does not mean forgoing cancer treatment. In fact, both can coexist harmoniously. Patients are encouraged to engage with their oncology teams to explore how palliative care can assist in managing symptoms and improving daily life. The right time to discuss palliative care is often when the need for it becomes apparent, ensuring that patients receive the comprehensive support they deserve at every stage of their journey.",
+    "relatedNodes": [],
+    "videoReferences": [
+      "REEL_PALLIATIVE_CARE_002_EARLY_INTEGRATION_hi_36f18f"
+    ],
+    "bookReferences": []
+  },
+  {
+    "id": "palliative-care-vs-hospice",
+    "title": "Palliative Care vs Hospice",
+    "category": "Philosophy",
+    "summary": "Palliative care and hospice are distinct concepts focused on different aspects of patient care.",
+    "content": "Palliative care and hospice are often confused, but they serve different purposes in patient care. Palliative care focuses on managing symptoms and improving the quality of life at any stage of cancer. It can be initiated alongside curative treatment, making it a versatile option for patients seeking relief from symptoms while still pursuing active treatment.\n\nOn the other hand, hospice care is specifically designed for patients when curative treatment is no longer beneficial. Its primary focus is on comfort and quality of life during the final stages of illness. While every hospice care program includes palliative care principles, not all palliative care is considered hospice. It is essential to discuss with your oncology team to determine which type of support aligns best with your goals, symptoms, and treatment plan throughout your cancer journey.",
+    "relatedNodes": [],
+    "videoReferences": [
+      "REEL_PALLIATIVE_CARE_003_PALLIATIVE_CARE_VS_HOSPICE_hi_bb7489"
+    ],
+    "bookReferences": []
+  },
+  {
+    "id": "palliative-care-team",
+    "title": "Palliative Care Team",
+    "category": "Healthcare",
+    "summary": "Palliative care involves a multidisciplinary team that supports patients and caregivers through various challenges.",
+    "content": "Palliative care extends beyond just medications and treatments for cancer; it addresses a variety of challenges that patients and caregivers face. Issues such as pain, fatigue, emotional stress, and nutrition concerns can often feel overwhelming. A palliative care team works collaboratively to provide comprehensive support, ensuring that both patients and caregivers receive the necessary assistance throughout their journey.\n\nThe team typically includes doctors who manage symptoms, nurses who assist with daily care, psychologists who offer emotional support, dietitians who guide nutritional needs, and social workers who help with practical concerns. It's important to communicate openly with your oncology team about any issues you or your caregivers are experiencing, such as pain, fatigue, sleep disturbances, or emotional stress. Palliative care is not just for patients; caregivers also benefit from emotional and practical support, helping them navigate the complexities of cancer care.",
+    "relatedNodes": [],
+    "videoReferences": [
+      "REEL_PALLIATIVE_CARE_004_PALLIATIVE_CARE_TEAM_hi_a38519"
+    ],
+    "bookReferences": []
+  },
+  {
+    "id": "palliative-care-support",
+    "title": "Palliative Care Support",
+    "category": "Philosophy",
+    "summary": "Palliative care extends beyond medical treatment to address emotional and daily challenges faced by cancer patients.",
+    "content": "Palliative care is not just about medications and treatments; it encompasses a holistic approach to support patients through their cancer journey. Challenges such as pain, fatigue, emotions, and nutrition concerns can often feel overwhelming. This is where palliative care plays a crucial role, connecting you and your family with the right support and expertise during this difficult time.\n\nThe importance of addressing these daily challenges cannot be overstated. Patients often find themselves navigating a complex landscape of physical and emotional hurdles. By integrating palliative care into the treatment plan, individuals receive comprehensive support that addresses not only their medical needs but also their emotional and nutritional concerns. This holistic approach ensures that patients can focus on their well-being and quality of life, making their journey more manageable.",
+    "relatedNodes": [],
+    "videoReferences": [
+      "REEL_PALLIATIVE_CARE_004_PALLIATIVE_CARE_TEAM_hi_a38519"
+    ],
+    "bookReferences": []
+  },
+  {
+    "id": "cancer-pain-types",
+    "title": "Types of Cancer Pain",
+    "category": "Philosophy",
+    "summary": "Cancer pain varies significantly among individuals and can manifest differently even in the same patient.",
+    "content": "Cancer pain can be experienced in various forms such as aching, burning, tingling, numbness, or sharp sensations. Understanding the different types of pain is crucial for effective treatment. Each type of pain may require a specific approach, and recognizing these patterns can empower patients to communicate better with their care teams.\n\nPatients should inform their care teams about the location, intensity, timing, and nature of their pain. This information is vital for tailoring treatment plans that address their unique experiences. While cancer pain is common, it is important to remember that enduring pain in silence is not necessary; help is available to manage and alleviate discomfort effectively.",
+    "relatedNodes": [],
+    "videoReferences": [
+      "REEL_PALLIATIVE_CARE_005_CANCER_PAIN_TYPES_hi_1c7cbb"
+    ],
+    "bookReferences": []
+  },
+  {
+    "id": "cancer-pain-experience",
+    "title": "Cancer Pain Experience",
+    "category": "Philosophy",
+    "summary": "Cancer pain varies significantly among individuals and can manifest differently even in the same patient.",
+    "content": "Cancer pain is a complex experience that can differ from person to person. It may present as aching, burning, tingling, numbness, or sharp sensations. Understanding the patterns of your pain is crucial, as it allows you to communicate effectively with your care team. By sharing details about where the pain is located, its intensity, when it occurs, and how it feels, you can help your team provide better care tailored to your needs.\n\nIt is important to recognize that cancer pain is common, and suffering in silence is not necessary. There are various treatments available that can address different types of pain. Engaging with your healthcare providers about your pain can lead to more effective management strategies. Remember, you are not alone in this journey, and support is available to help you navigate the challenges of cancer pain.",
+    "relatedNodes": [],
+    "videoReferences": [
+      "REEL_PALLIATIVE_CARE_005_CANCER_PAIN_TYPES_hi_1c7cbb"
+    ],
+    "bookReferences": []
+  },
+  {
+    "id": "pain-rating-system",
+    "title": "Understanding Pain Ratings",
+    "category": "Health",
+    "summary": "Pain ratings help healthcare teams assess and adjust treatment effectively.",
+    "content": "Pain ratings, typically on a scale from 0 to 10, serve as a crucial communication tool between patients and their care teams. A score of 0 indicates no pain, while 10 represents the worst pain imaginable. This subjective measure is not about finding a perfect number but rather about conveying one's experience to ensure appropriate care. [[pain-rating-system|Understanding Pain Ratings]]\n\nIt's important for patients to share how pain impacts various aspects of their lives, including sleep, appetite, mood, and daily activities. Tracking these scores, along with factors that alleviate or exacerbate pain, can provide valuable insights for healthcare providers. Honest communication about pain can lead to better support and adjustments in treatment plans, ultimately enhancing patient care and quality of life.",
+    "relatedNodes": [],
+    "videoReferences": [
+      "REEL_PALLIATIVE_CARE_006_PAIN_SCALE_en_36061c"
+    ],
+    "bookReferences": []
+  },
+  {
+    "id": "pain-scale-importance",
+    "title": "Importance of Pain Scale",
+    "category": "Health",
+    "summary": "Understanding the pain scale helps in effective patient care.",
+    "content": "Pain management is a crucial aspect of healthcare, and the pain scale is a tool that facilitates communication between patients and their care teams. When doctors ask patients to rate their pain from 0 to 10, it provides a standardized way to express their experience. A rating of 0 indicates no pain, while 10 signifies the worst pain imaginable. This numerical representation helps healthcare providers assess the effectiveness of current treatments and make necessary adjustments.\n\nIt's essential for patients to communicate their pain levels honestly, as this information can significantly impact their treatment plan. If pain is affecting sleep, appetite, mood, or daily activities, patients should inform their care team. Keeping a record of pain levels, triggers, and fluctuations throughout the day can enhance the understanding of one's condition. Remember, enduring pain is not necessary; sharing your experience openly can lead to better support and improved care.",
+    "relatedNodes": [],
+    "videoReferences": [
+      "REEL_PALLIATIVE_CARE_006_PAIN_SCALE_hi_bb3ab2"
+    ],
+    "bookReferences": []
+  },
+  {
+    "id": "pain-rating-scale",
+    "title": "Understanding Pain Rating",
+    "category": "Health",
+    "summary": "The pain rating scale helps healthcare teams assess and manage patient pain effectively.",
+    "content": "The pain rating scale, commonly from 0 to 10, serves as a crucial tool for healthcare providers to gauge a patient's pain level. A score of 0 indicates no pain, while 10 represents the worst pain imaginable. This numerical representation is not about finding a perfect answer; rather, it provides insight into the patient's experience, guiding the care team in evaluating the effectiveness of current treatments and making necessary adjustments.\n\nPatients are encouraged to communicate openly about how pain impacts various aspects of their lives, including sleep, appetite, mood, and daily activities. By tracking their pain scores and noting factors that alleviate or exacerbate their discomfort, patients can contribute valuable information that enhances their care. Remember, there is no penalty for expressing pain; honest communication is key to receiving the support needed for better health outcomes.",
+    "relatedNodes": [],
+    "videoReferences": [
+      "REEL_PALLIATIVE_CARE_006_PAIN_SCALE_en_36061c"
+    ],
+    "bookReferences": []
+  },
+  {
+    "id": "pain-management-in-cancer",
+    "title": "Pain Management in Cancer",
+    "category": "Philosophy",
+    "summary": "Addressing pain in cancer care is essential for quality of life.",
+    "content": "Many individuals living with cancer often feel the need to conceal their pain, believing that doing so reflects strength. However, this approach can lead to uncontrolled pain, which significantly impacts various aspects of life, including sleep, appetite, and mood. It is crucial to understand that discussing pain is not a form of complaining; rather, it is a vital part of effective care. By openly communicating about pain, patients enable their healthcare teams to provide better support and management.\n\nPain management is most effective when issues are reported early, before they escalate into severe discomfort. Patients should feel empowered to inform their care team about the location, severity, and timing of their pain, as well as its impact on daily activities. This proactive communication is essential in ensuring that pain is managed effectively. Remember, seeking help for pain is a demonstration of strength, not a sign of weakness. You do not have to endure uncontrolled pain alone.",
+    "relatedNodes": [],
+    "videoReferences": [
+      "REEL_PALLIATIVE_CARE_007_DONT_TOUGH_OUT_PAIN_en_e53eff"
+    ],
+    "bookReferences": []
+  },
+  {
+    "id": "pain-management-importance",
+    "title": "Importance of Pain Management",
+    "category": "Philosophy",
+    "summary": "Effective communication about pain is crucial for better healthcare outcomes.",
+    "content": "Many patients believe that hiding pain is a sign of strength. However, this misconception can lead to detrimental effects on their overall well-being. Uncontrolled pain can significantly impact sleep, appetite, mobility, mood, and quality of life. It is essential for patients to communicate openly about their pain rather than suffering in silence. This transparency allows healthcare teams to provide better support and interventions.\n\nBy informing your healthcare team about the location, intensity, frequency, and impact of your pain on daily life, you can facilitate more effective pain management strategies. Waiting to report pain can lead to unnecessary suffering. Remember, living with uncontrolled pain is not a necessity; proactive communication can lead to improved health outcomes and a better quality of life. Don't hesitate to share your experiences with pain to help your team assist you more effectively.",
+    "relatedNodes": [],
+    "videoReferences": [
+      "REEL_PALLIATIVE_CARE_007_DONT_TOUGH_OUT_PAIN_hi_36efe1"
+    ],
+    "bookReferences": []
+  },
+  {
+    "id": "cancer-pain-emergency-signs",
+    "title": "Cancer Pain Emergency Signs",
+    "category": "Leadership",
+    "summary": "Recognizing emergency signs of cancer pain can lead to timely medical intervention.",
+    "content": "Cancer pain can present with certain symptoms that require immediate medical attention. Many patients and caregivers often hesitate, thinking it might be better to wait, which can delay necessary help. If the pain suddenly intensifies, or if it is accompanied by rapid swelling, fever, weakness, confusion, or difficulty breathing, it is crucial to seek medical attention immediately. Early reporting of symptoms allows your team to understand the situation and initiate treatment promptly.\n\nAlways keep your oncology team's contact numbers handy and be aware of whom to contact after clinic hours. Pay attention to new symptoms and reach out to your oncology team without delay. Remember, informing your care team about serious symptoms is not a burden; it is a proactive step towards ensuring you receive the best care possible. Quick assistance can make a significant difference in managing cancer pain effectively.",
+    "relatedNodes": [],
+    "videoReferences": [
+      "REEL_PALLIATIVE_CARE_008_PAIN_EMERGENCY_SIGNS_hi_370441"
+    ],
+    "bookReferences": []
+  },
+  {
+    "id": "pain-management-awareness",
+    "title": "Pain Management Awareness",
+    "category": "Philosophy",
+    "summary": "Understanding the importance of communicating pain for better management.",
+    "content": "Many patients believe that hiding pain is a sign of strength. However, this misconception can lead to unmanaged pain, which significantly affects sleep, appetite, mobility, mood, and overall quality of life. It is crucial for patients to communicate their pain effectively, as this allows their healthcare team to provide better support and management strategies. \n\nWaiting to report pain can complicate its management. Patients should inform their team about the location, intensity, timing, and impact of their pain on daily life. Living with uncontrolled pain is not necessary, and asking for help is not a sign of weakness but rather a demonstration of courage. By being open about pain, patients can take an active role in their care and improve their quality of life.",
+    "relatedNodes": [],
+    "videoReferences": [
+      "REEL_PALLIATIVE_CARE_007_DONT_TOUGH_OUT_PAIN_hi_36efe1"
+    ],
+    "bookReferences": []
+  },
+  {
+    "id": "pain-diary",
+    "title": "Pain Diary Importance",
+    "category": "Health",
+    "summary": "A pain diary helps track symptoms and understand pain patterns for better care.",
+    "content": "Cancer pain can vary throughout the day, making it challenging to communicate effectively during appointments. A pain diary is a valuable tool that assists in tracking symptoms and understanding pain patterns. By documenting where the pain is, its intensity, when it occurs, and how it responds to different medications, patients can provide their care team with crucial information.\n\nUpdating the pain diary at the same time every day and bringing it to each appointment allows for a more personalized approach to care. This practice not only helps in identifying what is working and what needs adjustment but also empowers patients to take an active role in their pain management. Regularly spending a few minutes on this task can significantly enhance the support provided by the care team, leading to better overall outcomes.",
+    "relatedNodes": [],
+    "videoReferences": [
+      "REEL_PALLIATIVE_CARE_009_PAIN_DIARY_hi_22ebdc"
+    ],
+    "bookReferences": []
+  },
+  {
+    "id": "pain-diary-importance",
+    "title": "Importance of Pain Diary",
+    "category": "Health",
+    "summary": "A pain diary helps track symptoms and understand pain patterns for better care.",
+    "content": "Cancer pain can fluctuate throughout the day, making it challenging to communicate effectively during appointments. A pain diary serves as a valuable tool to track symptoms and understand the patterns of pain. By documenting details such as the location of pain, its intensity, timing, and triggers, patients can provide their care team with essential information that can inform treatment decisions.\n\nUpdating the pain diary at the same time each day ensures consistency and reliability in the data collected. Bringing this diary to every appointment allows healthcare providers to gain insights into what is working and what may need adjustment. By dedicating just a few minutes each day to this practice, patients can receive more personalized support from their care team, ultimately improving their overall management of cancer pain.",
+    "relatedNodes": [],
+    "videoReferences": [
+      "REEL_PALLIATIVE_CARE_009_PAIN_DIARY_hi_22ebdc"
+    ],
+    "bookReferences": []
+  },
+  {
+    "id": "communicating-pain",
+    "title": "Communicating Pain Effectively",
+    "category": "Philosophy",
+    "summary": "Patients often believe that hiding pain is a sign of strength, but communicating about it is crucial for effective management.",
+    "content": "Many patients think that concealing pain is a sign of resilience. However, this misconception can lead to unmanaged pain, which significantly affects sleep, appetite, mobility, mood, and overall quality of life. It's essential for patients to understand that expressing their pain is not a complaint but a necessary step for their healthcare team to provide better support.\n\nBy informing your team about your pain—where it is, how intense it is, when it occurs, and how it impacts daily life—you can facilitate easier management of the pain. Waiting to feel better before communicating can hinder the process. Remember, living with uncontrolled pain is not a necessity, and asking for help is not a weakness but a sign of courage.",
+    "relatedNodes": [],
+    "videoReferences": [
+      "REEL_PALLIATIVE_CARE_007_DONT_TOUGH_OUT_PAIN_hi_36efe1"
+    ],
+    "bookReferences": []
+  },
+  {
+    "id": "opioid-myths-cancer-pain",
+    "title": "Opioid Myths in Cancer Pain",
+    "category": "Philosophy",
+    "summary": "Many patients fear strong medications for cancer pain due to concerns about addiction and side effects.",
+    "content": "Many patients and caregivers are apprehensive about using strong medications for cancer pain, particularly opioids. Concerns often revolve around addiction, excessive drowsiness, or becoming dependent on these medications. However, when administered under the supervision of an oncology or palliative care team, opioid medications can effectively manage moderate to severe cancer pain. It's important to understand that taking medications as prescribed by a doctor is not the same as misuse.\n\nYour care team is responsible for monitoring both the benefits and side effects of pain medications. It is crucial to always follow the doctor's instructions regarding how to take these medications and to communicate any side effects you may experience. If you have concerns about side effects, dependence, or how to properly take your medications, do not hesitate to reach out to your care team. Remember, the fear of pain medications should not prevent you from receiving the necessary relief. Open communication with your care team is essential for effective pain management.",
+    "relatedNodes": [],
+    "videoReferences": [
+      "REEL_PALLIATIVE_CARE_010_OPIOID_MYTHS_hi_216840"
+    ],
+    "bookReferences": []
+  },
+  {
+    "id": "opioid-myths",
+    "title": "Opioid Myths in Pain Management",
+    "category": "Philosophy",
+    "summary": "Many patients fear strong pain medications due to misconceptions about addiction and dependence.",
+    "content": "Many patients and caregivers experience fear regarding the strong medications prescribed for cancer pain, particularly opioids. This fear often stems from concerns about addiction, excessive sedation, or becoming dependent on these medications. However, when administered under the supervision of an oncology or palliative care team, opioid medications can effectively manage moderate to severe cancer pain. It's crucial to understand that following a doctor's prescribed method of taking these medications is distinct from misuse.\n\nYour care team plays a vital role in monitoring the benefits and side effects of pain medications. It is essential to take pain medicines exactly as directed by your doctor and to communicate any side effects you may experience. If you have concerns about side effects, dependence, or how to take your medications, do not hesitate to ask your care team. Remember, the fear of pain medications should not prevent you from receiving the necessary relief. Open communication with your care team is key to effective pain management.",
+    "relatedNodes": [],
+    "videoReferences": [
+      "REEL_PALLIATIVE_CARE_010_OPIOID_MYTHS_hi_216840"
+    ],
+    "bookReferences": []
+  },
+  {
+    "id": "opioid-myths-in-cancer-care",
+    "title": "Opioid Myths in Cancer Care",
+    "category": "Philosophy",
+    "summary": "Many patients fear strong pain medications for cancer due to concerns about addiction and side effects.",
+    "content": "Many patients and caregivers have apprehensions about using strong medications like opioids for cancer pain management. This fear often stems from concerns about addiction, excessive drowsiness, or becoming dependent on these medications. However, when prescribed and monitored by an oncology or palliative care team, opioid medications can effectively manage moderate to severe cancer pain. It is crucial to understand that taking medications as directed by a doctor is different from misuse.\n\nYour care team plays a vital role in monitoring both the benefits and potential side effects of pain medications. It is essential to follow your doctor's instructions regarding dosage and administration. If you experience any side effects or have concerns about dependence, do not hesitate to discuss these issues with your care team. Remember, the fear of pain medications should not prevent you from obtaining the necessary relief. Open communication with your care team is key to managing your pain effectively.",
+    "relatedNodes": [],
+    "videoReferences": [
+      "REEL_PALLIATIVE_CARE_010_OPIOID_MYTHS_hi_216840"
+    ],
+    "bookReferences": []
+  },
+  {
+    "id": "cognitive-recovery-in-cancer",
+    "title": "Cognitive Recovery in Cancer",
+    "category": "Philosophy",
+    "summary": "Cognitive recovery is a crucial aspect of the cancer recovery process.",
+    "content": "Many cancer patients experience cognitive changes during and after treatment, leading to frustrations such as forgetfulness, difficulty concentrating, and challenges in finding the right words. These changes are often attributed to various factors including treatment effects, fatigue, stress, sleep disturbances, and emotional distress. It's important to recognize that these cognitive shifts are common and do not signify a permanent decline in mental abilities.\n\nRecovery from cognitive changes is a gradual process, and many individuals notice improvements over time. Strategies such as using reminders, focusing on one task at a time, and prioritizing good sleep can significantly aid in this recovery. Being kind to oneself during this journey is essential, as cognitive recovery is an integral part of the overall healing process in cancer recovery. Embracing this aspect of recovery can lead to a more compassionate and patient approach to one's health journey.",
+    "relatedNodes": [],
+    "videoReferences": [
+      "REEL_PSYCHO_ONCOLOGY_047_CHEMO_BRAIN_en_432403"
+    ],
+    "bookReferences": []
+  },
+  {
+    "id": "chemo-brain",
+    "title": "Understanding Chemo Brain",
+    "category": "Health",
+    "summary": "Chemo brain refers to cognitive changes experienced by patients undergoing cancer treatment.",
+    "content": "Chemo brain is a term used to describe the cognitive changes that many patients experience during and after cancer treatment. These changes can manifest as forgetfulness, difficulty concentrating, and challenges in finding the right words. Patients often report feeling frustrated when their mental sharpness seems diminished compared to before treatment.\n\nThe impact of chemo brain can vary from person to person, with some experiencing mild symptoms while others may find it significantly affects their daily life. Understanding these cognitive changes is crucial for patients and their families, as it helps to normalize the experience and encourages seeking support. Strategies such as cognitive exercises and mindfulness can be beneficial in managing these symptoms and improving overall mental clarity. For more insights, refer to [[id|Understanding Cognitive Changes]].",
+    "relatedNodes": [],
+    "videoReferences": [
+      "REEL_PSYCHO_ONCOLOGY_047_CHEMO_BRAIN_en_432403"
+    ],
+    "bookReferences": []
+  },
+  {
+    "id": "cancer-recovery-mental-health",
+    "title": "Cancer Recovery and Mental Health",
+    "category": "Philosophy",
+    "summary": "Mental health is a crucial aspect of cancer recovery that often gets overlooked.",
+    "content": "Many patients feel that their mind is not as sharp as it was before treatment. Common issues include forgetting names, misplacing items, or struggling to find the right words during conversations. Changes in memory and concentration can be attributed to treatment, fatigue, stress, lack of sleep, or emotional pressure. These challenges are common and do not indicate weakness or a loss of capabilities. Recovery can take time, and many individuals find that these symptoms gradually improve.\n\nTo aid in recovery, it is beneficial to use notes and reminders, focus on one task at a time, and prioritize sleep and light physical activity. Cancer recovery is not just about physical healing; it also involves mental recovery. It is essential to be kind to oneself during this journey and recognize that mental health plays a significant role in the overall recovery process.",
+    "relatedNodes": [],
+    "videoReferences": [
+      "REEL_PSYCHO_ONCOLOGY_047_CHEMO_BRAIN_hi_03338d"
+    ],
+    "bookReferences": []
+  },
+  {
+    "id": "celebration-guilt",
+    "title": "Celebration Guilt",
+    "category": "Philosophy",
+    "summary": "Survivors often experience complex emotions after achieving milestones.",
+    "content": "Many cancer survivors encounter unexpected feelings when they receive good news, such as fear about the future or guilt for celebrating while others continue to struggle. This phenomenon, often referred to as [[celebration-guilt|Celebration Guilt]], highlights the emotional complexity that can accompany recovery. It's important to recognize that reaching a milestone does not negate the emotional toll of cancer or the uncertainties that may linger.\n\nAcknowledging these feelings is crucial. Survivors should feel empowered to talk about their emotions with trusted individuals, support groups, or their care teams. Celebrating milestones in a personal way, while limiting comparisons to others, allows individuals to focus on what truly matters to them today. Remember, your emotions are valid, even if they don't align with societal expectations or the experiences of others.",
+    "relatedNodes": [],
+    "videoReferences": [
+      "REEL_PSYCHO_ONCOLOGY_048_CELEBRATION_GUILT_en_db1067"
+    ],
+    "bookReferences": []
+  },
+  {
+    "id": "celebrating-milestones-in-recovery",
+    "title": "Celebrating Milestones in Recovery",
+    "category": "Philosophy",
+    "summary": "Survivors often experience mixed emotions after treatment, highlighting the importance of acknowledging and celebrating milestones.",
+    "content": "After treatment, many survivors may feel an unexpected sense of sadness or anxiety, even when receiving good news. This emotional complexity can stem from fears about the future, guilt for surviving when others may not, or the pressure to always remain positive. It's common to experience a blend of gratitude for milestones achieved while still grappling with the emotional impact of cancer and uncertainty ahead. Recognizing that these feelings are valid is crucial in the recovery process.\n\nIt's important not to suppress your emotions. Engaging with family, support groups, or care teams can provide valuable assistance in navigating these feelings. Celebrating milestones in your own way is essential; avoid comparing yourself to others and focus on the present moment. Remember, whatever you are feeling is right for you. Recovery encompasses not just the physical aspects but also the emotional journey, making it vital to honor both aspects of healing.",
+    "relatedNodes": [],
+    "videoReferences": [
+      "REEL_PSYCHO_ONCOLOGY_048_CELEBRATION_GUILT_hi_ce39e9"
+    ],
+    "bookReferences": []
+  },
+  {
+    "id": "ac-anxiety",
+    "title": "AC-Anxiety in Patients",
+    "category": "Philosophy",
+    "summary": "AC-anxiety refers to the anxiety experienced by patients and caregivers before scans or tests.",
+    "content": "Many patients and caregivers experience a sense of dread as the date for a scan or test approaches. This anxiety, known as AC-anxiety, can trigger old memories, fears, and concerns about the future while waiting for reports. It is a normal response to uncertainty, and acknowledging these feelings is the first step towards managing them. Sharing your feelings with family, support groups, or your care team can help alleviate some of the burden.\n\nTo cope with AC-anxiety, it is beneficial to engage in calming activities that you enjoy, limit online searching about your condition, and focus on what you can control in the present moment. Remember, you are not alone in this experience. With the right support and coping strategies, the waiting period can become a little easier to navigate. Consider reaching out to others who understand what you're going through, as shared experiences can provide comfort and reassurance.",
+    "relatedNodes": [],
+    "videoReferences": [
+      "REEL_PSYCHO_ONCOLOGY_049_SCANXIETY_hi_63c40a"
+    ],
+    "bookReferences": []
+  },
+  {
+    "id": "life-after-cancer",
+    "title": "Life After Cancer",
+    "category": "Philosophy",
+    "summary": "Survivors often find that life after cancer involves a profound reevaluation of priorities and identity.",
+    "content": "Many cancer survivors experience a shift in their perspective on life, realizing that returning to 'normal' may not be possible or desirable. This major life event prompts a deep reflection on personal values, relationships, and future aspirations. It's essential to acknowledge that changes in goals and priorities are not only normal but can also lead to a more fulfilling life.\n\nIn this journey of self-discovery, survivors are encouraged to explore what brings them joy and what truly matters to them. Purpose can be derived from various sources such as relationships, helping others, personal growth, creativity, spirituality, or even the simple joys of everyday life. Healing is not merely about reverting to a previous state but about embracing the transformation and understanding who you are becoming in this new chapter of life.",
+    "relatedNodes": [],
+    "videoReferences": [
+      "REEL_PSYCHO_ONCOLOGY_050_FINDING_MEANING_en_6deb3c"
+    ],
+    "bookReferences": []
+  },
+  {
+    "id": "cancer-survivors-new-perspectives",
+    "title": "New Perspectives for Survivors",
+    "category": "Philosophy",
+    "summary": "Cancer survivors often reassess their priorities and values after their experience.",
+    "content": "After facing cancer, many survivors feel that life is moving forward, yet they themselves are not the same as before. This significant experience can lead individuals to view their priorities, relationships, work, and future goals through a new lens. It's completely normal for one's priorities, goals, or values to shift in the aftermath of such a life-altering event.\n\nA new sense of purpose may emerge, focusing on spending time with loved ones, helping others, engaging in hobbies, exploring spirituality, or finding joy in everyday moments. Survivors are encouraged to reflect on what brings them happiness and to ask themselves what is now most important. Healing does not necessarily mean returning to the previous self, but rather understanding and embracing a new identity that has been shaped by their journey.",
+    "relatedNodes": [],
+    "videoReferences": [
+      "REEL_PSYCHO_ONCOLOGY_050_FINDING_MEANING_hi_c1b696"
+    ],
+    "bookReferences": []
+  },
+  {
+    "id": "cancer-survivors-new-perspective",
+    "title": "Cancer Survivors' New Perspective",
+    "category": "Philosophy",
+    "summary": "Cancer survivors often reassess their priorities and values after their experience.",
+    "content": "Many cancer survivors feel that life is moving forward, yet they do not feel like their old selves. The experience of cancer can lead individuals to reevaluate their priorities, relationships, work, and future goals. This significant experience often alters one's perspective on life and self-identity.\n\nIt is completely normal for your priorities, goals, or values to change after such a profound experience. A new sense of purpose may emerge, focusing on spending time with loved ones, helping others, engaging in hobbies, spirituality, or finding joy in everyday moments. Reflecting on questions like \"What brings me happiness now?\" and \"What is most important to me?\" can guide survivors in understanding that healing does not mean returning to the previous self but rather embracing a new version of themselves.",
+    "relatedNodes": [],
+    "videoReferences": [
+      "REEL_PSYCHO_ONCOLOGY_050_FINDING_MEANING_hi_c1b696"
+    ],
+    "bookReferences": []
+  },
+  {
+    "id": "cancer-survivor-perspective",
+    "title": "Cancer Survivor Perspective",
+    "category": "Philosophy",
+    "summary": "Cancer survivors often reassess their priorities and values after their experience.",
+    "content": "After battling cancer, many survivors feel that life is moving forward, yet they themselves are not the same as before. This profound experience can lead to a significant shift in how they view their priorities, relationships, work, and future goals. It is completely normal for one's values and aspirations to evolve following such a life-altering event.\n\nSurvivors may find new purpose in spending time with loved ones, helping others, engaging in hobbies, exploring spirituality, or cherishing the small joys of daily life. It's essential to reflect on what brings happiness and to ask oneself, \"What is most important to me now?\" Healing does not necessarily mean returning to the former self but rather understanding and embracing the new identity that emerges from the experience.",
+    "relatedNodes": [],
+    "videoReferences": [
+      "REEL_PSYCHO_ONCOLOGY_050_FINDING_MEANING_hi_c1b696"
+    ],
+    "bookReferences": []
+  },
+  {
+    "id": "breakthrough-pain",
+    "title": "Breakthrough Pain Management",
+    "category": "Health",
+    "summary": "Breakthrough pain is a sudden increase in pain despite regular medication.",
+    "content": "Breakthrough pain is a phenomenon that many patients experience, where they feel a sudden spike in pain even after taking regular pain medications. This type of pain can occur during various activities such as walking, coughing, changing dressings, eating, or even without any clear reason. It is important to understand that experiencing breakthrough pain does not necessarily mean that the treatment is ineffective.\n\nYour care team can develop a personalized plan to manage breakthrough pain, which includes guidelines on when and how to take prescribed rescue medications. It is crucial to communicate with your team about the frequency, duration, and triggers of your breakthrough pain episodes. Remember, breakthrough pain is common, and you do not have to manage it alone. Collaborating with your care team can lead to a more effective pain management strategy.",
+    "relatedNodes": [],
+    "videoReferences": [
+      "REEL_PALLIATIVE_CARE_011_BREAKTHROUGH_PAIN_hi_e1f14a"
+    ],
+    "bookReferences": []
+  },
+  {
+    "id": "managing-side-effects",
+    "title": "Managing Side Effects",
+    "category": "Health",
+    "summary": "Managing side effects of pain medications is crucial for patient well-being.",
+    "content": "Pain medications can often lead to side effects such as constipation, excessive drowsiness, nausea, or lethargy. Many of these side effects can be managed by adjusting the medication, timing, or through supportive treatments. It is important not to discontinue medications on your own due to side effects; instead, communicate with your healthcare team about your experiences.\n\nKeep a record of when side effects occur, their severity, and which medications you were taking at the time. If you experience severe drowsiness, confusion, difficulty breathing, or persistent vomiting, contact your healthcare team immediately. Remember, you do not have to choose between pain relief and quality of life; you can discuss both aspects with your team to find a suitable solution.",
+    "relatedNodes": [],
+    "videoReferences": [
+      "REEL_PALLIATIVE_CARE_012_MANAGING_SIDE_EFFECTS_hi_3d4e31"
     ],
     "bookReferences": []
   }

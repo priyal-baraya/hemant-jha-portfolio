@@ -2184,66 +2184,612 @@
       "visible": true
     },
     {
-      "id": "r1782148496614",
+      "id": "r1782148192175",
       "title": "Understanding Cancer Cachexia",
       "videoFile": "/videos/REEL_ONCO_NUTRITION_018_CANCER_CACHEXIA_hi_efeb27.mp4",
       "s3Key": "supportive-care/reel-studio-v2/REEL_ONCO_NUTRITION_018_CANCER_CACHEXIA/studio2_mqp02wb2_dd2469/hi/final.mp4",
       "visible": true
     },
     {
-      "id": "r1782148507350",
+      "id": "r1782148347750",
       "title": "Nutrition Supplements for Eating Difficulties",
       "videoFile": "/videos/REEL_ONCO_NUTRITION_019_ORAL_NUTRITION_SUPPLEMENTS_en_bf3d3c.mp4",
       "s3Key": "supportive-care/reel-studio-v2/REEL_ONCO_NUTRITION_019_ORAL_NUTRITION_SUPPLEMENTS/studio2_mqp02wd6_ed9543/en/final.mp4",
       "visible": true
     },
     {
-      "id": "r1782148521978",
+      "id": "r1782148744965",
       "title": "Nutrition Supplements",
       "videoFile": "/videos/REEL_ONCO_NUTRITION_019_ORAL_NUTRITION_SUPPLEMENTS_hi_d61318.mp4",
       "s3Key": "supportive-care/reel-studio-v2/REEL_ONCO_NUTRITION_019_ORAL_NUTRITION_SUPPLEMENTS/studio2_mqp02wd6_ed9543/hi/final.mp4",
       "visible": true
     },
     {
-      "id": "r1782148691949",
+      "id": "r1782148753527",
       "title": "Hydration During Treatment",
       "videoFile": "/videos/REEL_ONCO_NUTRITION_020_HYDRATION_DURING_TREATMENT_en_ea4bf7.mp4",
       "s3Key": "supportive-care/reel-studio-v2/REEL_ONCO_NUTRITION_020_HYDRATION_DURING_TREATMENT/studio2_mqp02wev_3da004/en/final.mp4",
       "visible": true
     },
     {
-      "id": "r1782148708599",
-      "title": "Hydration During Treatment",
-      "videoFile": "/videos/REEL_ONCO_NUTRITION_020_HYDRATION_DURING_TREATMENT_hi_5c6a3e.mp4",
-      "s3Key": "supportive-care/reel-studio-v2/REEL_ONCO_NUTRITION_020_HYDRATION_DURING_TREATMENT/studio2_mqp02wev_3da004/hi/final.mp4",
-      "visible": true
-    },
-    {
-      "id": "r1782148837103",
+      "id": "r1782149708973",
       "title": "Managing Nausea",
       "videoFile": "/videos/REEL_ONCO_NUTRITION_021_MANAGING_NAUSEA_en_ab548c.mp4",
       "s3Key": "supportive-care/reel-studio-v2/REEL_ONCO_NUTRITION_021_MANAGING_NAUSEA/studio2_mqp02wgh_c0a215/en/final.mp4",
       "visible": true
     },
     {
-      "id": "r1782149020080",
+      "id": "r1782149744455",
+      "title": "Hydration During Treatment",
+      "videoFile": "/videos/REEL_ONCO_NUTRITION_020_HYDRATION_DURING_TREATMENT_hi_5c6a3e.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/REEL_ONCO_NUTRITION_020_HYDRATION_DURING_TREATMENT/studio2_mqp02wev_3da004/hi/final.mp4",
+      "visible": true
+    },
+    {
+      "id": "r1782149760016",
       "title": "Managing Nausea Effectively",
       "videoFile": "/videos/REEL_ONCO_NUTRITION_021_MANAGING_NAUSEA_hi_2d0fe4.mp4",
       "s3Key": "supportive-care/reel-studio-v2/REEL_ONCO_NUTRITION_021_MANAGING_NAUSEA/studio2_mqp02wgh_c0a215/hi/final.mp4",
       "visible": true
     },
     {
-      "id": "r1782149034196",
+      "id": "r1782149772091",
       "title": "Managing Vomiting in Cancer",
       "videoFile": "/videos/REEL_ONCO_NUTRITION_022_MANAGING_VOMITING_en_af4880.mp4",
       "s3Key": "supportive-care/reel-studio-v2/REEL_ONCO_NUTRITION_022_MANAGING_VOMITING/studio2_mqp02wi4_30a944/en/final.mp4",
       "visible": true
     },
     {
-      "id": "r1782149482393",
-      "title": "Managing Vomiting During Cancer Treatment",
+      "id": "r1782149787783",
+      "title": "Managing Vomiting During Treatment",
       "videoFile": "/videos/REEL_ONCO_NUTRITION_022_MANAGING_VOMITING_hi_39445e.mp4",
       "s3Key": "supportive-care/reel-studio-v2/REEL_ONCO_NUTRITION_022_MANAGING_VOMITING/studio2_mqp02wi4_30a944/hi/final.mp4",
+      "visible": true
+    },
+    {
+      "id": "r1782149798822",
+      "title": "Managing Diarrhea During Cancer",
+      "videoFile": "/videos/REEL_ONCO_NUTRITION_023_MANAGING_DIARRHEA_en_3b5819.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/REEL_ONCO_NUTRITION_023_MANAGING_DIARRHEA/studio2_mqp02wk3_5cf1c4/en/final.mp4",
+      "visible": true
+    },
+    {
+      "id": "r1782149928802",
+      "title": "Managing Diarrhea During Cancer Treatment",
+      "videoFile": "/videos/REEL_ONCO_NUTRITION_023_MANAGING_DIARRHEA_hi_8bec8f.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/REEL_ONCO_NUTRITION_023_MANAGING_DIARRHEA/studio2_mqp02wk3_5cf1c4/hi/final.mp4",
+      "visible": true
+    },
+    {
+      "id": "r1782156032099",
+      "title": "Hydration During Treatment",
+      "videoFile": "/videos/REEL_ONCO_NUTRITION_031_HYDRATION_DURING_TREATMENT_en_88d9b7.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/REEL_ONCO_NUTRITION_031_HYDRATION_DURING_TREATMENT/studio2_mqp02wx7_d3b96e/en/final.mp4",
+      "visible": true
+    },
+    {
+      "id": "r1782156193243",
+      "title": "Hydration During Treatment",
+      "videoFile": "/videos/REEL_ONCO_NUTRITION_031_HYDRATION_DURING_TREATMENT_hi_d126b7.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/REEL_ONCO_NUTRITION_031_HYDRATION_DURING_TREATMENT/studio2_mqp02wx7_d3b96e/hi/final.mp4",
+      "visible": true
+    },
+    {
+      "id": "r1782156410690",
+      "title": "Managing Constipation",
+      "videoFile": "/videos/REEL_ONCO_NUTRITION_024_MANAGING_CONSTIPATION_en_c041b6.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/REEL_ONCO_NUTRITION_024_MANAGING_CONSTIPATION/studio2_mqp02wlt_5252f0/en/final.mp4",
+      "visible": true
+    },
+    {
+      "id": "r1782156495400",
+      "title": "Managing Constipation During Treatment",
+      "videoFile": "/videos/REEL_ONCO_NUTRITION_024_MANAGING_CONSTIPATION_hi_d5c99a.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/REEL_ONCO_NUTRITION_024_MANAGING_CONSTIPATION/studio2_mqp02wlt_5252f0/hi/final.mp4",
+      "visible": true
+    },
+    {
+      "id": "r1782156819602",
+      "title": "Low Hemoglobin Nutrition",
+      "videoFile": "/videos/REEL_ONCO_NUTRITION_026_LOW_HEMOGLOBIN_NUTRITION_en_1d6f36.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/REEL_ONCO_NUTRITION_026_LOW_HEMOGLOBIN_NUTRITION/studio2_mqp02wnq_cab045/en/final.mp4",
+      "visible": true
+    },
+    {
+      "id": "r1782157003383",
+      "title": "Low Hemoglobin Nutrition",
+      "videoFile": "/videos/REEL_ONCO_NUTRITION_026_LOW_HEMOGLOBIN_NUTRITION_hi_bd0b7e.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/REEL_ONCO_NUTRITION_026_LOW_HEMOGLOBIN_NUTRITION/studio2_mqp02wnq_cab045/hi/final.mp4",
+      "visible": true
+    },
+    {
+      "id": "r1782191405876",
+      "title": "Nutrition for Low Platelets",
+      "videoFile": "/videos/REEL_ONCO_NUTRITION_027_LOW_PLATELETS_NUTRITION_en_debd3e.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/REEL_ONCO_NUTRITION_027_LOW_PLATELETS_NUTRITION/studio2_mqp02wpq_c78f79/en/final.mp4",
+      "visible": true
+    },
+    {
+      "id": "r1782191824068",
+      "title": "Nutrition for Low Platelets",
+      "videoFile": "/videos/REEL_ONCO_NUTRITION_027_LOW_PLATELETS_NUTRITION_hi_c61896.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/REEL_ONCO_NUTRITION_027_LOW_PLATELETS_NUTRITION/studio2_mqp02wpq_c78f79/hi/final.mp4",
+      "visible": true
+    },
+    {
+      "id": "r1782191846734",
+      "title": "Importance of Protein During Treatment",
+      "videoFile": "/videos/REEL_ONCO_NUTRITION_028_PROTEIN_IMPORTANCE_en_b976e9.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/REEL_ONCO_NUTRITION_028_PROTEIN_IMPORTANCE/studio2_mqp02wry_41675c/en/final.mp4",
+      "visible": true
+    },
+    {
+      "id": "r1782191863473",
+      "title": "Importance of Protein",
+      "videoFile": "/videos/REEL_ONCO_NUTRITION_028_PROTEIN_IMPORTANCE_hi_52b296.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/REEL_ONCO_NUTRITION_028_PROTEIN_IMPORTANCE/studio2_mqp02wry_41675c/hi/final.mp4",
+      "visible": true
+    },
+    {
+      "id": "r1782192114869",
+      "title": "Healthy Fats During Treatment",
+      "videoFile": "/videos/REEL_ONCO_NUTRITION_029_HEALTHY_FATS_DURING_TREATMENT_en_6ebdba.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/REEL_ONCO_NUTRITION_029_HEALTHY_FATS_DURING_TREATMENT/studio2_mqp02wtp_fe2fdf/en/final.mp4",
+      "visible": true
+    },
+    {
+      "id": "r1782192134457",
+      "title": "Healthy Fats During Treatment",
+      "videoFile": "/videos/REEL_ONCO_NUTRITION_029_HEALTHY_FATS_DURING_TREATMENT_hi_b73b78.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/REEL_ONCO_NUTRITION_029_HEALTHY_FATS_DURING_TREATMENT/studio2_mqp02wtp_fe2fdf/hi/final.mp4",
+      "visible": true
+    },
+    {
+      "id": "r1782192145115",
+      "title": "Nutrition Supplements for Treatment Side Effects",
+      "videoFile": "/videos/REEL_ONCO_NUTRITION_030_ORAL_NUTRITION_SUPPLEMENTS_en_96ff42.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/REEL_ONCO_NUTRITION_030_ORAL_NUTRITION_SUPPLEMENTS/studio2_mqp02wvi_f1578b/en/final.mp4",
+      "visible": true
+    },
+    {
+      "id": "r1782192443091",
+      "title": "Nutrition Supplements Support",
+      "videoFile": "/videos/REEL_ONCO_NUTRITION_030_ORAL_NUTRITION_SUPPLEMENTS_hi_cc1205.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/REEL_ONCO_NUTRITION_030_ORAL_NUTRITION_SUPPLEMENTS/studio2_mqp02wvi_f1578b/hi/final.mp4",
+      "visible": true
+    },
+    {
+      "id": "r1782192455529",
+      "title": "Taste Changes During Treatment",
+      "videoFile": "/videos/REEL_ONCO_NUTRITION_032_TASTE_CHANGES_en_eb8d0b.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/REEL_ONCO_NUTRITION_032_TASTE_CHANGES/studio2_mqp02x03_797827/en/final.mp4",
+      "visible": true
+    },
+    {
+      "id": "r1782192472842",
+      "title": "Taste Changes During Treatment",
+      "videoFile": "/videos/REEL_ONCO_NUTRITION_032_TASTE_CHANGES_hi_4b95a6.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/REEL_ONCO_NUTRITION_032_TASTE_CHANGES/studio2_mqp02x03_797827/hi/final.mp4",
+      "visible": true
+    },
+    {
+      "id": "r1782192829745",
+      "title": "Nutrition for Mouth Sores",
+      "videoFile": "/videos/REEL_ONCO_NUTRITION_033_MOUTH_SORES_NUTRITION_en_794026.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/REEL_ONCO_NUTRITION_033_MOUTH_SORES_NUTRITION/studio2_mqp02x2t_bc53a6/en/final.mp4",
+      "visible": true
+    },
+    {
+      "id": "r1782192847852",
+      "title": "Nutrition for Mouth Sores",
+      "videoFile": "/videos/REEL_ONCO_NUTRITION_033_MOUTH_SORES_NUTRITION_hi_55d69d.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/REEL_ONCO_NUTRITION_033_MOUTH_SORES_NUTRITION/studio2_mqp02x2t_bc53a6/hi/final.mp4",
+      "visible": true
+    },
+    {
+      "id": "r1782192859211",
+      "title": "Dry Mouth Management",
+      "videoFile": "/videos/REEL_ONCO_NUTRITION_034_DRY_MOUTH_MANAGEMENT_en_2072ab.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/REEL_ONCO_NUTRITION_034_DRY_MOUTH_MANAGEMENT/studio2_mqp02x5c_fcad1d/en/final.mp4",
+      "visible": true
+    },
+    {
+      "id": "r1782193163359",
+      "title": "Managing Dry Mouth",
+      "videoFile": "/videos/REEL_ONCO_NUTRITION_034_DRY_MOUTH_MANAGEMENT_hi_df4d53.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/REEL_ONCO_NUTRITION_034_DRY_MOUTH_MANAGEMENT/studio2_mqp02x5c_fcad1d/hi/final.mp4",
+      "visible": true
+    },
+    {
+      "id": "r1782193174159",
+      "title": "Difficulty Swallowing",
+      "videoFile": "/videos/REEL_ONCO_NUTRITION_035_DIFFICULTY_SWALLOWING_en_9dfb48.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/REEL_ONCO_NUTRITION_035_DIFFICULTY_SWALLOWING/studio2_mqp02x7p_b20b3a/en/final.mp4",
+      "visible": true
+    },
+    {
+      "id": "r1782193192736",
+      "title": "Difficulty Swallowing During Treatment",
+      "videoFile": "/videos/REEL_ONCO_NUTRITION_035_DIFFICULTY_SWALLOWING_hi_6d0810.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/REEL_ONCO_NUTRITION_035_DIFFICULTY_SWALLOWING/studio2_mqp02x7p_b20b3a/hi/final.mp4",
+      "visible": true
+    },
+    {
+      "id": "r1782193202977",
+      "title": "Diarrhea Management During Treatment",
+      "videoFile": "/videos/REEL_ONCO_NUTRITION_036_DIARRHEA_MANAGEMENT_en_fe921c.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/REEL_ONCO_NUTRITION_036_DIARRHEA_MANAGEMENT/studio2_mqp02x9y_2b17d9/en/final.mp4",
+      "visible": true
+    },
+    {
+      "id": "r1782193232808",
+      "title": "Diarrhea Management",
+      "videoFile": "/videos/REEL_ONCO_NUTRITION_036_DIARRHEA_MANAGEMENT_hi_87aeb5.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/REEL_ONCO_NUTRITION_036_DIARRHEA_MANAGEMENT/studio2_mqp02x9y_2b17d9/hi/final.mp4",
+      "visible": true
+    },
+    {
+      "id": "r1782193354569",
+      "title": "Constipation Management",
+      "videoFile": "/videos/REEL_ONCO_NUTRITION_037_CONSTIPATION_MANAGEMENT_en_a07bda.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/REEL_ONCO_NUTRITION_037_CONSTIPATION_MANAGEMENT/studio2_mqp02xcc_16924c/en/final.mp4",
+      "visible": true
+    },
+    {
+      "id": "r1782193420918",
+      "title": "Constipation Management",
+      "videoFile": "/videos/REEL_ONCO_NUTRITION_037_CONSTIPATION_MANAGEMENT_hi_7da9b1.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/REEL_ONCO_NUTRITION_037_CONSTIPATION_MANAGEMENT/studio2_mqp02xcc_16924c/hi/final.mp4",
+      "visible": true
+    },
+    {
+      "id": "r1782193482500",
+      "title": "Nausea Management During Treatment",
+      "videoFile": "/videos/REEL_ONCO_NUTRITION_038_NAUSEA_MANAGEMENT_en_311f13.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/REEL_ONCO_NUTRITION_038_NAUSEA_MANAGEMENT/studio2_mqp02xep_f9c232/en/final.mp4",
+      "visible": true
+    },
+    {
+      "id": "r1782193559876",
+      "title": "Nausea Management",
+      "videoFile": "/videos/REEL_ONCO_NUTRITION_038_NAUSEA_MANAGEMENT_hi_fda068.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/REEL_ONCO_NUTRITION_038_NAUSEA_MANAGEMENT/studio2_mqp02xep_f9c232/hi/final.mp4",
+      "visible": true
+    },
+    {
+      "id": "r1782193732677",
+      "title": "Vomiting Management",
+      "videoFile": "/videos/REEL_ONCO_NUTRITION_039_VOMITING_MANAGEMENT_en_e2cc4a.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/REEL_ONCO_NUTRITION_039_VOMITING_MANAGEMENT/studio2_mqp02xgx_a57a5e/en/final.mp4",
+      "visible": true
+    },
+    {
+      "id": "r1782193881204",
+      "title": "Vomiting Management During Treatment",
+      "videoFile": "/videos/REEL_ONCO_NUTRITION_039_VOMITING_MANAGEMENT_hi_e17b1d.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/REEL_ONCO_NUTRITION_039_VOMITING_MANAGEMENT/studio2_mqp02xgx_a57a5e/hi/final.mp4",
+      "visible": true
+    },
+    {
+      "id": "r1782194522617",
+      "title": "Appetite Loss Management",
+      "videoFile": "/videos/REEL_ONCO_NUTRITION_040_APPETITE_LOSS_hi_7c5fc3.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/REEL_ONCO_NUTRITION_040_APPETITE_LOSS/studio2_mqp02xjh_cd2bfb/hi/final.mp4",
+      "visible": true
+    },
+    {
+      "id": "r1782194545060",
+      "title": "Unintentional Weight Loss During Treatment",
+      "videoFile": "/videos/REEL_ONCO_NUTRITION_041_UNINTENTIONAL_WEIGHT_LOSS_hi_730860.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/REEL_ONCO_NUTRITION_041_UNINTENTIONAL_WEIGHT_LOSS/studio2_mqp4n23s_46ac75/hi/final.mp4",
+      "visible": true
+    },
+    {
+      "id": "r1782194872138",
+      "title": "High Protein Snacks",
+      "videoFile": "/videos/REEL_ONCO_NUTRITION_042_HIGH_PROTEIN_SNACKS_hi_7b2054.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/REEL_ONCO_NUTRITION_042_HIGH_PROTEIN_SNACKS/studio2_mqp4ya31_01f7c9/hi/final.mp4",
+      "visible": true
+    },
+    {
+      "id": "r1782195304665",
+      "title": "High Calorie Nutrition Strategies",
+      "videoFile": "/videos/REEL_ONCO_NUTRITION_043_HIGH_CALORIE_FOODS_en_ef9c8b.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/REEL_ONCO_NUTRITION_043_HIGH_CALORIE_FOODS/studio2_mqp5dfat_50c170/en/final.mp4",
+      "visible": true
+    },
+    {
+      "id": "r1782195320307",
+      "title": "High Calorie Foods for Recovery",
+      "videoFile": "/videos/REEL_ONCO_NUTRITION_043_HIGH_CALORIE_FOODS_hi_3f0072.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/REEL_ONCO_NUTRITION_043_HIGH_CALORIE_FOODS/studio2_mqp5dfat_50c170/hi/final.mp4",
+      "visible": true
+    },
+    {
+      "id": "r1782195328585",
+      "title": "Nutrition Supplements Support",
+      "videoFile": "/videos/REEL_ONCO_NUTRITION_044_ORAL_NUTRITION_SUPPLEMENTS_en_5c45c3.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/REEL_ONCO_NUTRITION_044_ORAL_NUTRITION_SUPPLEMENTS/studio2_mqp5ngkp_eb8135/en/final.mp4",
+      "visible": true
+    },
+    {
+      "id": "r1782195431616",
+      "title": "Nutrition Supplements for Weight Management",
+      "videoFile": "/videos/REEL_ONCO_NUTRITION_044_ORAL_NUTRITION_SUPPLEMENTS_hi_fc5c62.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/REEL_ONCO_NUTRITION_044_ORAL_NUTRITION_SUPPLEMENTS/studio2_mqp5ngkp_eb8135/hi/final.mp4",
+      "visible": true
+    },
+    {
+      "id": "r1782195531937",
+      "title": "Hydration During Treatment",
+      "videoFile": "/videos/REEL_ONCO_NUTRITION_045_HYDRATION_DURING_TREATMENT_en_55ab79.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/REEL_ONCO_NUTRITION_045_HYDRATION_DURING_TREATMENT/studio2_mqp5vwkj_b5d5c2/en/final.mp4",
+      "visible": true
+    },
+    {
+      "id": "r1782195565305",
+      "title": "Hydration During Treatment",
+      "videoFile": "/videos/REEL_ONCO_NUTRITION_045_HYDRATION_DURING_TREATMENT_hi_d1f04b.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/REEL_ONCO_NUTRITION_045_HYDRATION_DURING_TREATMENT/studio2_mqp5vwkj_b5d5c2/hi/final.mp4",
+      "visible": true
+    },
+    {
+      "id": "r1782195710107",
+      "title": "Palliative Care Myths",
+      "videoFile": "/videos/REEL_PALLIATIVE_CARE_001_MYTH_BUSTING_en_da2040.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/REEL_PALLIATIVE_CARE_001_MYTH_BUSTING/studio2_mqp71r0k_843d30/en/final.mp4",
+      "visible": true
+    },
+    {
+      "id": "r1782195909926",
+      "title": "Palliative Care Myths",
+      "videoFile": "/videos/REEL_PALLIATIVE_CARE_001_MYTH_BUSTING_hi_f085bf.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/REEL_PALLIATIVE_CARE_001_MYTH_BUSTING/studio2_mqp71r0k_843d30/hi/final.mp4",
+      "visible": true
+    },
+    {
+      "id": "r1782195918882",
+      "title": "Early Integration of Palliative Care",
+      "videoFile": "/videos/REEL_PALLIATIVE_CARE_002_EARLY_INTEGRATION_en_e2ca2f.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/REEL_PALLIATIVE_CARE_002_EARLY_INTEGRATION/studio2_mqp71r2g_64198c/en/final.mp4",
+      "visible": true
+    },
+    {
+      "id": "r1782196245896",
+      "title": "Early Integration of Palliative Care",
+      "videoFile": "/videos/REEL_PALLIATIVE_CARE_002_EARLY_INTEGRATION_hi_36f18f.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/REEL_PALLIATIVE_CARE_002_EARLY_INTEGRATION/studio2_mqp71r2g_64198c/hi/final.mp4",
+      "visible": true
+    },
+    {
+      "id": "r1782196610083",
+      "title": "Palliative Care vs Hospice",
+      "videoFile": "/videos/REEL_PALLIATIVE_CARE_003_PALLIATIVE_CARE_VS_HOSPICE_en_d70199.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/REEL_PALLIATIVE_CARE_003_PALLIATIVE_CARE_VS_HOSPICE/studio2_mqp71r4j_aa18df/en/final.mp4",
+      "visible": true
+    },
+    {
+      "id": "r1782196624598",
+      "title": "Palliative Care vs Hospice",
+      "videoFile": "/videos/REEL_PALLIATIVE_CARE_003_PALLIATIVE_CARE_VS_HOSPICE_hi_bb7489.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/REEL_PALLIATIVE_CARE_003_PALLIATIVE_CARE_VS_HOSPICE/studio2_mqp71r4j_aa18df/hi/final.mp4",
+      "visible": true
+    },
+    {
+      "id": "r1782196778775",
+      "title": "Palliative Care Team",
+      "videoFile": "/videos/REEL_PALLIATIVE_CARE_004_PALLIATIVE_CARE_TEAM_en_a55fa2.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/REEL_PALLIATIVE_CARE_004_PALLIATIVE_CARE_TEAM/studio2_mqp71r6f_8af581/en/final.mp4",
+      "visible": true
+    },
+    {
+      "id": "r1782197015005",
+      "title": "Palliative Care Team",
+      "videoFile": "/videos/REEL_PALLIATIVE_CARE_004_PALLIATIVE_CARE_TEAM_hi_a38519.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/REEL_PALLIATIVE_CARE_004_PALLIATIVE_CARE_TEAM/studio2_mqp71r6f_8af581/hi/final.mp4",
+      "visible": true
+    },
+    {
+      "id": "r1782197149751",
+      "title": "Cancer Pain Management",
+      "videoFile": "/videos/REEL_PALLIATIVE_CARE_005_CANCER_PAIN_TYPES_en_bce9a9.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/REEL_PALLIATIVE_CARE_005_CANCER_PAIN_TYPES/studio2_mqp71r86_69c17c/en/final.mp4",
+      "visible": true
+    },
+    {
+      "id": "r1782197344338",
+      "title": "Cancer Pain Management",
+      "videoFile": "/videos/REEL_PALLIATIVE_CARE_005_CANCER_PAIN_TYPES_hi_1c7cbb.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/REEL_PALLIATIVE_CARE_005_CANCER_PAIN_TYPES/studio2_mqp71r86_69c17c/hi/final.mp4",
+      "visible": true
+    },
+    {
+      "id": "r1782197354813",
+      "title": "Importance of Pain Scale",
+      "videoFile": "/videos/REEL_PALLIATIVE_CARE_006_PAIN_SCALE_en_36061c.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/REEL_PALLIATIVE_CARE_006_PAIN_SCALE/studio2_mqp71ra3_ca28c8/en/final.mp4",
+      "visible": true
+    },
+    {
+      "id": "r1782197501147",
+      "title": "Importance of Pain Scale",
+      "videoFile": "/videos/REEL_PALLIATIVE_CARE_006_PAIN_SCALE_hi_bb3ab2.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/REEL_PALLIATIVE_CARE_006_PAIN_SCALE/studio2_mqp71ra3_ca28c8/hi/final.mp4",
+      "visible": true
+    },
+    {
+      "id": "r1782197513478",
+      "title": "Unintentional Weight Loss",
+      "videoFile": "/videos/REEL_ONCO_NUTRITION_041_UNINTENTIONAL_WEIGHT_LOSS_en_b8322d.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/REEL_ONCO_NUTRITION_041_UNINTENTIONAL_WEIGHT_LOSS/studio2_mqp4n23s_46ac75/en/final.mp4",
+      "visible": true
+    },
+    {
+      "id": "r1782197522757",
+      "title": "Protein-Rich Foods for Recovery",
+      "videoFile": "/videos/REEL_ONCO_NUTRITION_042_HIGH_PROTEIN_SNACKS_en_45512d.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/REEL_ONCO_NUTRITION_042_HIGH_PROTEIN_SNACKS/studio2_mqp4ya31_01f7c9/en/final.mp4",
+      "visible": true
+    },
+    {
+      "id": "r1782197783693",
+      "title": "Pain Management in Cancer",
+      "videoFile": "/videos/REEL_PALLIATIVE_CARE_007_DONT_TOUGH_OUT_PAIN_en_e53eff.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/REEL_PALLIATIVE_CARE_007_DONT_TOUGH_OUT_PAIN/studio2_mqp71rby_0bdd0e/en/final.mp4",
+      "visible": true
+    },
+    {
+      "id": "r1782197904741",
+      "title": "Cancer Pain Emergency Signs",
+      "videoFile": "/videos/REEL_PALLIATIVE_CARE_008_PAIN_EMERGENCY_SIGNS_hi_370441.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/REEL_PALLIATIVE_CARE_008_PAIN_EMERGENCY_SIGNS/studio2_mqp71rdp_6080eb/hi/final.mp4",
+      "visible": true
+    },
+    {
+      "id": "r1782197914809",
+      "title": "Importance of Pain Diary",
+      "videoFile": "/videos/REEL_PALLIATIVE_CARE_009_PAIN_DIARY_en_a542ec.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/REEL_PALLIATIVE_CARE_009_PAIN_DIARY/studio2_mqp71rfg_5129ff/en/final.mp4",
+      "visible": true
+    },
+    {
+      "id": "r1782197962753",
+      "title": "Importance of Pain Diary",
+      "videoFile": "/videos/REEL_PALLIATIVE_CARE_009_PAIN_DIARY_hi_22ebdc.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/REEL_PALLIATIVE_CARE_009_PAIN_DIARY/studio2_mqp71rfg_5129ff/hi/final.mp4",
+      "visible": true
+    },
+    {
+      "id": "r1782198189458",
+      "title": "Understanding Opioid Myths",
+      "videoFile": "/videos/REEL_PALLIATIVE_CARE_010_OPIOID_MYTHS_en_be73d6.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/REEL_PALLIATIVE_CARE_010_OPIOID_MYTHS/studio2_mqp71rho_b24c12/en/final.mp4",
+      "visible": true
+    },
+    {
+      "id": "r1782198483438",
+      "title": "Opioid Myths in Cancer Care",
+      "videoFile": "/videos/REEL_PALLIATIVE_CARE_010_OPIOID_MYTHS_hi_216840.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/REEL_PALLIATIVE_CARE_010_OPIOID_MYTHS/studio2_mqp71rho_b24c12/hi/final.mp4",
+      "visible": true
+    },
+    {
+      "id": "r1782198498173",
+      "title": "Advance Care Planning",
+      "videoFile": "/videos/REEL_PSYCHO_ONCOLOGY_042_ADVANCE_CARE_PLANNING_hi_7826de.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/REEL_PSYCHO_ONCOLOGY_042_ADVANCE_CARE_PLANNING/studio2_mqnf3z39_672b9b/hi/final.mp4",
+      "visible": true
+    },
+    {
+      "id": "r1782198513891",
+      "title": "Returning to Work After Cancer",
+      "videoFile": "/videos/REEL_PSYCHO_ONCOLOGY_046_RETURNING_TO_WORK_hi_f23da9.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/REEL_PSYCHO_ONCOLOGY_046_RETURNING_TO_WORK/studio2_mqng0is1_f74336/hi/final.mp4",
+      "visible": true
+    },
+    {
+      "id": "r1782198523339",
+      "title": "Cognitive Recovery in Cancer",
+      "videoFile": "/videos/REEL_PSYCHO_ONCOLOGY_047_CHEMO_BRAIN_en_432403.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/REEL_PSYCHO_ONCOLOGY_047_CHEMO_BRAIN/studio2_mqng8i96_e5b70a/en/final.mp4",
+      "visible": true
+    },
+    {
+      "id": "r1782198836424",
+      "title": "Cancer Recovery and Mental Health",
+      "videoFile": "/videos/REEL_PSYCHO_ONCOLOGY_047_CHEMO_BRAIN_hi_03338d.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/REEL_PSYCHO_ONCOLOGY_047_CHEMO_BRAIN/studio2_mqng8i96_e5b70a/hi/final.mp4",
+      "visible": true
+    },
+    {
+      "id": "r1782198845885",
+      "title": "Celebration Guilt in Survivors",
+      "videoFile": "/videos/REEL_PSYCHO_ONCOLOGY_048_CELEBRATION_GUILT_en_db1067.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/REEL_PSYCHO_ONCOLOGY_048_CELEBRATION_GUILT/studio2_mqnggbf2_8c313b/en/final.mp4",
+      "visible": true
+    },
+    {
+      "id": "r1782199225705",
+      "title": "Celebrating Milestones in Recovery",
+      "videoFile": "/videos/REEL_PSYCHO_ONCOLOGY_048_CELEBRATION_GUILT_hi_ce39e9.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/REEL_PSYCHO_ONCOLOGY_048_CELEBRATION_GUILT/studio2_mqnggbf2_8c313b/hi/final.mp4",
+      "visible": true
+    },
+    {
+      "id": "r1782199312547",
+      "title": "Importance of Pain Management",
+      "videoFile": "/videos/REEL_PALLIATIVE_CARE_007_DONT_TOUGH_OUT_PAIN_hi_36efe1.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/REEL_PALLIATIVE_CARE_007_DONT_TOUGH_OUT_PAIN/studio2_mqp71rby_0bdd0e/hi/final.mp4",
+      "visible": true
+    },
+    {
+      "id": "r1782199617007",
+      "title": "Understanding Scanxiety",
+      "videoFile": "/videos/REEL_PSYCHO_ONCOLOGY_049_SCANXIETY_en_5a5d68.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/REEL_PSYCHO_ONCOLOGY_049_SCANXIETY/studio2_mqngocai_8d7ab0/en/final.mp4",
+      "visible": true
+    },
+    {
+      "id": "r1782199930431",
+      "title": "Life After Cancer",
+      "videoFile": "/videos/REEL_PSYCHO_ONCOLOGY_050_FINDING_MEANING_en_6deb3c.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/REEL_PSYCHO_ONCOLOGY_050_FINDING_MEANING/studio2_mqngwjki_5cb1ed/en/final.mp4",
+      "visible": true
+    },
+    {
+      "id": "r1782200344240",
+      "title": "Cancer Survivors' New Perspective",
+      "videoFile": "/videos/REEL_PSYCHO_ONCOLOGY_050_FINDING_MEANING_hi_c1b696.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/REEL_PSYCHO_ONCOLOGY_050_FINDING_MEANING/studio2_mqngwjki_5cb1ed/hi/final.mp4",
+      "visible": true
+    },
+    {
+      "id": "r1782200514010",
+      "title": "AC-Anxiety in Patients",
+      "videoFile": "/videos/REEL_PSYCHO_ONCOLOGY_049_SCANXIETY_hi_63c40a.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/REEL_PSYCHO_ONCOLOGY_049_SCANXIETY/studio2_mqngocai_8d7ab0/hi/final.mp4",
+      "visible": true
+    },
+    {
+      "id": "r1782298449026",
+      "title": "Understanding Breakthrough Pain",
+      "videoFile": "/videos/REEL_PALLIATIVE_CARE_011_BREAKTHROUGH_PAIN_en_b80a28.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/REEL_PALLIATIVE_CARE_011_BREAKTHROUGH_PAIN/studio2_mqq5mw2n_16c8cd/en/final.mp4",
+      "visible": true
+    },
+    {
+      "id": "r1782298489288",
+      "title": "Breakthrough Pain Management",
+      "videoFile": "/videos/REEL_PALLIATIVE_CARE_011_BREAKTHROUGH_PAIN_hi_e1f14a.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/REEL_PALLIATIVE_CARE_011_BREAKTHROUGH_PAIN/studio2_mqq5mw2n_16c8cd/hi/final.mp4",
+      "visible": true
+    },
+    {
+      "id": "r1782298517012",
+      "title": "Managing Side Effects",
+      "videoFile": "/videos/REEL_PALLIATIVE_CARE_012_MANAGING_SIDE_EFFECTS_en_cc24ab.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/REEL_PALLIATIVE_CARE_012_MANAGING_SIDE_EFFECTS/studio2_mqq5unxd_4592ae/en/final.mp4",
+      "visible": true
+    },
+    {
+      "id": "r1782298546154",
+      "title": "Managing Side Effects",
+      "videoFile": "/videos/REEL_PALLIATIVE_CARE_012_MANAGING_SIDE_EFFECTS_hi_3d4e31.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/REEL_PALLIATIVE_CARE_012_MANAGING_SIDE_EFFECTS/studio2_mqq5unxd_4592ae/hi/final.mp4",
+      "visible": true
+    },
+    {
+      "id": "r1782298569242",
+      "title": "Cancer Pain Management",
+      "videoFile": "/videos/REEL_PALLIATIVE_CARE_013_NON_DRUG_PAIN_RELIEF_en_e7b773.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/REEL_PALLIATIVE_CARE_013_NON_DRUG_PAIN_RELIEF/studio2_mqq62knl_277c5d/en/final.mp4",
+      "visible": true
+    },
+    {
+      "id": "r1782298598182",
+      "title": "Cancer Pain Management",
+      "videoFile": "/videos/REEL_PALLIATIVE_CARE_013_NON_DRUG_PAIN_RELIEF_hi_25d5d9.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/REEL_PALLIATIVE_CARE_013_NON_DRUG_PAIN_RELIEF/studio2_mqq62knl_277c5d/hi/final.mp4",
       "visible": true
     }
   ],

@@ -15,7 +15,7 @@ export default function Footer({ setCurrentPage }) {
             </a>
           </div>
           <p className="font-body-md text-body-md text-tertiary-fixed-dim max-w-xs">
-            Author and strategist helping modern leaders find clarity in complex systems.
+            Engineering leader writing on AI, the future of software work, and lessons from health, fitness, and the long run.
           </p>
           <div className="flex gap-4">
             <a 
@@ -48,11 +48,19 @@ export default function Footer({ setCurrentPage }) {
                 </a>
               </li>
               <li>
-                <a 
-                  className="font-body-md text-body-md text-tertiary-fixed-dim hover:text-on-tertiary transition-colors cursor-pointer" 
+                <a
+                  className="font-body-md text-body-md text-tertiary-fixed-dim hover:text-on-tertiary transition-colors cursor-pointer"
                   onClick={(e) => handleNavClick('reels', e)}
                 >
                   Videos
+                </a>
+              </li>
+              <li>
+                <a
+                  className="font-body-md text-body-md text-tertiary-fixed-dim hover:text-on-tertiary transition-colors cursor-pointer"
+                  onClick={(e) => handleNavClick('articles', e)}
+                >
+                  Articles
                 </a>
               </li>
             </ul>

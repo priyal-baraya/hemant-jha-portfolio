@@ -84,8 +84,9 @@ export default function Admin({ setCurrentPage }) {
   const [users, setUsers] = useState([]);
   const [saving, setSaving] = useState({});
   const [activeSection, setActiveSection] = useState('reels');
-  const [activeTab, setActiveTab] = useState('content'); // 'content' | 'users' | 'publish'
+  const [activeTab, setActiveTab] = useState('content');
   const [loadError, setLoadError] = useState('');
+
 
   // Books state
   const [adminBooks, setAdminBooks] = useState([]);

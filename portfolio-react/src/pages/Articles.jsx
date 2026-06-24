@@ -1,78 +1,18 @@
 import { useState, useEffect } from 'react';
-
-// Category → gradient palette for generated covers
-const COVER_PALETTE = {
-  Strategy:   ['#4f46e5', '#7c3aed'],
-  Leadership: ['#0f766e', '#15803d'],
-  Synthesis:  ['#b45309', '#ea580c'],
-  Technology: ['#0369a1', '#0891b2'],
-  _default:   ['#334155', '#0f172a'],
-};
-
-const esc = (s) => (s || '').replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
-
-// Word-wrap a string into up to `maxLines` lines of ~`perLine` chars
-function wrapLines(text, perLine = 20, maxLines = 3) {
-  const words = (text || '').split(/\s+/);
-  const lines = [];
-  let line = '';
-  for (const w of words) {
-    if ((line + ' ' + w).trim().length > perLine) { lines.push(line.trim()); line = w; }
-    else line = (line + ' ' + w).trim();
-    if (lines.length === maxLines) break;
-  }
-  if (line && lines.length < maxLines) lines.push(line.trim());
-  return lines.slice(0, maxLines);
-}
-
-// Build an SVG data-URI cover from the article's category + title
-function generatedCover(article) {
-  const [c1, c2] = COVER_PALETTE[article.category] || COVER_PALETTE._default;
-  const lines = wrapLines(article.title, 20, 3);
-  const titleSvg = lines
-    .map((l, i) => `<text x="60" y="${300 + i * 58}" font-family="Georgia, serif" font-size="46" font-weight="700" fill="#ffffff">${esc(l)}</text>`)
-    .join('');
-  const svg = `<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
-    <defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="${c1}"/><stop offset="1" stop-color="${c2}"/>
-    </linearGradient></defs>
-    <rect width="800" height="600" fill="url(#g)"/>
-    <text x="60" y="100" font-family="Arial, sans-serif" font-size="22" letter-spacing="4" fill="#ffffff" opacity="0.85">${esc((article.category || 'Article').toUpperCase())}</text>
-    <text x="700" y="540" font-family="Georgia, serif" font-size="180" fill="#ffffff" opacity="0.12" text-anchor="end">&#8220;</text>
-    ${titleSvg}
-  </svg>`;
-  return `data:image/svg+xml,${encodeURIComponent(svg)}`;
-}
-
-// A banner is only usable if it's an absolute URL (or a root-absolute path served
-// by this site). Many source rows store relative paths from another app
-// (e.g. "assets/images/x.png") that 404 here — treat those as missing.
-const isUsableImage = (img) => !!img && (/^https?:\/\//i.test(img.trim()) || img.trim().startsWith('/'));
-
-// Final image src: real banner if usable, else generated cover
-const coverSrc = (article) => (isUsableImage(article.image) ? article.image.trim() : generatedCover(article));
+import { coverSrc, generatedCover } from '../utils/articleCover';
+import ArticleReader from '../components/ArticleReader';
 
 export default function Articles() {
   const [activeFilter, setActiveFilter] = useState('All');
   const [searchQuery, setSearchQuery] = useState('');
   const [articles, setArticles] = useState([]);
-  const [selected, setSelected] = useState(null);   // full article being read
-  const [loadingArticle, setLoadingArticle] = useState(false);
+  const [openId, setOpenId] = useState(null);   // id of article being read
 
   useEffect(() => {
     fetch('/api/content/articles').then(r => r.json()).then(setArticles).catch(() => {});
   }, []);
 
-  // Open the reader: fetch the full article (with content) by id
-  const openArticle = (id) => {
-    setLoadingArticle(true);
-    setSelected({ loading: true });
-    fetch(`/api/article/${id}`)
-      .then(r => r.json())
-      .then(a => setSelected(a))
-      .catch(() => setSelected(null))
-      .finally(() => setLoadingArticle(false));
-  };
+  const openArticle = (id) => setOpenId(id);
 
   // Categories derived from the articles actually present
   const categories = ['All', ...Array.from(new Set(articles.map(a => a.category).filter(Boolean))).sort()];
@@ -110,7 +50,6 @@ export default function Articles() {
                 }`}
                 onClick={() => {
                   setActiveFilter(category);
-                  setVisibleCount(4); // Reset pagination on filter change
                 }}
               >
                 {category}
@@ -198,57 +137,8 @@ export default function Articles() {
         </div>
       )}
 
-      {/* Article Reader Modal */}
-      {selected && (
-        <div
-          className="fixed inset-0 z-[10000] flex items-start justify-center p-4 md:p-8 bg-black/70 backdrop-blur-sm overflow-y-auto"
-          onClick={() => setSelected(null)}
-        >
-          <div
-            className="relative bg-surface-container-lowest w-full max-w-3xl my-8 rounded-2xl shadow-2xl border border-outline-variant/30"
-            onClick={e => e.stopPropagation()}
-          >
-            <button
-              type="button"
-              onClick={() => setSelected(null)}
-              className="absolute top-4 right-4 z-10 w-9 h-9 rounded-full bg-surface-container flex items-center justify-center text-on-surface-variant hover:text-primary transition-colors cursor-pointer border-0"
-            >
-              <span className="material-symbols-outlined">close</span>
-            </button>
-
-            {selected.loading ? (
-              <div className="py-24 text-center text-on-surface-variant font-body-lg">Loading article…</div>
-            ) : (
-              <div className="p-6 md:p-12">
-                <img
-                  src={coverSrc(selected)}
-                  alt={selected.title}
-                  className="w-full aspect-[16/9] object-cover rounded-xl mb-8"
-                  onError={(e) => { e.currentTarget.src = generatedCover(selected); }}
-                />
-                <div className="flex items-center gap-4 mb-4">
-                  {selected.category && (
-                    <span className="bg-secondary-container text-on-secondary-container px-3 py-1 rounded-sm font-label-md text-[12px] uppercase tracking-tighter">
-                      {selected.category}
-                    </span>
-                  )}
-                  {selected.date && <time className="font-label-md text-on-surface-variant text-[12px]">{selected.date}</time>}
-                </div>
-                <h1 className="font-headline-lg-mobile md:text-headline-lg text-headline-lg-mobile text-primary leading-tight mb-3">
-                  {selected.title}
-                </h1>
-                {selected.author && (
-                  <p className="font-label-md text-on-surface-variant text-sm mb-8">By {selected.author}</p>
-                )}
-                <div
-                  className="article-body font-body-lg text-body-lg text-on-surface leading-relaxed space-y-4"
-                  dangerouslySetInnerHTML={{ __html: selected.content || '<p>No content available.</p>' }}
-                />
-              </div>
-            )}
-          </div>
-        </div>
-      )}
+      {/* Article Reader */}
+      <ArticleReader articleId={openId} onClose={() => setOpenId(null)} />
 
     </div>
   );

@@ -1,7 +1,29 @@
 import { useState, useEffect } from 'react';
+import { coverSrc, generatedCover } from '../utils/articleCover';
+import ArticleReader from '../components/ArticleReader';
 
 const PORTRAIT_PLACEHOLDER = "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='300' height='500'%3E%3Crect fill='%231f1f1f' width='300' height='500'/%3E%3Ccircle cx='150' cy='250' r='40' fill='%23ffffff' opacity='0.2'/%3E%3Cpath d='M135 230 L135 270 L170 250 Z' fill='%23ffffff' opacity='0.6'/%3E%3C/svg%3E";
 const getThumbnailUrl = (videoFile) => `/thumbnails/${videoFile?.split('/').pop()}.jpg`;
+
+function ArticlePreviewCard({ article, onClick }) {
+  return (
+    <div className="group cursor-pointer" onClick={onClick}>
+      <div className="aspect-[16/10] overflow-hidden rounded-xl mb-4 border border-outline-variant/10 shadow-sm">
+        <img
+          className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
+          alt={article.title}
+          src={coverSrc(article)}
+          onError={(e) => { e.currentTarget.src = generatedCover(article); }}
+        />
+      </div>
+      <span className="text-secondary font-label-md text-[11px] uppercase tracking-widest">{article.category}</span>
+      <h3 className="font-headline-md text-headline-md text-primary mt-1 line-clamp-2 group-hover:text-secondary transition-colors">
+        {article.title}
+      </h3>
+      <p className="font-body-md text-body-md text-on-surface-variant mt-2 line-clamp-2">{article.description}</p>
+    </div>
+  );
+}
 
 function ReelPreviewCard({ reel, onClick }) {
   const [thumbError, setThumbError] = useState(false);
@@ -32,6 +54,7 @@ export default function Home({ setCurrentPage }) {
   const [subscribed, setSubscribed] = useState(false);
   const [reels, setReels] = useState([]);
   const [articles, setArticles] = useState([]);
+  const [openArticleId, setOpenArticleId] = useState(null);
 
   useEffect(() => {
     fetch('/api/content/reels').then(r => r.json())
@@ -142,6 +165,31 @@ export default function Home({ setCurrentPage }) {
         </section>
       )}
 
+      {/* Selected Writing */}
+      {articles.length > 0 && (
+        <section className="bg-surface-container-lowest py-section-gap">
+          <div className="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop">
+            <div className="flex items-end justify-between mb-10 gap-6">
+              <div>
+                <span className="font-label-md text-label-md text-secondary uppercase tracking-widest">Selected Writing</span>
+                <h2 className="font-headline-lg text-headline-lg-mobile md:text-headline-lg text-primary mt-4">From the Journal</h2>
+              </div>
+              <a
+                className="text-secondary border-b-2 border-secondary/30 hover:border-secondary transition-colors font-label-md text-label-md py-1 cursor-pointer whitespace-nowrap"
+                onClick={() => setCurrentPage('articles')}
+              >
+                View all
+              </a>
+            </div>
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-gutter">
+              {articles.slice(0, 3).map(article => (
+                <ArticlePreviewCard key={article.id} article={article} onClick={() => setOpenArticleId(article.id)} />
+              ))}
+            </div>
+          </div>
+        </section>
+      )}
+
       {/* Newsletter Dispatch */}
       <section className="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop pb-section-gap">
         <div className="bg-primary-container rounded-xl p-8 md:p-20 text-center">
@@ -176,6 +224,9 @@ export default function Home({ setCurrentPage }) {
           <p className="font-label-md text-label-md text-on-primary-container mt-6">Zero spam. Only distillation. Unsubscribe anytime.</p>
         </div>
       </section>
+
+      {/* Article Reader */}
+      <ArticleReader articleId={openArticleId} onClose={() => setOpenArticleId(null)} />
     </div>
   );
 }
