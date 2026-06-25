@@ -10,6 +10,7 @@ import fs from 'fs';
 import path from 'path';
 import { fileURLToPath } from 'url';
 import pool from '../config/db.js';
+import neo4jDriver from '../../neo4jClient.js';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const CONTENT_PATH = path.join(__dirname, '..', '..', 'data', 'content.json');
@@ -37,13 +38,40 @@ function fmtDate(d) {
   return date.toLocaleDateString('en-US', { month: 'short', day: '2-digit', year: 'numeric' }).toUpperCase();
 }
 
+/** Query Neo4j for RELATED_TO neighbours of a set of reel ids.
+ *  Returns a Map<reelId, [{id, type, title}]>. Fails silently. */
+async function neo4jRelatedForReels(reelIds) {
+  const map = new Map();
+  if (!reelIds.length) return map;
+  const session = neo4jDriver.session();
+  try {
+    const result = await session.run(
+      `UNWIND $ids AS rid
+       MATCH (r:ContentNode {id: rid})
+       OPTIONAL MATCH (r)-[:RELATED_TO]-(n:ContentNode)
+       RETURN rid, collect(distinct {id: n.id, type: n.type, title: n.title}) AS related`,
+      { ids: reelIds }
+    );
+    result.records.forEach(record => {
+      const rid     = record.get('rid');
+      const related = record.get('related').filter(n => n.id != null);
+      map.set(rid, related);
+    });
+  } catch (err) {
+    console.warn('[neo4j] related reels lookup failed:', err.message);
+  } finally {
+    await session.close();
+  }
+  return map;
+}
+
 async function getReels() {
   const [rows] = await pool.query(
     `SELECT external_id, name, file_url, file_path, thumbnail_url, category, duration
      FROM videos WHERE external_id IS NOT NULL AND is_active = 1
      ORDER BY id DESC`
   );
-  return rows.map(r => ({
+  const reels = rows.map(r => ({
     id: r.external_id,
     title: r.name,
     videoFile: r.file_url || r.file_path,
@@ -51,6 +79,10 @@ async function getReels() {
     duration: r.duration || undefined,
     visible: true,
   }));
+
+  // Enrich each reel with related content from Neo4j
+  const relatedMap = await neo4jRelatedForReels(reels.map(r => r.id));
+  return reels.map(r => ({ ...r, related: relatedMap.get(r.id) || [] }));
 }
 
 // Strip HTML tags/entities from source text → clean plain text for card previews

@@ -2791,6 +2791,174 @@
       "videoFile": "/videos/REEL_PALLIATIVE_CARE_013_NON_DRUG_PAIN_RELIEF_hi_25d5d9.mp4",
       "s3Key": "supportive-care/reel-studio-v2/REEL_PALLIATIVE_CARE_013_NON_DRUG_PAIN_RELIEF/studio2_mqq62knl_277c5d/hi/final.mp4",
       "visible": true
+    },
+    {
+      "id": "r1782298661294",
+      "title": "Safe Storage of Medicines",
+      "videoFile": "/videos/REEL_PALLIATIVE_CARE_014_SAFE_STORAGE_MEDICINES_en_1a3d08.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/REEL_PALLIATIVE_CARE_014_SAFE_STORAGE_MEDICINES/studio2_mqq6a591_0a52f4/en/final.mp4",
+      "visible": true
+    },
+    {
+      "id": "r1782298693975",
+      "title": "Safe Storage of Pain Medicines",
+      "videoFile": "/videos/REEL_PALLIATIVE_CARE_014_SAFE_STORAGE_MEDICINES_hi_5dce21.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/REEL_PALLIATIVE_CARE_014_SAFE_STORAGE_MEDICINES/studio2_mqq6a591_0a52f4/hi/final.mp4",
+      "visible": true
+    },
+    {
+      "id": "r1782298730214",
+      "title": "Managing Constipation",
+      "videoFile": "/videos/REEL_PALLIATIVE_CARE_015_MANAGING_CONSTIPATION_en_5ce78d.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/REEL_PALLIATIVE_CARE_015_MANAGING_CONSTIPATION/studio2_mqq6i5ed_425999/en/final.mp4",
+      "visible": true
+    },
+    {
+      "id": "r1782298767175",
+      "title": "Managing Cancer Pain Constipation",
+      "videoFile": "/videos/REEL_PALLIATIVE_CARE_015_MANAGING_CONSTIPATION_hi_c678c4.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/REEL_PALLIATIVE_CARE_015_MANAGING_CONSTIPATION/studio2_mqq6i5ed_425999/hi/final.mp4",
+      "visible": true
+    },
+    {
+      "id": "r1782298807693",
+      "title": "Palliative Care Myths",
+      "videoFile": "/videos/REEL_PALLIATIVE_CARE_016_PALLIATIVE_CARE_MYTHS_en_ff46ca.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/REEL_PALLIATIVE_CARE_016_PALLIATIVE_CARE_MYTHS/studio2_mqq6q79g_351d1e/en/final.mp4",
+      "visible": true
+    },
+    {
+      "id": "r1782298855611",
+      "title": "Palliative Care Myths",
+      "videoFile": "/videos/REEL_PALLIATIVE_CARE_016_PALLIATIVE_CARE_MYTHS_hi_8a30ca.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/REEL_PALLIATIVE_CARE_016_PALLIATIVE_CARE_MYTHS/studio2_mqq6q79g_351d1e/hi/final.mp4",
+      "visible": true
+    },
+    {
+      "id": "r1782298883465",
+      "title": "Caregiver Burnout",
+      "videoFile": "/videos/REEL_PALLIATIVE_CARE_017_CAREGIVER_BURNOUT_en_d8b893.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/REEL_PALLIATIVE_CARE_017_CAREGIVER_BURNOUT/studio2_mqq6y5u1_19d5b2/en/final.mp4",
+      "visible": true
+    },
+    {
+      "id": "r1782298915934",
+      "title": "Caregiver Burnout",
+      "videoFile": "/videos/REEL_PALLIATIVE_CARE_017_CAREGIVER_BURNOUT_hi_add5d7.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/REEL_PALLIATIVE_CARE_017_CAREGIVER_BURNOUT/studio2_mqq6y5u1_19d5b2/hi/final.mp4",
+      "visible": true
+    },
+    {
+      "id": "r1782298970175",
+      "title": "Asking for Help",
+      "videoFile": "/videos/REEL_PALLIATIVE_CARE_018_ASKING_FOR_HELP_en_9f8247.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/REEL_PALLIATIVE_CARE_018_ASKING_FOR_HELP/studio2_mqq765ci_843a59/en/final.mp4",
+      "visible": true
+    },
+    {
+      "id": "r1782299009326",
+      "title": "Asking for Help",
+      "videoFile": "/videos/REEL_PALLIATIVE_CARE_018_ASKING_FOR_HELP_hi_ddfe58.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/REEL_PALLIATIVE_CARE_018_ASKING_FOR_HELP/studio2_mqq765ci_843a59/hi/final.mp4",
+      "visible": true
+    },
+    {
+      "id": "r1782299064188",
+      "title": "Emotional Support in Cancer Care",
+      "videoFile": "/videos/REEL_PALLIATIVE_CARE_019_EMOTIONAL_SUPPORT_en_c81f26.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/REEL_PALLIATIVE_CARE_019_EMOTIONAL_SUPPORT/studio2_mqq7dvf5_797d99/en/final.mp4",
+      "visible": true
+    },
+    {
+      "id": "r1782299080252",
+      "title": "Emotional Support in Cancer Care",
+      "videoFile": "/videos/REEL_PALLIATIVE_CARE_019_EMOTIONAL_SUPPORT_hi_16d614.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/REEL_PALLIATIVE_CARE_019_EMOTIONAL_SUPPORT/studio2_mqq7dvf5_797d99/hi/final.mp4",
+      "visible": true
+    },
+    {
+      "id": "r1782299136063",
+      "title": "Advanced Care Planning",
+      "videoFile": "/videos/REEL_PALLIATIVE_CARE_020_ADVANCE_CARE_PLANNING_en_8a2fcc.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/REEL_PALLIATIVE_CARE_020_ADVANCE_CARE_PLANNING/studio2_mqq7lwtf_f72b23/en/final.mp4",
+      "visible": true
+    },
+    {
+      "id": "r1782299149527",
+      "title": "Advanced Care Planning",
+      "videoFile": "/videos/REEL_PALLIATIVE_CARE_020_ADVANCE_CARE_PLANNING_hi_8f4e99.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/REEL_PALLIATIVE_CARE_020_ADVANCE_CARE_PLANNING/studio2_mqq7lwtf_f72b23/hi/final.mp4",
+      "visible": true
+    },
+    {
+      "id": "r1782299204973",
+      "title": "When to Call Your Care Team",
+      "videoFile": "/videos/REEL_PALLIATIVE_CARE_021_WHEN_TO_CALL_YOUR_CARE_TEAM_en_b6c2e3.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/REEL_PALLIATIVE_CARE_021_WHEN_TO_CALL_YOUR_CARE_TEAM/studio2_mqq7tu8k_77f0b8/en/final.mp4",
+      "visible": true
+    },
+    {
+      "id": "r1782299220639",
+      "title": "When to Call Your Care Team",
+      "videoFile": "/videos/REEL_PALLIATIVE_CARE_021_WHEN_TO_CALL_YOUR_CARE_TEAM_hi_e1c4bd.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/REEL_PALLIATIVE_CARE_021_WHEN_TO_CALL_YOUR_CARE_TEAM/studio2_mqq7tu8k_77f0b8/hi/final.mp4",
+      "visible": true
+    },
+    {
+      "id": "r1782299254880",
+      "title": "Hard Conversations in Families",
+      "videoFile": "/videos/REEL_PALLIATIVE_CARE_022_FAMILY_COMMUNICATION_en_026094.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/REEL_PALLIATIVE_CARE_022_FAMILY_COMMUNICATION/studio2_mqq81x60_6fb5db/en/final.mp4",
+      "visible": true
+    },
+    {
+      "id": "r1782299300214",
+      "title": "Family Communication in Healthcare",
+      "videoFile": "/videos/REEL_PALLIATIVE_CARE_022_FAMILY_COMMUNICATION_hi_cfadfa.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/REEL_PALLIATIVE_CARE_022_FAMILY_COMMUNICATION/studio2_mqq81x60_6fb5db/hi/final.mp4",
+      "visible": true
+    },
+    {
+      "id": "r1782299450208",
+      "title": "Hope and Realism",
+      "videoFile": "/videos/REEL_PALLIATIVE_CARE_023_HOPE_AND_REALISM_en_9244ad.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/REEL_PALLIATIVE_CARE_023_HOPE_AND_REALISM/studio2_mqq8a1b0_36aca9/en/final.mp4",
+      "visible": true
+    },
+    {
+      "id": "r1782299743945",
+      "title": "Accepting Reality and Hope",
+      "videoFile": "/videos/REEL_PALLIATIVE_CARE_023_HOPE_AND_REALISM_hi_96df71.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/REEL_PALLIATIVE_CARE_023_HOPE_AND_REALISM/studio2_mqq8a1b0_36aca9/hi/final.mp4",
+      "visible": true
+    },
+    {
+      "id": "r1782299886061",
+      "title": "Meaningful Moments in Cancer",
+      "videoFile": "/videos/REEL_PALLIATIVE_CARE_024_MEANINGFUL_MOMENTS_en_9fea8e.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/REEL_PALLIATIVE_CARE_024_MEANINGFUL_MOMENTS/studio2_mqq8i4ld_cdb11e/en/final.mp4",
+      "visible": true
+    },
+    {
+      "id": "r1782300008945",
+      "title": "Meaningful Moments",
+      "videoFile": "/videos/REEL_PALLIATIVE_CARE_024_MEANINGFUL_MOMENTS_hi_87e1a8.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/REEL_PALLIATIVE_CARE_024_MEANINGFUL_MOMENTS/studio2_mqq8i4ld_cdb11e/hi/final.mp4",
+      "visible": true
+    },
+    {
+      "id": "r1782300140501",
+      "title": "Legacy and Life Stories",
+      "videoFile": "/videos/REEL_PALLIATIVE_CARE_025_LEGACY_AND_LIFE_STORIES_en_a80584.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/REEL_PALLIATIVE_CARE_025_LEGACY_AND_LIFE_STORIES/studio2_mqq8qew9_9f2657/en/final.mp4",
+      "visible": true
+    },
+    {
+      "id": "r1782384977189",
+      "title": "Legacy and Life Stories",
+      "videoFile": "/videos/REEL_PALLIATIVE_CARE_025_LEGACY_AND_LIFE_STORIES_hi_4ac1c3.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/REEL_PALLIATIVE_CARE_025_LEGACY_AND_LIFE_STORIES/studio2_mqq8qew9_9f2657/hi/final.mp4",
+      "visible": true
     }
   ],
   "articles": [
