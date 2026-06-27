@@ -54,22 +54,27 @@ function VideoModal({ reel, onClose, onPlay }) {
 
   if (!reel) return null;
 
-  const [nextUp, ...restQueue] = queue;
+  const [nextUp] = queue;
 
   return (
-    <div className="fixed inset-0 z-[10000] bg-black/90 backdrop-blur-md flex items-center justify-center p-4" onClick={onClose}>
-      <div className="relative flex flex-col md:flex-row gap-6 items-start justify-center w-full max-w-3xl mx-auto" onClick={e => e.stopPropagation()}>
+    <div className="fixed inset-0 z-[10000] bg-black/85 backdrop-blur-sm flex items-center justify-center p-4" onClick={onClose}>
+      <div className="relative flex flex-row items-center justify-center gap-5 w-full max-w-4xl mx-auto" onClick={e => e.stopPropagation()}>
+
+        {/* Left spacer — mirrors right panel width so player stays centered */}
+        <div className="hidden md:block shrink-0 w-[220px]" />
 
         {/* Player */}
-        <div className="relative w-full max-w-[260px] mx-auto md:mx-0 shrink-0">
-          <button onClick={onClose} className="absolute -top-10 right-0 text-white/60 hover:text-white flex items-center gap-1.5 font-label-md text-sm cursor-pointer border-0 bg-transparent transition-colors">
-            <span className="material-symbols-outlined text-base">close</span> Close
-          </button>
-          <div className="aspect-[9/16] bg-black rounded-2xl overflow-hidden shadow-[0_0_80px_rgba(0,0,0,0.7)] relative">
-            <video ref={ref} src={reel.videoFile} controls playsInline onEnded={handleEnded} className="w-full h-full object-contain" />
-            {/* Countdown overlay */}
+        <div className="bg-surface-container-lowest w-full max-w-[260px] rounded-2xl overflow-hidden shadow-2xl border border-outline-variant/30 shrink-0">
+          <div className="px-4 py-3 bg-surface-container-low flex justify-between items-center border-b border-outline-variant/20">
+            <p className="text-on-surface text-sm font-label-md truncate pr-4">{reel.title}</p>
+            <button onClick={onClose} className="text-on-surface-variant hover:text-primary transition-colors cursor-pointer border-0 bg-transparent">
+              <span className="material-symbols-outlined">close</span>
+            </button>
+          </div>
+          <div className="aspect-[9/16] bg-black relative">
+            <video ref={ref} src={reel.videoFile} controls playsInline autoPlay onEnded={handleEnded} className="w-full h-full object-contain" />
             {countdown !== null && (
-              <div className="absolute inset-0 bg-black/70 flex flex-col items-center justify-center gap-3 rounded-2xl">
+              <div className="absolute inset-0 bg-black/70 flex flex-col items-center justify-center gap-3">
                 <p className="text-white/60 text-xs uppercase tracking-widest">Up next in</p>
                 <span className="text-white font-bold text-5xl">{countdown}</span>
                 <p className="text-white/80 text-sm font-label-md line-clamp-2 text-center px-4">{nextUp?.title}</p>
@@ -80,47 +85,35 @@ function VideoModal({ reel, onClose, onPlay }) {
               </div>
             )}
           </div>
-          <p className="text-white/70 font-label-md text-sm mt-4 text-center line-clamp-2 px-4">{reel.title}</p>
         </div>
 
-        {/* Queue panel */}
+        {/* Right — unified queue list */}
         {queue.length > 0 && (
-          <div className="hidden md:flex flex-col gap-4 w-60 shrink-0 pt-10">
-            {/* Up Next — prominent */}
-            {nextUp && (
-              <div>
-                <p className="text-white/40 font-label-md text-xs uppercase tracking-widest mb-2">Up Next</p>
-                <div className="group cursor-pointer" onClick={() => { cancelCountdown(); onPlay(nextUp); }}>
-                  <div className="w-full aspect-[9/16] rounded-xl overflow-hidden relative mb-2">
-                    <img src={getThumbnailUrl(nextUp.videoFile)} alt={nextUp.title}
+          <div className="hidden md:flex flex-col w-[220px] shrink-0 self-stretch">
+            <p className="text-white/40 font-label-md text-[11px] uppercase tracking-widest mb-3">Up Next</p>
+            <div className="flex flex-col gap-1 overflow-y-auto" style={{ maxHeight: '80vh' }}>
+              {queue.map((r, i) => (
+                <div
+                  key={r.id}
+                  className={`group flex items-center gap-3 cursor-pointer rounded-xl px-2 py-2 transition-colors ${i === 0 ? 'bg-white/10 hover:bg-white/15' : 'hover:bg-white/10'}`}
+                  onClick={() => { cancelCountdown(); onPlay(r); }}
+                >
+                  <div className={`aspect-[9/16] rounded-lg overflow-hidden shrink-0 relative bg-black ${i === 0 ? 'w-14' : 'w-11'}`}>
+                    <img src={getThumbnailUrl(r.videoFile)} alt={r.title}
                       className="w-full h-full object-cover scale-[1.18] group-hover:scale-[1.24] transition-transform duration-300" />
-                    <div className="absolute inset-0 bg-black/20 group-hover:bg-black/10 transition-colors flex items-center justify-center">
-                      <span className="material-symbols-outlined text-white text-4xl opacity-80 group-hover:opacity-100" style={{ fontVariationSettings: "'FILL' 1" }}>play_circle</span>
+                    <div className="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity bg-black/20">
+                      <span className="material-symbols-outlined text-white text-lg" style={{ fontVariationSettings: "'FILL' 1" }}>play_circle</span>
                     </div>
                   </div>
-                  <p className="text-white/80 text-sm font-label-md line-clamp-2 group-hover:text-white transition-colors">{nextUp.title}</p>
-                  {nextUp.category && <p className="text-white/30 text-[10px] mt-1 uppercase tracking-wider">{nextUp.category}</p>}
+                  <div className="flex-1 min-w-0">
+                    {i === 0 && <span className="text-[9px] font-bold uppercase tracking-widest text-secondary mb-0.5 block">Next</span>}
+                    <p className={`font-label-md line-clamp-2 leading-snug transition-colors ${i === 0 ? 'text-white/90 text-xs group-hover:text-white' : 'text-white/55 text-[11px] group-hover:text-white/80'}`}>
+                      {r.title}
+                    </p>
+                  </div>
                 </div>
-              </div>
-            )}
-            {/* Rest of queue */}
-            {restQueue.length > 0 && (
-              <div className="flex flex-col gap-3 border-t border-white/10 pt-4">
-                <p className="text-white/30 font-label-md text-xs uppercase tracking-widest">Coming up</p>
-                {restQueue.map(r => (
-                  <div key={r.id} className="group flex items-center gap-3 cursor-pointer" onClick={() => { cancelCountdown(); onPlay(r); }}>
-                    <div className="w-14 aspect-[9/16] rounded-lg overflow-hidden shrink-0 relative">
-                      <img src={getThumbnailUrl(r.videoFile)} alt={r.title}
-                        className="w-full h-full object-cover scale-[1.18] group-hover:scale-[1.24] transition-transform duration-300" />
-                    </div>
-                    <div className="flex-1 min-w-0">
-                      <p className="text-white/60 text-xs font-label-md line-clamp-2 leading-snug group-hover:text-white/90 transition-colors">{r.title}</p>
-                      {r.category && <p className="text-white/25 text-[10px] mt-0.5 uppercase tracking-wider">{r.category}</p>}
-                    </div>
-                  </div>
-                ))}
-              </div>
-            )}
+              ))}
+            </div>
           </div>
         )}
       </div>

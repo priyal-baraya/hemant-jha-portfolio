@@ -73,6 +73,14 @@ function extractReelId(fileUrl) {
   return filename.replace(/_[a-z]{2}_[a-f0-9]{4,8}$/, '').replace(/_[a-z]{2}$/, '');
 }
 
+/** Extract language code from file_url filename (e.g. _hi_, _en_). */
+function extractLanguage(fileUrl) {
+  if (!fileUrl) return null;
+  const filename = fileUrl.split('/').pop().replace(/\.mp4$/i, '');
+  const m = filename.match(/_([a-z]{2})_[a-f0-9]{4,8}$/) || filename.match(/_([a-z]{2})$/);
+  return m ? m[1] : null;
+}
+
 /** Returns Set of Neo4j reel_id slugs that are oncology. Returns null on failure (fail-open). */
 async function getOncologyReelIds() {
   const session = neo4jDriver.session({ database: process.env.NEO4J_DATABASE || 'neo4j' });
@@ -90,15 +98,19 @@ async function getOncologyReelIds() {
 }
 
 async function getReels() {
+  // One row per unique name (case-insensitive), keeping the most recent (MAX id)
   const [rows] = await pool.query(
-    `SELECT external_id, name, file_url, file_path, thumbnail_url, category, duration
-     FROM videos WHERE external_id IS NOT NULL AND is_active = 1
-     ORDER BY id DESC`
+    `SELECT v.external_id, v.name, v.file_url, v.file_path, v.thumbnail_url, v.category, v.duration
+     FROM videos v
+     INNER JOIN (
+       SELECT MAX(id) AS max_id FROM videos
+       WHERE external_id IS NOT NULL AND is_active = 1
+       GROUP BY LOWER(TRIM(name))
+     ) dedup ON v.id = dedup.max_id
+     ORDER BY v.id DESC`
   );
 
   const oncologyIds = await getOncologyReelIds();
-  // Exclude rows whose file_url maps to a known oncology reel_id in Neo4j.
-  // Rows with no Neo4j match (old personal brand content) are kept.
   const filtered = oncologyIds
     ? rows.filter(r => {
         const slug = extractReelId(r.file_url || r.file_path);
@@ -111,6 +123,7 @@ async function getReels() {
     title: r.name,
     videoFile: r.file_url || r.file_path,
     category: r.category,
+    language: extractLanguage(r.file_url || r.file_path) || undefined,
     duration: r.duration || undefined,
     visible: true,
   }));

@@ -232,6 +232,8 @@ function VideoModal({ video, onClose }) {
   );
 }
 
+const LANG_LABELS = { en: 'English', hi: 'Hindi', mr: 'Marathi', gu: 'Gujarati', ta: 'Tamil', te: 'Telugu', kn: 'Kannada', bn: 'Bengali', pa: 'Punjabi', ml: 'Malayalam' };
+
 // ─── Main Page ─────────────────────────────────────────────────────────────
 export default function Reels({ initialFilter = 'All' }) {
   const [tab, setTab]               = useState('reels');
@@ -239,6 +241,7 @@ export default function Reels({ initialFilter = 'All' }) {
   const [longform, setLongform]     = useState([]);
   const [selected, setSelected]     = useState(null);
   const [activeFilter, setActiveFilter] = useState(initialFilter);
+  const [activeLang, setActiveLang]     = useState('All');
   const [searchQuery, setSearchQuery]   = useState('');
 
   useEffect(() => {
@@ -247,19 +250,25 @@ export default function Reels({ initialFilter = 'All' }) {
   }, []);
 
   // Reset filter when switching tabs
-  const switchTab = (t) => { setTab(t); setActiveFilter('All'); setSearchQuery(''); };
+  const switchTab = (t) => { setTab(t); setActiveFilter('All'); setActiveLang('All'); setSearchQuery(''); };
 
   // Category list derived from actual reel data (skip generic "reel")
   const reelCategories = ['All', ...Array.from(
     new Set(reels.map(r => r.category).filter(c => c && c.toLowerCase() !== 'reel' && c.toLowerCase() !== 'leadership'))
   ).sort()];
 
+  // Language list derived from actual reel data
+  const reelLanguages = ['All', ...Array.from(
+    new Set(reels.map(r => r.language).filter(Boolean))
+  ).sort()];
+
   const filteredReels = reels.filter(r => {
     if (r.category?.toLowerCase() === 'leadership') return false;
     const matchCat = activeFilter === 'All' || r.category === activeFilter;
+    const matchLang = activeLang === 'All' || r.language === activeLang;
     const q = searchQuery.toLowerCase();
     const matchSearch = !q || r.title?.toLowerCase().includes(q) || r.category?.toLowerCase().includes(q);
-    return matchCat && matchSearch;
+    return matchCat && matchLang && matchSearch;
   });
 
   return (
@@ -303,34 +312,55 @@ export default function Reels({ initialFilter = 'All' }) {
 
           {/* Category filter + search — only for reels tab */}
           {tab === 'reels' && (
-            <div className="flex flex-col md:flex-row md:items-center justify-between gap-6">
-              <div className="flex flex-wrap gap-4 md:gap-8">
-                {reelCategories.map(cat => (
-                  <button
-                    key={cat}
-                    onClick={() => setActiveFilter(cat)}
-                    className={`font-label-md text-label-md uppercase tracking-widest pb-2 transition-all cursor-pointer border-0 bg-transparent text-sm ${
-                      activeFilter === cat
-                        ? 'text-primary border-b-2 border-secondary font-bold'
-                        : 'text-on-surface-variant hover:text-primary'
-                    }`}
-                  >
-                    {cat}
-                  </button>
-                ))}
+            <div className="flex flex-col gap-4">
+              <div className="flex flex-col md:flex-row md:items-center justify-between gap-6">
+                <div className="flex flex-wrap gap-4 md:gap-8">
+                  {reelCategories.map(cat => (
+                    <button
+                      key={cat}
+                      onClick={() => setActiveFilter(cat)}
+                      className={`font-label-md text-label-md uppercase tracking-widest pb-2 transition-all cursor-pointer border-0 bg-transparent text-sm ${
+                        activeFilter === cat
+                          ? 'text-primary border-b-2 border-secondary font-bold'
+                          : 'text-on-surface-variant hover:text-primary'
+                      }`}
+                    >
+                      {cat}
+                    </button>
+                  ))}
+                </div>
+                <div className="relative w-full md:w-72 shrink-0">
+                  <span className="absolute left-0 bottom-2 text-on-surface-variant">
+                    <span className="material-symbols-outlined text-[20px]">search</span>
+                  </span>
+                  <input
+                    className="w-full bg-transparent border-t-0 border-x-0 border-b border-primary py-2 pl-8 focus:ring-0 focus:border-secondary transition-colors font-body-md placeholder:text-on-surface-variant/50 outline-none text-on-surface"
+                    placeholder="Search reels..."
+                    type="text"
+                    value={searchQuery}
+                    onChange={e => setSearchQuery(e.target.value)}
+                  />
+                </div>
               </div>
-              <div className="relative w-full md:w-72 shrink-0">
-                <span className="absolute left-0 bottom-2 text-on-surface-variant">
-                  <span className="material-symbols-outlined text-[20px]">search</span>
-                </span>
-                <input
-                  className="w-full bg-transparent border-t-0 border-x-0 border-b border-primary py-2 pl-8 focus:ring-0 focus:border-secondary transition-colors font-body-md placeholder:text-on-surface-variant/50 outline-none text-on-surface"
-                  placeholder="Search reels..."
-                  type="text"
-                  value={searchQuery}
-                  onChange={e => setSearchQuery(e.target.value)}
-                />
-              </div>
+              {/* Language filter — only show if there are multiple languages */}
+              {reelLanguages.length > 2 && (
+                <div className="flex flex-wrap items-center gap-2">
+                  <span className="text-on-surface-variant font-label-md text-xs uppercase tracking-widest mr-1">Language:</span>
+                  {reelLanguages.map(lang => (
+                    <button
+                      key={lang}
+                      onClick={() => setActiveLang(lang)}
+                      className={`font-label-md text-xs px-3 py-1 rounded-full border transition-all cursor-pointer ${
+                        activeLang === lang
+                          ? 'bg-primary text-on-primary border-primary'
+                          : 'bg-transparent text-on-surface-variant border-outline-variant hover:border-primary hover:text-primary'
+                      }`}
+                    >
+                      {lang === 'All' ? 'All' : (LANG_LABELS[lang] || lang.toUpperCase())}
+                    </button>
+                  ))}
+                </div>
+              )}
             </div>
           )}
         </div>
