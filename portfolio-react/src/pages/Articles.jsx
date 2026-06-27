@@ -34,7 +34,7 @@ export default function Articles() {
   const visibleGridArticles = gridArticles;
 
   return (
-    <div className="pt-20 pb-section-gap max-w-container-max mx-auto px-4 md:px-margin-desktop reveal-entry overflow-x-hidden">
+    <div className="pt-20 pb-section-gap max-w-container-max mx-auto px-4 md:px-margin-desktop reveal-entry overflow-x-hidden bg-surface-container-low min-h-screen">
       {/* Header & Search */}
       <header className="mb-16">
         <h1 className="font-display-lg-mobile md:text-display-lg text-display-lg-mobile md:text-display-lg text-primary mb-8 mt-12">Selected Articles</h1>
@@ -110,7 +110,7 @@ export default function Articles() {
             <div className="overflow-hidden bg-surface-container-low aspect-[4/3] relative rounded">
               <img
                 alt={article.title}
-                className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105 grayscale opacity-80 group-hover:grayscale-0 group-hover:opacity-100"
+                className="w-full h-full object-cover transition-all duration-700 group-hover:scale-105 group-hover:grayscale group-hover:opacity-80"
                 src={coverSrc(article)}
                 onError={(e) => { e.currentTarget.src = generatedCover(article); }}
               />

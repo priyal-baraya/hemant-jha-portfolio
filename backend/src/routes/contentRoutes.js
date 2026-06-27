@@ -28,9 +28,10 @@ router.get('/api/admin/social/instagram/callback',    social.instagramCallback);
 router.post('/api/admin/social/publish',              requireAdmin, social.publish);
 
 // Search + Wiki
-router.post('/api/search',     search.search);
-router.get('/api/wiki',        search.listWiki);
-router.get('/api/wiki/:id',    search.getWikiNode);
+router.post('/api/search',              search.search);
+router.get('/api/reels/:id/related',    search.relatedReels);
+router.get('/api/wiki',                 search.listWiki);
+router.get('/api/wiki/:id',             search.getWikiNode);
 router.get('/api/ping',        (req, res) => res.json({ ok: true }));
 
 // Webhooks

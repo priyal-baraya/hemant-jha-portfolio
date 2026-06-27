@@ -65,13 +65,48 @@ async function neo4jRelatedForReels(reelIds) {
   return map;
 }
 
+/** Extract the Neo4j reel_id slug embedded in a file_url filename. */
+function extractReelId(fileUrl) {
+  if (!fileUrl) return null;
+  const filename = fileUrl.split('/').pop().replace(/\.mp4$/i, '');
+  // strip trailing _lang_hash (e.g. _hi_d9c4ed) or _lang (e.g. _en)
+  return filename.replace(/_[a-z]{2}_[a-f0-9]{4,8}$/, '').replace(/_[a-z]{2}$/, '');
+}
+
+/** Returns Set of Neo4j reel_id slugs that are oncology. Returns null on failure (fail-open). */
+async function getOncologyReelIds() {
+  const session = neo4jDriver.session({ database: process.env.NEO4J_DATABASE || 'neo4j' });
+  try {
+    const result = await session.run(
+      `MATCH (r:SupportiveCareReel) WHERE r.is_oncology = true RETURN r.reel_id`
+    );
+    return new Set(result.records.map(rec => rec.get('r.reel_id')).filter(Boolean));
+  } catch (err) {
+    console.warn('[neo4j] oncology lookup failed, showing all reels:', err.message);
+    return null;
+  } finally {
+    await session.close();
+  }
+}
+
 async function getReels() {
   const [rows] = await pool.query(
     `SELECT external_id, name, file_url, file_path, thumbnail_url, category, duration
      FROM videos WHERE external_id IS NOT NULL AND is_active = 1
      ORDER BY id DESC`
   );
-  const reels = rows.map(r => ({
+
+  const oncologyIds = await getOncologyReelIds();
+  // Exclude rows whose file_url maps to a known oncology reel_id in Neo4j.
+  // Rows with no Neo4j match (old personal brand content) are kept.
+  const filtered = oncologyIds
+    ? rows.filter(r => {
+        const slug = extractReelId(r.file_url || r.file_path);
+        return !slug || !oncologyIds.has(slug);
+      })
+    : rows;
+
+  const reels = filtered.map(r => ({
     id: r.external_id,
     title: r.name,
     videoFile: r.file_url || r.file_path,

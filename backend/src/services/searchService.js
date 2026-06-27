@@ -51,6 +51,75 @@ export function keywordScore(node, words) {
   return score;
 }
 
+/** Extract Neo4j reel_id slug from a file_url (matches the ingest naming convention). */
+function slugFromUrl(fileUrl) {
+  if (!fileUrl) return null;
+  const filename = fileUrl.split('/').pop().replace(/\.mp4$/i, '');
+  return filename.replace(/_[a-z]{2}_[a-f0-9]{4,8}$/, '').replace(/_[a-z]{2}$/, '');
+}
+
+/** Find reels related to a given reel using Neo4j SupportiveCareReel graph.
+ *  Falls back to same-category reels if the reel isn't in Neo4j.
+ *  Returns an array of reel objects (same shape as getPublicContent('reels')).
+ */
+export async function findRelatedReels({ reelId, reelCategory, allReels, limit = 6 }) {
+  // Build a slug→reel map for fast lookup
+  const slugToReel = new Map();
+  allReels.forEach(r => {
+    const slug = slugFromUrl(r.videoFile);
+    if (slug) slugToReel.set(slug, r);
+  });
+
+  const currentReel = allReels.find(r => r.id === reelId);
+  const currentSlug = slugFromUrl(currentReel?.videoFile);
+
+  const scores = new Map(); // reelId -> score
+
+  if (currentSlug) {
+    const session = neo4jDriver.session({ database: process.env.NEO4J_DATABASE || 'neo4j' });
+    try {
+      // CONTINUES_TO = intentional sequence (higher weight), RELATED_TO = thematic link
+      const result = await session.run(
+        `MATCH (r:SupportiveCareReel {reel_id: $slug})
+         OPTIONAL MATCH (r)-[:CONTINUES_TO]->(next:SupportiveCareReel)
+         OPTIONAL MATCH (r)-[:RELATED_TO]-(rel:SupportiveCareReel)
+         RETURN
+           collect(distinct {slug: next.reel_id, w: 30}) AS continuations,
+           collect(distinct {slug: rel.reel_id,  w: 20}) AS related`,
+        { slug: currentSlug }
+      );
+
+      if (result.records.length > 0) {
+        const rec = result.records[0];
+        [...rec.get('continuations'), ...rec.get('related')].forEach(({ slug, w }) => {
+          if (!slug || slug === currentSlug) return;
+          const reel = slugToReel.get(slug);
+          if (reel && reel.id !== reelId) {
+            scores.set(reel.id, (scores.get(reel.id) || 0) + w);
+          }
+        });
+      }
+    } catch (err) {
+      console.warn('[relatedReels] neo4j query failed:', err.message);
+    } finally {
+      await session.close();
+    }
+  }
+
+  // Same-category fallback for any remaining slots
+  allReels.forEach(r => {
+    if (r.id !== reelId && r.category === reelCategory && !scores.has(r.id)) {
+      scores.set(r.id, 5);
+    }
+  });
+
+  return [...scores.entries()]
+    .sort((a, b) => b[1] - a[1])
+    .slice(0, limit)
+    .map(([id]) => allReels.find(r => r.id === id))
+    .filter(Boolean);
+}
+
 export async function buildContext({ openai, allNodes, query }) {
   if (!openai) return [];
 

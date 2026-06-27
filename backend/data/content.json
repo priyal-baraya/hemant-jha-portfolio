@@ -2959,6 +2959,412 @@
       "videoFile": "/videos/REEL_PALLIATIVE_CARE_025_LEGACY_AND_LIFE_STORIES_hi_4ac1c3.mp4",
       "s3Key": "supportive-care/reel-studio-v2/REEL_PALLIATIVE_CARE_025_LEGACY_AND_LIFE_STORIES/studio2_mqq8qew9_9f2657/hi/final.mp4",
       "visible": true
+    },
+    {
+      "id": "r1782385142024",
+      "title": "Gratitude During Challenges",
+      "videoFile": "/videos/REEL_PALLIATIVE_CARE_026_GRATITUDE_DURING_CANCER_en_0ada1c.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/REEL_PALLIATIVE_CARE_026_GRATITUDE_DURING_CANCER/studio2_mqq8z18j_6be0db/en/final.mp4",
+      "visible": true
+    },
+    {
+      "id": "r1782385203032",
+      "title": "Gratitude During Challenges",
+      "videoFile": "/videos/REEL_PALLIATIVE_CARE_026_GRATITUDE_DURING_CANCER_hi_f83e6e.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/REEL_PALLIATIVE_CARE_026_GRATITUDE_DURING_CANCER/studio2_mqq8z18j_6be0db/hi/final.mp4",
+      "visible": true
+    },
+    {
+      "id": "r1782385240202",
+      "title": "Finding Strength in Uncertainty",
+      "videoFile": "/videos/REEL_PALLIATIVE_CARE_027_FINDING_STRENGTH_IN_UNCERTAINTY_en_142388.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/REEL_PALLIATIVE_CARE_027_FINDING_STRENGTH_IN_UNCERTAINTY/studio2_mqq97bru_5c0efa/en/final.mp4",
+      "visible": true
+    },
+    {
+      "id": "r1782385277433",
+      "title": "Finding Strength in Uncertainty",
+      "videoFile": "/videos/REEL_PALLIATIVE_CARE_027_FINDING_STRENGTH_IN_UNCERTAINTY_hi_5a5ff9.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/REEL_PALLIATIVE_CARE_027_FINDING_STRENGTH_IN_UNCERTAINTY/studio2_mqq97bru_5c0efa/hi/final.mp4",
+      "visible": true
+    },
+    {
+      "id": "r1782385308302",
+      "title": "Mindfulness for Cancer Patients",
+      "videoFile": "/videos/REEL_PALLIATIVE_CARE_028_MINDFULNESS_FOR_CANCER_PATIENTS_en_7a42fe.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/REEL_PALLIATIVE_CARE_028_MINDFULNESS_FOR_CANCER_PATIENTS/studio2_mqq9ftmb_160c1a/en/final.mp4",
+      "visible": true
+    },
+    {
+      "id": "r1782385347548",
+      "title": "Mindfulness for Cancer Patients",
+      "videoFile": "/videos/REEL_PALLIATIVE_CARE_028_MINDFULNESS_FOR_CANCER_PATIENTS_hi_4c4be0.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/REEL_PALLIATIVE_CARE_028_MINDFULNESS_FOR_CANCER_PATIENTS/studio2_mqq9ftmb_160c1a/hi/final.mp4",
+      "visible": true
+    },
+    {
+      "id": "r1782385373455",
+      "title": "Understanding Scanxiety",
+      "videoFile": "/videos/REEL_PALLIATIVE_CARE_029_SCANXIETY_MANAGING_SCAN_STRESS_en_d8308e.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/REEL_PALLIATIVE_CARE_029_SCANXIETY_MANAGING_SCAN_STRESS/studio2_mqq9xacj_c4d05d/en/final.mp4",
+      "visible": true
+    },
+    {
+      "id": "r1782385415165",
+      "title": "Managing Scan Anxiety",
+      "videoFile": "/videos/REEL_PALLIATIVE_CARE_029_SCANXIETY_MANAGING_SCAN_STRESS_hi_e65914.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/REEL_PALLIATIVE_CARE_029_SCANXIETY_MANAGING_SCAN_STRESS/studio2_mqq9xacj_c4d05d/hi/final.mp4",
+      "visible": true
+    },
+    {
+      "id": "r1782385463332",
+      "title": "Sleep Issues in Cancer Care",
+      "videoFile": "/videos/REEL_PALLIATIVE_CARE_030_SLEEP_PROBLEMS_IN_CANCER_en_384c04.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/REEL_PALLIATIVE_CARE_030_SLEEP_PROBLEMS_IN_CANCER/studio2_mqq9oizc_250bf9/en/final.mp4",
+      "visible": true
+    },
+    {
+      "id": "r1782385512671",
+      "title": "Sleep Problems in Cancer",
+      "videoFile": "/videos/REEL_PALLIATIVE_CARE_030_SLEEP_PROBLEMS_IN_CANCER_hi_2a8ddc.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/REEL_PALLIATIVE_CARE_030_SLEEP_PROBLEMS_IN_CANCER/studio2_mqq9oizc_250bf9/hi/final.mp4",
+      "visible": true
+    },
+    {
+      "id": "r1782385545275",
+      "title": "Understanding Cancer Fatigue",
+      "videoFile": "/videos/REEL_PALLIATIVE_CARE_031_FATIGUE_IN_CANCER_en_142fd1.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/REEL_PALLIATIVE_CARE_031_FATIGUE_IN_CANCER/studio2_mqqehkfv_4b881b/en/final.mp4",
+      "visible": true
+    },
+    {
+      "id": "r1782385583651",
+      "title": "Understanding Cancer Fatigue",
+      "videoFile": "/videos/REEL_PALLIATIVE_CARE_031_FATIGUE_IN_CANCER_hi_744eee.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/REEL_PALLIATIVE_CARE_031_FATIGUE_IN_CANCER/studio2_mqqehkfv_4b881b/hi/final.mp4",
+      "visible": true
+    },
+    {
+      "id": "r1782385612175",
+      "title": "Taste Changes During Treatment",
+      "videoFile": "/videos/REEL_PALLIATIVE_CARE_033_TASTE_CHANGES_DURING_TREATMENT_en_900fb1.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/REEL_PALLIATIVE_CARE_033_TASTE_CHANGES_DURING_TREATMENT/studio2_mqqeq0hd_1f5812/en/final.mp4",
+      "visible": true
+    },
+    {
+      "id": "r1782385672352",
+      "title": "Taste Changes During Treatment",
+      "videoFile": "/videos/REEL_PALLIATIVE_CARE_033_TASTE_CHANGES_DURING_TREATMENT_hi_c80b72.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/REEL_PALLIATIVE_CARE_033_TASTE_CHANGES_DURING_TREATMENT/studio2_mqqeq0hd_1f5812/hi/final.mp4",
+      "visible": true
+    },
+    {
+      "id": "r1782385711195",
+      "title": "Managing Dry Mouth",
+      "videoFile": "/videos/REEL_PALLIATIVE_CARE_034_DRY_MOUTH_DURING_CANCER_CARE_en_be49a6.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/REEL_PALLIATIVE_CARE_034_DRY_MOUTH_DURING_CANCER_CARE/studio2_mqqeytoz_76fc58/en/final.mp4",
+      "visible": true
+    },
+    {
+      "id": "r1782385744570",
+      "title": "Managing Dry Mouth",
+      "videoFile": "/videos/REEL_PALLIATIVE_CARE_034_DRY_MOUTH_DURING_CANCER_CARE_hi_df77a7.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/REEL_PALLIATIVE_CARE_034_DRY_MOUTH_DURING_CANCER_CARE/studio2_mqqeytoz_76fc58/hi/final.mp4",
+      "visible": true
+    },
+    {
+      "id": "r1782385798673",
+      "title": "Managing Mouth Sores",
+      "videoFile": "/videos/REEL_PALLIATIVE_CARE_035_ORAL_MUCOSITIS_MOUTH_SORES_en_471fa9.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/REEL_PALLIATIVE_CARE_035_ORAL_MUCOSITIS_MOUTH_SORES/studio2_mqqf75q5_100c71/en/final.mp4",
+      "visible": true
+    },
+    {
+      "id": "r1782385842828",
+      "title": "Managing Mouth Sores",
+      "videoFile": "/videos/REEL_PALLIATIVE_CARE_035_ORAL_MUCOSITIS_MOUTH_SORES_hi_013857.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/REEL_PALLIATIVE_CARE_035_ORAL_MUCOSITIS_MOUTH_SORES/studio2_mqqf75q5_100c71/hi/final.mp4",
+      "visible": true
+    },
+    {
+      "id": "r1782385887363",
+      "title": "Nausea Management in Cancer",
+      "videoFile": "/videos/REEL_PALLIATIVE_CARE_036_NAUSEA_AND_VOMITING_IN_CANCER_en_0d95d6.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/REEL_PALLIATIVE_CARE_036_NAUSEA_AND_VOMITING_IN_CANCER/studio2_mqqff2xa_55b194/en/final.mp4",
+      "visible": true
+    },
+    {
+      "id": "r1782385949779",
+      "title": "Nausea Management in Cancer",
+      "videoFile": "/videos/REEL_PALLIATIVE_CARE_036_NAUSEA_AND_VOMITING_IN_CANCER_hi_53e587.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/REEL_PALLIATIVE_CARE_036_NAUSEA_AND_VOMITING_IN_CANCER/studio2_mqqff2xa_55b194/hi/final.mp4",
+      "visible": true
+    },
+    {
+      "id": "r1782386007700",
+      "title": "Constipation's Impact on Life",
+      "videoFile": "/videos/REEL_PALLIATIVE_CARE_037_CONSTIPATION_IN_CANCER_CARE_en_5e976c.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/REEL_PALLIATIVE_CARE_037_CONSTIPATION_IN_CANCER_CARE/studio2_mqqfneu2_a7915c/en/final.mp4",
+      "visible": true
+    },
+    {
+      "id": "r1782386144906",
+      "title": "Diarrhea During Cancer Treatment",
+      "videoFile": "/videos/REEL_PALLIATIVE_CARE_038_DIARRHEA_DURING_CANCER_TREATMENT_en_d53a68.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/REEL_PALLIATIVE_CARE_038_DIARRHEA_DURING_CANCER_TREATMENT/studio2_mqqfvn6c_9582b6/en/final.mp4",
+      "visible": true
+    },
+    {
+      "id": "r1782386159468",
+      "title": "Diarrhea During Cancer Treatment",
+      "videoFile": "/videos/REEL_PALLIATIVE_CARE_038_DIARRHEA_DURING_CANCER_TREATMENT_hi_a65d9d.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/REEL_PALLIATIVE_CARE_038_DIARRHEA_DURING_CANCER_TREATMENT/studio2_mqqfvn6c_9582b6/hi/final.mp4",
+      "visible": true
+    },
+    {
+      "id": "r1782386170350",
+      "title": "Managing Breathlessness",
+      "videoFile": "/videos/REEL_PALLIATIVE_CARE_039_BREATHLESSNESS_IN_CANCER_en_7da2a8.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/REEL_PALLIATIVE_CARE_039_BREATHLESSNESS_IN_CANCER/studio2_mqqg3onz_3578b8/en/final.mp4",
+      "visible": true
+    },
+    {
+      "id": "r1782386292736",
+      "title": "Anxiety in Cancer Care",
+      "videoFile": "/videos/REEL_PALLIATIVE_CARE_040_ANXIETY_AND_PANIC_DURING_CANCER_en_38fd61.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/REEL_PALLIATIVE_CARE_040_ANXIETY_AND_PANIC_DURING_CANCER/studio2_mqqgc4fm_e7fedf/en/final.mp4",
+      "visible": true
+    },
+    {
+      "id": "r1782386307788",
+      "title": "Anxiety in Cancer Care",
+      "videoFile": "/videos/REEL_PALLIATIVE_CARE_040_ANXIETY_AND_PANIC_DURING_CANCER_hi_94d969.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/REEL_PALLIATIVE_CARE_040_ANXIETY_AND_PANIC_DURING_CANCER/studio2_mqqgc4fm_e7fedf/hi/final.mp4",
+      "visible": true
+    },
+    {
+      "id": "r1782386398206",
+      "title": "Depression in Cancer Care",
+      "videoFile": "/videos/REEL_PALLIATIVE_CARE_041_DEPRESSION_DURING_CANCER_CARE_en_eaec6e.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/REEL_PALLIATIVE_CARE_041_DEPRESSION_DURING_CANCER_CARE/studio2_mqqgk5tz_0758ac/en/final.mp4",
+      "visible": true
+    },
+    {
+      "id": "r1782386462371",
+      "title": "Needing Help is Not a Burden",
+      "videoFile": "/videos/REEL_PALLIATIVE_CARE_042_FEELING_LIKE_A_BURDEN_en_02895b.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/REEL_PALLIATIVE_CARE_042_FEELING_LIKE_A_BURDEN/studio2_mqqgstw2_944b01/en/final.mp4",
+      "visible": true
+    },
+    {
+      "id": "r1782386521835",
+      "title": "Talking to Children About Cancer",
+      "videoFile": "/videos/REEL_PALLIATIVE_CARE_043_HOW_TO_TALK_TO_CHILDREN_ABOUT_CANCER_en_08c0f8.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/REEL_PALLIATIVE_CARE_043_HOW_TO_TALK_TO_CHILDREN_ABOUT_CANCER/studio2_mqqh0uoi_4b311f/en/final.mp4",
+      "visible": true
+    },
+    {
+      "id": "r1782386577569",
+      "title": "Talking to Children About Cancer",
+      "videoFile": "/videos/REEL_PALLIATIVE_CARE_043_HOW_TO_TALK_TO_CHILDREN_ABOUT_CANCER_hi_b1c41d.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/REEL_PALLIATIVE_CARE_043_HOW_TO_TALK_TO_CHILDREN_ABOUT_CANCER/studio2_mqqh0uoi_4b311f/hi/final.mp4",
+      "visible": true
+    },
+    {
+      "id": "r1782386635032",
+      "title": "Caregiver Burnout",
+      "videoFile": "/videos/REEL_PALLIATIVE_CARE_044_HOW_CAREGIVERS_CAN_HANDLE_BURNOUT_en_bd8828.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/REEL_PALLIATIVE_CARE_044_HOW_CAREGIVERS_CAN_HANDLE_BURNOUT/studio2_mqqh8v32_3bbd38/en/final.mp4",
+      "visible": true
+    },
+    {
+      "id": "r1782386702042",
+      "title": "Caregiver Burnout",
+      "videoFile": "/videos/REEL_PALLIATIVE_CARE_044_HOW_CAREGIVERS_CAN_HANDLE_BURNOUT_hi_1f3fbb.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/REEL_PALLIATIVE_CARE_044_HOW_CAREGIVERS_CAN_HANDLE_BURNOUT/studio2_mqqh8v32_3bbd38/hi/final.mp4",
+      "visible": true
+    },
+    {
+      "id": "r1782386753680",
+      "title": "Supporting Withdrawn Patients",
+      "videoFile": "/videos/REEL_PALLIATIVE_CARE_045_WHEN_THE_PATIENT_STOPS_TALKING_en_71cace.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/REEL_PALLIATIVE_CARE_045_WHEN_THE_PATIENT_STOPS_TALKING/studio2_mqqhhax7_49554e/en/final.mp4",
+      "visible": true
+    },
+    {
+      "id": "r1782386877714",
+      "title": "Caregivers' Communication Challenges",
+      "videoFile": "/videos/REEL_PALLIATIVE_CARE_045_WHEN_THE_PATIENT_STOPS_TALKING_hi_3a9757.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/REEL_PALLIATIVE_CARE_045_WHEN_THE_PATIENT_STOPS_TALKING/studio2_mqqhhax7_49554e/hi/final.mp4",
+      "visible": true
+    },
+    {
+      "id": "r1782386888705",
+      "title": "Breathlessness in Cancer",
+      "videoFile": "/videos/REEL_PALLIATIVE_CARE_039_BREATHLESSNESS_IN_CANCER_hi_0c0850.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/REEL_PALLIATIVE_CARE_039_BREATHLESSNESS_IN_CANCER/studio2_mqqg3onz_3578b8/hi/final.mp4",
+      "visible": true
+    },
+    {
+      "id": "r1782386902437",
+      "title": "Understanding Depression",
+      "videoFile": "/videos/REEL_PALLIATIVE_CARE_041_DEPRESSION_DURING_CANCER_CARE_hi_6a46b1.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/REEL_PALLIATIVE_CARE_041_DEPRESSION_DURING_CANCER_CARE/studio2_mqqgk5tz_0758ac/hi/final.mp4",
+      "visible": true
+    },
+    {
+      "id": "r1782386921995",
+      "title": "Feeling Like a Burden",
+      "videoFile": "/videos/REEL_PALLIATIVE_CARE_042_FEELING_LIKE_A_BURDEN_hi_047a85.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/REEL_PALLIATIVE_CARE_042_FEELING_LIKE_A_BURDEN/studio2_mqqgstw2_944b01/hi/final.mp4",
+      "visible": true
+    },
+    {
+      "id": "r1782386929852",
+      "title": "The Power of Listening",
+      "videoFile": "/videos/REEL_PALLIATIVE_CARE_046_THE_POWER_OF_LISTENING_en_f98323.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/REEL_PALLIATIVE_CARE_046_THE_POWER_OF_LISTENING/studio2_mqqhpdfg_761cad/en/final.mp4",
+      "visible": true
+    },
+    {
+      "id": "r1782446099198",
+      "title": "Borrowed Vision in AI",
+      "videoFile": "/videos/REEL_CXO_013_BORROWED_VISION_en_0a7e8c.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/REEL_CXO_013_BORROWED_VISION/studio2_mqt5hg1k_c8c26c/en/final.mp4",
+      "visible": true
+    },
+    {
+      "id": "r1782446131966",
+      "title": "AI Transformation as People Problem",
+      "videoFile": "/videos/REEL_CXO_014_AI_HIRING_CRISIS_en_090674.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/REEL_CXO_014_AI_HIRING_CRISIS/studio2_mqt1nze7_032f2c/en/final.mp4",
+      "visible": true
+    },
+    {
+      "id": "r1782446143345",
+      "title": "Constipation's Impact on Quality of Life",
+      "videoFile": "/videos/REEL_PALLIATIVE_CARE_037_CONSTIPATION_IN_CANCER_CARE_hi_fd3611.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/REEL_PALLIATIVE_CARE_037_CONSTIPATION_IN_CANCER_CARE/studio2_mqqfneu2_a7915c/hi/final.mp4",
+      "visible": true
+    },
+    {
+      "id": "r1782446444780",
+      "title": "The Power of Listening",
+      "videoFile": "/videos/REEL_PALLIATIVE_CARE_046_THE_POWER_OF_LISTENING_hi_6b7bb9.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/REEL_PALLIATIVE_CARE_046_THE_POWER_OF_LISTENING/studio2_mqqhpdfg_761cad/hi/final.mp4",
+      "visible": true
+    },
+    {
+      "id": "r1782446458469",
+      "title": "Anticipatory Grief",
+      "videoFile": "/videos/REEL_PALLIATIVE_CARE_047_ANTICIPATORY_GRIEF_IN_FAMILIES_en_d0b939.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/REEL_PALLIATIVE_CARE_047_ANTICIPATORY_GRIEF_IN_FAMILIES/studio2_mqqhx97b_a749bc/en/final.mp4",
+      "visible": true
+    },
+    {
+      "id": "r1782447057635",
+      "title": "Anticipatory Grief",
+      "videoFile": "/videos/REEL_PALLIATIVE_CARE_047_ANTICIPATORY_GRIEF_IN_FAMILIES_hi_8b3c83.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/REEL_PALLIATIVE_CARE_047_ANTICIPATORY_GRIEF_IN_FAMILIES/studio2_mqqhx97b_a749bc/hi/final.mp4",
+      "visible": true
+    },
+    {
+      "id": "r1782447068514",
+      "title": "Hope When Cure is Not Possible",
+      "videoFile": "/videos/REEL_PALLIATIVE_CARE_048_HOPE_WHEN_CURE_IS_NOT_POSSIBLE_en_c1cde4.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/REEL_PALLIATIVE_CARE_048_HOPE_WHEN_CURE_IS_NOT_POSSIBLE/studio2_mqqi5cfp_3894b0/en/final.mp4",
+      "visible": true
+    },
+    {
+      "id": "r1782447081633",
+      "title": "Hope When Cure Is Not Possible",
+      "videoFile": "/videos/REEL_PALLIATIVE_CARE_048_HOPE_WHEN_CURE_IS_NOT_POSSIBLE_hi_af5356.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/REEL_PALLIATIVE_CARE_048_HOPE_WHEN_CURE_IS_NOT_POSSIBLE/studio2_mqqi5cfp_3894b0/hi/final.mp4",
+      "visible": true
+    },
+    {
+      "id": "r1782447438014",
+      "title": "Good Day in Cancer Care",
+      "videoFile": "/videos/REEL_PALLIATIVE_CARE_049_WHAT_DOES_A_GOOD_DAY_LOOK_LIKE_hi_a94b06.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/REEL_PALLIATIVE_CARE_049_WHAT_DOES_A_GOOD_DAY_LOOK_LIKE/studio2_mqqidefl_ca5ff0/hi/final.mp4",
+      "visible": true
+    },
+    {
+      "id": "r1782447448977",
+      "title": "Palliative Care Myths",
+      "videoFile": "/videos/REEL_PALLIATIVE_CARE_050_THE_REAL_GOAL_OF_PALLIATIVE_CARE_en_1a3158.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/REEL_PALLIATIVE_CARE_050_THE_REAL_GOAL_OF_PALLIATIVE_CARE/studio2_mqqili1g_de4a8f/en/final.mp4",
+      "visible": true
+    },
+    {
+      "id": "r1782447652238",
+      "title": "Meaning of Palliative Care",
+      "videoFile": "/videos/REEL_PALLIATIVE_CARE_050_THE_REAL_GOAL_OF_PALLIATIVE_CARE_hi_5e7bc8.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/REEL_PALLIATIVE_CARE_050_THE_REAL_GOAL_OF_PALLIATIVE_CARE/studio2_mqqili1g_de4a8f/hi/final.mp4",
+      "visible": true
+    },
+    {
+      "id": "r1782448301395",
+      "title": "Gaming and Child Development",
+      "videoFile": "/videos/REEL_PARENT_001_ARE_GAMERS_REALLY_WASTING_THEIR_TIME_en_40b7dd.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/REEL_PARENT_001_ARE_GAMERS_REALLY_WASTING_THEIR_TIME/studio2_mqt3eqim_067f5e/en/final.mp4",
+      "visible": true
+    },
+    {
+      "id": "r1782448694086",
+      "title": "Gaming and Child Development",
+      "videoFile": "/videos/REEL_PARENT_001_ARE_GAMERS_REALLY_WASTING_THEIR_TIME_hi_b8fdd0.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/REEL_PARENT_001_ARE_GAMERS_REALLY_WASTING_THEIR_TIME/studio2_mqt3eqim_067f5e/hi/final.mp4",
+      "visible": true
+    },
+    {
+      "id": "r1782448739240",
+      "title": "What Does a Good Day Look Like?",
+      "videoFile": "/videos/REEL_PALLIATIVE_CARE_049_WHAT_DOES_A_GOOD_DAY_LOOK_LIKE_en_08965a.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/REEL_PALLIATIVE_CARE_049_WHAT_DOES_A_GOOD_DAY_LOOK_LIKE/studio2_mqqidefl_ca5ff0/en/final.mp4",
+      "visible": true
+    },
+    {
+      "id": "r1782483926470",
+      "title": "Gamers as AI Engineers",
+      "videoFile": "/videos/REEL_GAMER_002_WHY_GAMERS_ARE_BECOMING_GREAT_AI_ENGINEERS_en_813ce7.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/REEL_GAMER_002_WHY_GAMERS_ARE_BECOMING_GREAT_AI_ENGINEERS/studio2_mqt57rwj_efc47b/en/final.mp4",
+      "visible": true
+    },
+    {
+      "id": "r1782483982262",
+      "title": "Gamers in AI Engineering",
+      "videoFile": "/videos/REEL_GAMER_002_WHY_GAMERS_ARE_BECOMING_GREAT_AI_ENGINEERS_hi_4fac14.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/REEL_GAMER_002_WHY_GAMERS_ARE_BECOMING_GREAT_AI_ENGINEERS/studio2_mqt57rwj_efc47b/hi/final.mp4",
+      "visible": true
+    },
+    {
+      "id": "r1782484015662",
+      "title": "Gaming as a Learning Tool",
+      "videoFile": "/videos/REEL_PARENT_006_THE_BOY_EVERYONE_THOUGHT_WAS_WASTING_HIS_LIFE_en_5cc071.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/REEL_PARENT_006_THE_BOY_EVERYONE_THOUGHT_WAS_WASTING_HIS_LIFE/studio2_mqt25192_a2984f/en/final.mp4",
+      "visible": true
+    },
+    {
+      "id": "r1782484050078",
+      "title": "Gaming as a Learning Tool",
+      "videoFile": "/videos/REEL_PARENT_006_THE_BOY_EVERYONE_THOUGHT_WAS_WASTING_HIS_LIFE_hi_de9449.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/REEL_PARENT_006_THE_BOY_EVERYONE_THOUGHT_WAS_WASTING_HIS_LIFE/studio2_mqt25192_a2984f/hi/final.mp4",
+      "visible": true
+    },
+    {
+      "id": "r1782484087660",
+      "title": "Best Parents Teach Balance",
+      "videoFile": "/videos/REEL_PARENT_007_THE_BEST_PARENTS_DONT_BAN_GAMES_THEY_TEACH_BALANCE_en_ad18fe.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/REEL_PARENT_007_THE_BEST_PARENTS_DONT_BAN_GAMES_THEY_TEACH_BALANCE/studio2_mqt1vq2k_ca8801/en/final.mp4",
+      "visible": true
+    },
+    {
+      "id": "r1782484121208",
+      "title": "Good Parents Teach Balance",
+      "videoFile": "/videos/REEL_PARENT_007_THE_BEST_PARENTS_DONT_BAN_GAMES_THEY_TEACH_BALANCE_hi_d9c4ed.mp4",
+      "s3Key": "supportive-care/reel-studio-v2/REEL_PARENT_007_THE_BEST_PARENTS_DONT_BAN_GAMES_THEY_TEACH_BALANCE/studio2_mqt1vq2k_ca8801/hi/final.mp4",
+      "visible": true
     }
   ],
   "articles": [

@@ -304,7 +304,7 @@ export default function Books() {
   // If reading a chapter
   if (selectedBook && selectedChapter) {
     return (
-      <div className="pt-20 min-h-screen bg-surface">
+      <div className="pt-20 min-h-screen bg-surface-container-low">
         {showProfileSetup && (
           <ProfileSetup
             existing={profile}
@@ -325,7 +325,7 @@ export default function Books() {
   // If viewing a book's chapters
   if (selectedBook) {
     return (
-      <div className="pt-20 min-h-screen bg-surface">
+      <div className="pt-20 min-h-screen bg-surface-container-low">
         <BookDetail
           book={selectedBook}
           onSelectChapter={(ch) => openChapter(selectedBook, ch)}

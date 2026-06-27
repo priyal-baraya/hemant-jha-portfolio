@@ -11,28 +11,39 @@ function App() {
     window.location.hash === '#admin' ? 'admin' : 'home'
   );
   const [isChatOpen, setIsChatOpen] = useState(false);
+  const [reelFilter, setReelFilter] = useState('All');
+
+  const goToPage = (page) => {
+    setCurrentPage(page);
+    window.scrollTo({ top: 0, behavior: 'instant' });
+  };
+
+  const navigateToReels = (filter = 'All') => {
+    setReelFilter(filter);
+    goToPage('reels');
+  };
 
   const renderPage = () => {
     switch (currentPage) {
       case 'home':
-        return <Home setCurrentPage={setCurrentPage} />;
+        return <Home setCurrentPage={goToPage} navigateToReels={navigateToReels} />;
       case 'books':
         return <Books />;
       case 'reels':
-        return <Reels />;
+        return <Reels initialFilter={reelFilter} />;
       case 'articles':
         return <Articles />;
       case 'admin':
-        return <Admin setCurrentPage={setCurrentPage} />;
+        return <Admin setCurrentPage={goToPage} />;
       default:
-        return <Home setCurrentPage={setCurrentPage} />;
+        return <Home setCurrentPage={goToPage} navigateToReels={navigateToReels} />;
     }
   };
 
   return (
-    <Layout 
-      currentPage={currentPage} 
-      setCurrentPage={setCurrentPage} 
+    <Layout
+      currentPage={currentPage}
+      setCurrentPage={goToPage}
       isChatOpen={isChatOpen}
       setIsChatOpen={setIsChatOpen}
     >

@@ -2,7 +2,8 @@ import fs from 'fs';
 import path from 'path';
 import { fileURLToPath } from 'url';
 import OpenAI from 'openai';
-import { buildContext, keywordScore } from '../services/searchService.js';
+import { buildContext, keywordScore, findRelatedReels } from '../services/searchService.js';
+import { getPublicContent } from '../services/contentService.js';
 
 const __dirname   = path.dirname(fileURLToPath(import.meta.url));
 const WIKI_PATH   = path.join(__dirname, '../../data/wikiNodes.json');
@@ -27,7 +28,7 @@ export async function search(req, res) {
   if (openai && contextNodes.length > 0) {
     try {
       const contextString = contextNodes.map(n => `Title: ${n.title}\nID: ${n.id}\nCategory: ${n.category || ''}\nSummary: ${n.summary}\nContent: ${n.content}`).join('\n\n---\n\n');
-      const systemPrompt  = `You are an AI built on Hemant Jha's personal content — videos, ideas, and frameworks.\nAnswer the user's question using ONLY the context nodes provided below. Be thorough, insightful, and connect ideas across nodes where relevant.\n\nFORMATTING RULES:\n1. No hyperlinks or markdown URLs.\n2. Bold key concepts using **double asterisks**.\n3. If multiple nodes are relevant, weave them together into a cohesive answer.\n4. Be direct — skip filler introductions.\n\nContext Nodes:\n${contextString}`;
+      const systemPrompt  = `You are an AI assistant built exclusively on Hemant Jha's personal content — his videos, wiki nodes, and ideas.\n\nSTRICT RULES:\n1. Answer ONLY using the context nodes provided below. Do not use any external knowledge, general facts, or information outside these nodes.\n2. If the question cannot be answered from the context nodes, reply: "I can only answer based on Hemant's content. I don't have enough information on that topic."\n3. Keep answers concise — 2 to 4 sentences max unless the question genuinely requires more detail.\n4. Bold key concepts using **double asterisks**.\n5. No hyperlinks or markdown URLs.\n6. Be direct — no filler introductions or sign-offs.\n\nContext Nodes:\n${contextString}`;
       const completion = await openai.chat.completions.create({ model: 'gpt-4o-mini', messages: [{ role: 'system', content: systemPrompt }, { role: 'user', content: query }], temperature: 0.4, max_tokens: 600 });
       return res.json({ reply: completion.choices[0].message.content, contextNodes: contextNodes.map(n => n.id) });
     } catch (err) { console.error('GPT completion failed:', err.message); }
@@ -41,6 +42,24 @@ export async function search(req, res) {
   }
 
   res.json({ reply: "I can only answer based on Hemant's content. Try asking about AI, engineering, gaming, expertise, or leadership.", contextNodes: [] });
+}
+
+export async function relatedReels(req, res) {
+  const { id } = req.params;
+  try {
+    const allReels = await getPublicContent('reels');
+    const reel = allReels.find(r => r.id === id);
+    if (!reel) return res.status(404).json({ error: 'Reel not found' });
+    const related = await findRelatedReels({
+      reelId: id,
+      reelCategory: reel.category,
+      allReels,
+    });
+    res.json(related);
+  } catch (err) {
+    console.error('[relatedReels]', err.message);
+    res.status(500).json({ error: err.message });
+  }
 }
 
 export function listWiki(req, res) { res.json(getWikiNodes()); }

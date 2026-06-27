@@ -37,10 +37,11 @@ export async function loginUser({ email, password }) {
   return user;
 }
 
-const googleClient = process.env.GOOGLE_CLIENT_ID ? new OAuth2Client(process.env.GOOGLE_CLIENT_ID) : null;
-const ADMIN_EMAILS = (process.env.ADMIN_EMAILS || '').split(',').map(e => e.trim().toLowerCase()).filter(Boolean);
+const getGoogleClient = () => process.env.GOOGLE_CLIENT_ID ? new OAuth2Client(process.env.GOOGLE_CLIENT_ID) : null;
+const getAdminEmails  = () => (process.env.ADMIN_EMAILS || '').split(',').map(e => e.trim().toLowerCase()).filter(Boolean);
 
 export async function googleLogin(credential) {
+  const googleClient = getGoogleClient();
   if (!googleClient) throw Object.assign(new Error('Google login not configured. Set GOOGLE_CLIENT_ID in .env'), { status: 503 });
   let payload;
   try {
@@ -50,7 +51,7 @@ export async function googleLogin(credential) {
 
   const email = (payload.email || '').toLowerCase();
   if (!payload.email_verified) throw Object.assign(new Error('Google email not verified'), { status: 401 });
-  if (!ADMIN_EMAILS.includes(email)) throw Object.assign(new Error('This Google account is not authorized for admin access'), { status: 403 });
+  if (!getAdminEmails().includes(email)) throw Object.assign(new Error('This Google account is not authorized for admin access'), { status: 403 });
 
   const users = getUsers();
   let user = users.find(u => u.email.toLowerCase() === email);
